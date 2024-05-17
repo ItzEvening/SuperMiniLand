@@ -89,3 +89,7 @@ else
 		sprite_index = run;
 	}
 }
+if (hsp != 0)
+{
+	image_xscale = sign(hsp);
+}
