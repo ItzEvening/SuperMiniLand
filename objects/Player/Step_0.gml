@@ -45,7 +45,7 @@ else
 // Jump Stuffs
 if (!_midair) and (_hit_jump)
 {
-    vsp = -6
+    vsp = jump_strength;
 }
  
  // Walk Stuffs
@@ -73,7 +73,7 @@ y = y + vsp;
 //Animation Stuffs
 if (_midair)
 {
-    sprite_index = Mini_Jump_Fall;
+    sprite_index = fall;
     image_speed = 0;
 if (sign(vsp) > 0) image_index = 1; else image_index = 0;
 }
@@ -82,10 +82,10 @@ else
 	image_speed = 1;
 	if (hsp == 0)
 	{
-		sprite_index = Mini_Idle;
+		sprite_index = idle;
 	}
 	else
 	{
-		sprite_index = Mini_Run2;
+		sprite_index = run;
 	}
 }

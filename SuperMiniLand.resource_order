@@ -17,6 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"Evie","order":4,"path":"objects/Evie/Evie.yy",},
     {"name":"Mini","order":3,"path":"objects/Mini/Mini.yy",},
     {"name":"Object2","order":1,"path":"objects/Object2/Object2.yy",},
     {"name":"Eve_Idle","order":2,"path":"sprites/Eve_Idle/Eve_Idle.yy",},
