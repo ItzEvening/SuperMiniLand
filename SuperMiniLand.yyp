@@ -34,7 +34,7 @@
   },
   "name":"SuperMiniLand",
   "resources":[
-    {"id":{"name":"Eve","path":"objects/Eve/Eve.yy",},},
+    {"id":{"name":"Mini","path":"objects/Mini/Mini.yy",},},
     {"id":{"name":"Object2","path":"objects/Object2/Object2.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},

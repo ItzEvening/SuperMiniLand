@@ -1,21 +1,21 @@
 // Key Stuffs
-key_left = keyboard_check(vk_left);
-key_right = keyboard_check(vk_right); 
-key_jump = keyboard_check_pressed(vk_space);
+var _hit_left = keyboard_check(key_left);
+var _hit_right = keyboard_check(key_right); 
+var _hit_jump = keyboard_check_pressed(key_jump);
 
-var move = key_right - key_left;
-var midair = !place_meeting(x,y+1,Object2);
-var frict = 0.1;
+var _move = _hit_right - _hit_left;
+var _midair = !place_meeting(x,y+1,Object2);
+var _frict = 0.1;
 
 // Move Stuffs
 vsp = vsp + grv;
-if (midair) 
+if (_midair) 
 {
-    hsp = move * walksp * 0.5;
+    hsp = _move * walksp * 0.5;
 }
-else if (move != 0)
+else if (_move != 0)
 {
-    var delta_hsp = walksp * frict * move;
+    var delta_hsp = walksp * _frict * _move;
     hsp = hsp + delta_hsp;
 
     // prevents exceeding max or min speeds
@@ -28,7 +28,7 @@ else if (move != 0)
 }
 else
 {
-    var delta_hsp = walksp * frict;
+    var delta_hsp = walksp * _frict;
     var sign_hsp = sign(hsp);
     hsp = abs(hsp);
 
@@ -43,7 +43,7 @@ else
 }
 
 // Jump Stuffs
-if (!midair) and (key_jump)
+if (!_midair) and (_hit_jump)
 {
     vsp = -6
 }
@@ -71,7 +71,7 @@ if (place_meeting(x,y+vsp,Object2))
 y = y + vsp;
 
 //Animation Stuffs
-if (!place_meeting(x,y+1,Object2))
+if (_midair)
 {
     sprite_index = Mini_Jump_Fall;
     image_speed = 0;

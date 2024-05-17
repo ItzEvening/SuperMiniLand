@@ -32,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Mini_Idle",
-    "path":"sprites/Mini_Idle/Mini_Idle.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":{
     "name":"Mini_Idle",
     "path":"sprites/Mini_Idle/Mini_Idle.yy",
