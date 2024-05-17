@@ -1,4 +1,4 @@
-walksp = 3.6;
+walksp = 4;
 
 grv = 0.2;
 
