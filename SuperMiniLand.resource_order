@@ -19,7 +19,6 @@
   "ResourceOrderSettings":[
     {"name":"Eve","order":2,"path":"objects/Eve/Eve.yy",},
     {"name":"Object2","order":1,"path":"objects/Object2/Object2.yy",},
-    {"name":"Object4","order":3,"path":"objects/Object4/Object4.yy",},
     {"name":"Eve_Idle","order":2,"path":"sprites/Eve_Idle/Eve_Idle.yy",},
     {"name":"Eve_Jump_Fall","order":7,"path":"sprites/Eve_Jump_Fall/Eve_Jump_Fall.yy",},
     {"name":"Eve_Run","order":6,"path":"sprites/Eve_Run/Eve_Run.yy",},
