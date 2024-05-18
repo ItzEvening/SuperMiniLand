@@ -4,7 +4,7 @@ var _hit_right = keyboard_check(key_right);
 var _hit_jump = keyboard_check_pressed(key_jump);
 
 var _move = _hit_right - _hit_left;
-var _midair = !place_meeting(x,y+1,Object2);
+var _midair = !place_meeting(x,y+1,ground_tiles);
 var _frict = 0.1;
 
 // Move Stuffs
@@ -48,10 +48,10 @@ if (!_midair) and (_hit_jump)
     vsp = jump_strength;
 }
  
- // Walk Stuffs
-if (place_meeting(x+hsp,y,Object2))
+ // Collisions
+if (place_meeting(x+hsp,y,ground_tiles)) 
 {
-    while (!place_meeting(x+sign(hsp),y,Object2))
+    while (!place_meeting(x+sign(hsp),y,ground_tiles))
     {
         x = x + sign(hsp);
     }
@@ -60,9 +60,9 @@ if (place_meeting(x+hsp,y,Object2))
 x = x + hsp;
 
 // More Jump Stuffs
-if (place_meeting(x,y+vsp,Object2))
+if (place_meeting(x,y+vsp,ground_tiles))
 {
-    while (!place_meeting(x,y+sign(vsp),Object2))
+    while (!place_meeting(x,y+sign(vsp),ground_tiles))
     {
         y = y + sign(vsp);
     }

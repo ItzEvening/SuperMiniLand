@@ -14,3 +14,6 @@ key_jump = vk_space;
 idle = Mini_Idle;
 fall = Mini_Jump_Fall;
 run = Mini_Run2;
+
+// tileset
+ground_tiles = layer_tilemap_get_id("Ground_Tiles");
