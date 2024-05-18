@@ -5,6 +5,7 @@ vsp = 0;
 hsp = 0;
 jump_strength = -6;
 frict = 0.1;
+air_resistance = 0.05;
 
 // keybinds
 key_left = vk_left;
@@ -24,16 +25,17 @@ function calculate_speeds(_move, _midair)
 	// Sets vertical speed
 	vsp = vsp + grv;
 	
+	var damp = frict;
 	// If midair
 	if (_midair) 
 	{
-	    hsp = _move * walksp * 0.5;
+	    damp = air_resistance;
 	}
 	
 	// If walking on ground
-	else if (_move != 0)
+	if (_move != 0)
 	{
-	    var delta_hsp = walksp * frict * _move;
+	    var delta_hsp = walksp * damp * _move;
 	    hsp = hsp + delta_hsp;
 
 	    // prevents exceeding max or min speeds
