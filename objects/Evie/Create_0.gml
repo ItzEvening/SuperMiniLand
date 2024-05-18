@@ -3,8 +3,10 @@
 event_inherited();
 
 //// physics properties
-walksp = 3.4;
+walksp = 3.2;
 jump_strength = -7;
+air_resistance = 0.5;
+frict = 0.07;
 
 // keybinds
 key_left = ord("A");

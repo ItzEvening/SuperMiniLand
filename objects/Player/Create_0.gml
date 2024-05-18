@@ -4,7 +4,7 @@ grv = 0.2;
 vsp = 0;
 hsp = 0;
 jump_strength = -6;
-frict = 0.1;
+frict = 0.3;
 air_resistance = 0.05;
 
 // keybinds
@@ -65,6 +65,8 @@ function calculate_speeds(_move, _midair)
 	}
 }
 
+test = 0;
+
 function manage_collisions()
 {
 	 // Horizontal collisions
@@ -73,9 +75,14 @@ function manage_collisions()
 	    while (!place_meeting(x+sign(hsp),y,ground_tiles))
 	    {
 	        x = x + sign(hsp);
+			
 	    }
 	    hsp = 0;
+		show_debug_message("You've been blocked!!!!");
+		show_debug_message(test);
+		test += 1;
 	}
+	x = x + hsp;
 	
 	// Vertical collisions
 	if (place_meeting(x,y+vsp,ground_tiles))
@@ -86,6 +93,7 @@ function manage_collisions()
 	    }
 	    vsp = 0;
 	}
+	y = y + vsp;
 }
 
 function manage_animations(_midair)

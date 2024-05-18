@@ -16,7 +16,5 @@ if (!_midair) and (_hit_jump)
 }
  
 manage_collisions();
-x = x + hsp;
-y = y + vsp;
 
 manage_animations(_midair);
