@@ -1,7 +1,7 @@
 // Key Stuffs
 var _hit_left = keyboard_check(key_left);
 var _hit_right = keyboard_check(key_right); 
-var _hit_jump = keyboard_check_pressed(key_jump);
+var _hit_jump = keyboard_check(key_jump);
 
 var _midair = !place_meeting(x,y+1,ground_tiles);
 var _move = _hit_right - _hit_left;
