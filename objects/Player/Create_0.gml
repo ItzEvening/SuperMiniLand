@@ -65,8 +65,6 @@ function calculate_speeds(_move, _midair)
 	}
 }
 
-test = 0;
-
 function manage_collisions()
 {
 	 // Horizontal collisions
@@ -78,9 +76,6 @@ function manage_collisions()
 			
 	    }
 	    hsp = 0;
-		show_debug_message("You've been blocked!!!!");
-		show_debug_message(test);
-		test += 1;
 	}
 	x = x + hsp;
 	
