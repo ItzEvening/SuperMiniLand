@@ -82,8 +82,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Camera_Test_2","path":"rooms/Camera_Test_2/Camera_Test_2.yy",},},
-    {"roomId":{"name":"Water_Test","path":"rooms/Water_Test/Water_Test.yy",},},
     {"roomId":{"name":"Water_Test2","path":"rooms/Water_Test2/Water_Test2.yy",},},
+    {"roomId":{"name":"Water_Test","path":"rooms/Water_Test/Water_Test.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Camera_Test","path":"rooms/Camera_Test/Camera_Test.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
