@@ -6,6 +6,7 @@ hsp = 0;
 jump_strength = -6;
 frict = 0.3;
 air_resistance = 0.05;
+water_damp_constant = 0.04;
 
 // keybinds
 key_left = vk_left;
@@ -19,12 +20,18 @@ run = Mini_Run2;
 
 // tileset
 ground_tiles = layer_tilemap_get_id("Foreground_Tiles");
+water_tiles = layer_tilemap_get_id("Water");
 
-function calculate_speeds(_move, _midair) 
+function calculate_speeds(_move, _midair, _underwater) 
 {
 	// Sets vertical speed
-	vsp = vsp + grv;
+    vsp = vsp + grv
 	
+	if (_underwater)
+	{
+		vsp = vsp - water_damp_constant * vsp
+	}
+
 	var damp = frict;
 	// If midair
 	if (_midair) 
