@@ -20,6 +20,7 @@
     {"name":"Evie","order":4,"path":"objects/Evie/Evie.yy",},
     {"name":"Mini","order":3,"path":"objects/Mini/Mini.yy",},
     {"name":"Object2","order":1,"path":"objects/Object2/Object2.yy",},
+    {"name":"Object5","order":5,"path":"objects/Object5/Object5.yy",},
     {"name":"Camera_Test_2","order":3,"path":"rooms/Camera_Test_2/Camera_Test_2.yy",},
     {"name":"Camera_Test","order":2,"path":"rooms/Camera_Test/Camera_Test.yy",},
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
