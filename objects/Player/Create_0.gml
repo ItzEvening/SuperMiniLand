@@ -4,9 +4,13 @@ grv = 0.2;
 vsp = 0;
 hsp = 0;
 jump_strength = -6.5;
+jump_strength_water = -13;
 frict = 0.3;
 air_resistance = 0.05;
-water_damp_constant = 0.04;
+water_damp_constant = 0.12;
+
+// for underwater audio effect
+was_underwater = false;
 
 // keybinds
 key_left = vk_left;
@@ -25,11 +29,16 @@ water_tiles = layer_tilemap_get_id("Water");
 function calculate_speeds(_move, _midair, _underwater) 
 {
 	// Sets vertical speed
-    vsp = vsp + grv
+    vsp = vsp + grv;
 	
 	if (_underwater)
 	{
-		vsp = vsp - water_damp_constant * vsp
+		vsp = vsp - water_damp_constant * vsp;
+	}
+	// prevents player from being launched upwards when emerging from water
+	else if (was_underwater and vsp < jump_strength) 
+	{
+		vsp = jump_strength;
 	}
 
 	var damp = frict;

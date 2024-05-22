@@ -36,8 +36,8 @@
   "resources":[
     {"id":{"name":"Evie","path":"objects/Evie/Evie.yy",},},
     {"id":{"name":"Mini","path":"objects/Mini/Mini.yy",},},
+    {"id":{"name":"MusicPlayer","path":"objects/MusicPlayer/MusicPlayer.yy",},},
     {"id":{"name":"Object2","path":"objects/Object2/Object2.yy",},},
-    {"id":{"name":"Object5","path":"objects/Object5/Object5.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"Camera_Test_2","path":"rooms/Camera_Test_2/Camera_Test_2.yy",},},
     {"id":{"name":"Camera_Test","path":"rooms/Camera_Test/Camera_Test.yy",},},
@@ -45,7 +45,7 @@
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"Water_Test","path":"rooms/Water_Test/Water_Test.yy",},},
     {"id":{"name":"Water_Test2","path":"rooms/Water_Test2/Water_Test2.yy",},},
-    {"id":{"name":"Sound1","path":"sounds/Sound1/Sound1.yy",},},
+    {"id":{"name":"SalmonPalace","path":"sounds/SalmonPalace/SalmonPalace.yy",},},
     {"id":{"name":"BGTest","path":"sprites/BGTest/BGTest.yy",},},
     {"id":{"name":"BGTest2","path":"sprites/BGTest2/BGTest2.yy",},},
     {"id":{"name":"BGTest3","path":"sprites/BGTest3/BGTest3.yy",},},
