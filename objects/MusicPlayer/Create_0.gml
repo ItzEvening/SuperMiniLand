@@ -1,33 +1,25 @@
 music = undefined;
 
-if (room == Camera_Test_2)
-{
-	music = audio_play_sound(SalmonPalace, 10, 1);
-}
+#region Get Stage Music
+var _music_json = JSONHelper("stage_themes.json");
+var _music_list = _music_json.Stage_themes;
+var _track_name = "";
 
-//underwater_effect = function(_was_underwater)
-function underwater_effect(_was_underwater)
+for (var i = 0; i < array_length(_music_list); i++)
 {
-	if (!is_undefined(music))
+	var _stage_track = _music_list[i];
+	var room_name = room_get_name(room);
+	
+	if (string_starts_with(room_name, _stage_track.Stage))
 	{
-		var _track_position = audio_sound_get_track_position(music);
-		if (_was_underwater)
-		{
-			audio_bus_main.effects[0] = undefined;
-		}
-		else
-		{
-			var _effect = audio_effect_create(AudioEffectType.LPF2);
-			_effect.cutoff = 600;
-			audio_bus_main.effects[0] = _effect;
-		}
+		_track_name = _stage_track.Song;
+		break;
 	}
 }
 
-if (room == Water_Test3)
-{
-	music = audio_play_sound(Cave, 10, 1);
-}
+var _song = asset_get_index(_track_name);
+music = audio_play_sound(_song, 10, true);
+#endregion
 
 function underwater_effect(_was_underwater)
 {

@@ -32,6 +32,7 @@
     {"name":"Water_Test2","order":5,"path":"rooms/Water_Test2/Water_Test2.yy",},
     {"name":"Water_Test3","order":9,"path":"rooms/Water_Test3/Water_Test3.yy",},
     {"name":"Cave","order":1,"path":"sounds/Cave/Cave.yy",},
+    {"name":"Sex_Song","order":2,"path":"sounds/Sex_Song/Sex_Song.yy",},
     {"name":"BGTest","order":10,"path":"sprites/BGTest/BGTest.yy",},
     {"name":"BGTest2","order":11,"path":"sprites/BGTest2/BGTest2.yy",},
     {"name":"BGTest3","order":12,"path":"sprites/BGTest3/BGTest3.yy",},
