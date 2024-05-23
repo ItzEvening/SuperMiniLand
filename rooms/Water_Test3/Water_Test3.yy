@@ -1,7 +1,7 @@
 {
   "$GMRoom":"",
   "%Name":"Water_Test3",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/Level/RoomCreationCode.gml",
   "inheritCode":true,
   "inheritCreationOrder":true,
   "inheritLayers":false,
