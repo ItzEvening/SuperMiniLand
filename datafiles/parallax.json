@@ -1,0 +1,12 @@
+{
+  "Parallax": [
+    {
+      "Background": "Trees",
+      "Value": "7"
+    },
+    {
+      "Background": "Castle",
+      "Value": "10"
+    }
+  ]
+}

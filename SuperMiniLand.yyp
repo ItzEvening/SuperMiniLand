@@ -27,6 +27,7 @@
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"parallax.json","CopyToMask":-1,"filePath":"datafiles","name":"parallax.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"stage_themes.json","CopyToMask":-1,"filePath":"datafiles","name":"stage_themes.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
@@ -100,9 +101,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Water_Test3","path":"rooms/Water_Test3/Water_Test3.yy",},},
     {"roomId":{"name":"Test_SpringIsland","path":"rooms/Test_SpringIsland/Test_SpringIsland.yy",},},
     {"roomId":{"name":"Camera_Test_2","path":"rooms/Camera_Test_2/Camera_Test_2.yy",},},
-    {"roomId":{"name":"Water_Test3","path":"rooms/Water_Test3/Water_Test3.yy",},},
     {"roomId":{"name":"Water_Test2","path":"rooms/Water_Test2/Water_Test2.yy",},},
     {"roomId":{"name":"Water_Test","path":"rooms/Water_Test/Water_Test.yy",},},
     {"roomId":{"name":"Camera_Test_3","path":"rooms/Camera_Test_3/Camera_Test_3.yy",},},
