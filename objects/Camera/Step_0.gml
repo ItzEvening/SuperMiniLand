@@ -21,5 +21,10 @@ for (var i = 0; i < array_length(background_list); i++)
 {
 	var _layer_name = layer_get_name(background_list[i]);
 	var _parallax_value = parallax_values[? _layer_name];
-	layer_x(background_list[i], x / _parallax_value);
+	
+	
+	if (_parallax_value != 0)
+	{
+		layer_x(background_list[i], x / _parallax_value);
+	}
 }
