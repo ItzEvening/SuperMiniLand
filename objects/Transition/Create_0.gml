@@ -10,5 +10,7 @@ enum TRANS_MODE
    INTRO
 }
 mode = TRANS_MODE.INTRO;
-percent = 1;
+percent = 1.2;
 target = room;
+show_debug_message(w);
+//Paste this in transition's create event
