@@ -8,6 +8,7 @@ jump_strength_water = -13;
 frict = 0.3;
 air_resistance = 0.05;
 water_damp_constant = 0.12;
+hascontrol = true; 
 
 // for underwater audio effect
 was_underwater = false;
