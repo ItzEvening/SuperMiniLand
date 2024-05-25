@@ -29,12 +29,16 @@ if (mode != TRANS_MODE.OFF)
 			case TRANS_MODE.GOTO:
 			{
 				mode = TRANS_MODE.INTRO
+				
+				MusicPlayer.stop_music()
 				room_goto(target);
 			    break;
 			}
 			case TRANS_MODE.RESTART:
-			{
+			{	
 				game_restart();
+				
+				MusicPlayer.underwater_effect(true);
 			    break;
 			}
 		}

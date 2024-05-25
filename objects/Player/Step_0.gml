@@ -1,18 +1,18 @@
- // Key Stuffs
+// Key Stuffs
+var _hit_left = 0;
+var _hit_right = 0;
+var _hit_jump = 0;
+
 if (hascontrol)
 {
-   var _hit_left = keyboard_check(key_left);
-   var _hit_right = keyboard_check(key_right); 
-   var _hit_jump = keyboard_check(key_jump);
+   _hit_left = keyboard_check(key_left);
+   _hit_right = keyboard_check(key_right); 
+   _hit_jump = keyboard_check(key_jump);
    
    //Do you want me to do Gamepad stuffs?
 }
-else
-{
-	key_right = 0;
-	key_left = 0;
-	key_jump = 0;
-}
+
+
 // Physics Stuffs
 var _midair = !place_meeting(x,y+1,ground_tiles);
 var _move = _hit_right - _hit_left;

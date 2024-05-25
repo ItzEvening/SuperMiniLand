@@ -25,7 +25,6 @@ function underwater_effect(_was_underwater)
 {
 	if (!is_undefined(music))
 	{
-		var _track_position = audio_sound_get_track_position(music);
 		if (_was_underwater)
 		{
 			audio_bus_main.effects[0] = undefined;
@@ -37,4 +36,10 @@ function underwater_effect(_was_underwater)
 			audio_bus_main.effects[0] = _effect;
 		}
 	}
+}
+
+function stop_music()
+{
+	show_debug_message("gay sex");
+	audio_stop_sound(music);
 }
