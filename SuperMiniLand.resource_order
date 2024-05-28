@@ -37,6 +37,7 @@
     {"name":"Water_Test3","order":9,"path":"rooms/Water_Test3/Water_Test3.yy",},
     {"name":"SlideTransition","order":1,"path":"scripts/SlideTransition/SlideTransition.yy",},
     {"name":"Cave","order":1,"path":"sounds/Cave/Cave.yy",},
+    {"name":"MainMusic","order":4,"path":"sounds/MainMusic/MainMusic.yy",},
     {"name":"SpringIsland","order":3,"path":"sounds/SpringIsland/SpringIsland.yy",},
     {"name":"Touhou","order":2,"path":"sounds/Touhou/Touhou.yy",},
     {"name":"BGTest","order":10,"path":"sprites/BGTest/BGTest.yy",},

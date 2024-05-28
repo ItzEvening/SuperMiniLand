@@ -1,1 +1,1 @@
-Transition.mode = TRANS_MODE.NEXT;
+SlideTransition(TRANS_MODE.GOTO, Water_Test3);

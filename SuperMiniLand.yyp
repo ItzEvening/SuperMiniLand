@@ -62,6 +62,7 @@
     {"id":{"name":"JSONHelper","path":"scripts/JSONHelper/JSONHelper.yy",},},
     {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},},
     {"id":{"name":"Cave","path":"sounds/Cave/Cave.yy",},},
+    {"id":{"name":"MainMusic","path":"sounds/MainMusic/MainMusic.yy",},},
     {"id":{"name":"SalmonPalace","path":"sounds/SalmonPalace/SalmonPalace.yy",},},
     {"id":{"name":"SpringIsland","path":"sounds/SpringIsland/SpringIsland.yy",},},
     {"id":{"name":"Touhou","path":"sounds/Touhou/Touhou.yy",},},

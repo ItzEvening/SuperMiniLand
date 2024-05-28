@@ -11,6 +11,10 @@
     {
       "Stage": "Test_SpringIsland",
       "Song": "SpringIsland"
+    },
+    {
+      "Stage": "Main_Menu",
+      "Song": "MainMusic"
     }
   ]
 }
