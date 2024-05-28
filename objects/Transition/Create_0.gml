@@ -11,7 +11,8 @@ enum TRANS_MODE
    RESTART,
    INTRO
 }
-mode = TRANS_MODE.INTRO;
+mode = TRANS_MODE.OFF;
+
 percent = 1.2;
 target = room;
 show_debug_message(w);
