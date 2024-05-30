@@ -2,8 +2,9 @@ with (Player)
 {
 	if (hascontrol)
 	{
-		show_debug_message("sex");
+		show_debug_message("really?");
 		hascontrol = false;
-		SlideTransition(TRANS_MODE.GOTO,Test_SpringIsland);
+		SlideTransition(TRANS_MODE.NEXT);
+		//SlideTransition(TRANS_MODE.GOTO,target);
 	}
 }
