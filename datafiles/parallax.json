@@ -7,6 +7,10 @@
     {
       "Background": "Castle",
       "Value": "10"
+    },
+    {
+      "Background": "Clouds",
+      "Value": "1"
     }
   ]
 }

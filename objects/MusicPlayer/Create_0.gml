@@ -18,7 +18,10 @@ for (var i = 0; i < array_length(_music_list); i++)
 }
 
 var _song = asset_get_index(_track_name);
-music = audio_play_sound(_song, 10, true);
+if (_song != -1)
+{
+	music = audio_play_sound(_song, 10, true);
+}
 #endregion
 
 function underwater_effect(_was_underwater)
@@ -41,5 +44,13 @@ function underwater_effect(_was_underwater)
 function stop_music()
 {
 	show_debug_message("bad girl");
-	audio_stop_sound(music);
+	if (!is_undefined(music))
+	{
+		audio_stop_sound(music);
+	}
+}
+
+function play_music(_sound)
+{
+	music = audio_play_sound(_sound, 10, true);
 }
