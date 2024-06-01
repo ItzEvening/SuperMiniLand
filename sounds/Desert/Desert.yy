@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":40.005215,
+  "duration":49.093742,
   "name":"Desert",
   "parent":{
     "name":"Sounds",
