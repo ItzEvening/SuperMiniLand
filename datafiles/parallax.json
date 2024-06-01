@@ -11,6 +11,39 @@
     {
       "Background": "Clouds",
       "Value": "1"
-    }
+    },
+    {
+      "Background": "WaterBG",
+      "Value": "2"
+    },
+    {
+      "Background": "LCBuilding1",
+      "Value": "15"
+    },
+    {
+      "Background": "LCBuilding2",
+      "Value": "10"
+    },
+    {
+      "Background": "LCBuilding2_1",
+      "Value": "8"
+    },
+    {
+      "Background": "Pyramid",
+      "Value": "20"
+    },
+    {
+      "Background": "DesertHill",
+      "Value": "17"
+    },
+    {
+      "Background": "DesertRock",
+      "Value": "2"
+    },
+
+
+
+
+
   ]
 }

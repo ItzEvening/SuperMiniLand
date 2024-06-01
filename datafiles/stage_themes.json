@@ -6,7 +6,7 @@
     },
     {
       "Stage": "Water_Test3",
-      "Song": "Cave"
+      "Song": "SalmonPalace"
     },
     {
       "Stage": "Test_SpringIsland",
@@ -15,6 +15,10 @@
     {
       "Stage": "Test_LilacCity",
       "Song": "LilacCity"
+    }
+    {
+      "Stage": "Test_WaterDesert",
+      "Song": "Desert"
     }
   ]
 }
