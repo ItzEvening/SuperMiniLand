@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"Air_Base",
   "bboxMode":0,
-  "bbox_bottom":173,
+  "bbox_bottom":255,
   "bbox_left":0,
-  "bbox_right":191,
+  "bbox_right":255,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8c4d07fc-e71a-4f1c-a3d6-c2c4e698151f","name":"8c4d07fc-e71a-4f1c-a3d6-c2c4e698151f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"b290d401-6b6d-431b-9e64-e887e98f94e7","name":"b290d401-6b6d-431b-9e64-e887e98f94e7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":192,
+  "height":256,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"b819751e-637f-40e9-bcd0-3e2adbd34099","blendMode":0,"displayName":"default","isLocked":false,"name":"b819751e-637f-40e9-bcd0-3e2adbd34099","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"3b55d633-442f-4984-a89e-a0e9c191bb7a","blendMode":0,"displayName":"default","isLocked":false,"name":"3b55d633-442f-4984-a89e-a0e9c191bb7a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Air_Base",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8c4d07fc-e71a-4f1c-a3d6-c2c4e698151f","path":"sprites/Air_Base/Air_Base.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c76f9e82-85b9-4013-82b7-88851e603744","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b290d401-6b6d-431b-9e64-e887e98f94e7","path":"sprites/Air_Base/Air_Base.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9d63e2b7-ae16-4a73-8717-dd2b8de2751b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":192,
+  "width":256,
 }
