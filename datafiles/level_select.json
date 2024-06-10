@@ -1,0 +1,246 @@
+{
+  "subselections": [
+    {
+      "name": "Spring Island 1",
+      "x": 603,
+      "y": 43,
+      "recttype": "num"
+    },
+    {
+      "name": "Spring Island 2",
+      "x": 662,
+      "y": 43,
+      "recttype": "num"
+    },
+    {
+      "name": "Spring Island 3",
+      "x": 719,
+      "y": 43,
+      "recttype": "num"
+    },
+    {
+      "name": "Lilac City 1",
+      "x": 603,
+      "y": 201,
+      "recttype": "num"
+    },
+    {
+      "name": "Lilac City 2",
+      "x": 662,
+      "y": 201,
+      "recttype": "num"
+    },
+    {
+      "name": "Lilac City 3",
+      "x": 719,
+      "y": 201,
+      "recttype": "num"
+    },
+    {
+      "name": "Salmon Palace 1",
+      "x": 603,
+      "y": 359,
+      "recttype": "num"
+    },
+    {
+      "name": "Salmon Palace 2",
+      "x": 662,
+      "y": 359,
+      "recttype": "num"
+    },
+    {
+      "name": "Salmon Palace 3",
+      "x": 719,
+      "y": 359,
+      "recttype": "num"
+    },
+    {
+      "name": "Water Desert 1",
+      "x": 603,
+      "y": 517,
+      "recttype": "num"
+    },
+    {
+      "name": "Water Desert 2",
+      "x": 662,
+      "y": 517,
+      "recttype": "num"
+    },
+    {
+      "name": "Water Desert 3",
+      "x": 719,
+      "y": 517,
+      "recttype": "num"
+    },
+    {
+      "name": "Balloon Park 1",
+      "x": 603,
+      "y": 675,
+      "recttype": "num"
+    },
+    {
+      "name": "Balloon Park 2",
+      "x": 662,
+      "y": 675,
+      "recttype": "num"
+    },
+    {
+      "name": "Balloon Park 3",
+      "x": 719,
+      "y": 675,
+      "recttype": "num"
+    },
+    {
+      "name": "Force Factory 1",
+      "x": 603,
+      "y": 833,
+      "recttype": "num"
+    },
+    {
+      "name": "Force Factory 2",
+      "x": 662,
+      "y": 833,
+      "recttype": "num"
+    },
+    {
+      "name": "Force Factory 3",
+      "x": 719,
+      "y": 833,
+      "recttype": "num"
+    },
+    {
+      "name": "Air Base 1",
+      "x": 603,
+      "y": 991,
+      "recttype": "num"
+    },
+    {
+      "name": "Air Base 2",
+      "x": 662,
+      "y": 991,
+      "recttype": "num"
+    },
+    {
+      "name": "Air Base 3",
+      "x": 719,
+      "y": 991,
+      "recttype": "num"
+    },
+    {
+      "name": "Poly Palace 1",
+      "x": 603,
+      "y": 1149,
+      "recttype": "num"
+    },
+    {
+      "name": "Poly Palace 2",
+      "x": 662,
+      "y": 1149,
+      "recttype": "num"
+    },
+    {
+      "name": "Poly Palace 3",
+      "x": 719,
+      "y": 1149,
+      "recttype": "num"
+    },
+    {
+      "name": "Special 1",
+      "x": 1214,
+      "y": 41,
+      "recttype": "num"
+    },
+    {
+      "name": "Special 2",
+      "x": 1273,
+      "y": 41,
+      "recttype": "num"
+    },
+    {
+      "name": "Special 3",
+      "x": 1331,
+      "y": 41,
+      "recttype": "num"
+    },
+    {
+      "name": "Special 4",
+      "x": 1389,
+      "y": 41,
+      "recttype": "num"
+    },
+    {
+      "name": "Special 5",
+      "x": 1447,
+      "y": 41,
+      "recttype": "num"
+    },
+    {
+      "name": "Sound Test",
+      "x": 930,
+      "y": 165,
+      "recttype": "text"
+    }
+  ],
+  "selections": [
+    {
+      "name": "Spring Island",
+      "x": 15,
+      "y": 35,
+      "recttype": "text"
+    },
+    {
+      "name": "Lilac City",
+      "x": 15,
+      "y": 185,
+      "recttype": "text"
+    },
+    {
+      "name": "Salmon Palace",
+      "x": 15,
+      "y": 350,
+      "recttype": "text"
+    },
+    {
+      "name": "Water Desert",
+      "x": 15,
+      "y": 510,
+      "recttype": "text"
+    },
+    {
+      "name": "Balloon Park",
+      "x": 15,
+      "y": 670,
+      "recttype": "text"
+    },
+    {
+      "name": "Force Factory",
+      "x": 15,
+      "y": 830,
+      "recttype": "text"
+    },
+    {
+      "name": "Air Base",
+      "x": 15,
+      "y": 990,
+      "recttype": "text"
+    },
+    {
+      "name": "Poly Palace",
+      "x": 15,
+      "y": 1140,
+      "recttype": "text"
+    },
+    {
+      "name": "Special",
+      "x": 930,
+      "y": 35,
+      "recttype": "special"
+    },
+    {
+      "name": "Sound Test",
+      "x": 935,
+      "y": 160,
+      "recttype": "text"
+    }
+  ]
+}
