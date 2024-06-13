@@ -18,7 +18,11 @@
     },
     {
       "Stage": "Test_WaterDesert",
-      "Song": "Desert"
-    }
+      "Song": "WaterDesert"
+    },
+    {
+      "Stage": "Test_AirBase",
+      "Song": "AirBase"
+    },
   ]
 }
