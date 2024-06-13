@@ -8,7 +8,7 @@ if (rand < 1)
 }
 else if (rand < 2)
 {
-	sprite_index = Sprite43;
+	sprite_index = MainMenu_Logo3;
 	MusicPlayer.play_music(Title3);
 }
 else
