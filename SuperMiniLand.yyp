@@ -76,6 +76,7 @@
     {"id":{"name":"Desert","path":"sounds/Desert/Desert.yy",},},
     {"id":{"name":"LilacCity","path":"sounds/LilacCity/LilacCity.yy",},},
     {"id":{"name":"MainMusic","path":"sounds/MainMusic/MainMusic.yy",},},
+    {"id":{"name":"MainMusic2","path":"sounds/MainMusic2/MainMusic2.yy",},},
     {"id":{"name":"SalmonPalace","path":"sounds/SalmonPalace/SalmonPalace.yy",},},
     {"id":{"name":"SoundTest","path":"sounds/SoundTest/SoundTest.yy",},},
     {"id":{"name":"SpringIsland","path":"sounds/SpringIsland/SpringIsland.yy",},},

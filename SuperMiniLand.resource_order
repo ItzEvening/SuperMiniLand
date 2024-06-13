@@ -51,6 +51,7 @@
     {"name":"Desert","order":6,"path":"sounds/Desert/Desert.yy",},
     {"name":"LilacCity","order":5,"path":"sounds/LilacCity/LilacCity.yy",},
     {"name":"MainMusic","order":4,"path":"sounds/MainMusic/MainMusic.yy",},
+    {"name":"MainMusic2","order":11,"path":"sounds/MainMusic2/MainMusic2.yy",},
     {"name":"SoundTest","order":8,"path":"sounds/SoundTest/SoundTest.yy",},
     {"name":"SpringIsland","order":3,"path":"sounds/SpringIsland/SpringIsland.yy",},
     {"name":"Title3","order":7,"path":"sounds/Title3/Title3.yy",},

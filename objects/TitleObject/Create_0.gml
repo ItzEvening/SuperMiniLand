@@ -13,5 +13,5 @@ else if (rand < 2)
 }
 else
 {
-	MusicPlayer.play_music(Touhou);
+	MusicPlayer.play_music(MainMusic2);
 }
