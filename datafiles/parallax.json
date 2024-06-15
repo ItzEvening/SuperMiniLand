@@ -39,6 +39,18 @@
     {
       "Background": "DesertRock",
       "Value": "2"
-    }
+    },
+    {
+      "Background": "Clouds_2",
+      "Value": "2"
+    },
+    {
+      "Background": "Clouds_3",
+      "Value": "3"
+    },
+    {
+      "Background": "Clouds_4",
+      "Value": "4"
+    },
   ]
 }
