@@ -14,7 +14,7 @@
     },
     {
       "Background": "WaterBG",
-      "Value": "2"
+      "Value": "1.1"
     },
     {
       "Background": "LCBuilding1",
@@ -51,6 +51,6 @@
     {
       "Background": "Clouds_4",
       "Value": "4"
-    },
+    }
   ]
 }
