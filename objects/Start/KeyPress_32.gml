@@ -1,1 +1,1 @@
-SlideTransition(TRANS_MODE.GOTO, SpringIsland_1);
+SlideTransition(TRANS_MODE.GOTO, Demo_Menu);

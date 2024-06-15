@@ -1,1 +1,1 @@
-target = SalmonPalace_1;
+target = Demo_End;
