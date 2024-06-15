@@ -59,6 +59,7 @@
     {"id":{"name":"Main_Menu","path":"rooms/Main_Menu/Main_Menu.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"id":{"name":"SalmonPalace_1","path":"rooms/SalmonPalace_1/SalmonPalace_1.yy",},},
     {"id":{"name":"SpringIsland_1","path":"rooms/SpringIsland_1/SpringIsland_1.yy",},},
     {"id":{"name":"Test_AirBase","path":"rooms/Test_AirBase/Test_AirBase.yy",},},
     {"id":{"name":"Test_BalloonPark","path":"rooms/Test_BalloonPark/Test_BalloonPark.yy",},},
@@ -116,6 +117,7 @@
     {"id":{"name":"Rain","path":"sprites/Rain/Rain.yy",},},
     {"id":{"name":"Salmon_Palace_2","path":"sprites/Salmon_Palace_2/Salmon_Palace_2.yy",},},
     {"id":{"name":"Salmon_Palace_3","path":"sprites/Salmon_Palace_3/Salmon_Palace_3.yy",},},
+    {"id":{"name":"SalmonPalaceAct1","path":"sprites/SalmonPalaceAct1/SalmonPalaceAct1.yy",},},
     {"id":{"name":"SICloudSunset","path":"sprites/SICloudSunset/SICloudSunset.yy",},},
     {"id":{"name":"SIWaterSunset","path":"sprites/SIWaterSunset/SIWaterSunset.yy",},},
     {"id":{"name":"SPCastle","path":"sprites/SPCastle/SPCastle.yy",},},
@@ -177,6 +179,7 @@
     {"roomId":{"name":"Demo_End","path":"rooms/Demo_End/Demo_End.yy",},},
     {"roomId":{"name":"Level","path":"rooms/Level/Level.yy",},},
     {"roomId":{"name":"SpringIsland_1","path":"rooms/SpringIsland_1/SpringIsland_1.yy",},},
+    {"roomId":{"name":"SalmonPalace_1","path":"rooms/SalmonPalace_1/SalmonPalace_1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
