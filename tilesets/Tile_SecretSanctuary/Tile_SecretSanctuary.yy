@@ -1,0 +1,51 @@
+{
+  "$GMTileSet":"",
+  "%Name":"Tile_SecretSanctuary",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"Tile_SecretSanctuary",
+  "out_columns":5,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"SPPink",
+    "path":"sprites/SPPink/SPPink.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimation":{
+    "FrameData":[
+      0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,6,7,6,6,7,6,5,7,6,5,6,8,9,10,9,9,10,9,8,10,9,8,9,11,11,11,
+      11,12,12,12,12,13,13,13,13,14,15,16,15,15,16,15,14,16,15,14,15,17,18,19,18,18,19,18,17,19,18,17,18,20,
+      20,20,20,21,21,21,21,22,22,22,22,23,23,23,23,24,24,24,24,
+    ],
+    "SerialiseFrameCount":4,
+  },
+  "tileAnimationFrames":[
+    {"$GMTileAnimation":"","%Name":"animation_1","frames":[5,6,7,6,],"name":"animation_1","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
+    {"$GMTileAnimation":"","%Name":"animation_2","frames":[8,9,10,9,],"name":"animation_2","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
+    {"$GMTileAnimation":"","%Name":"animation_3","frames":[14,15,16,15,],"name":"animation_3","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
+    {"$GMTileAnimation":"","%Name":"animation_4","frames":[17,18,19,18,],"name":"animation_4","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
+  ],
+  "tileAnimationSpeed":8.0,
+  "tileHeight":32,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":32,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":25,
+}

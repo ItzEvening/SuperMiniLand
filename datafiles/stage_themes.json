@@ -32,5 +32,9 @@
       "Stage": "SalmonPalace_1",
       "Song": "SalmonPalace"
     },
+    {
+      "Stage": "SecretSanctuary",
+      "Song": "SalmonPalace2"
+    },
   ]
 }
