@@ -27,6 +27,10 @@ run = Mini_Run2;
 ground_tiles = layer_tilemap_get_id("Foreground_Tiles");
 water_tiles = layer_tilemap_get_id("Water");
 
+// create the barriers
+left_barrier = instance_create_layer(0, y, layer, o_barrier_left);
+right_barrier = instance_create_layer(room_width, y, layer, o_barrier_right);
+
 function calculate_speeds(_move, _midair, _underwater) 
 {
 	// Sets vertical speed
@@ -84,25 +88,32 @@ function calculate_speeds(_move, _midair, _underwater)
 
 function manage_collisions()
 {
-	 // Horizontal collisions
-	if (place_meeting(x+hsp,y,ground_tiles)) 
+	// Horizontal collisions
+	var _tile_collide_x = place_meeting(x + hsp, y, ground_tiles);
+	var _barrier_collide = place_meeting(x + hsp, y, o_barrier_left) or place_meeting(x + hsp, y, o_barrier_right);
+	
+	if (_tile_collide_x or _barrier_collide) 
 	{
-	    while (!place_meeting(x+sign(hsp),y,ground_tiles))
+		
+	    while (!colliding_now("x"))
 	    {
 	        x = x + sign(hsp);
-			
 	    }
+		
 	    hsp = 0;
 	}
 	x = x + hsp;
 	
 	// Vertical collisions
-	if (place_meeting(x,y+vsp,ground_tiles))
+	var _tile_collide_y = place_meeting(x, y + vsp, ground_tiles);
+	
+	if (_tile_collide_y)
 	{
-	    while (!place_meeting(x,y+sign(vsp),ground_tiles))
+	    while (!colliding_now("y"))
 	    {
 	        y = y + sign(vsp);
 	    }
+		
 	    vsp = 0;
 	}
 	y = y + vsp;
@@ -133,4 +144,31 @@ function manage_animations(_midair)
 	{
 		image_xscale = sign(hsp);
 	}
+}
+
+function colliding_now(_axis) 
+{
+	if (_axis == "x")
+	{
+		// tiles
+		if (place_meeting(x + sign(hsp), y, ground_tiles))
+		{
+			return true;
+		}
+		
+		// barriers
+		else if (place_meeting(x + sign(hsp), y, o_barrier_left) or place_meeting(x + sign(hsp), y, o_barrier_right))
+		{
+			return true;
+		}
+	}
+	else
+	{
+		if (place_meeting(x, y + sign(vsp), ground_tiles))
+		{
+			return true;
+		}
+	}
+	
+	return false;
 }

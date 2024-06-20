@@ -36,4 +36,7 @@ if (!_midair) and (_hit_jump)
  
 manage_collisions();
 
+left_barrier.y = y;
+right_barrier.y = y;
+
 manage_animations(_midair);
