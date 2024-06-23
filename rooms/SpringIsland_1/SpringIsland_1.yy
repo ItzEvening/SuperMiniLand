@@ -61,8 +61,8 @@
           -15,-2147483648,-8,6,-138,-2147483648,-3,33,-11,-2147483648,-8,6,-152,-2147483648,-8,6,-142,-2147483648,
           -3,33,-7,-2147483648,-8,6,-152,-2147483648,-8,6,-146,-2147483648,-3,33,-3,-2147483648,-8,6,-152,-2147483648,
           -8,6,-151,-2147483648,1,5,-8,6,-150,-2147483648,1,5,-9,6,-139,-2147483648,-11,5,-10,6,-124,-2147483648,
-          -2,3,1,7,-12,5,-21,6,-113,-2147483648,-11,3,-2,4,1,29,-33,6,-61,-2147483648,2,1,2,-32,3,1,10,-9,24,1,
-          11,-7,3,-13,4,1,29,-33,6,-60,-2147483648,1,3,-34,4,1,31,-9,25,1,32,-20,4,1,29,-33,6,-60,-2147483648,
+          -2,3,1,7,-12,5,-21,6,-113,-2147483648,-11,3,-2,4,1,29,-33,6,-61,-2147483648,2,1,2,-9,3,1,4,-22,3,1,10,
+          -9,24,1,11,-7,3,-13,4,1,29,-33,6,-60,-2147483648,1,3,-34,4,1,31,-9,25,1,32,-20,4,1,29,-33,6,-60,-2147483648,
           -35,4,1,31,-9,25,1,32,-20,4,1,29,-33,6,-60,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"Tile_SpringIsland","path":"tilesets/Tile_SpringIsland/Tile_SpringIsland.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Background_Tiles_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background_Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":70,"SerialiseWidth":160,"TileCompressedData":[

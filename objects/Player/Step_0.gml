@@ -40,3 +40,5 @@ left_barrier.y = y;
 right_barrier.y = y;
 
 manage_animations(_midair);
+
+handle_death();

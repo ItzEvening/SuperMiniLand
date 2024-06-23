@@ -31,6 +31,19 @@ water_tiles = layer_tilemap_get_id("Water");
 left_barrier = instance_create_layer(0, y, layer, o_barrier_left);
 right_barrier = instance_create_layer(room_width, y, layer, o_barrier_right);
 
+// original position
+original_x = x;
+original_y = y;
+
+// lives stuff
+chances = 5;
+show_chances = true;
+
+change_visibility = function()
+{
+	show_chances = !show_chances;
+}
+
 function calculate_speeds(_move, _midair, _underwater) 
 {
 	// Sets vertical speed
@@ -171,4 +184,26 @@ function colliding_now(_axis)
 	}
 	
 	return false;
+}
+
+function handle_death()
+{
+	if (y > room_height + 50)
+	{
+		if (chances == 0)
+		{
+			room_goto(Game_Over);
+		}
+		else if (chances == 1)
+		{
+			timer = time_source_create(time_source_global, 0.75, time_source_units_seconds, change_visibility, [], -1);
+			time_source_start(timer);
+		}
+		chances--;
+		x = original_x;
+		y = original_y;
+		hsp = 0;
+		vsp = 0;
+		
+	}
 }
