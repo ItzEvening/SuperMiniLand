@@ -87,6 +87,7 @@
     {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},},
     {"id":{"name":"AirBase","path":"sounds/AirBase/AirBase.yy",},},
     {"id":{"name":"Cave","path":"sounds/Cave/Cave.yy",},},
+    {"id":{"name":"CoinGot","path":"sounds/CoinGot/CoinGot.yy",},},
     {"id":{"name":"Demo_Menu_Test","path":"sounds/Demo_Menu_Test/Demo_Menu_Test.yy",},},
     {"id":{"name":"Desert","path":"sounds/Desert/Desert.yy",},},
     {"id":{"name":"LilacCity","path":"sounds/LilacCity/LilacCity.yy",},},

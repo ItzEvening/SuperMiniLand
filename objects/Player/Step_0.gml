@@ -47,6 +47,7 @@ if (_coin != noone)
 {
 	instance_destroy(_coin);
 	coins++;
+	audio_play_sound(CoinGot, 10, 0);
 }
 
 handle_death();

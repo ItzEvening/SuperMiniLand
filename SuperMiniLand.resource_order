@@ -62,6 +62,7 @@
     {"name":"SlideTransition","order":1,"path":"scripts/SlideTransition/SlideTransition.yy",},
     {"name":"AirBase","order":10,"path":"sounds/AirBase/AirBase.yy",},
     {"name":"Cave","order":1,"path":"sounds/Cave/Cave.yy",},
+    {"name":"CoinGot","order":15,"path":"sounds/CoinGot/CoinGot.yy",},
     {"name":"Demo_Menu_Test","order":12,"path":"sounds/Demo_Menu_Test/Demo_Menu_Test.yy",},
     {"name":"Desert","order":6,"path":"sounds/Desert/Desert.yy",},
     {"name":"LilacCity","order":5,"path":"sounds/LilacCity/LilacCity.yy",},
