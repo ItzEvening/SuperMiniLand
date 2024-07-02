@@ -22,6 +22,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"Camera","order":5,"path":"objects/Camera/Camera.yy",},
+    {"name":"Coin","order":14,"path":"objects/Coin/Coin.yy",},
     {"name":"Demo_Level_Select","order":11,"path":"objects/Demo_Level_Select/Demo_Level_Select.yy",},
     {"name":"Evie","order":3,"path":"objects/Evie/Evie.yy",},
     {"name":"LevelEnd","order":6,"path":"objects/LevelEnd/LevelEnd.yy",},
@@ -81,6 +82,7 @@
     {"name":"BGTest3","order":3,"path":"sprites/BGTest3/BGTest3.yy",},
     {"name":"BPBG","order":4,"path":"sprites/BPBG/BPBG.yy",},
     {"name":"BPStars","order":5,"path":"sprites/BPStars/BPStars.yy",},
+    {"name":"Coin_Sprite","order":69,"path":"sprites/Coin_Sprite/Coin_Sprite.yy",},
     {"name":"DeathSprite","order":10,"path":"sprites/DeathSprite/DeathSprite.yy",},
     {"name":"Demo_Level_1","order":1,"path":"sprites/Demo_Level_1/Demo_Level_1.yy",},
     {"name":"Eve_Jump_Fall","order":1,"path":"sprites/Eve_Jump_Fall/Eve_Jump_Fall.yy",},

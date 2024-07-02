@@ -39,6 +39,8 @@ original_y = y;
 chances = 5;
 show_chances = true;
 
+coins = 0;
+
 change_visibility = function()
 {
 	show_chances = !show_chances;

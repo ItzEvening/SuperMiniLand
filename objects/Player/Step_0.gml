@@ -41,4 +41,12 @@ right_barrier.y = y;
 
 manage_animations(_midair);
 
+// Coin stuff
+var _coin = instance_place(x, y, Coin);
+if (_coin != noone)
+{
+	instance_destroy(_coin);
+	coins++;
+}
+
 handle_death();
