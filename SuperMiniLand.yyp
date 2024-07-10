@@ -160,6 +160,8 @@
     {"id":{"name":"LCBuilding1","path":"sprites/LCBuilding1/LCBuilding1.yy",},},
     {"id":{"name":"LCBuilding2_1","path":"sprites/LCBuilding2_1/LCBuilding2_1.yy",},},
     {"id":{"name":"LCBuilding2","path":"sprites/LCBuilding2/LCBuilding2.yy",},},
+    {"id":{"name":"LCMountain","path":"sprites/LCMountain/LCMountain.yy",},},
+    {"id":{"name":"LCTree","path":"sprites/LCTree/LCTree.yy",},},
     {"id":{"name":"Level_End_TEST","path":"sprites/Level_End_TEST/Level_End_TEST.yy",},},
     {"id":{"name":"Levels","path":"sprites/Levels/Levels.yy",},},
     {"id":{"name":"Lilac_City","path":"sprites/Lilac_City/Lilac_City.yy",},},

@@ -129,6 +129,8 @@
     {"name":"LCBuilding1","order":6,"path":"sprites/LCBuilding1/LCBuilding1.yy",},
     {"name":"LCBuilding2_1","order":8,"path":"sprites/LCBuilding2_1/LCBuilding2_1.yy",},
     {"name":"LCBuilding2","order":7,"path":"sprites/LCBuilding2/LCBuilding2.yy",},
+    {"name":"LCMountain","order":26,"path":"sprites/LCMountain/LCMountain.yy",},
+    {"name":"LCTree","order":27,"path":"sprites/LCTree/LCTree.yy",},
     {"name":"Level_End_TEST","order":29,"path":"sprites/Level_End_TEST/Level_End_TEST.yy",},
     {"name":"Levels","order":2,"path":"sprites/Levels/Levels.yy",},
     {"name":"Lilac_City","order":3,"path":"sprites/Lilac_City/Lilac_City.yy",},
