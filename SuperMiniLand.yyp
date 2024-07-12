@@ -166,6 +166,7 @@
     {"id":{"name":"font_y","path":"sprites/font_y/font_y.yy",},},
     {"id":{"name":"font_z","path":"sprites/font_z/font_z.yy",},},
     {"id":{"name":"Force_Factory","path":"sprites/Force_Factory/Force_Factory.yy",},},
+    {"id":{"name":"Gem","path":"sprites/Gem/Gem.yy",},},
     {"id":{"name":"LCBuilding1","path":"sprites/LCBuilding1/LCBuilding1.yy",},},
     {"id":{"name":"LCBuilding2_1","path":"sprites/LCBuilding2_1/LCBuilding2_1.yy",},},
     {"id":{"name":"LCBuilding2","path":"sprites/LCBuilding2/LCBuilding2.yy",},},

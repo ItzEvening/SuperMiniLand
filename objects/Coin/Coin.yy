@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Coin_Sprite",
-    "path":"sprites/Coin_Sprite/Coin_Sprite.yy",
+    "name":"Gem",
+    "path":"sprites/Gem/Gem.yy",
   },
   "spriteMaskId":null,
   "visible":true,

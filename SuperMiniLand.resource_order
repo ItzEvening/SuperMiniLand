@@ -135,6 +135,7 @@
     {"name":"font_y","order":5,"path":"sprites/font_y/font_y.yy",},
     {"name":"font_z","order":11,"path":"sprites/font_z/font_z.yy",},
     {"name":"Force_Factory","order":2,"path":"sprites/Force_Factory/Force_Factory.yy",},
+    {"name":"Gem","order":71,"path":"sprites/Gem/Gem.yy",},
     {"name":"LCBuilding1","order":6,"path":"sprites/LCBuilding1/LCBuilding1.yy",},
     {"name":"LCBuilding2_1","order":8,"path":"sprites/LCBuilding2_1/LCBuilding2_1.yy",},
     {"name":"LCBuilding2","order":7,"path":"sprites/LCBuilding2/LCBuilding2.yy",},
