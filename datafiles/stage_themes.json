@@ -36,5 +36,9 @@
       "Stage": "SecretSanctuary",
       "Song": "Cave"
     },
+    {
+      "Stage": "Test_BalloonPark",
+      "Song": "BalloonPark"
+    }
   ]
 }
