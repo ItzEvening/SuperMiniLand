@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"Lilac_City",
   "bboxMode":0,
-  "bbox_bottom":191,
+  "bbox_bottom":223,
   "bbox_left":0,
-  "bbox_right":159,
+  "bbox_right":191,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d4976e22-c8e5-4d10-b696-611fd7d7ab82","name":"d4976e22-c8e5-4d10-b696-611fd7d7ab82","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"022c66b9-792c-4ae3-b6ac-3cbad5d61790","name":"022c66b9-792c-4ae3-b6ac-3cbad5d61790","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":192,
+  "height":224,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"2cc39346-320c-4326-9147-28d3a43b561b","blendMode":0,"displayName":"default","isLocked":false,"name":"2cc39346-320c-4326-9147-28d3a43b561b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"6b18d7a6-505c-4f86-ae70-7152514d03fd","blendMode":0,"displayName":"default","isLocked":false,"name":"6b18d7a6-505c-4f86-ae70-7152514d03fd","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Lilac_City",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d4976e22-c8e5-4d10-b696-611fd7d7ab82","path":"sprites/Lilac_City/Lilac_City.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"52142827-5813-4879-9707-402373b18ea7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"022c66b9-792c-4ae3-b6ac-3cbad5d61790","path":"sprites/Lilac_City/Lilac_City.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c0f506f0-78bd-4f39-ad66-8d7d837d9146","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":160,
+  "width":192,
 }

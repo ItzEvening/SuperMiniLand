@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"Force_Factory",
   "bboxMode":0,
-  "bbox_bottom":127,
+  "bbox_bottom":159,
   "bbox_left":0,
-  "bbox_right":95,
+  "bbox_right":127,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"dc4f3313-b431-47e2-96cb-00e4b2b51898","name":"dc4f3313-b431-47e2-96cb-00e4b2b51898","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"b3ce1e5e-5858-4ec2-9daa-dbafa87d804a","name":"b3ce1e5e-5858-4ec2-9daa-dbafa87d804a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":128,
+  "height":160,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"77f4413f-6218-47a5-a796-bfed1fabf489","blendMode":0,"displayName":"default","isLocked":false,"name":"77f4413f-6218-47a5-a796-bfed1fabf489","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"156597cb-8659-4360-835a-fb9190f3f915","blendMode":0,"displayName":"default","isLocked":false,"name":"156597cb-8659-4360-835a-fb9190f3f915","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Force_Factory",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dc4f3313-b431-47e2-96cb-00e4b2b51898","path":"sprites/Force_Factory/Force_Factory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"cd5312fc-4385-4e2e-88e4-15970cf2d2f7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b3ce1e5e-5858-4ec2-9daa-dbafa87d804a","path":"sprites/Force_Factory/Force_Factory.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c0454e9a-d69a-4085-96ea-f6a8c37ec557","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":96,
+  "width":128,
 }
