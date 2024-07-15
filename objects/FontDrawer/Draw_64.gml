@@ -1,6 +1,6 @@
 // set initial position
-var _cursor_x = 100;
-var _cursor_y = 100;
+var _cursor_x = xDraw;
+var _cursor_y = yDraw;
 		
 		
 for (var i = 1; i <= string_length(text); i++) {

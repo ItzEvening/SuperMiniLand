@@ -17,7 +17,7 @@
     {"name":"inst_9FFEC6C","path":"rooms/SpringIsland_1/SpringIsland_1.yy",},
     {"name":"inst_78F1F94F","path":"rooms/SpringIsland_1/SpringIsland_1.yy",},
     {"name":"inst_323C136C","path":"rooms/SpringIsland_1/SpringIsland_1.yy",},
-    {"name":"inst_5F1DA1CF","path":"rooms/SpringIsland_1/SpringIsland_1.yy",},
+    {"name":"LivesText","path":"rooms/SpringIsland_1/SpringIsland_1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -43,7 +43,11 @@
         {"$GMRInstance":"","%Name":"inst_9EF91BC_2_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_9EF91BC_2_1","path":"rooms/Level/Level.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_9EF91BC_2_1","objectId":{"name":"MusicPlayer","path":"objects/MusicPlayer/MusicPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":-1.0,"x":128.0,"y":1984.0,},
         {"$GMRInstance":"","%Name":"inst_55D02695","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_55D02695","objectId":{"name":"Camera","path":"objects/Camera/Camera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":1984.0,},
         {"$GMRInstance":"","%Name":"inst_22475E62","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_22475E62","objectId":{"name":"LevelEnd","path":"objects/LevelEnd/LevelEnd.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":5056.0,"y":128.0,},
-        {"$GMRInstance":"","%Name":"inst_5F1DA1CF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5F1DA1CF","objectId":{"name":"FontDrawer","path":"objects/FontDrawer/FontDrawer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":2016.0,},
+        {"$GMRInstance":"","%Name":"LivesText","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"LivesText","objectId":{"name":"FontDrawer","path":"objects/FontDrawer/FontDrawer.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"FontDrawer","path":"objects/FontDrawer/FontDrawer.yy",},"propertyId":{"name":"textName","path":"objects/FontDrawer/FontDrawer.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"lives",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"FontDrawer","path":"objects/FontDrawer/FontDrawer.yy",},"propertyId":{"name":"xDraw","path":"objects/FontDrawer/FontDrawer.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"150",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"FontDrawer","path":"objects/FontDrawer/FontDrawer.yy",},"propertyId":{"name":"yDraw","path":"objects/FontDrawer/FontDrawer.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":2016.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Foreground_Tiles","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"layers":[],"name":"Foreground_Tiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":70,"SerialiseWidth":160,"TileCompressedData":[
           -43,0,-117,-2147483648,-43,0,-117,-2147483648,-43,0,-117,-2147483648,-43,0,-117,-2147483648,-43,0,-117,
@@ -78,10 +82,10 @@
           -8,6,-125,-2147483648,-6,34,-2,33,-19,-2147483648,-8,6,-152,-2147483648,-8,6,-134,-2147483648,-3,33,
           -15,-2147483648,-8,6,-138,-2147483648,-3,33,-11,-2147483648,-8,6,-152,-2147483648,-8,6,-142,-2147483648,
           -3,33,-7,-2147483648,-8,6,-152,-2147483648,-8,6,-146,-2147483648,-3,33,-3,-2147483648,-8,6,-152,-2147483648,
-          -8,6,-151,-2147483648,1,5,-8,6,-150,-2147483648,1,5,-9,6,-139,-2147483648,-11,5,-10,6,-124,-2147483648,
-          -2,3,1,7,-12,5,-21,6,-113,-2147483648,-11,3,-2,4,1,29,-33,6,-61,-2147483648,2,1,2,-9,3,1,4,-22,3,1,10,
-          -9,24,1,11,-7,3,-13,4,1,29,-33,6,-60,-2147483648,1,3,-34,4,1,31,-9,25,1,32,-20,4,1,29,-33,6,-60,-2147483648,
-          -35,4,1,31,-9,25,1,32,-20,4,1,29,-33,6,-60,-2147483648,
+          -8,6,-151,-2147483648,1,5,-8,6,-62,-2147483648,1,0,-87,-2147483648,1,5,-9,6,-139,-2147483648,-11,5,-10,
+          6,-124,-2147483648,-2,3,1,7,-12,5,-21,6,-113,-2147483648,-11,3,-2,4,1,29,-33,6,-61,-2147483648,2,1,2,
+          -6,3,4,0,3,3,4,-22,3,1,10,-9,24,1,11,-7,3,-13,4,1,29,-33,6,-60,-2147483648,1,3,-8,4,1,0,-25,4,1,31,-9,
+          25,1,32,-20,4,1,29,-33,6,-60,-2147483648,-9,4,1,0,-25,4,1,31,-9,25,1,32,-20,4,1,29,-33,6,-60,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"Tile_SpringIsland","path":"tilesets/Tile_SpringIsland/Tile_SpringIsland.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Background_Tiles_1","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background_Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":70,"SerialiseWidth":160,"TileCompressedData":[
           -43,0,-117,-2147483648,-43,0,-117,-2147483648,-43,0,-117,-2147483648,-43,0,-117,-2147483648,-42,0,1,

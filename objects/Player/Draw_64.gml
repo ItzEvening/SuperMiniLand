@@ -1,8 +1,16 @@
-if (show_chances)
+// Find lives font instance
+for (var i = 0; i < instance_number(FontDrawer); i++)
 {
-	draw_sprite(Lives, chances, 0, 0);
+	var _font_instance = instance_find(FontDrawer, i);
+	if (_font_instance.textName == "lives") 
+	{
+		livesText = _font_instance;
+		livesText.text = NumberFormatter(chances);
+	}
 }
 
-draw_set_font(TestFont);
+	
 
-draw_text(0, 1150, string(coins));
+
+draw_set_font(TestFont);
+draw_text(0, 750, string(coins));

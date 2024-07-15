@@ -36,7 +36,7 @@ original_x = x;
 original_y = y;
 
 // lives stuff
-chances = 5;
+chances = 11;
 show_chances = true;
 
 coins = 0;
