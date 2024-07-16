@@ -68,6 +68,7 @@
     {"id":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
     {"id":{"name":"Level_Select","path":"rooms/Level_Select/Level_Select.yy",},},
     {"id":{"name":"Level","path":"rooms/Level/Level.yy",},},
+    {"id":{"name":"LilacCity_1","path":"rooms/LilacCity_1/LilacCity_1.yy",},},
     {"id":{"name":"Main_Menu","path":"rooms/Main_Menu/Main_Menu.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
@@ -177,6 +178,7 @@
     {"id":{"name":"Level_End_TEST","path":"sprites/Level_End_TEST/Level_End_TEST.yy",},},
     {"id":{"name":"Levels","path":"sprites/Levels/Levels.yy",},},
     {"id":{"name":"Lilac_City","path":"sprites/Lilac_City/Lilac_City.yy",},},
+    {"id":{"name":"LilacCityAct1","path":"sprites/LilacCityAct1/LilacCityAct1.yy",},},
     {"id":{"name":"Lives","path":"sprites/Lives/Lives.yy",},},
     {"id":{"name":"MainMenu_Logo","path":"sprites/MainMenu_Logo/MainMenu_Logo.yy",},},
     {"id":{"name":"MainMenu_Logo2","path":"sprites/MainMenu_Logo2/MainMenu_Logo2.yy",},},
@@ -267,6 +269,7 @@
     {"roomId":{"name":"Demo_Menu","path":"rooms/Demo_Menu/Demo_Menu.yy",},},
     {"roomId":{"name":"SecretSanctuary","path":"rooms/SecretSanctuary/SecretSanctuary.yy",},},
     {"roomId":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
+    {"roomId":{"name":"LilacCity_1","path":"rooms/LilacCity_1/LilacCity_1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
