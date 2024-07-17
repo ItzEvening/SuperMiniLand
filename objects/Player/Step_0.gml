@@ -50,4 +50,12 @@ if (_coin != noone)
 	audio_play_sound(CoinGot, 10, 0);
 }
 
+var _coinr = instance_place(x, y, CoinR);
+if (_coinr != noone)
+{
+	instance_destroy(_coinr);
+	coins++;
+	audio_play_sound(CoinGotR, 10, 0);
+}
+
 handle_death();

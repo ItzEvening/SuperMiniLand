@@ -24,6 +24,7 @@
   "ResourceOrderSettings":[
     {"name":"Camera","order":5,"path":"objects/Camera/Camera.yy",},
     {"name":"Coin","order":14,"path":"objects/Coin/Coin.yy",},
+    {"name":"CoinR","order":16,"path":"objects/CoinR/CoinR.yy",},
     {"name":"Demo_Level_Select","order":11,"path":"objects/Demo_Level_Select/Demo_Level_Select.yy",},
     {"name":"Evie","order":3,"path":"objects/Evie/Evie.yy",},
     {"name":"FontDrawer","order":15,"path":"objects/FontDrawer/FontDrawer.yy",},
@@ -68,6 +69,7 @@
     {"name":"BalloonPark","order":16,"path":"sounds/BalloonPark/BalloonPark.yy",},
     {"name":"Cave","order":1,"path":"sounds/Cave/Cave.yy",},
     {"name":"CoinGot","order":15,"path":"sounds/CoinGot/CoinGot.yy",},
+    {"name":"CoinGotR","order":17,"path":"sounds/CoinGotR/CoinGotR.yy",},
     {"name":"Demo_Menu_Test","order":12,"path":"sounds/Demo_Menu_Test/Demo_Menu_Test.yy",},
     {"name":"Desert","order":6,"path":"sounds/Desert/Desert.yy",},
     {"name":"LilacCity","order":5,"path":"sounds/LilacCity/LilacCity.yy",},
@@ -138,6 +140,7 @@
     {"name":"font_y","order":5,"path":"sprites/font_y/font_y.yy",},
     {"name":"font_z","order":11,"path":"sprites/font_z/font_z.yy",},
     {"name":"Force_Factory","order":2,"path":"sprites/Force_Factory/Force_Factory.yy",},
+    {"name":"Gem_Rainbow","order":73,"path":"sprites/Gem_Rainbow/Gem_Rainbow.yy",},
     {"name":"Gem","order":71,"path":"sprites/Gem/Gem.yy",},
     {"name":"LCBuilding1","order":6,"path":"sprites/LCBuilding1/LCBuilding1.yy",},
     {"name":"LCBuilding2_1","order":8,"path":"sprites/LCBuilding2_1/LCBuilding2_1.yy",},
