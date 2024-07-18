@@ -1,8 +1,13 @@
 // set initial position
 var _cursor_x = xDraw;
 var _cursor_y = yDraw;
-		
-		
+
+if (drawCoin)
+{
+	draw_sprite_ext(CoinGUI, 0, 0, 0, 1.5, 1.5, 0, c_white, 1);		
+}
+
+
 for (var i = 1; i <= string_length(text); i++) {
 	var _char = string_char_at(text, i);
 			

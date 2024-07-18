@@ -36,14 +36,17 @@ original_x = x;
 original_y = y;
 
 // lives stuff
-chances = 11;
+chances = 99;
 show_chances = true;
 
 coins = 0;
 
 // create font stuff
-var _lives_struct = {xDraw: 140, yDraw: 800};
+var _lives_struct = {xDraw: 140, yDraw: 800, scale: 0.75};
 livesFont = instance_create_layer(0, 0, "Instances", FontDrawer, _lives_struct);
+
+var _coins_struct = {xDraw: 25, yDraw: 45, scale: 0.6, drawCoin: true};
+coinsFont = instance_create_layer(0, 0, "Instances", FontDrawer, _coins_struct);
 
 
 change_visibility = function()
