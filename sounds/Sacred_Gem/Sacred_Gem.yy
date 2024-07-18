@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"BalloonPark",
+  "%Name":"Sacred_Gem",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":48.51839,
-  "name":"BalloonPark",
+  "duration":57.920452,
+  "name":"Sacred_Gem",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"BalloonPark.ogg",
+  "soundFile":"Sacred_Gem.ogg",
   "type":0,
   "volume":1.0,
 }
