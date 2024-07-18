@@ -17,7 +17,6 @@
     {"name":"inst_9FFEC6C","path":"rooms/SpringIsland_1/SpringIsland_1.yy",},
     {"name":"inst_78F1F94F","path":"rooms/SpringIsland_1/SpringIsland_1.yy",},
     {"name":"inst_323C136C","path":"rooms/SpringIsland_1/SpringIsland_1.yy",},
-    {"name":"LivesText","path":"rooms/SpringIsland_1/SpringIsland_1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -43,11 +42,6 @@
         {"$GMRInstance":"","%Name":"inst_9EF91BC_2_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_9EF91BC_2_1","path":"rooms/Level/Level.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_9EF91BC_2_1","objectId":{"name":"MusicPlayer","path":"objects/MusicPlayer/MusicPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":-1.0,"x":128.0,"y":1984.0,},
         {"$GMRInstance":"","%Name":"inst_55D02695","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_55D02695","objectId":{"name":"Camera","path":"objects/Camera/Camera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":1984.0,},
         {"$GMRInstance":"","%Name":"inst_22475E62","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_22475E62","objectId":{"name":"LevelEnd","path":"objects/LevelEnd/LevelEnd.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":5056.0,"y":128.0,},
-        {"$GMRInstance":"","%Name":"LivesText","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"LivesText","objectId":{"name":"FontDrawer","path":"objects/FontDrawer/FontDrawer.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"FontDrawer","path":"objects/FontDrawer/FontDrawer.yy",},"propertyId":{"name":"textName","path":"objects/FontDrawer/FontDrawer.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"lives",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"FontDrawer","path":"objects/FontDrawer/FontDrawer.yy",},"propertyId":{"name":"xDraw","path":"objects/FontDrawer/FontDrawer.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"150",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"FontDrawer","path":"objects/FontDrawer/FontDrawer.yy",},"propertyId":{"name":"yDraw","path":"objects/FontDrawer/FontDrawer.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":2016.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Foreground_Tiles","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"layers":[],"name":"Foreground_Tiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":70,"SerialiseWidth":160,"TileCompressedData":[
           -43,0,-117,-2147483648,-43,0,-117,-2147483648,-43,0,-117,-2147483648,-43,0,-117,-2147483648,-43,0,-117,

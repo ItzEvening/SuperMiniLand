@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"Mini",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"Mini",
   "overriddenProperties":[],

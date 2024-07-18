@@ -41,6 +41,11 @@ show_chances = true;
 
 coins = 0;
 
+// create font stuff
+var _lives_struct = {xDraw: 140, yDraw: 800};
+livesFont = instance_create_layer(0, 0, "Instances", FontDrawer, _lives_struct);
+
+
 change_visibility = function()
 {
 	show_chances = !show_chances;
