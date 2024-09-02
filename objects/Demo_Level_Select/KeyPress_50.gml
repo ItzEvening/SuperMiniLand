@@ -1,0 +1,1 @@
+SlideTransition(TRANS_MODE.GOTO, LilacCity_2);

@@ -47,6 +47,10 @@
    {
       "Stage": "BalloonPark_1",
       "Song": "BalloonPark"
+   },
+   {
+      "Stage": "LilacCity_2",
+      "Song": "LilacCity2"
    }
   ]
 }
