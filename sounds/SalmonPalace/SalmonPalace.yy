@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":70.522316,
+  "duration":71.25782,
   "name":"SalmonPalace",
   "parent":{
     "name":"Sounds",
