@@ -87,14 +87,18 @@ function handle_death()
 {
 	if (chances == 0)
 	{
-		room_goto(Game_Over);
+		SlideTransition(TRANS_MODE.GOTO, Game_Over);
 	}
 	else if (chances == 1)
 	{
 		timer = time_source_create(time_source_global, 0.75, time_source_units_seconds, change_visibility, [], -1);
 		time_source_start(timer);
 	}
-	chances--;
+	
+	if (chances > 0) {
+		chances--;
+	}
+	
 	hp = 3;
 	x = original_x;
 	y = original_y;

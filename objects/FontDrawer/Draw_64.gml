@@ -17,6 +17,7 @@ for (var i = 1; i <= string_length(text); i++) {
 	}
 			
 	// get sprite information
+	show_debug_message(_char);
 	var _font_sprite = asset_get_index("font_" + _char);
 	var _sprite_width = sprite_get_bbox_right(_font_sprite) - sprite_get_bbox_left(_font_sprite);
 	var offset = 10;
