@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"BarFly",
   "bboxMode":2,
-  "bbox_bottom":26,
+  "bbox_bottom":25,
   "bbox_left":8,
   "bbox_right":29,
   "bbox_top":9,

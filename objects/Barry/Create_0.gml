@@ -11,6 +11,7 @@ jump = function() {
 		
 		// decide jump direction
 		var _player = instance_find(Player, 0);
+		var _ground_tiles = layer_tilemap_get_id("Foreground_Tiles");
 		if (_player != noone) {
 			
 			if (_player.x < x) {
@@ -21,6 +22,11 @@ jump = function() {
 			}
 			
 			image_xscale = jump_direction * -1;
+			
+			// if colliding during new direction
+			while(place_meeting(x, y, _ground_tiles)) {
+				x += jump_direction;
+			}
 		}
 	}
 }
