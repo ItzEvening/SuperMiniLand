@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":3.424943,
+  "duration":2.866077,
   "name":"CoinGot",
   "parent":{
     "name":"Sounds",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"CoinGot.wav",
+  "soundFile":"CoinGot.ogg",
   "type":0,
   "volume":1.0,
 }

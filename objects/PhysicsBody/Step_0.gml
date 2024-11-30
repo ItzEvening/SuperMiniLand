@@ -1,9 +1,9 @@
 // Physics Stuffs
 var _midair = !place_meeting(x,y+1,ground_tiles);
-var _move = 0;
+move = 0;
 var _underwater = place_meeting(x,y,water_tiles);
 
-calculate_speeds(_move, _midair, _underwater);
+calculate_speeds(move, _midair, _underwater);
 
 manage_collisions();
 

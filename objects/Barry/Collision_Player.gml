@@ -3,7 +3,7 @@ var _player = instance_place(x, y, Player);
 if (_player != noone) {
 	
 	// kill barry
-	if (_player.y < y and _player.vsp > 0) {
+	if (_player.y < y - 10 and !dead and _player.vsp > -3) {
 		sprite_index = BarDead;
 		audio_play_sound(EnemyDeath, 10, 0);
 		dead = true;
