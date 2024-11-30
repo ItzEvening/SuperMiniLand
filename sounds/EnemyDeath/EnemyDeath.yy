@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"Sound15",
+  "%Name":"EnemyDeath",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":51.423607,
-  "name":"Sound15",
+  "duration":1.056,
+  "name":"EnemyDeath",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Sound15.ogg",
+  "soundFile":"EnemyDeath.mp3",
   "type":0,
   "volume":1.0,
 }

@@ -4,7 +4,7 @@ event_inherited();
 //// physics properties
 walksp = 3.2;
 jump_strength = -8;
-air_resistance = 0.5;
+air_resistance = 0.3;
 frict = 0.07;
 
 // keybinds

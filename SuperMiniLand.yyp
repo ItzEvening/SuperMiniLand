@@ -108,6 +108,7 @@
     {"id":{"name":"Damage","path":"sounds/Damage/Damage.yy",},},
     {"id":{"name":"Demo_Menu_Test","path":"sounds/Demo_Menu_Test/Demo_Menu_Test.yy",},},
     {"id":{"name":"Desert","path":"sounds/Desert/Desert.yy",},},
+    {"id":{"name":"EnemyDeath","path":"sounds/EnemyDeath/EnemyDeath.yy",},},
     {"id":{"name":"GhostCity","path":"sounds/GhostCity/GhostCity.yy",},},
     {"id":{"name":"LilacCity","path":"sounds/LilacCity/LilacCity.yy",},},
     {"id":{"name":"LilacCity2","path":"sounds/LilacCity2/LilacCity2.yy",},},

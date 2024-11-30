@@ -82,6 +82,7 @@
     {"name":"Damage","order":21,"path":"sounds/Damage/Damage.yy",},
     {"name":"Demo_Menu_Test","order":12,"path":"sounds/Demo_Menu_Test/Demo_Menu_Test.yy",},
     {"name":"Desert","order":6,"path":"sounds/Desert/Desert.yy",},
+    {"name":"EnemyDeath","order":22,"path":"sounds/EnemyDeath/EnemyDeath.yy",},
     {"name":"GhostCity","order":20,"path":"sounds/GhostCity/GhostCity.yy",},
     {"name":"LilacCity","order":5,"path":"sounds/LilacCity/LilacCity.yy",},
     {"name":"LilacCity2","order":19,"path":"sounds/LilacCity2/LilacCity2.yy",},
