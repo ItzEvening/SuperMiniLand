@@ -58,4 +58,7 @@ if (_coinr != noone)
 	audio_play_sound(CoinGotR, 10, 0);
 }
 
-handle_death();
+if (y > room_height + 50)
+{
+	handle_death();
+}
