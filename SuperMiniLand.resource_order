@@ -97,6 +97,7 @@
     {"name":"WaterDesert","order":9,"path":"sounds/WaterDesert/WaterDesert.yy",},
     {"name":"Air_Base","order":1,"path":"sprites/Air_Base/Air_Base.yy",},
     {"name":"BalloonParkAct1","order":74,"path":"sprites/BalloonParkAct1/BalloonParkAct1.yy",},
+    {"name":"BarDead","order":1,"path":"sprites/BarDead/BarDead.yy",},
     {"name":"barrier_left","order":67,"path":"sprites/barrier_left/barrier_left.yy",},
     {"name":"barrier_right","order":68,"path":"sprites/barrier_right/barrier_right.yy",},
     {"name":"BG_Stars","order":32,"path":"sprites/BG_Stars/BG_Stars.yy",},

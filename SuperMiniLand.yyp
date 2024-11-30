@@ -127,6 +127,7 @@
     {"id":{"name":"Ballon_Park","path":"sprites/Ballon_Park/Ballon_Park.yy",},},
     {"id":{"name":"BalloonParkAct1","path":"sprites/BalloonParkAct1/BalloonParkAct1.yy",},},
     {"id":{"name":"Bar","path":"sprites/Bar/Bar.yy",},},
+    {"id":{"name":"BarDead","path":"sprites/BarDead/BarDead.yy",},},
     {"id":{"name":"barrier_left","path":"sprites/barrier_left/barrier_left.yy",},},
     {"id":{"name":"barrier_right","path":"sprites/barrier_right/barrier_right.yy",},},
     {"id":{"name":"BG_Stars","path":"sprites/BG_Stars/BG_Stars.yy",},},
