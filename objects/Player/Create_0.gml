@@ -18,7 +18,7 @@ show_chances = true;
 // sprites
 idle = Mini_Idle
 fall = Mini_Jump_Fall
-run = Mini_Run
+run = Mini_Run2
 
 coins = 0;
 
