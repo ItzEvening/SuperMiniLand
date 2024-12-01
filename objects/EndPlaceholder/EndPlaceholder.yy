@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"LevelEnd",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"EndPlaceholder",
+  "eventList":[],
   "managed":true,
-  "name":"LevelEnd",
+  "name":"EndPlaceholder",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"EndBeta",
-    "path":"sprites/EndBeta/EndBeta.yy",
+    "name":"EndSign",
+    "path":"sprites/EndSign/EndSign.yy",
   },
   "spriteMaskId":null,
   "visible":true,
