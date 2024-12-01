@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Demo_Level_1",
-    "path":"sprites/Demo_Level_1/Demo_Level_1.yy",
+    "name":"Demo_Level_2",
+    "path":"sprites/Demo_Level_2/Demo_Level_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
