@@ -51,6 +51,10 @@
     {
       "Background": "Clouds_4",
       "Value": "4"
+    },
+    {
+      "Background": "CloudsReflect",
+      "Value": "1"
     }
   ]
 }
