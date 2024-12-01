@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"MainMenu_Logo",
-    "path":"sprites/MainMenu_Logo/MainMenu_Logo.yy",
+    "name":"Logo",
+    "path":"sprites/Logo/Logo.yy",
   },
   "spriteMaskId":null,
   "visible":true,

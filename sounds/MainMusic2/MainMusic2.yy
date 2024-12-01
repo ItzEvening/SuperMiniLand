@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":105.88603,
+  "duration":15.533084,
   "name":"MainMusic2",
   "parent":{
     "name":"Sounds",
