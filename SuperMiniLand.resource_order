@@ -92,6 +92,7 @@
     {"name":"LilacCity2","order":19,"path":"sounds/LilacCity2/LilacCity2.yy",},
     {"name":"MainMusic","order":4,"path":"sounds/MainMusic/MainMusic.yy",},
     {"name":"MainMusic2","order":11,"path":"sounds/MainMusic2/MainMusic2.yy",},
+    {"name":"PolyPalace","order":24,"path":"sounds/PolyPalace/PolyPalace.yy",},
     {"name":"Sacred_Gem","order":18,"path":"sounds/Sacred_Gem/Sacred_Gem.yy",},
     {"name":"SalmonPalace2","order":13,"path":"sounds/SalmonPalace2/SalmonPalace2.yy",},
     {"name":"Sound15","order":14,"path":"sounds/Sound15/Sound15.yy",},
