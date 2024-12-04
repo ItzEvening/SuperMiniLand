@@ -45,11 +45,12 @@
   "isDnd":false,
   "layers":[
     {"$GMRTileLayer":"","%Name":"Water","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"layers":[],"name":"Water","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":100,"SerialiseWidth":350,"TileCompressedData":[
-          -43,0,-307,-2147483648,-43,0,-307,-2147483648,-43,0,-307,-2147483648,-43,0,-307,-2147483648,-43,0,-307,
+          -43,0,-307,-2147483648,-43,0,-307,-2147483648,-43,0,-307,-2147483648,-43,0,-116,-2147483648,1,0,-190,
           -2147483648,-43,0,-307,-2147483648,-43,0,-307,-2147483648,-43,0,-307,-2147483648,-43,0,-307,-2147483648,
           -43,0,-307,-2147483648,-43,0,-307,-2147483648,-43,0,-307,-2147483648,-43,0,-307,-2147483648,-43,0,-307,
           -2147483648,-43,0,-307,-2147483648,-43,0,-307,-2147483648,-43,0,-307,-2147483648,-43,0,-307,-2147483648,
-          -43,0,-307,-2147483648,-43,0,-15357,-2147483648,-350,1,-11588,5,-2,0,-348,5,-2,0,-348,5,-2,0,-310,5,
+          -43,0,-307,-2147483648,-43,0,-307,-2147483648,-43,0,-15357,-2147483648,-350,1,-11588,5,-2,0,-348,5,-2,
+          0,-348,5,-2,0,-310,5,
         ],"TileDataFormat":1,},"tilesetId":{"name":"Tile_Water","path":"tilesets/Tile_Water/Tile_Water.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Checkpoint","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_351B1431","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_351B1431","objectId":{"name":"o_Checkpoint","path":"objects/o_Checkpoint/o_Checkpoint.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3808.0,"y":2944.0,},
