@@ -19,9 +19,10 @@ var _layers = layer_get_all();
 for (var i = 0; i < array_length(_layers); i++)
 {
 	var _elements = layer_get_all_elements(_layers[i]);
+	var _empty = array_length(_elements) == 0;
 	
 	// if the layer is a background layer
-	if (layer_get_element_type(_elements[0]) == layerelementtype_background)
+	if (!_empty and layer_get_element_type(_elements[0]) == layerelementtype_background)
 	{
 		var _layer_name = layer_get_name(_layers[i]);
 		
