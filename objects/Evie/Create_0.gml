@@ -16,3 +16,4 @@ key_jump = ord("W");
 idle = Eve_Idle
 fall = Eve_Jump_Fall
 run = Eve_Run
+hpgui.sprite = HP_Player_E
