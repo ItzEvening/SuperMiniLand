@@ -33,8 +33,8 @@
   ],
   "name":"Water_Test2",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Test Levels",
+    "path":"folders/Rooms/Test Levels.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

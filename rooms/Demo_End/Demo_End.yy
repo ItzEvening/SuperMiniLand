@@ -42,8 +42,8 @@
   ],
   "name":"Demo_End",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Demo_Rooms",
+    "path":"folders/Rooms/Demo_Rooms.yy",
   },
   "parentRoom":{
     "name":"TestLevel",

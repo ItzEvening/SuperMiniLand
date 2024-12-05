@@ -20,6 +20,8 @@
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Demo_Rooms","folderPath":"folders/Rooms/Demo_Rooms.yy","name":"Demo_Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Main Game Stages","folderPath":"folders/Rooms/Main Game Stages.yy","name":"Main Game Stages","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Test Levels","folderPath":"folders/Rooms/Test Levels.yy","name":"Test Levels","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sequences","folderPath":"folders/Sequences.yy","name":"Sequences","resourceType":"GMFolder","resourceVersion":"2.0",},
