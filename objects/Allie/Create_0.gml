@@ -3,7 +3,7 @@ event_inherited();
 
 //// physics properties
 walksp = 5.2;
-jump_strength = -6;
+jump_strength = -6.2;
 air_resistance = 0.3;
 frict = 0.07;
 
