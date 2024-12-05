@@ -13,7 +13,7 @@ key_right = ord("D");
 key_jump = ord("W");
 
 // sprites
-idle = Allie_Idle
-fall = Allie_Jump_Fall
-run = Allie_Run
+idle = Arcturus_Idle
+fall = Arcturus_Jump_Fall
+run = Arcturus_Run
 hpgui.sprite = HP_Player_E

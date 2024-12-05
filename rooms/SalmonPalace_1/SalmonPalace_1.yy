@@ -11,7 +11,6 @@
     {"name":"inst_1F4680A1","path":"rooms/SalmonPalace_1/SalmonPalace_1.yy",},
     {"name":"inst_70DE291C","path":"rooms/SalmonPalace_1/SalmonPalace_1.yy",},
     {"name":"inst_5B8477FC","path":"rooms/SalmonPalace_1/SalmonPalace_1.yy",},
-    {"name":"inst_1B93F00C","path":"rooms/SalmonPalace_1/SalmonPalace_1.yy",},
     {"name":"inst_45A36A31","path":"rooms/SalmonPalace_1/SalmonPalace_1.yy",},
     {"name":"inst_100F126A","path":"rooms/SalmonPalace_1/SalmonPalace_1.yy",},
     {"name":"inst_78EB8A8C","path":"rooms/SalmonPalace_1/SalmonPalace_1.yy",},
@@ -41,6 +40,7 @@
     {"name":"inst_485239B1","path":"rooms/SalmonPalace_1/SalmonPalace_1.yy",},
     {"name":"inst_6964210A","path":"rooms/SalmonPalace_1/SalmonPalace_1.yy",},
     {"name":"inst_2BBDEB1F","path":"rooms/SalmonPalace_1/SalmonPalace_1.yy",},
+    {"name":"inst_4D64596D","path":"rooms/SalmonPalace_1/SalmonPalace_1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -65,9 +65,9 @@
         {"$GMRInstance":"","%Name":"inst_1F4680A1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1F4680A1","objectId":{"name":"LevelEnd","path":"objects/LevelEnd/LevelEnd.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":11136.0,"y":256.0,},
         {"$GMRInstance":"","%Name":"inst_70DE291C","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_70DE291C","objectId":{"name":"LevelEnd","path":"objects/LevelEnd/LevelEnd.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":11104.0,"y":1440.0,},
         {"$GMRInstance":"","%Name":"inst_5B8477FC","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5B8477FC","objectId":{"name":"LevelEnd","path":"objects/LevelEnd/LevelEnd.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":1216.0,"y":3136.0,},
-        {"$GMRInstance":"","%Name":"inst_1B93F00C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1B93F00C","objectId":{"name":"Mini","path":"objects/Mini/Mini.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":64.0,},
         {"$GMRInstance":"","%Name":"inst_45A36A31","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_45A36A31","objectId":{"name":"EndPlaceholder","path":"objects/EndPlaceholder/EndPlaceholder.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":11104.0,"y":1408.0,},
         {"$GMRInstance":"","%Name":"inst_100F126A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_100F126A","objectId":{"name":"EndPlaceholder","path":"objects/EndPlaceholder/EndPlaceholder.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":11136.0,"y":224.0,},
+        {"$GMRInstance":"","%Name":"inst_4D64596D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4D64596D","objectId":{"name":"Arcturus","path":"objects/Arcturus/Arcturus.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":64.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Spikes","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_78EB8A8C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_78EB8A8C","objectId":{"name":"Hazard_Spikes_Death","path":"objects/Hazard_Spikes_Death/Hazard_Spikes_Death.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3680.0,"y":2464.0,},

@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Allie_Idle",
-    "path":"sprites/Allie_Idle/Allie_Idle.yy",
+    "name":"Arcturus_Idle",
+    "path":"sprites/Arcturus_Idle/Arcturus_Idle.yy",
   },
   "spriteMaskId":{
     "name":"Eve_Idle",
