@@ -12,8 +12,8 @@
   "duration":48.51839,
   "name":"BalloonPark",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Stage Themes",
+    "path":"folders/Sounds/Stage Themes.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

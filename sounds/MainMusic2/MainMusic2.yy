@@ -12,8 +12,8 @@
   "duration":15.533084,
   "name":"MainMusic2",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Menu Themes",
+    "path":"folders/Sounds/Menu Themes.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

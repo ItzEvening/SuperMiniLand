@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"Sound15",
+  "%Name":"GameOver",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,16 +10,16 @@
   "compression":0,
   "conversionMode":0,
   "duration":51.423607,
-  "name":"Sound15",
+  "name":"GameOver",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Menu Themes",
+    "path":"folders/Sounds/Menu Themes.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Sound15.ogg",
+  "soundFile":"GameOver.ogg",
   "type":0,
   "volume":1.0,
 }

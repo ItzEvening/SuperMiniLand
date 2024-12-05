@@ -12,8 +12,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"Tile Sets",
-    "path":"folders/Tile Sets.yy",
+    "name":"Stage Tiles",
+    "path":"folders/Tile Sets/Stage Tiles.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

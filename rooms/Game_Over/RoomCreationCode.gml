@@ -1,2 +1,2 @@
 audio_stop_all();
-audio_play_sound(Sound15, 10, 0);
+audio_play_sound(GameOver, 10, 0);

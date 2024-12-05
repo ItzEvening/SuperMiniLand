@@ -399,8 +399,8 @@
   ],
   "name":"SpringIsland_1",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Main Game Stages",
+    "path":"folders/Rooms/Main Game Stages.yy",
   },
   "parentRoom":{
     "name":"Level",

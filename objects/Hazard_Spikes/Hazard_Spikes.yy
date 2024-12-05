@@ -9,8 +9,8 @@
   "name":"Hazard_Spikes",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Level Hazards",
+    "path":"folders/Objects/Level Hazards.yy",
   },
   "parentObjectId":null,
   "persistent":false,
