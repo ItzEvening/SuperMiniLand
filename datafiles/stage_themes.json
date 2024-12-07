@@ -59,7 +59,12 @@
    {
       "Stage": "Test_PolyPalace",
       "Song": "PolyPalace"
+   },
+   {
+      "Stage": "SpringIsland_2",
+      "Song": "SpringIsland2"
    }
+
 
   ]
 }
