@@ -8,6 +8,7 @@ if (_player != noone) {
 		audio_play_sound(EnemyDefeat2, 10, 0);
 		dead = true;
 		time_source_start(death_timer);
+		_player.vsp = -5;
 	}
 	
 	else if (!dead and !_player.invincible) {
