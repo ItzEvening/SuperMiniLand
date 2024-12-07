@@ -279,6 +279,7 @@
     {"name":"SSBGBottom","order":22,"path":"sprites/SSBGBottom/SSBGBottom.yy",},
     {"name":"SSBGMiddle","order":23,"path":"sprites/SSBGMiddle/SSBGMiddle.yy",},
     {"name":"SSBGTop","order":24,"path":"sprites/SSBGTop/SSBGTop.yy",},
+    {"name":"Sunset","order":58,"path":"sprites/Sunset/Sunset.yy",},
     {"name":"TileTest","order":9,"path":"sprites/TileTest/TileTest.yy",},
     {"name":"Title_BG1","order":45,"path":"sprites/Title_BG1/Title_BG1.yy",},
     {"name":"Water_Desert","order":10,"path":"sprites/Water_Desert/Water_Desert.yy",},

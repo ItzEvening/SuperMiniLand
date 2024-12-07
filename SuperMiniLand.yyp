@@ -323,6 +323,7 @@
     {"id":{"name":"SSBGBottom","path":"sprites/SSBGBottom/SSBGBottom.yy",},},
     {"id":{"name":"SSBGMiddle","path":"sprites/SSBGMiddle/SSBGMiddle.yy",},},
     {"id":{"name":"SSBGTop","path":"sprites/SSBGTop/SSBGTop.yy",},},
+    {"id":{"name":"Sunset","path":"sprites/Sunset/Sunset.yy",},},
     {"id":{"name":"TileTest","path":"sprites/TileTest/TileTest.yy",},},
     {"id":{"name":"Title_BG1","path":"sprites/Title_BG1/Title_BG1.yy",},},
     {"id":{"name":"Water_Desert","path":"sprites/Water_Desert/Water_Desert.yy",},},
