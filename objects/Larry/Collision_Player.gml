@@ -2,12 +2,13 @@ var _player = instance_place(x, y, Player);
 
 if (_player != noone) {
 	
-	// kill barry
+	// kill larry
 	if (_player.y < y - 10 and !dead and _player.vsp > -3) {
 		sprite_index = LarDead;
 		audio_play_sound(EnemyDefeat, 10, 0);
 		dead = true;
 		time_source_start(death_timer);
+		_player.vsp = -5;
 	}
 	
 	else if (!dead and !_player.invincible) {
