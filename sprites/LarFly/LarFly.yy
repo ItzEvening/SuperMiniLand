@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"BarFly",
+  "%Name":"LarFly",
   "bboxMode":2,
   "bbox_bottom":29,
   "bbox_left":7,
@@ -22,7 +22,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"54424a21-df4d-400d-a27e-3fdda7651a50","blendMode":0,"displayName":"default","isLocked":false,"name":"54424a21-df4d-400d-a27e-3fdda7651a50","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"BarFly",
+  "name":"LarFly",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -34,7 +34,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"BarFly",
+    "%Name":"LarFly",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -58,7 +58,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"BarFly",
+    "name":"LarFly",
     "playback":1,
     "playbackSpeed":15.0,
     "playbackSpeedType":0,
@@ -70,10 +70,10 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c30803b9-e4ca-4f27-b576-23192c73a143","path":"sprites/BarFly/BarFly.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c30803b9-e4ca-4f27-b576-23192c73a143","path":"sprites/LarFly/LarFly.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"ee8961ab-ba42-4e70-9c9c-54da87d60676","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8746a6e2-7196-4d08-8cb8-ba5a8137c29f","path":"sprites/BarFly/BarFly.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8746a6e2-7196-4d08-8cb8-ba5a8137c29f","path":"sprites/LarFly/LarFly.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"c6302e90-0eca-4d18-a4b9-8fe5b21a3a40","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

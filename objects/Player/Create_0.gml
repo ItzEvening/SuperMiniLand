@@ -27,7 +27,7 @@ reset_iframe = function() {
 	time_source_start(iframe_timer);
 	time_source_start(blink_timer);
 	invincible = true;
-	hpgui.lifetoframe(hp);
+	//hpgui.lifetoframe(hp);
 }
 
 expire_iframe = function() {
@@ -43,6 +43,10 @@ invincible = false;
 iframe_timer = time_source_create(time_source_game, 2, time_source_units_seconds, expire_iframe);
 blink_timer = time_source_create(time_source_game, 0.2, time_source_units_seconds, blink_iframe, [], 8); 
 hp = 3;
+function change_life(_delta){
+	hp += _delta;
+	hpgui.lifetoframe(hp);
+}
 
 // create font stuff
 var _lives_struct = {xDraw: 140, yDraw: 800, scale: 0.75};
@@ -107,10 +111,12 @@ function handle_death()
 	
 	if (chances > 0) {
 		chances--;
+		
 	}
 	
 	hp = 3;
 	hpgui.lifetoframe(hp);
+	//change_life(3);
 	x = original_x;
 	y = original_y;
 	hsp = 0;

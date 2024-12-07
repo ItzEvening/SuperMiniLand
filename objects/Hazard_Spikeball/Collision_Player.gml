@@ -12,7 +12,8 @@ if (_player != noone) {
 			_player.handle_death();
 		}
 		else {
-			_player.hp--;
+			//_player.hp--;
+			_player.change_life(-1);
 			_player.reset_iframe();
 		}
 	}

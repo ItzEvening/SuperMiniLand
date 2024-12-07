@@ -90,6 +90,7 @@
     {"name":"inst_E983CF6","path":"rooms/SpringIsland_2/SpringIsland_2.yy",},
     {"name":"inst_6607BA88","path":"rooms/SpringIsland_2/SpringIsland_2.yy",},
     {"name":"inst_890FD59","path":"rooms/SpringIsland_2/SpringIsland_2.yy",},
+    {"name":"inst_5A98E1F5","path":"rooms/SpringIsland_2/SpringIsland_2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -192,6 +193,7 @@
         {"$GMRInstance":"","%Name":"inst_E983CF6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_E983CF6","objectId":{"name":"Barry","path":"objects/Barry/Barry.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":7936.0,"y":3040.0,},
         {"$GMRInstance":"","%Name":"inst_6607BA88","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6607BA88","objectId":{"name":"Barry","path":"objects/Barry/Barry.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":7392.0,"y":3104.0,},
         {"$GMRInstance":"","%Name":"inst_890FD59","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_890FD59","objectId":{"name":"Barry","path":"objects/Barry/Barry.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":6496.0,"y":3136.0,},
+        {"$GMRInstance":"","%Name":"inst_5A98E1F5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5A98E1F5","objectId":{"name":"Larry","path":"objects/Larry/Larry.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2112.0,"y":3200.0,},
       ],"layers":[],"name":"Enemies","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Foreground_Tiles","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"layers":[],"name":"Foreground_Tiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":110,"SerialiseWidth":250,"TileCompressedData":[
           -43,0,-207,-2147483648,-43,0,-207,-2147483648,-43,0,-207,-2147483648,-43,0,-207,-2147483648,-43,0,-207,

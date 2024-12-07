@@ -4,15 +4,15 @@ die = function() {
 	instance_destroy();
 }
 jump = function() {
-	_inrange = distance_to_object(Player) < 500;
+	_inrange = distance_to_object(Player) < 250;
 	
 	//The Supernatual ...for Final Chase
 	
 	
 	
 	if (place_meeting(x,y+1,ground_tiles) and !dead and _inrange) {
-		vsp = -7;
-		sprite_index = BarFly;
+		vsp = -3;
+		sprite_index = LarFly;
 		jumped = true;
 		
 		// decide jump direction
