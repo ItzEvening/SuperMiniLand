@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":51.762493,
+  "duration":51.2,
   "name":"PolyPalace",
   "parent":{
     "name":"Stage Themes",

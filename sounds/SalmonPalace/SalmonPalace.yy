@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":71.25782,
+  "duration":70.5,
   "name":"SalmonPalace",
   "parent":{
     "name":"Stage Themes",

@@ -12,8 +12,8 @@
   "duration":82.906845,
   "name":"SpringIslandE",
   "parent":{
-    "name":"Stage Themes",
-    "path":"folders/Sounds/Stage Themes.yy",
+    "name":"Stage Themes E",
+    "path":"folders/Sounds/Stage Themes E.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

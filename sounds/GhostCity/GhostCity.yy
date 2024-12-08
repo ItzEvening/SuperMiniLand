@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":52.65832,
+  "duration":52.96551,
   "name":"GhostCity",
   "parent":{
     "name":"Stage Themes",

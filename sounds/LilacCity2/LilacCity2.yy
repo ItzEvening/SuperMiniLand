@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":25.912495,
+  "duration":24.0,
   "name":"LilacCity2",
   "parent":{
     "name":"Stage Themes",

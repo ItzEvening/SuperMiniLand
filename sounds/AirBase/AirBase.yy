@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":33.57857,
+  "duration":32.914288,
   "name":"AirBase",
   "parent":{
     "name":"Stage Themes",
