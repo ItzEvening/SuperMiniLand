@@ -14,7 +14,18 @@
   ],
   "isDnd":false,
   "layers":[
-    {"$GMRTileLayer":"","%Name":"Rain","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Rain","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":26,"SerialiseWidth":512,"TileCompressedData":[-13312,1,],"TileDataFormat":1,},"tilesetId":{"name":"Tile_Rain","path":"tilesets/Tile_Rain/Tile_Rain.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"$GMRTileLayer":"","%Name":"Rain","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Rain","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":26,"SerialiseWidth":512,"TileCompressedData":[
+          -24,0,-113,1,-81,0,-143,1,-106,0,-45,1,-24,0,-113,1,-81,0,-143,1,-106,0,-45,1,-24,0,-113,1,-81,0,-143,
+          1,-106,0,-45,1,-24,0,-113,1,-81,0,-143,1,-106,0,-45,1,-24,0,-113,1,-81,0,-143,1,-106,0,-45,1,-24,0,-113,
+          1,-81,0,-143,1,-106,0,-45,1,-24,0,-113,1,-81,0,-143,1,-106,0,-45,1,-24,0,-113,1,-81,0,-143,1,-106,0,
+          -45,1,-24,0,-113,1,-81,0,-143,1,-106,0,-45,1,-24,0,-113,1,-81,0,-143,1,-106,0,-45,1,-24,0,-113,1,-81,
+          0,-143,1,-106,0,-45,1,-24,0,-113,1,-81,0,-143,1,-106,0,-45,1,-24,0,-113,1,-81,0,-143,1,-106,0,-45,1,
+          -24,0,-113,1,-81,0,-143,1,-106,0,-45,1,-24,0,-113,1,-81,0,-143,1,-106,0,-45,1,-24,0,-113,1,-81,0,-143,
+          1,-106,0,-45,1,-24,0,-113,1,-81,0,-143,1,-106,0,-45,1,-24,0,-113,1,-81,0,-143,1,-106,0,-45,1,-24,0,-113,
+          1,-81,0,-143,1,-106,0,-45,1,-24,0,-113,1,-81,0,-143,1,-106,0,-45,1,-24,0,-113,1,-81,0,-143,1,-106,0,
+          -45,1,-24,0,-113,1,-81,0,-143,1,-106,0,-45,1,-24,0,-113,1,-81,0,-143,1,-106,0,-45,1,-24,0,-113,1,-81,
+          0,-143,1,-106,0,-45,1,-24,0,-113,1,-81,0,-143,1,-106,0,-45,1,-23,0,-114,1,-81,0,-143,1,-106,0,-45,1,
+        ],"TileDataFormat":1,},"tilesetId":{"name":"Tile_Rain","path":"tilesets/Tile_Rain/Tile_Rain.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Water","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Water","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":26,"SerialiseWidth":512,"TileCompressedData":[
           -43,0,-469,-2147483648,-43,0,-469,-2147483648,-43,0,-469,-2147483648,-43,0,-469,-2147483648,-43,0,-469,
           -2147483648,-43,0,-469,-2147483648,-43,0,-469,-2147483648,-43,0,-469,-2147483648,-43,0,-469,-2147483648,
