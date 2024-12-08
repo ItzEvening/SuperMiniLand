@@ -92,12 +92,7 @@
         {"$GMRInstance":"","%Name":"inst_6D82560B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6D82560B","objectId":{"name":"Hazard_Spikes_Death","path":"objects/Hazard_Spikes_Death/Hazard_Spikes_Death.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1152.0,"y":4352.0,},
         {"$GMRInstance":"","%Name":"inst_1B83B937","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1B83B937","objectId":{"name":"Hazard_Spikes_Death","path":"objects/Hazard_Spikes_Death/Hazard_Spikes_Death.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1120.0,"y":4352.0,},
       ],"layers":[],"name":"Hazards","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRTileLayer":"","%Name":"Foreground_Tiles","depth":600,"effectEnabled":true,"effectType":"_filter_vignette","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"layers":[],"name":"Foreground_Tiles","properties":[
-        {"name":"g_VignetteEdges","type":0,"value":"0.5",},
-        {"name":"g_VignetteEdges","type":0,"value":"1.2",},
-        {"name":"g_VignetteSharpness","type":0,"value":"2",},
-        {"name":"g_VignetteTexture","type":2,"value":"_filter_vignette_texture",},
-      ],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":150,"SerialiseWidth":300,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"Foreground_Tiles","depth":600,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"layers":[],"name":"Foreground_Tiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":150,"SerialiseWidth":300,"TileCompressedData":[
           -40,0,-40,3,-50,-2147483648,-10,3,-80,-2147483648,-53,3,-27,-2147483648,-40,0,-40,3,-50,-2147483648,
           -10,3,-80,-2147483648,-53,3,-27,-2147483648,-40,0,-40,3,-50,-2147483648,-10,3,-80,-2147483648,-53,3,
           -27,-2147483648,-6,1,1,2,-11,1,1,2,-11,1,-10,0,-40,3,-50,-2147483648,-10,3,-80,-2147483648,-53,3,-27,
