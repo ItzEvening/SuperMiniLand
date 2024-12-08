@@ -10,10 +10,10 @@ if (_player != noone and !current) {
 	_player.original_y = y;
 	
 	current = true;
-}
-
-if (_player.hp < 3){
-	audio_play_sound(Recovery, 10, false);
-	//_player.hp ++;
-	_player.change_life(1);
+	
+	if (_player.hp < 3){
+		audio_play_sound(Recovery, 10, false);
+		//_player.hp ++;
+		_player.change_life(1);
+	}
 }
