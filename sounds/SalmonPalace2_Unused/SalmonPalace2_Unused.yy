@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"SalmonPalace2",
+  "%Name":"SalmonPalace2_Unused",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,17 +9,17 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":92.91347,
-  "name":"SalmonPalace2",
+  "duration":114.41347,
+  "name":"SalmonPalace2_Unused",
   "parent":{
-    "name":"Stage Themes",
-    "path":"folders/Sounds/Stage Themes.yy",
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"SalmonPalace2.ogg",
+  "soundFile":"SalmonPalace2_Unused.ogg",
   "type":0,
   "volume":1.0,
 }
