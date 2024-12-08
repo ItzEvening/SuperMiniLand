@@ -18,6 +18,15 @@ for (var i = 0; i < array_length(_music_list); i++)
 }
 
 var _song = asset_get_index(_track_name);
+
+// E-sides
+var _track_name_e = _track_name + "E";
+var _song_e = asset_get_index(_track_name_e);
+
+if (_song_e != -1 and variable_global_exists("music") and global.music == 1) {
+	_song = _song_e;
+}
+
 if (_song != -1)
 {
 	music = audio_play_sound(_song, 10, true);
