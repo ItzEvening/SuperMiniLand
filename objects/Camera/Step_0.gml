@@ -4,6 +4,9 @@ if (instance_exists(follow))
 	xTo = follow.x;
 	yTo = follow.y;
 }
+//if (layer_sequence_exists("Radical", BlackDoom)){
+	//var _sequence = layer_sequence_get_sequence()
+//}
 
 // Update object position
 x += (xTo - x) / 5;
