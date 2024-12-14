@@ -71,7 +71,11 @@
    {
       "Stage": "GhostCity_1",
       "Song": "GhostCity"
-   }
+   },
+   {
+    "Stage": "Demo_Menu",
+    "Song": "Demo_Menu_Test"
+ }
 
 
 

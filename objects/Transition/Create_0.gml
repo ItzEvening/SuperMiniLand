@@ -17,3 +17,15 @@ percent = 1.2;
 target = room;
 show_debug_message(w);
 //Paste this in transition's create event
+
+function stop_music() {
+	if (instance_exists(MusicPlayer)) {
+		MusicPlayer.stop_music();
+	}
+}
+
+function stop_underwater() {
+	if (instance_exists(MusicPlayer)) {
+		MusicPlayer.underwater_effect(true);
+	}
+}

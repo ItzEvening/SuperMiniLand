@@ -52,7 +52,7 @@ function underwater_effect(_was_underwater)
 
 function stop_music()
 {
-	show_debug_message("bad girl");
+	// show_debug_message("bad girl");
 	if (!is_undefined(music))
 	{
 		audio_stop_sound(music);

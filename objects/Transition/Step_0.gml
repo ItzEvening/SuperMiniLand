@@ -23,7 +23,7 @@ if (mode != TRANS_MODE.OFF)
 			case TRANS_MODE.NEXT:
 			{
 				mode = TRANS_MODE.INTRO
-				MusicPlayer.stop_music()
+				stop_music()
 				room_goto_next();
 			    break;
 			}
@@ -31,7 +31,7 @@ if (mode != TRANS_MODE.OFF)
 			{
 				mode = TRANS_MODE.INTRO
 				
-				MusicPlayer.stop_music()
+				stop_music()
 				room_goto(target);
 			    break;
 			}
@@ -39,14 +39,14 @@ if (mode != TRANS_MODE.OFF)
 			{	
 				game_restart();
 				
-				MusicPlayer.underwater_effect(true);
+				stop_underwater();
 			    break;
 			}
 			case TRANS_MODE.LEVEL:
 			{
 				mode = TRANS_MODE.OFF;
 				
-				MusicPlayer.stop_music()
+				stop_music()
 				room_goto(target);
 			    break;
 			}
