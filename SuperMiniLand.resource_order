@@ -40,6 +40,7 @@
     {"name":"Timelines","order":10,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"BlackDoom_BlueBar_position1","order":1,"path":"animcurves/BlackDoom_BlueBar_position1/BlackDoom_BlueBar_position1.yy",},
     {"name":"Allie","order":2,"path":"objects/Allie/Allie.yy",},
     {"name":"Arcturus","order":3,"path":"objects/Arcturus/Arcturus.yy",},
     {"name":"Camera","order":5,"path":"objects/Camera/Camera.yy",},

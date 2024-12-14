@@ -61,6 +61,7 @@
   },
   "name":"SuperMiniLand",
   "resources":[
+    {"id":{"name":"BlackDoom_BlueBar_position1","path":"animcurves/BlackDoom_BlueBar_position1/BlackDoom_BlueBar_position1.yy",},},
     {"id":{"name":"TestFont","path":"fonts/TestFont/TestFont.yy",},},
     {"id":{"name":"Allie","path":"objects/Allie/Allie.yy",},},
     {"id":{"name":"Arcturus","path":"objects/Arcturus/Arcturus.yy",},},
