@@ -1,1 +1,2 @@
-SlideTransition(TRANS_MODE.GOTO, SpringIsland_1);
+SlideTransition(TRANS_MODE.LEVEL, Level_Card);
+global.level = SpringIsland_1;

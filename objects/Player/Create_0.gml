@@ -55,15 +55,11 @@ livesFont = instance_create_layer(0, 0, "Instances", FontDrawer, _lives_struct);
 var _coins_struct = {xDraw: 25, yDraw: 45, scale: 0.6, drawCoin: true};
 coinsFont = instance_create_layer(0, 0, "Instances", FontDrawer, _coins_struct);
 
-//var _health_struct = {xDraw: 540, yDraw: 800, scale: 0.75};
-//healthFont = instance_create_layer(0, 0, "Instances", FontDrawer, _health_struct);
-
 // create the lives icon
-instance_create_layer(0, 0, "Instances", LivesIcon);
+livesicon = instance_create_layer(0, 0, "Instances", LivesIcon);
 
 //create HP GUI
 hpgui = instance_create_layer(0, 0, "Instances", GUI_HP);
-
 
 change_visibility = function()
 {

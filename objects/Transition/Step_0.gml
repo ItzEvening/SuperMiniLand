@@ -42,6 +42,14 @@ if (mode != TRANS_MODE.OFF)
 				MusicPlayer.underwater_effect(true);
 			    break;
 			}
+			case TRANS_MODE.LEVEL:
+			{
+				mode = TRANS_MODE.OFF;
+				
+				MusicPlayer.stop_music()
+				room_goto(target);
+			    break;
+			}
 		}
 	}
 }

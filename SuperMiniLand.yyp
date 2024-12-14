@@ -101,6 +101,7 @@
     {"id":{"name":"Demo_Menu","path":"rooms/Demo_Menu/Demo_Menu.yy",},},
     {"id":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
     {"id":{"name":"GhostCity_1","path":"rooms/GhostCity_1/GhostCity_1.yy",},},
+    {"id":{"name":"Level_Card","path":"rooms/Level_Card/Level_Card.yy",},},
     {"id":{"name":"Level_Select","path":"rooms/Level_Select/Level_Select.yy",},},
     {"id":{"name":"Level","path":"rooms/Level/Level.yy",},},
     {"id":{"name":"LilacCity_1","path":"rooms/LilacCity_1/LilacCity_1.yy",},},
@@ -128,6 +129,7 @@
     {"id":{"name":"Water_Test3","path":"rooms/Water_Test3/Water_Test3.yy",},},
     {"id":{"name":"WaterDesert_2","path":"rooms/WaterDesert_2/WaterDesert_2.yy",},},
     {"id":{"name":"JSONHelper","path":"scripts/JSONHelper/JSONHelper.yy",},},
+    {"id":{"name":"NewLevel","path":"scripts/NewLevel/NewLevel.yy",},},
     {"id":{"name":"NumberFormatter","path":"scripts/NumberFormatter/NumberFormatter.yy",},},
     {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},},
     {"id":{"name":"BlackDoom","path":"sequences/BlackDoom/BlackDoom.yy",},},
@@ -425,6 +427,7 @@
     {"roomId":{"name":"SpringIsland_2","path":"rooms/SpringIsland_2/SpringIsland_2.yy",},},
     {"roomId":{"name":"GhostCity_1","path":"rooms/GhostCity_1/GhostCity_1.yy",},},
     {"roomId":{"name":"WaterDesert_2","path":"rooms/WaterDesert_2/WaterDesert_2.yy",},},
+    {"roomId":{"name":"Level_Card","path":"rooms/Level_Card/Level_Card.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
