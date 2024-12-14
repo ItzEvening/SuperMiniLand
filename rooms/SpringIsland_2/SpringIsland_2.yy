@@ -201,12 +201,7 @@
         {"$GMRInstance":"","%Name":"inst_44D18644","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_44D18644","objectId":{"name":"Larry","path":"objects/Larry/Larry.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3200.0,"y":992.0,},
         {"$GMRInstance":"","%Name":"inst_1D76AF25","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1D76AF25","objectId":{"name":"Larry","path":"objects/Larry/Larry.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":6976.0,"y":3136.0,},
       ],"layers":[],"name":"Enemies","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRTileLayer":"","%Name":"Foreground_Tiles","depth":600,"effectEnabled":true,"effectType":"_filter_rgbnoise","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"layers":[],"name":"Foreground_Tiles","properties":[
-        {"name":"g_RGBNoiseIntensity","type":0,"value":"0.25",},
-        {"name":"g_RGBNoiseAnimation","type":0,"value":"0.025",},
-        {"name":"g_RGBNoiseColour","type":1,"value":"#FFFFFFFF",},
-        {"name":"g_RGBNoiseTexture","type":2,"value":"_filter_rgbnoise_noise",},
-      ],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":110,"SerialiseWidth":250,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"Foreground_Tiles","depth":600,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"layers":[],"name":"Foreground_Tiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":110,"SerialiseWidth":250,"TileCompressedData":[
           -43,0,-207,-2147483648,-43,0,-207,-2147483648,-43,0,-207,-2147483648,-43,0,-207,-2147483648,-43,0,-207,
           -2147483648,-43,0,-207,-2147483648,-43,0,-207,-2147483648,-43,0,-207,-2147483648,-43,0,-207,-2147483648,
           -43,0,-207,-2147483648,-43,0,-207,-2147483648,-43,0,-207,-2147483648,-43,0,-207,-2147483648,-43,0,-207,

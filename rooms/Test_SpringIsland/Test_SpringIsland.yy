@@ -16,9 +16,6 @@
   ],
   "isDnd":false,
   "layers":[
-    {"$GMRAssetLayer":"","%Name":"Radical","assets":[
-        {"$GMRSequenceGraphic":"","%Name":"graphic_7F86C0E8","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_7F86C0E8","resourceType":"GMRSequenceGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"sequenceId":{"name":"BlackDoom","path":"sequences/BlackDoom/BlackDoom.yy",},"x":64.0,"y":32.0,},
-      ],"depth":-300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Radical","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Front_Background_Tiles","depth":-200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Front_Background_Tiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":25,"SerialiseWidth":63,"TileCompressedData":[
           -39,-2147483648,1,28,-6,-2147483648,1,28,-4,-2147483648,1,28,-50,-2147483648,1,28,-6,-2147483648,1,28,
           -4,-2147483648,1,28,-50,-2147483648,1,28,-6,-2147483648,1,28,-4,-2147483648,1,28,-50,-2147483648,1,28,

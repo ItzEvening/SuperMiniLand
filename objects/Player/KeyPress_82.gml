@@ -1,1 +1,1 @@
-SlideTransition(TRANS_MODE.RESTART);
+SlideTransition(TRANS_MODE.GOTO, Main_Menu);
