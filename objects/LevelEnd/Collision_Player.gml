@@ -2,9 +2,15 @@ with (Player)
 {
 	if (hascontrol)
 	{
-		show_debug_message("really?");
 		hascontrol = false;
 		//SlideTransition(TRANS_MODE.NEXT);
-		SlideTransition(TRANS_MODE.GOTO,other.target);
+		
+		if (other.target == SecretSanctuary) {
+			global.level = SecretSanctuary;
+			SlideTransition(TRANS_MODE.LEVEL,Level_Card);
+		}
+		else {
+			SlideTransition(TRANS_MODE.GOTO,other.target);
+		}
 	}
 }
