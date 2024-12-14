@@ -62,6 +62,7 @@
   "name":"SuperMiniLand",
   "resources":[
     {"id":{"name":"BlackDoom_BlueBar_position1","path":"animcurves/BlackDoom_BlueBar_position1/BlackDoom_BlueBar_position1.yy",},},
+    {"id":{"name":"GameFont","path":"fonts/GameFont/GameFont.yy",},},
     {"id":{"name":"TestFont","path":"fonts/TestFont/TestFont.yy",},},
     {"id":{"name":"Allie","path":"objects/Allie/Allie.yy",},},
     {"id":{"name":"Arcturus","path":"objects/Arcturus/Arcturus.yy",},},
@@ -77,6 +78,7 @@
     {"id":{"name":"Hazard_Spikeball","path":"objects/Hazard_Spikeball/Hazard_Spikeball.yy",},},
     {"id":{"name":"Hazard_Spikes_Death","path":"objects/Hazard_Spikes_Death/Hazard_Spikes_Death.yy",},},
     {"id":{"name":"Hazard_Spikes","path":"objects/Hazard_Spikes/Hazard_Spikes.yy",},},
+    {"id":{"name":"Intro_Text","path":"objects/Intro_Text/Intro_Text.yy",},},
     {"id":{"name":"KeyLeft_Press","path":"objects/KeyLeft_Press/KeyLeft_Press.yy",},},
     {"id":{"name":"KeyRight_Press","path":"objects/KeyRight_Press/KeyRight_Press.yy",},},
     {"id":{"name":"Larry","path":"objects/Larry/Larry.yy",},},

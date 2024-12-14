@@ -41,6 +41,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"BlackDoom_BlueBar_position1","order":1,"path":"animcurves/BlackDoom_BlueBar_position1/BlackDoom_BlueBar_position1.yy",},
+    {"name":"GameFont","order":1,"path":"fonts/GameFont/GameFont.yy",},
     {"name":"Allie","order":2,"path":"objects/Allie/Allie.yy",},
     {"name":"Arcturus","order":3,"path":"objects/Arcturus/Arcturus.yy",},
     {"name":"Camera","order":5,"path":"objects/Camera/Camera.yy",},
@@ -52,6 +53,7 @@
     {"name":"GUI_HP","order":1,"path":"objects/GUI_HP/GUI_HP.yy",},
     {"name":"Hazard_Spikes_Death","order":2,"path":"objects/Hazard_Spikes_Death/Hazard_Spikes_Death.yy",},
     {"name":"Hazard_Spikes","order":1,"path":"objects/Hazard_Spikes/Hazard_Spikes.yy",},
+    {"name":"Intro_Text","order":13,"path":"objects/Intro_Text/Intro_Text.yy",},
     {"name":"KeyLeft_Press","order":9,"path":"objects/KeyLeft_Press/KeyLeft_Press.yy",},
     {"name":"KeyRight_Press","order":10,"path":"objects/KeyRight_Press/KeyRight_Press.yy",},
     {"name":"Larry","order":1,"path":"objects/Larry/Larry.yy",},

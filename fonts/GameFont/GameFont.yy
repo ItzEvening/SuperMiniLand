@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"TestFont",
+  "%Name":"GameFont",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":62,
@@ -9,7 +9,7 @@
   "canGenerateBitmap":true,
   "charset":0,
   "first":0,
-  "fontName":"Arial",
+  "fontName":"Righteous",
   "glyphOperations":0,
   "glyphs":{
     "32":{"character":32,"h":77,"offset":0,"shift":19,"w":19,"x":2,"y":2,},
@@ -238,7 +238,7 @@
   "last":0,
   "lineHeight":77,
   "maintainGms1Font":false,
-  "name":"TestFont",
+  "name":"GameFont",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",
