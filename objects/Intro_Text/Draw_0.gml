@@ -1,4 +1,4 @@
-Stage_Num="1";
+
 draw_set_color(c_white);
 draw_set_font(GameFont);
 draw_set_valign(fa_middle)

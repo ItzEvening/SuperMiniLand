@@ -1,1 +1,2 @@
-SlideTransition(TRANS_MODE.GOTO, LilacCity_2);
+SlideTransition(TRANS_MODE.LEVEL, Level_Card);
+global.level = LilacCity_2;

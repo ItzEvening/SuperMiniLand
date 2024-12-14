@@ -32,6 +32,7 @@ if (mode != TRANS_MODE.OFF)
 				mode = TRANS_MODE.INTRO
 				
 				stop_music()
+				stop_underwater();
 				room_goto(target);
 			    break;
 			}
