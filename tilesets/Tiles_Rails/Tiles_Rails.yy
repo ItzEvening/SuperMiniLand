@@ -8,7 +8,7 @@
     "TileSerialiseData":[],
   },
   "name":"Tiles_Rails",
-  "out_columns":2,
+  "out_columns":3,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -27,7 +27,9 @@
     "path":"texturegroups/Default",
   },
   "tileAnimation":{
-    "FrameData":[0,0,0,0,1,1,1,1,2,2,2,2,3,3,4,4,4,4,3,3,5,5,5,5,],
+    "FrameData":[
+      0,0,0,0,1,1,1,1,2,2,2,2,3,3,4,4,4,4,3,3,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,
+    ],
     "SerialiseFrameCount":4,
   },
   "tileAnimationFrames":[
@@ -40,5 +42,5 @@
   "tileWidth":32,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":6,
+  "tile_count":9,
 }

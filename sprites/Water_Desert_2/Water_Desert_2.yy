@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
-  "%Name":"Ballon_Park",
+  "%Name":"Water_Desert_2",
   "bboxMode":0,
-  "bbox_bottom":287,
+  "bbox_bottom":255,
   "bbox_left":0,
-  "bbox_right":287,
+  "bbox_right":255,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"fa4a0c9f-78c3-467a-b386-066b088b9b68","name":"fa4a0c9f-78c3-467a-b386-066b088b9b68","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f191b81b-765c-4dd1-b99a-269ac469ad75","name":"f191b81b-765c-4dd1-b99a-269ac469ad75","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":288,
+  "height":256,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"2dee2cb7-cf47-4483-bdf8-eec66a38418a","blendMode":0,"displayName":"default","isLocked":false,"name":"2dee2cb7-cf47-4483-bdf8-eec66a38418a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"6862d0d9-b912-48cb-a0d6-7ccbb9d812fe","blendMode":0,"displayName":"default","isLocked":false,"name":"6862d0d9-b912-48cb-a0d6-7ccbb9d812fe","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Ballon_Park",
+  "name":"Water_Desert_2",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"Ballon_Park",
+    "%Name":"Water_Desert_2",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Ballon_Park",
+    "name":"Water_Desert_2",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fa4a0c9f-78c3-467a-b386-066b088b9b68","path":"sprites/Ballon_Park/Ballon_Park.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2f2ade5d-9774-4344-ab27-af33d92c00e8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f191b81b-765c-4dd1-b99a-269ac469ad75","path":"sprites/Water_Desert_2/Water_Desert_2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0de59e68-1506-4a67-a894-1f4c018b956e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":288,
+  "width":256,
 }

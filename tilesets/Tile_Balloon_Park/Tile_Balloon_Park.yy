@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Ballon_Park",
-    "path":"sprites/Ballon_Park/Ballon_Park.yy",
+    "name":"Balloon_Park",
+    "path":"sprites/Balloon_Park/Balloon_Park.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
