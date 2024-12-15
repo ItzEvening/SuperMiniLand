@@ -4,7 +4,7 @@
   "bboxMode":0,
   "bbox_bottom":70,
   "bbox_left":0,
-  "bbox_right":63,
+  "bbox_right":95,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"de265c63-2f52-45dd-874e-abcbd0dc2290","name":"de265c63-2f52-45dd-874e-abcbd0dc2290","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"e5738a51-bee1-425e-aacb-0e031a589871","name":"e5738a51-bee1-425e-aacb-0e031a589871","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":96,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"0dc20590-b588-40b5-8f93-aa971d52965e","blendMode":0,"displayName":"default","isLocked":false,"name":"0dc20590-b588-40b5-8f93-aa971d52965e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"94f185dc-9c0e-4b36-94b6-d9786fe75a51","blendMode":0,"displayName":"default","isLocked":false,"name":"94f185dc-9c0e-4b36-94b6-d9786fe75a51","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Rail_Tiles",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"de265c63-2f52-45dd-874e-abcbd0dc2290","path":"sprites/Rail_Tiles/Rail_Tiles.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"69a3b80a-65bd-4bd5-a10f-08e4891bf0e0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e5738a51-bee1-425e-aacb-0e031a589871","path":"sprites/Rail_Tiles/Rail_Tiles.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f2471383-4f3e-40c8-b4a6-eb0314b8270e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":96,
 }
