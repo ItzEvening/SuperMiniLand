@@ -15,6 +15,7 @@ was_underwater = false;
 // tileset
 ground_tiles = layer_tilemap_get_id("Foreground_Tiles");
 water_tiles = layer_tilemap_get_id("Water");
+rail_tiles = layer_tilemap_get_id("Rails");
 
 // create the barriers
 left_barrier = instance_create_layer(0, y, layer, o_barrier_left);
@@ -80,6 +81,7 @@ function manage_collisions()
 	// Horizontal collisions
 	var _tile_collide_x = place_meeting(x + hsp, y, ground_tiles);
 	var _barrier_collide = place_meeting(x + hsp, y, o_barrier_left) or place_meeting(x + hsp, y, o_barrier_right);
+	var _tile_collide_r = place_meeting(x + hsp, y, rail_tiles);
 	
 	if (_tile_collide_x or _barrier_collide) 
 	{
@@ -91,17 +93,20 @@ function manage_collisions()
 		
 	    hsp = 0;
 	}
+	
 	x = x + hsp;
 	
 	// Vertical collisions
 	var _tile_collide_y = place_meeting(x, y + vsp, ground_tiles);
+	var _tile_collide_t = place_meeting(x, y + vsp, rail_tiles);
 	
-	if (_tile_collide_y)
+	if (_tile_collide_y or _tile_collide_t)
 	{
 	    while (!colliding_now("y"))
 	    {
 	        y = y + sign(vsp);
 	    }
+		if (_tile_collide_t) {hsp = 10;}
 		
 	    vsp = 0;
 	}
@@ -117,6 +122,10 @@ function colliding_now(_axis)
 		{
 			return true;
 		}
+		if (place_meeting(x + sign(hsp), y, rail_tiles))
+		{
+			return true;
+		}
 		
 		// barriers
 		else if (place_meeting(x + sign(hsp), y, o_barrier_left) or place_meeting(x + sign(hsp), y, o_barrier_right))
@@ -127,6 +136,10 @@ function colliding_now(_axis)
 	else
 	{
 		if (place_meeting(x, y + sign(vsp), ground_tiles))
+		{
+			return true;
+		}
+		if (place_meeting(x, y + sign(vsp), rail_tiles))
 		{
 			return true;
 		}
