@@ -1,9 +1,8 @@
-// Physics Stuffs
-var _midair = !place_meeting(x,y+1,ground_tiles) and !place_meeting(x,y+1,rail_tiles);
+// move will be overwritten by children objects
 move = 0;
 var _underwater = place_meeting(x,y,water_tiles);
 
-calculate_speeds(move, _midair, _underwater);
+calculate_speeds(move, _underwater);
 
 manage_collisions();
 

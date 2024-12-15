@@ -14,11 +14,11 @@ if (hascontrol)
 
 
 // Physics Stuffs
-var _midair = !place_meeting(x,y+1,ground_tiles);
+var _midair = !place_meeting(x,y+1,ground_tiles) and !place_meeting(x,y+1,rail_tiles);
 var _move = _hit_right - _hit_left;
 var _underwater = place_meeting(x,y,water_tiles);
 
-calculate_speeds(_move, _midair, _underwater);
+calculate_speeds(_move, _underwater);
 
 // Underwater effect
 if (_underwater and !was_underwater) or (!_underwater and was_underwater)

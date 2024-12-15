@@ -21,59 +21,85 @@ rail_tiles = layer_tilemap_get_id("Rails");
 left_barrier = instance_create_layer(0, y, layer, o_barrier_left);
 right_barrier = instance_create_layer(room_width, y, layer, o_barrier_right);
 
-function calculate_speeds(_move, _midair, _underwater) 
+function calculate_speeds(_move, _underwater) 
 {
+	// Initializes collision variables
+	var _touching_ground = place_meeting(x,y+1,ground_tiles);
+	var _touching_rail = false
+	if (!is_undefined(rail_tiles)) {
+		_touching_rail = place_meeting(x,y+1,rail_tiles);
+	}
+
+	
 	// Sets vertical speed
     vsp = vsp + grv;
-	
 	if (_underwater)
 	{
 		vsp = vsp - water_damp_constant * vsp;
 	}
+	
+	
 	// prevents player from being launched upwards when emerging from water
 	else if (was_underwater and vsp < jump_strength) 
 	{
 		vsp = jump_strength;
 	}
+	
 
+	// Sets damp constant for horizontal velocity
 	var damp = frict;
-	// If midair
-	if (_midair) 
+	if (!_touching_ground or !_touching_rail) 
 	{
 	    damp = air_resistance;
 	}
 	
-	// If walking on ground
-	if (_move != 0)
-	{
-	    var delta_hsp = walksp * damp * _move;
-	    hsp = hsp + delta_hsp;
+	
+	// If player input not on rail
+	if (_move != 0 and !_touching_rail) {
+		
+		var delta_hsp = walksp * damp * _move;
+		hsp = hsp + delta_hsp;
 
-	    // prevents exceeding max or min speeds
-	    if (hsp > walksp) {
-	        hsp = walksp;
-	    }
-	    else if (hsp < walksp * -1) {
-	        hsp = walksp * -1
-	    }
+		// prevents exceeding max or min speeds
+		if (hsp > walksp) {
+		    hsp = walksp;
+		}
+		else if (hsp < walksp * -1) {
+		    hsp = walksp * -1
+		}
+	}
+
+
+	// If touching rail...
+	else if (_touching_rail) {
+		var _direction = _move;
+		if (_direction == 0 and hsp != 0) {
+			_direction = sign(hsp);
+		}
+		else if (_direction = 0) {
+			_direction = 1;
+		}
+		
+		hsp = 10 * _direction;
 	}
 	
-	// If idle on ground
+	// If stationary but not on rail
 	else
 	{
-	    var delta_hsp = walksp * frict;
-	    var sign_hsp = sign(hsp);
-	    hsp = abs(hsp);
+		var delta_hsp = walksp * frict;
+		var sign_hsp = sign(hsp);
+		hsp = abs(hsp);
 
-	    hsp = hsp - delta_hsp;
+		hsp = hsp - delta_hsp;
 
-	    if (hsp < 0)
-	    {
-	        hsp = 0;
-	    }
+		if (hsp < 0)
+		{
+		    hsp = 0;
+		}
 
-	    hsp = hsp * sign_hsp
+		hsp = hsp * sign_hsp
 	}
+
 }
 
 function manage_collisions()
@@ -81,9 +107,9 @@ function manage_collisions()
 	// Horizontal collisions
 	var _tile_collide_x = place_meeting(x + hsp, y, ground_tiles);
 	var _barrier_collide = place_meeting(x + hsp, y, o_barrier_left) or place_meeting(x + hsp, y, o_barrier_right);
-	var _tile_collide_r = place_meeting(x + hsp, y, rail_tiles);
+	var _tile_collide_rx = place_meeting(x + hsp, y, rail_tiles);
 	
-	if (_tile_collide_x or _barrier_collide) 
+	if (_tile_collide_x or _barrier_collide or _tile_collide_rx) 
 	{
 		
 	    while (!colliding_now("x"))
@@ -98,16 +124,14 @@ function manage_collisions()
 	
 	// Vertical collisions
 	var _tile_collide_y = place_meeting(x, y + vsp, ground_tiles);
-	var _tile_collide_t = place_meeting(x, y + vsp, rail_tiles);
+	var _tile_collide_ry = place_meeting(x, y + vsp, rail_tiles);
 	
-	if (_tile_collide_y or _tile_collide_t)
+	if (_tile_collide_y or _tile_collide_ry)
 	{
 	    while (!colliding_now("y"))
 	    {
 	        y = y + sign(vsp);
 	    }
-		if (_tile_collide_t) {hsp = 10;}
-		
 	    vsp = 0;
 	}
 	y = y + vsp;
