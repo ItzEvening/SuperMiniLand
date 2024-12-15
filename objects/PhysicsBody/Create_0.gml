@@ -80,7 +80,7 @@ function calculate_speeds(_move, _underwater)
 			_direction = 1;
 		}
 		
-		hsp = 10 * _direction;
+		hsp = 7.5 * _direction;
 	}
 	
 	// If stationary but not on rail
