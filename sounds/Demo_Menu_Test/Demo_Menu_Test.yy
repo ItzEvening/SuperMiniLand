@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":45.059025,
+  "duration":40.421066,
   "name":"Demo_Menu_Test",
   "parent":{
     "name":"Menu Themes",
