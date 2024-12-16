@@ -1,17 +1,22 @@
 {
   "$GMObject":"",
-  "%Name":"PlayerSpawner",
+  "%Name":"FishSpeaker",
   "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"PlayerSpawner",
+  "name":"FishSpeaker",
   "overriddenProperties":[],
   "parent":{
-    "name":"Players",
-    "path":"folders/Objects/Players.yy",
+    "name":"Enemies",
+    "path":"folders/Objects/Enemies.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"PhysicsBody",
+    "path":"objects/PhysicsBody/PhysicsBody.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,9 +35,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"unknown",
-    "path":"sprites/unknown/unknown.yy",
+    "name":"FiwIdle",
+    "path":"sprites/FiwIdle/FiwIdle.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
