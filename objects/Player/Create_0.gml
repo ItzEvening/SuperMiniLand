@@ -2,11 +2,6 @@ event_inherited();
 
 hascontrol = true; 
 
-// keybinds
-key_left = vk_left;
-key_right = vk_right;
-key_jump = vk_space;
-
 // original position for respawn
 original_x = x;
 original_y = y;

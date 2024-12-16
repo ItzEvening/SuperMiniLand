@@ -7,11 +7,6 @@ jump_strength = -6.2;
 air_resistance = 0.3;
 frict = 0.07;
 
-// keybinds
-key_left = ord("A");
-key_right = ord("D");
-key_jump = ord("W");
-
 // sprites
 idle = Allie_Idle
 fall = Allie_Jump_Fall

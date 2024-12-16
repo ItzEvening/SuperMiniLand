@@ -7,7 +7,7 @@
   },
   "bitDepth":1,
   "bitRate":128,
-  "compression":0,
+  "compression":2,
   "conversionMode":0,
   "duration":82.906845,
   "name":"SpringIslandE",
@@ -20,6 +20,6 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"SpringIslandE.wav",
-  "type":0,
+  "type":1,
   "volume":1.0,
 }

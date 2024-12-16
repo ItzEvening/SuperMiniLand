@@ -5,9 +5,9 @@ var _hit_jump = 0;
 
 if (hascontrol)
 {
-   _hit_left = keyboard_check(key_left);
-   _hit_right = keyboard_check(key_right); 
-   _hit_jump = keyboard_check(key_jump);
+   _hit_left = keyboard_check(vk_left) or keyboard_check(ord("A"));
+   _hit_right = keyboard_check(vk_right) or keyboard_check(ord("D")); 
+   _hit_jump = keyboard_check(vk_space) or keyboard_check(ord("W")); 
    
    //Do you want me to do Gamepad stuffs?
 }
