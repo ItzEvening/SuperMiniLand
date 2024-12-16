@@ -4,8 +4,8 @@ if (_player != noone) {
 	
 	// kill 
 	if (_player.y < y - 10 and !dead and _player.vsp > -3) {
-		sprite_index = BarDead;
-		audio_play_sound(EnemyDefeat2, 10, 0);
+		sprite_index = FiwDead;
+		audio_play_sound(EnemyDefeat, 10, 0);
 		dead = true;
 		time_source_start(death_timer);
 		_player.vsp = -5;

@@ -196,6 +196,7 @@
     {"name":"EvieLivesIcon","order":12,"path":"sprites/EvieLivesIcon/EvieLivesIcon.yy",},
     {"name":"FireworkA","order":39,"path":"sprites/FireworkA/FireworkA.yy",},
     {"name":"FireworkB","order":38,"path":"sprites/FireworkB/FireworkB.yy",},
+    {"name":"FiwDead","order":7,"path":"sprites/FiwDead/FiwDead.yy",},
     {"name":"FiwIdle","order":6,"path":"sprites/FiwIdle/FiwIdle.yy",},
     {"name":"FlowerBlue","order":34,"path":"sprites/FlowerBlue/FlowerBlue.yy",},
     {"name":"FlowerPink","order":33,"path":"sprites/FlowerPink/FlowerPink.yy",},

@@ -241,6 +241,7 @@
     {"id":{"name":"EvieLivesIcon","path":"sprites/EvieLivesIcon/EvieLivesIcon.yy",},},
     {"id":{"name":"FireworkA","path":"sprites/FireworkA/FireworkA.yy",},},
     {"id":{"name":"FireworkB","path":"sprites/FireworkB/FireworkB.yy",},},
+    {"id":{"name":"FiwDead","path":"sprites/FiwDead/FiwDead.yy",},},
     {"id":{"name":"FiwIdle","path":"sprites/FiwIdle/FiwIdle.yy",},},
     {"id":{"name":"FlowerBlue","path":"sprites/FlowerBlue/FlowerBlue.yy",},},
     {"id":{"name":"FlowerPink","path":"sprites/FlowerPink/FlowerPink.yy",},},
