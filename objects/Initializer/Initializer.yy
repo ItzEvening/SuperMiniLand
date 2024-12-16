@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Splash_Screen_Timer",
+  "%Name":"Initializer",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Splash_Screen_Timer",
+  "name":"Initializer",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sInit",
+    "path":"sprites/sInit/sInit.yy",
+  },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

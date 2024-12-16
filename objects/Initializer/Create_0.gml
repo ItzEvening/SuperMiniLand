@@ -1,4 +1,7 @@
-
+// initialize global variables
+global.music = 0;
+global.level = SpringIsland_1;
+global.character = Mini;
 
 function HamSam(){
 	SlideTransition(TRANS_MODE.GOTO, Main_Menu);
