@@ -303,6 +303,7 @@
     {"name":"Sky_Morning","order":60,"path":"sprites/Sky_Morning/Sky_Morning.yy",},
     {"name":"Sky_Night","order":61,"path":"sprites/Sky_Night/Sky_Night.yy",},
     {"name":"Sky_Red","order":64,"path":"sprites/Sky_Red/Sky_Red.yy",},
+    {"name":"Sky_Sunset_2","order":65,"path":"sprites/Sky_Sunset_2/Sky_Sunset_2.yy",},
     {"name":"Sky_Sunset","order":58,"path":"sprites/Sky_Sunset/Sky_Sunset.yy",},
     {"name":"SpaceStars","order":40,"path":"sprites/SpaceStars/SpaceStars.yy",},
     {"name":"SPCastle","order":11,"path":"sprites/SPCastle/SPCastle.yy",},
