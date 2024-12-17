@@ -1,0 +1,1 @@
+global.bear = !global.bear;
