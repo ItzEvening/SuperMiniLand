@@ -185,6 +185,7 @@
     {"id":{"name":"WaterDesert_E","path":"sounds/WaterDesert_E/WaterDesert_E.yy",},},
     {"id":{"name":"WaterDesert_M","path":"sounds/WaterDesert_M/WaterDesert_M.yy",},},
     {"id":{"name":"WaterDesert2","path":"sounds/WaterDesert2/WaterDesert2.yy",},},
+    {"id":{"name":"A_Menu_Tile","path":"sprites/A_Menu_Tile/A_Menu_Tile.yy",},},
     {"id":{"name":"ABCloud","path":"sprites/ABCloud/ABCloud.yy",},},
     {"id":{"name":"Air_Base","path":"sprites/Air_Base/Air_Base.yy",},},
     {"id":{"name":"Allie_Idle","path":"sprites/Allie_Idle/Allie_Idle.yy",},},

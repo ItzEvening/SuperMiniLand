@@ -145,6 +145,7 @@
     {"name":"WaterDesert_E","order":16,"path":"sounds/WaterDesert_E/WaterDesert_E.yy",},
     {"name":"WaterDesert_M","order":15,"path":"sounds/WaterDesert_M/WaterDesert_M.yy",},
     {"name":"WaterDesert2","order":9,"path":"sounds/WaterDesert2/WaterDesert2.yy",},
+    {"name":"A_Menu_Tile","order":23,"path":"sprites/A_Menu_Tile/A_Menu_Tile.yy",},
     {"name":"Air_Base","order":1,"path":"sprites/Air_Base/Air_Base.yy",},
     {"name":"Allie_Idle","order":10,"path":"sprites/Allie_Idle/Allie_Idle.yy",},
     {"name":"Allie_Jump_Fall","order":11,"path":"sprites/Allie_Jump_Fall/Allie_Jump_Fall.yy",},
