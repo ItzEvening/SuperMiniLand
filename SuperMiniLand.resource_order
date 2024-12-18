@@ -191,6 +191,7 @@
     {"name":"DeathSprite","order":10,"path":"sprites/DeathSprite/DeathSprite.yy",},
     {"name":"Demo_Level_1","order":1,"path":"sprites/Demo_Level_1/Demo_Level_1.yy",},
     {"name":"Demo_Level_2","order":16,"path":"sprites/Demo_Level_2/Demo_Level_2.yy",},
+    {"name":"Demo_Level_3","order":24,"path":"sprites/Demo_Level_3/Demo_Level_3.yy",},
     {"name":"EndBeta","order":18,"path":"sprites/EndBeta/EndBeta.yy",},
     {"name":"EndSign","order":19,"path":"sprites/EndSign/EndSign.yy",},
     {"name":"Eve_Jump_Fall","order":1,"path":"sprites/Eve_Jump_Fall/Eve_Jump_Fall.yy",},

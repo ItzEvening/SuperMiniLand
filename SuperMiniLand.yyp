@@ -236,6 +236,7 @@
     {"id":{"name":"DemeEndText","path":"sprites/DemeEndText/DemeEndText.yy",},},
     {"id":{"name":"Demo_Level_1","path":"sprites/Demo_Level_1/Demo_Level_1.yy",},},
     {"id":{"name":"Demo_Level_2","path":"sprites/Demo_Level_2/Demo_Level_2.yy",},},
+    {"id":{"name":"Demo_Level_3","path":"sprites/Demo_Level_3/Demo_Level_3.yy",},},
     {"id":{"name":"EndBeta","path":"sprites/EndBeta/EndBeta.yy",},},
     {"id":{"name":"EndSign","path":"sprites/EndSign/EndSign.yy",},},
     {"id":{"name":"Eve_Idle","path":"sprites/Eve_Idle/Eve_Idle.yy",},},
