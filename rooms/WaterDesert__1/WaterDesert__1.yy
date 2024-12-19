@@ -96,7 +96,7 @@
           -2,1,-148,-2147483648,-2,1,-148,-2147483648,-2,1,-148,-2147483648,-2,1,-148,-2147483648,-2,1,-148,-2147483648,
           -2,1,-148,-2147483648,-2,1,-148,-2147483648,-2,1,-148,-2147483648,-2,1,-148,-2147483648,-2,1,-148,-2147483648,
           -2,1,-148,-2147483648,-2,1,-148,-2147483648,-2,1,-148,-2147483648,-2,1,-148,-2147483648,-2,1,-148,-2147483648,
-          -2,1,-148,-2147483648,-2,1,-148,-2147483648,-2,1,-149,-2147483648,1,1,-13861,-2147483648,
+          -2,1,-148,-2147483648,-2,1,-148,-2147483648,-2,1,-149,-2147483648,1,0,-13861,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"Tile_Waterfall","path":"tilesets/Tile_Waterfall/Tile_Waterfall.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_356F715E_2_1_2_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_356F715E_2_1","path":"rooms/Level/Level.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_356F715E_2_1_2_1","objectId":{"name":"Evie","path":"objects/Evie/Evie.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":5920.0,},
