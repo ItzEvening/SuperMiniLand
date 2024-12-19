@@ -75,7 +75,17 @@
    {
     "Stage": "Demo_Menu",
     "Song": "Demo_Menu_Test"
- }
+   },
+   {
+      "Stage": "WaterDesert_1",
+      "Song": "WaterDesert_M"
+   },
+   {
+      "Stage": "WaterDesert__1",
+      "Song": "WaterDesert_E"
+   },
+
+
 
 
 
