@@ -396,6 +396,7 @@
     {"id":{"name":"WaterDesertAct2","path":"sprites/WaterDesertAct2/WaterDesertAct2.yy",},},
     {"id":{"name":"WDBGHill","path":"sprites/WDBGHill/WDBGHill.yy",},},
     {"id":{"name":"WDBGPyramid","path":"sprites/WDBGPyramid/WDBGPyramid.yy",},},
+    {"id":{"name":"WDBGRocks_1","path":"sprites/WDBGRocks_1/WDBGRocks_1.yy",},},
     {"id":{"name":"WDBGRocks","path":"sprites/WDBGRocks/WDBGRocks.yy",},},
     {"id":{"name":"Tile_AirBase","path":"tilesets/Tile_AirBase/Tile_AirBase.yy",},},
     {"id":{"name":"Tile_Balloon_Park","path":"tilesets/Tile_Balloon_Park/Tile_Balloon_Park.yy",},},
