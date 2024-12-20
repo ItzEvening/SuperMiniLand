@@ -74,6 +74,7 @@
     {"name":"Start","order":6,"path":"objects/Start/Start.yy",},
     {"name":"TitleObject","order":4,"path":"objects/TitleObject/TitleObject.yy",},
     {"name":"Transition","order":7,"path":"objects/Transition/Transition.yy",},
+    {"name":"BalloonPark_2","order":7,"path":"rooms/BalloonPark_2/BalloonPark_2.yy",},
     {"name":"Camera_Test_2","order":4,"path":"rooms/Camera_Test_2/Camera_Test_2.yy",},
     {"name":"Camera_Test_3","order":5,"path":"rooms/Camera_Test_3/Camera_Test_3.yy",},
     {"name":"Camera_Test","order":3,"path":"rooms/Camera_Test/Camera_Test.yy",},

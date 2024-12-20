@@ -104,6 +104,7 @@
     {"id":{"name":"Transition","path":"objects/Transition/Transition.yy",},},
     {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},},
     {"id":{"name":"BalloonPark_1","path":"rooms/BalloonPark_1/BalloonPark_1.yy",},},
+    {"id":{"name":"BalloonPark_2","path":"rooms/BalloonPark_2/BalloonPark_2.yy",},},
     {"id":{"name":"Camera_Test_2","path":"rooms/Camera_Test_2/Camera_Test_2.yy",},},
     {"id":{"name":"Camera_Test_3","path":"rooms/Camera_Test_3/Camera_Test_3.yy",},},
     {"id":{"name":"Camera_Test","path":"rooms/Camera_Test/Camera_Test.yy",},},
@@ -474,6 +475,7 @@
     {"roomId":{"name":"WaterDesert_1","path":"rooms/WaterDesert_1/WaterDesert_1.yy",},},
     {"roomId":{"name":"WaterDesert__1","path":"rooms/WaterDesert__1/WaterDesert__1.yy",},},
     {"roomId":{"name":"SalmonPalace_3","path":"rooms/SalmonPalace_3/SalmonPalace_3.yy",},},
+    {"roomId":{"name":"BalloonPark_2","path":"rooms/BalloonPark_2/BalloonPark_2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
