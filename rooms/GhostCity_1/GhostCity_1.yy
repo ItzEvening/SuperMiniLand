@@ -347,7 +347,7 @@
   "resourceVersion":"2.0",
   "roomSettings":{
     "Height":832,
-    "inheritRoomSettings":true,
+    "inheritRoomSettings":false,
     "persistent":false,
     "Width":16383,
   },
