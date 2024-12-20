@@ -114,3 +114,14 @@ function handle_death()
 	vsp = 0;
 }
 
+#region gimmick
+
+done_gimmick = true;
+
+enable_gimmick = function() {
+	done_gimmick = false;
+}
+
+gimmick_timer = time_source_create(time_source_global, 0.1, time_source_units_seconds, enable_gimmick);
+
+#endregion

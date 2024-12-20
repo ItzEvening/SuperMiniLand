@@ -32,6 +32,13 @@ if (!_midair) and (_hit_jump)
 {
 	if (!_underwater) vsp = jump_strength;
 	else vsp = jump_strength_water;
+	
+	time_source_start(gimmick_timer);
+}
+
+// reenable gimmick
+if (!_midair) {
+	done_gimmick = true;
 }
  
 manage_collisions();

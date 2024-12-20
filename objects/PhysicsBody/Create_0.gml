@@ -56,16 +56,20 @@ function calculate_speeds(_move, _underwater)
 	
 	// If player input not on rail
 	if (_move != 0 and !_touching_rail) {
-		
-		var delta_hsp = walksp * damp * _move;
-		hsp = hsp + delta_hsp;
+
 
 		// prevents exceeding max or min speeds
 		if (hsp > walksp) {
-		    hsp = walksp;
+		    hsp -= walksp * frict;
 		}
 		else if (hsp < walksp * -1) {
-		    hsp = walksp * -1
+		    hsp += walksp * frict;
+		}
+		
+		
+		else {
+			var delta_hsp = walksp * damp;
+			hsp = min(walksp, abs(hsp) + delta_hsp) * _move;
 		}
 	}
 
