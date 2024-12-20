@@ -121,6 +121,7 @@
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"SalmonPalace_1","path":"rooms/SalmonPalace_1/SalmonPalace_1.yy",},},
     {"id":{"name":"SalmonPalace_2","path":"rooms/SalmonPalace_2/SalmonPalace_2.yy",},},
+    {"id":{"name":"SalmonPalace_3","path":"rooms/SalmonPalace_3/SalmonPalace_3.yy",},},
     {"id":{"name":"SecretSanctuary","path":"rooms/SecretSanctuary/SecretSanctuary.yy",},},
     {"id":{"name":"Splash_Screen_1","path":"rooms/Splash_Screen_1/Splash_Screen_1.yy",},},
     {"id":{"name":"SpringIsland_1","path":"rooms/SpringIsland_1/SpringIsland_1.yy",},},
@@ -472,6 +473,7 @@
     {"roomId":{"name":"Test_Rails","path":"rooms/Test_Rails/Test_Rails.yy",},},
     {"roomId":{"name":"WaterDesert_1","path":"rooms/WaterDesert_1/WaterDesert_1.yy",},},
     {"roomId":{"name":"WaterDesert__1","path":"rooms/WaterDesert__1/WaterDesert__1.yy",},},
+    {"roomId":{"name":"SalmonPalace_3","path":"rooms/SalmonPalace_3/SalmonPalace_3.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
