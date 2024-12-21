@@ -284,6 +284,7 @@
     {"name":"MainMenu_Logo3","order":5,"path":"sprites/MainMenu_Logo3/MainMenu_Logo3.yy",},
     {"name":"MainMenu_Logo4","order":6,"path":"sprites/MainMenu_Logo4/MainMenu_Logo4.yy",},
     {"name":"Menu_Tiles","order":7,"path":"sprites/Menu_Tiles/Menu_Tiles.yy",},
+    {"name":"Mini_Dash","order":16,"path":"sprites/Mini_Dash/Mini_Dash.yy",},
     {"name":"Mini_Idle","order":3,"path":"sprites/Mini_Idle/Mini_Idle.yy",},
     {"name":"Mini_Jump_Fall","order":4,"path":"sprites/Mini_Jump_Fall/Mini_Jump_Fall.yy",},
     {"name":"Mini_Rail","order":14,"path":"sprites/Mini_Rail/Mini_Rail.yy",},

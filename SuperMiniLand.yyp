@@ -332,6 +332,7 @@
     {"id":{"name":"MainMenu_Logo3","path":"sprites/MainMenu_Logo3/MainMenu_Logo3.yy",},},
     {"id":{"name":"MainMenu_Logo4","path":"sprites/MainMenu_Logo4/MainMenu_Logo4.yy",},},
     {"id":{"name":"Menu_Tiles","path":"sprites/Menu_Tiles/Menu_Tiles.yy",},},
+    {"id":{"name":"Mini_Dash","path":"sprites/Mini_Dash/Mini_Dash.yy",},},
     {"id":{"name":"Mini_Idle","path":"sprites/Mini_Idle/Mini_Idle.yy",},},
     {"id":{"name":"Mini_Jump_Fall","path":"sprites/Mini_Jump_Fall/Mini_Jump_Fall.yy",},},
     {"id":{"name":"Mini_Rail","path":"sprites/Mini_Rail/Mini_Rail.yy",},},
