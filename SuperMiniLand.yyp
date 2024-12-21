@@ -102,6 +102,7 @@
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"PlayerSpawner","path":"objects/PlayerSpawner/PlayerSpawner.yy",},},
     {"id":{"name":"RainbowGUI","path":"objects/RainbowGUI/RainbowGUI.yy",},},
+    {"id":{"name":"Saver","path":"objects/Saver/Saver.yy",},},
     {"id":{"name":"Start","path":"objects/Start/Start.yy",},},
     {"id":{"name":"TitleObject","path":"objects/TitleObject/TitleObject.yy",},},
     {"id":{"name":"Transition","path":"objects/Transition/Transition.yy",},},

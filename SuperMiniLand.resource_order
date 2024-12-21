@@ -74,6 +74,7 @@
     {"name":"Player","order":4,"path":"objects/Player/Player.yy",},
     {"name":"PlayerSpawner","order":6,"path":"objects/PlayerSpawner/PlayerSpawner.yy",},
     {"name":"RainbowGUI","order":15,"path":"objects/RainbowGUI/RainbowGUI.yy",},
+    {"name":"Saver","order":15,"path":"objects/Saver/Saver.yy",},
     {"name":"Start","order":6,"path":"objects/Start/Start.yy",},
     {"name":"TitleObject","order":4,"path":"objects/TitleObject/TitleObject.yy",},
     {"name":"Transition","order":7,"path":"objects/Transition/Transition.yy",},

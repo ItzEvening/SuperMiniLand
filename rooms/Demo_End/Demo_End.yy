@@ -8,6 +8,7 @@
   "instanceCreationOrder":[
     {"name":"inst_9EF91BC_2","path":"rooms/Demo_End/Demo_End.yy",},
     {"name":"inst_1868BC78","path":"rooms/Demo_End/Demo_End.yy",},
+    {"name":"inst_5EA1BED8","path":"rooms/Demo_End/Demo_End.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -21,6 +22,7 @@
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"instances":[
         {"$GMRInstance":"","%Name":"inst_9EF91BC_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_9EF91BC_2","path":"rooms/TestLevel/TestLevel.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_9EF91BC_2","objectId":{"name":"MusicPlayer","path":"objects/MusicPlayer/MusicPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":32.0,},
         {"$GMRInstance":"","%Name":"inst_1868BC78","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1868BC78","objectId":{"name":"Evie","path":"objects/Evie/Evie.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":160.0,},
+        {"$GMRInstance":"","%Name":"inst_5EA1BED8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5EA1BED8","objectId":{"name":"Saver","path":"objects/Saver/Saver.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1120.0,"y":1024.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
     {"$GMRTileLayer":"","%Name":"Foreground_Tiles","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":false,"layers":[],"name":"Foreground_Tiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":40,"SerialiseWidth":50,"TileCompressedData":[
           -19,0,-31,-2147483648,-19,0,-31,-2147483648,-19,0,-31,-2147483648,-19,0,-31,-2147483648,-19,0,-31,-2147483648,
