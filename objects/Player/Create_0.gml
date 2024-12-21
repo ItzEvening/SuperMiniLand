@@ -7,7 +7,7 @@ original_x = x;
 original_y = y;
 
 // lives stuff
-chances = 5;
+chances = 2;
 show_chances = true;
 
 // sprites
@@ -119,10 +119,11 @@ function handle_death()
 
 #region gimmick
 
-done_gimmick = true;
+done_gimmick = false;
+can_gimmick = false;
 
 enable_gimmick = function() {
-	done_gimmick = false;
+	can_gimmick = true;
 }
 
 gimmick_timer = time_source_create(time_source_global, 0.1, time_source_units_seconds, enable_gimmick);

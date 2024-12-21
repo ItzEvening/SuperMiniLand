@@ -30,16 +30,18 @@ if (_underwater and !was_underwater) or (!_underwater and was_underwater)
 // Jump Stuffs
 if (!_midair) and (_hit_jump)
 {
-	audio_play_sound(sfx_Jump,10,0,);
+	audio_play_sound(sfx_Jump,10,0);
 	if (!_underwater) vsp = jump_strength;
 	else vsp = jump_strength_water;
-	
-	time_source_start(gimmick_timer);
 }
 
-// reenable gimmick
+// handle gimmick
 if (!_midair) {
-	done_gimmick = true;
+	done_gimmick = false;
+	can_gimmick = false;
+}
+else if (!done_gimmick and !can_gimmick) {
+	time_source_start(gimmick_timer);
 }
  
 manage_collisions();
