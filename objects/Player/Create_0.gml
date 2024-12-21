@@ -56,6 +56,9 @@ livesicon = instance_create_layer(0, 0, "Instances", LivesIcon);
 //create HP GUI
 hpgui = instance_create_layer(0, 0, "Instances", GUI_HP);
 
+// create the rainbow gem gui
+rainbow = instance_create_layer(0, 0, "Instances", RainbowGUI);
+
 change_visibility = function()
 {
 	show_chances = !show_chances;

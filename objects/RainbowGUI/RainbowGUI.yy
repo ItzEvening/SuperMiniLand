@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"CoinR",
+  "%Name":"RainbowGUI",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"CoinR",
+  "name":"RainbowGUI",
   "overriddenProperties":[],
   "parent":{
-    "name":"Level Objects",
-    "path":"folders/Objects/Level Objects.yy",
+    "name":"GUI",
+    "path":"folders/Objects/GUI.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Gem_Rainbow",
-    "path":"sprites/Gem_Rainbow/Gem_Rainbow.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
