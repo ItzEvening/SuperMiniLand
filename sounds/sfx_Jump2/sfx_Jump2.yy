@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.687506,
+  "duration":0.557506,
   "name":"sfx_Jump2",
   "parent":{
     "name":"Sound Effects",
