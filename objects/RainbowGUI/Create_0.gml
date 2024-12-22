@@ -1,6 +1,11 @@
 gem_list = [];
 
+// fetch the coin layer
 var _coin_layer = layer_get_id("Coin");
+if (_coin_layer == -1) {
+	_coin_layer = layer_get_id("Gems");
+}
+
 var _layer_elements = layer_get_all_elements(_coin_layer);
 var _index = 0;
 
