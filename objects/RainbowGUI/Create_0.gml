@@ -14,6 +14,9 @@ lvl = "spring";
 if (room == SalmonPalace_1) {
 	lvl = "salmon";
 }
+else if (room == SecretSanctuary) {
+	lvl = "secret";
+}
 
 // retrive all the rainbow gem instances
 for (var i = 0; i < array_length(_layer_elements); i++) {
