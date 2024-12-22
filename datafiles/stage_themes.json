@@ -84,7 +84,10 @@
       "Stage": "WaterDesert__1",
       "Song": "WaterDesert_E"
    },
-
+   {
+    "Stage": "Game_Over",
+    "Song": "GameOver"
+  }
 
 
 
