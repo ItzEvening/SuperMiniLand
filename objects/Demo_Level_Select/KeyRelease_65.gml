@@ -1,3 +1,4 @@
+/// @description Bears. Disabled.
 // global.bear = !global.bear;
 
 //if (global.bear) {

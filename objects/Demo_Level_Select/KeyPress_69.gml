@@ -1,8 +1,10 @@
-SlideTransition(TRANS_MODE.LEVEL, Level_Card);
-global.character = Evie;
+/// @description WD1E. Disabled.
 
-if (global.bear) {
-	global.character = Allie;
-}
+//SlideTransition(TRANS_MODE.LEVEL, Level_Card);
+//global.character = Evie;
 
-global.level = WaterDesert__1;
+//if (global.bear) {
+//	global.character = Allie;
+//}
+
+//global.level = WaterDesert__1;

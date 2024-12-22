@@ -1,2 +1,4 @@
-SlideTransition(TRANS_MODE.LEVEL, Level_Card);
-global.level = Test_Rails;
+/// @description Rails. Disabled.
+
+//SlideTransition(TRANS_MODE.LEVEL, Level_Card);
+//global.level = Test_Rails;

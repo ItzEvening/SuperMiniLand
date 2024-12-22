@@ -164,6 +164,7 @@
     {"id":{"name":"BalloonPark","path":"sounds/BalloonPark/BalloonPark.yy",},},
     {"id":{"name":"BalloonPark2","path":"sounds/BalloonPark2/BalloonPark2.yy",},},
     {"id":{"name":"Cave","path":"sounds/Cave/Cave.yy",},},
+    {"id":{"name":"CaveE","path":"sounds/CaveE/CaveE.yy",},},
     {"id":{"name":"Clear","path":"sounds/Clear/Clear.yy",},},
     {"id":{"name":"CoinGot","path":"sounds/CoinGot/CoinGot.yy",},},
     {"id":{"name":"CoinGotR","path":"sounds/CoinGotR/CoinGotR.yy",},},

@@ -126,6 +126,7 @@
     {"name":"BalloonPark","order":1,"path":"sounds/BalloonPark/BalloonPark.yy",},
     {"name":"BalloonPark2","order":14,"path":"sounds/BalloonPark2/BalloonPark2.yy",},
     {"name":"Cave","order":2,"path":"sounds/Cave/Cave.yy",},
+    {"name":"CaveE","order":2,"path":"sounds/CaveE/CaveE.yy",},
     {"name":"Clear","order":32,"path":"sounds/Clear/Clear.yy",},
     {"name":"CoinGotR","order":1,"path":"sounds/CoinGotR/CoinGotR.yy",},
     {"name":"Damage","order":2,"path":"sounds/Damage/Damage.yy",},
