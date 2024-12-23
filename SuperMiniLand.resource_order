@@ -143,6 +143,7 @@
     {"name":"LilacCity","order":4,"path":"sounds/LilacCity/LilacCity.yy",},
     {"name":"LilacCity2","order":5,"path":"sounds/LilacCity2/LilacCity2.yy",},
     {"name":"Logo_Jingle_1","order":31,"path":"sounds/Logo_Jingle_1/Logo_Jingle_1.yy",},
+    {"name":"Logo_Jingle_2","order":33,"path":"sounds/Logo_Jingle_2/Logo_Jingle_2.yy",},
     {"name":"MainMusic","order":4,"path":"sounds/MainMusic/MainMusic.yy",},
     {"name":"MSides","order":3,"path":"sounds/MSides/MSides.yy",},
     {"name":"PolyPalace","order":6,"path":"sounds/PolyPalace/PolyPalace.yy",},

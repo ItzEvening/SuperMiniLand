@@ -1,1 +1,1 @@
-audio_play_sound(Logo_Jingle_1, 10, 0);
+audio_play_sound(Logo_Jingle_2, 10, 0);
