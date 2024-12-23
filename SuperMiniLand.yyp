@@ -115,6 +115,7 @@
     {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},},
     {"id":{"name":"BalloonPark_1","path":"rooms/BalloonPark_1/BalloonPark_1.yy",},},
     {"id":{"name":"BalloonPark_RIP","path":"rooms/BalloonPark_RIP/BalloonPark_RIP.yy",},},
+    {"id":{"name":"BossAttack","path":"rooms/BossAttack/BossAttack.yy",},},
     {"id":{"name":"Camera_Test_2","path":"rooms/Camera_Test_2/Camera_Test_2.yy",},},
     {"id":{"name":"Camera_Test_3","path":"rooms/Camera_Test_3/Camera_Test_3.yy",},},
     {"id":{"name":"Camera_Test","path":"rooms/Camera_Test/Camera_Test.yy",},},
@@ -528,6 +529,7 @@
     {"roomId":{"name":"BalloonPark_RIP","path":"rooms/BalloonPark_RIP/BalloonPark_RIP.yy",},},
     {"roomId":{"name":"ResetRoom","path":"rooms/ResetRoom/ResetRoom.yy",},},
     {"roomId":{"name":"Splash_Screen_2","path":"rooms/Splash_Screen_2/Splash_Screen_2.yy",},},
+    {"roomId":{"name":"BossAttack","path":"rooms/BossAttack/BossAttack.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
