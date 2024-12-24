@@ -5,6 +5,12 @@ view_h_half = camera_get_view_height(cam) * 0.5;
 xTo = xstart;
 yTo = ystart;
 
+left_border = 0;
+
+function change_left_border(_x) {
+	left_border = _x;
+}
+
 #region Parallax Stuff
 parallax_values = ds_map_create();
 background_list = [];

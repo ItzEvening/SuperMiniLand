@@ -110,7 +110,7 @@ function manage_collisions()
 {
 	// Horizontal collisions
 	var _tile_collide_x = place_meeting(x + hsp, y, ground_tiles);
-	var _barrier_collide = place_meeting(x + hsp, y, o_barrier_left) or place_meeting(x + hsp, y, o_barrier_right);
+	var _barrier_collide = (x + hsp <= o_barrier_left.x) or (x + hsp >= o_barrier_right.x);
 	var _tile_collide_rx = place_meeting(x + hsp, y, rail_tiles);
 	
 	if (_tile_collide_x or _barrier_collide or _tile_collide_rx) 
@@ -156,7 +156,7 @@ function colliding_now(_axis)
 		}
 		
 		// barriers
-		else if (place_meeting(x + sign(hsp), y, o_barrier_left) or place_meeting(x + sign(hsp), y, o_barrier_right))
+		else if ((x + sign(hsp) <= o_barrier_left.x) or (x + sign(hsp) >= o_barrier_right.x))
 		{
 			return true;
 		}

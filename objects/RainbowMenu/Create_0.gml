@@ -9,7 +9,7 @@ kill_notif = function() {
 	MusicPlayer.play_music(Demo_Menu_Test);
 	Demo_Level_Select.control = true;
 	
-	global.savedata[? "notified"] = true;
+	global.savedata[? "boss unlocked"] = true;
 	ds_map_secure_save(global.savedata, "save");
 }
 
@@ -30,7 +30,7 @@ image_index = _count;
 if (_count == 10) {
 	Demo_Level_Select.unlock();
 	
-	if (!global.savedata[? "notified"]) {
+	if (!global.savedata[? "boss unlocked"]) {
 		
 		Demo_Level_Select.control = false;
 		audio_stop_all();

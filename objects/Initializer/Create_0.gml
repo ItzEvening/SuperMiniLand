@@ -12,7 +12,8 @@ if (!file_exists("save")) {
 	global.savedata[? "salmon"] = [false, false, false, false, false];
 	global.savedata[? "secret"] = [false, false, false, false, false, false, false, false];
 	
-	global.savedata[? "notified"] = false;
+	global.savedata[? "boss unlocked"] = false;
+	global.savedata[? "secret accessed"] = false;
 	
 	ds_map_secure_save(global.savedata, "save");
 	ds_map_destroy(global.savedata);

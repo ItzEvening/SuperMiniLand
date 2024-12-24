@@ -32,5 +32,5 @@
     "path":"sprites/barrier_left/barrier_left.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
