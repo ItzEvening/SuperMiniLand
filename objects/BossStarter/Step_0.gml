@@ -13,6 +13,9 @@ if (Player.x > x) {
 	SpringIslandBoss.left_barrier.x = x - _offset;
 	Player.left_barrier.x = x - _offset;
 	Camera.change_left_border(x - _offset);
+	
+	Player.original_x = x;
+	Player.original_y = y;
 	 
 	instance_destroy();
 }
