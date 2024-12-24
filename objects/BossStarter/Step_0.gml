@@ -1,4 +1,4 @@
-if (Player.x > x) {
+if (!activated and Player.x > x) {
 	
 	audio_stop_all();
 	
@@ -18,6 +18,6 @@ if (Player.x > x) {
 	
 	Player.original_x = x;
 	Player.original_y = y;
-	 
-	instance_destroy();
+	
+	activated = true;
 }

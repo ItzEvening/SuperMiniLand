@@ -1,3 +1,6 @@
 draw_self();
 // draw_sprite(PolyGuy, 0, x + 14, y);
-draw_sprite_ext(PolyGuy, state, x + 21, y, 1.5, 1.5, 0, c_white, 1);
+var _offset_x = -2 * scale;
+var _offset_y = -15 * scale;
+
+draw_sprite_ext(PolyGuy, state, x + _offset_x, y + _offset_y, jump_direction * scale, scale, 0, c_white, 1);
