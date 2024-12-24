@@ -1,5 +1,7 @@
 if (Player.x > x) {
 	
+	audio_stop_all();
+	
 	if (global.music == 0) {
 		MusicPlayer.play_music(BossTheme);
 	}
