@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"FisIdle",
-    "path":"sprites/FisIdle/FisIdle.yy",
+    "name":"CFisIdle",
+    "path":"sprites/CFisIdle/CFisIdle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
