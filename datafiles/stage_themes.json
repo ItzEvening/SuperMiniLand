@@ -87,8 +87,11 @@
    {
     "Stage": "Game_Over",
     "Song": "GameOver"
+  },
+  {
+    "Stage": "BossAttack",
+    "Song": "SpringIsland"
   }
-
 
 
 
