@@ -36,8 +36,11 @@ blink_iframe = function() {
 
 invincible = false;
 iframe_timer = time_source_create(time_source_game, 2, time_source_units_seconds, expire_iframe);
-blink_timer = time_source_create(time_source_game, 0.2, time_source_units_seconds, blink_iframe, [], 8); 
-hp = 3;
+blink_timer = time_source_create(time_source_game, 0.2, time_source_units_seconds, blink_iframe, [], 8);
+
+hp_default = 3;
+hp = hp_default;
+
 function change_life(_delta){
 	hp += _delta;
 	hpgui.lifetoframe(hp);
@@ -109,7 +112,7 @@ function handle_death()
 		
 	}
 	
-	hp = 3;
+	hp = hp_default;
 	hpgui.lifetoframe(hp);
 	//change_life(3);
 	x = original_x;

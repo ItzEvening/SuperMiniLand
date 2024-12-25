@@ -11,4 +11,8 @@ frict = 0.07;
 idle = Allie_Idle
 fall = Allie_Jump_Fall
 run = Allie_Run
-hpgui.sprite = HP_Player_E
+hpgui.sprite = HP_Player_Al
+
+// small
+hp_default = 2;
+hp = hp_default;
