@@ -40,5 +40,6 @@ splash_timer2 = time_source_create(time_source_global, 350, time_source_units_fr
 
 time_source_start(splash_timer2);
 
+randomize();
 
 
