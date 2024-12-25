@@ -22,21 +22,7 @@ end_fight = function() {
 		if (hascontrol)
 		{
 			hascontrol = false;
-			
-			randomize();
-			var _random = random(10);
-			
-			if (_random < 1) {
-				
-				audio_stop_all();
-				room_goto(Test);
-				
-			}
-			else {
-				SlideTransition(TRANS_MODE.GOTO, Demo_End);
-
-			}
-			
+			SlideTransition(TRANS_MODE.GOTO, Demo_End);
 
 		}
 	}

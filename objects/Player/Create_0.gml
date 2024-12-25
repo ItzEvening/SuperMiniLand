@@ -52,6 +52,7 @@ coinsFont = instance_create_layer(0, 0, "Instances", FontDrawer, _coins_struct);
 
 // create the lives icon
 livesicon = instance_create_layer(0, 0, "Instances", LivesIcon);
+livesicon.init(self);
 
 //create HP GUI
 hpgui = instance_create_layer(0, 0, "Instances", GUI_HP);
