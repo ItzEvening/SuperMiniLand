@@ -1,4 +1,4 @@
 dead = false;
-p_speed = 1;
+p_speed = 2;
 x_prev = x;
 path_start(Path1, p_speed, path_action_reverse, false);
