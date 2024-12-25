@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"Demo_Menu_Test",
+  "%Name":"sfx_Jump3",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,17 +9,17 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":36.0,
-  "name":"Demo_Menu_Test",
+  "duration":0.687506,
+  "name":"sfx_Jump3",
   "parent":{
-    "name":"Menu Themes",
-    "path":"folders/Sounds/Menu Themes.yy",
+    "name":"Sound Effects",
+    "path":"folders/Sounds/Sound Effects.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Demo_Menu_Test.ogg",
+  "soundFile":"sfx_Jump3.wav",
   "type":0,
-  "volume":0.78,
+  "volume":1.0,
 }

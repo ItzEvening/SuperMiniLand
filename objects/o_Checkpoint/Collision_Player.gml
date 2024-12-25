@@ -11,7 +11,7 @@ if (_player != noone and !current) {
 	
 	current = true;
 	
-	if (_player.hp < 3){
+	if (_player.hp < _player.hp_default){
 		audio_play_sound(Recovery, 10, false);
 		//_player.hp ++;
 		_player.change_life(1);
