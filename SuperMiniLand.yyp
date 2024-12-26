@@ -81,6 +81,7 @@
     {"id":{"name":"CrystalFishKnower","path":"objects/CrystalFishKnower/CrystalFishKnower.yy",},},
     {"id":{"name":"CrystalFishSpeaker","path":"objects/CrystalFishSpeaker/CrystalFishSpeaker.yy",},},
     {"id":{"name":"Demo_Level_Select","path":"objects/Demo_Level_Select/Demo_Level_Select.yy",},},
+    {"id":{"name":"EndManager","path":"objects/EndManager/EndManager.yy",},},
     {"id":{"name":"EndPlaceholder","path":"objects/EndPlaceholder/EndPlaceholder.yy",},},
     {"id":{"name":"Evie","path":"objects/Evie/Evie.yy",},},
     {"id":{"name":"FishKnower","path":"objects/FishKnower/FishKnower.yy",},},

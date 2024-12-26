@@ -58,6 +58,7 @@
     {"name":"CrystalFishKnower","order":5,"path":"objects/CrystalFishKnower/CrystalFishKnower.yy",},
     {"name":"CrystalFishSpeaker","order":4,"path":"objects/CrystalFishSpeaker/CrystalFishSpeaker.yy",},
     {"name":"Demo_Level_Select","order":11,"path":"objects/Demo_Level_Select/Demo_Level_Select.yy",},
+    {"name":"EndManager","order":20,"path":"objects/EndManager/EndManager.yy",},
     {"name":"EndPlaceholder","order":3,"path":"objects/EndPlaceholder/EndPlaceholder.yy",},
     {"name":"Evie","order":1,"path":"objects/Evie/Evie.yy",},
     {"name":"FishKnower","order":3,"path":"objects/FishKnower/FishKnower.yy",},
