@@ -1,1 +1,1 @@
-target = Demo_End;
+target = Demo_Menu;
