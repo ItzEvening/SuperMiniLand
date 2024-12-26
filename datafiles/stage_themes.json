@@ -91,7 +91,16 @@
   {
     "Stage": "BossAttack",
     "Song": "SpringIsland"
+  },
+  {
+    "Stage": "Tutorial_M",
+    "Song": "TutorialStage"
+  },
+  {
+    "Stage": "Tutorial_E",
+    "Song": "TutorialStage"
   }
+
 
 
 
