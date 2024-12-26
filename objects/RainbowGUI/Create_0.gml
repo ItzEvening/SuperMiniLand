@@ -1,5 +1,8 @@
 gem_list = [];
 
+// create the rainbow progress
+global.rainbow_progress = [];
+
 // fetch the coin layer
 var _coin_layer = layer_get_id("Coin");
 if (_coin_layer == -1) {
@@ -31,9 +34,15 @@ for (var i = 0; i < array_length(_layer_elements); i++) {
 			// make gems faded if collected
 			if (global.savedata[? lvl][| _index]) {
 				_instance.image_alpha = 0.25;
+				array_push(global.rainbow_progress, true);
+			}
+			// push false into the rainbow progress
+			else {
+				array_push(global.rainbow_progress, false);
 			}
 			
 			_index++;
 		}
 	}
 }
+

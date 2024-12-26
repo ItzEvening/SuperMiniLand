@@ -3,6 +3,7 @@ global.music = 0;
 global.level = SpringIsland_1;
 global.character = Mini;
 global.bear = false;
+global.rainbow_progress = [];
 
 // handle save data
 if (!file_exists("save")) {
@@ -13,6 +14,8 @@ if (!file_exists("save")) {
 	global.savedata[? "secret"] = [false, false, false, false, false, false, false, false];
 	
 	global.savedata[? "boss unlocked"] = false;
+	
+	// misleading key; this actually has to do with the bears
 	global.savedata[? "secret accessed"] = false;
 	
 	ds_map_secure_save(global.savedata, "save");

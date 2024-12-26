@@ -9,6 +9,7 @@ kill_notif = function() {
 	
 	global.savedata[? save] = true;
 	ds_map_secure_save(global.savedata, "save");
+	Demo_Level_Select.update();
 }
 
 notify = function(_sprite, _save) {
