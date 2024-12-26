@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_bear_toggle",
+    "path":"sprites/spr_bear_toggle/spr_bear_toggle.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
