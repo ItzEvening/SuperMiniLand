@@ -418,6 +418,7 @@
     {"id":{"name":"PolyGuy","path":"sprites/PolyGuy/PolyGuy.yy",},},
     {"id":{"name":"Press_Tutorial","path":"sprites/Press_Tutorial/Press_Tutorial.yy",},},
     {"id":{"name":"PressStart_1","path":"sprites/PressStart_1/PressStart_1.yy",},},
+    {"id":{"name":"PressStart_2","path":"sprites/PressStart_2/PressStart_2.yy",},},
     {"id":{"name":"PressStart","path":"sprites/PressStart/PressStart.yy",},},
     {"id":{"name":"Rail_Tiles","path":"sprites/Rail_Tiles/Rail_Tiles.yy",},},
     {"id":{"name":"Rail","path":"sprites/Rail/Rail.yy",},},

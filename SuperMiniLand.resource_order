@@ -368,6 +368,7 @@
     {"name":"PolyGuy","order":2,"path":"sprites/PolyGuy/PolyGuy.yy",},
     {"name":"Press_Tutorial","order":47,"path":"sprites/Press_Tutorial/Press_Tutorial.yy",},
     {"name":"PressStart_1","order":15,"path":"sprites/PressStart_1/PressStart_1.yy",},
+    {"name":"PressStart_2","order":49,"path":"sprites/PressStart_2/PressStart_2.yy",},
     {"name":"PressStart","order":8,"path":"sprites/PressStart/PressStart.yy",},
     {"name":"Rail_Tiles","order":38,"path":"sprites/Rail_Tiles/Rail_Tiles.yy",},
     {"name":"Rail","order":37,"path":"sprites/Rail/Rail.yy",},
