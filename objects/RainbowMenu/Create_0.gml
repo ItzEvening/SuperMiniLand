@@ -18,11 +18,10 @@ for (var i = 0; i < ds_list_size(_salmon); i++) {
 image_index = _count;
 
 if (_count == 10) {
-	Demo_Level_Select.unlock();
-	
 	if (!global.savedata[? "boss unlocked"]) {
 		
 		PopupManager.notify(PolyAlert, "boss unlocked");
+		
 	}
-
+	Demo_Level_Select.update();
 }

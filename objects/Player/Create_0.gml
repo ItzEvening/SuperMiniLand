@@ -68,7 +68,7 @@ change_visibility = function()
 	show_chances = !show_chances;
 }
 
-function manage_animations(_midair)
+manage_animations = function(_midair)
 {
 	//Animation Stuffs
 	if (_midair)

@@ -288,6 +288,8 @@
     {"id":{"name":"Demo_Level_2","path":"sprites/Demo_Level_2/Demo_Level_2.yy",},},
     {"id":{"name":"Demo_Level_3","path":"sprites/Demo_Level_3/Demo_Level_3.yy",},},
     {"id":{"name":"Demo_Level_4","path":"sprites/Demo_Level_4/Demo_Level_4.yy",},},
+    {"id":{"name":"Demo_Level_5","path":"sprites/Demo_Level_5/Demo_Level_5.yy",},},
+    {"id":{"name":"Demo_Level_6","path":"sprites/Demo_Level_6/Demo_Level_6.yy",},},
     {"id":{"name":"DemoEndText_1","path":"sprites/DemoEndText_1/DemoEndText_1.yy",},},
     {"id":{"name":"EndBeta","path":"sprites/EndBeta/EndBeta.yy",},},
     {"id":{"name":"EndSign","path":"sprites/EndSign/EndSign.yy",},},

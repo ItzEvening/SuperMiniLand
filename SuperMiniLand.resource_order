@@ -240,6 +240,8 @@
     {"name":"Demo_Level_2","order":16,"path":"sprites/Demo_Level_2/Demo_Level_2.yy",},
     {"name":"Demo_Level_3","order":24,"path":"sprites/Demo_Level_3/Demo_Level_3.yy",},
     {"name":"Demo_Level_4","order":28,"path":"sprites/Demo_Level_4/Demo_Level_4.yy",},
+    {"name":"Demo_Level_5","order":46,"path":"sprites/Demo_Level_5/Demo_Level_5.yy",},
+    {"name":"Demo_Level_6","order":45,"path":"sprites/Demo_Level_6/Demo_Level_6.yy",},
     {"name":"DemoEndText_1","order":31,"path":"sprites/DemoEndText_1/DemoEndText_1.yy",},
     {"name":"EndBeta","order":18,"path":"sprites/EndBeta/EndBeta.yy",},
     {"name":"EndSign","order":19,"path":"sprites/EndSign/EndSign.yy",},
