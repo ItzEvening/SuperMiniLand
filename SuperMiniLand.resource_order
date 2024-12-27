@@ -191,6 +191,7 @@
     {"name":"A_Menu_Tile","order":23,"path":"sprites/A_Menu_Tile/A_Menu_Tile.yy",},
     {"name":"A_Press","order":44,"path":"sprites/A_Press/A_Press.yy",},
     {"name":"Air_Base","order":1,"path":"sprites/Air_Base/Air_Base.yy",},
+    {"name":"Allie_Drill","order":19,"path":"sprites/Allie_Drill/Allie_Drill.yy",},
     {"name":"Allie_Idle","order":10,"path":"sprites/Allie_Idle/Allie_Idle.yy",},
     {"name":"Allie_Jump_Fall","order":11,"path":"sprites/Allie_Jump_Fall/Allie_Jump_Fall.yy",},
     {"name":"Allie_Run","order":12,"path":"sprites/Allie_Run/Allie_Run.yy",},
