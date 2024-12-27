@@ -14,7 +14,6 @@ if (can_gimmick and _gimmick) {
 }
 
 if (done_gimmick) {
-	sprite_index = Allie_Stomp;
 	forcefield.x = x;
 	forcefield.y = y;
 }
