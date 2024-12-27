@@ -7,12 +7,18 @@ if (can_gimmick and _gimmick) {
 	hsp = 0;
 	vsp = 20;
 	
-	
-	
 	done_gimmick = true;
 	can_gimmick = false;
+	
+	forcefield = instance_create_layer(x, y, layer, o_Forcefield);
 }
 
 if (done_gimmick) {
 	sprite_index = Allie_Stomp;
+	forcefield.x = x;
+	forcefield.y = y;
+}
+else if (forcefield != noone) {
+	instance_destroy(forcefield);
+	forcefield = noone;
 }

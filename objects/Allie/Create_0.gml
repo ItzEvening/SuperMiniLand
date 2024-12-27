@@ -17,3 +17,6 @@ hpgui.sprite = HP_Player_Al
 // small
 hp_default = 2;
 hp = hp_default;
+
+// forcefield
+forcefield = noone;

@@ -3,7 +3,7 @@ var _player = instance_place(x, y, Player);
 if (_player != noone and !invincible) {
 	
 	// hit
-	if (_player.y < y and _player.vsp > -3) {
+	if (_player.y < y and _player.vsp > -3 and !dead) {
 		audio_play_sound(EnemyDefeat, 10, 0);
 		_player.vsp = -5;
 		
