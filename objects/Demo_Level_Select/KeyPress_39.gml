@@ -3,7 +3,7 @@ SlideTransition(TRANS_MODE.LEVEL, Level_Card);
 global.character = Mini;
 
 if (global.bear) {
-	global.character = Arcturus;
+	global.character = Allie;
 }
 
 global.level = SalmonPalace_1;

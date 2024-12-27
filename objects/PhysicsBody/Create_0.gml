@@ -1,10 +1,14 @@
 // physics properties
 walksp = 5;
+walkstr = 0.3;
+hsp = 0;
+
 grv = 0.2;
 vsp = 0;
-hsp = 0;
+
 jump_strength = -6.5;
 jump_strength_water = -13;
+
 frict = 0.3;
 air_resistance = 0.05;
 water_damp_constant = 0.12;
@@ -21,7 +25,7 @@ rail_tiles = layer_tilemap_get_id("Rails");
 left_barrier = instance_create_layer(0, y, layer, o_barrier_left);
 right_barrier = instance_create_layer(room_width, y, layer, o_barrier_right);
 
-function calculate_speeds(_move, _underwater) 
+calculate_speeds = function(_move, _underwater) 
 {
 	// Initializes collision variables
 	var _touching_ground = place_meeting(x,y+1,ground_tiles);
@@ -48,9 +52,12 @@ function calculate_speeds(_move, _underwater)
 
 	// Sets damp constant for horizontal velocity
 	var damp = frict;
-	if (!_touching_ground or !_touching_rail) 
+	if (!_touching_ground and !_touching_rail) 
 	{
 	    damp = air_resistance;
+	}
+	else if (_touching_ground and _move != 0) {
+		damp = walkstr;
 	}
 	
 	
@@ -68,8 +75,17 @@ function calculate_speeds(_move, _underwater)
 		
 		
 		else {
-			var delta_hsp = walksp * damp;
-			hsp = min(walksp, abs(hsp) + delta_hsp) * _move;
+			var new_hsp = hsp;
+			var delta_hsp = walksp * damp * _move;
+			
+			new_hsp += delta_hsp;
+			
+			if (abs(new_hsp) <= walksp) {
+				hsp = new_hsp
+			}
+			else {
+				hsp = walksp * _move;
+			}
 		}
 	}
 

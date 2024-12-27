@@ -3,7 +3,7 @@ SlideTransition(TRANS_MODE.LEVEL, Level_Card);
 global.character = Evie;
 
 if (global.bear) {
-	global.character = Allie;
+	global.character = Arcturus;
 }
 
 global.level = SpringIsland_1;
