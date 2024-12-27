@@ -15,6 +15,7 @@ if (secret_gems == 8)
 }
 
 if (!global.savedata[? "secret accessed"] and enable_toggle) {
+	global.savedata[? "tutorial"] = false;
 	PopupManager.notify(BearAlert, "secret accessed");
 }
 

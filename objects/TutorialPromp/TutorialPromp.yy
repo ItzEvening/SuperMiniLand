@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"LevelEnd",
+  "%Name":"TutorialPromp",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"LevelEnd",
+  "name":"TutorialPromp",
   "overriddenProperties":[],
   "parent":{
-    "name":"Level Objects",
-    "path":"folders/Objects/Level Objects.yy",
+    "name":"GUI",
+    "path":"folders/Objects/GUI.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"EndBeta",
-    "path":"sprites/EndBeta/EndBeta.yy",
+    "name":"Press_Tutorial",
+    "path":"sprites/Press_Tutorial/Press_Tutorial.yy",
   },
   "spriteMaskId":null,
   "visible":true,

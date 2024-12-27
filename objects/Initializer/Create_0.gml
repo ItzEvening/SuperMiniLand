@@ -9,6 +9,8 @@ global.rainbow_progress = [];
 if (!file_exists("save")) {
 	global.savedata = ds_map_create();
 	
+	global.savedata[? "tutorial"] = false;
+	
 	global.savedata[? "spring"] = [false, false, false, false, false];
 	global.savedata[? "salmon"] = [false, false, false, false, false];
 	global.savedata[? "secret"] = [false, false, false, false, false, false, false, false];
