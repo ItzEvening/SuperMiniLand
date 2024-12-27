@@ -5,8 +5,8 @@ event_inherited();
 walksp = 6.5;
 walkstr = 0.03
 jump_strength = -6.2;
-air_resistance = 0.03;
-frict = 0.07;
+air_resistance = 0.1;
+frict = 0.3;
 
 // sprites
 idle = Allie_Idle
