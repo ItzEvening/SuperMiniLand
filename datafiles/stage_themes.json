@@ -99,7 +99,16 @@
   {
     "Stage": "Tutorial_E",
     "Song": "TutorialStage"
+  },
+  {
+    "Stage": "Tutorial_AL",
+    "Song": "TutorialStage"
+  },
+  {
+    "Stage": "Tutorial_AR",
+    "Song": "TutorialStage"
   }
+
 
 
 
