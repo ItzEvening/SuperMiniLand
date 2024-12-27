@@ -11,7 +11,7 @@ jump = function() {
 	
 	
 	if (place_meeting(x,y+1,ground_tiles) and !dead and _inrange) {
-		vsp = -3;
+		vsp = 0;
 		sprite_index = GarFly;
 		jumped = true;
 		
