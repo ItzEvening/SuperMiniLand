@@ -1,6 +1,6 @@
 {
   "$GMProject":"",
-  "%Name":"SuperMiniLand",
+  "%Name":"Mini & Evie",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -65,7 +65,7 @@
   "MetaData":{
     "IDEVersion":"2024.4.0.137",
   },
-  "name":"SuperMiniLand",
+  "name":"Mini & Evie",
   "resources":[
     {"id":{"name":"BlackDoom_BlueBar_position1","path":"animcurves/BlackDoom_BlueBar_position1/BlackDoom_BlueBar_position1.yy",},},
     {"id":{"name":"GameFont","path":"fonts/GameFont/GameFont.yy",},},
