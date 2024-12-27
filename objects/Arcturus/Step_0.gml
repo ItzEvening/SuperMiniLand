@@ -4,4 +4,5 @@ var _gimmick = keyboard_check(vk_space) or keyboard_check(ord("W"));
 
 if (_gimmick and vsp > 2) {
 	vsp = 2;
+	sprite_index = Arcturus_Float;
 }
