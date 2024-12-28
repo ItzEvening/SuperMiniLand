@@ -86,6 +86,7 @@
     {"name":"o_Checkpoint","order":4,"path":"objects/o_Checkpoint/o_Checkpoint.yy",},
     {"name":"o_Forcefield","order":21,"path":"objects/o_Forcefield/o_Forcefield.yy",},
     {"name":"Object47","order":20,"path":"objects/Object47/Object47.yy",},
+    {"name":"Pause_Object","order":23,"path":"objects/Pause_Object/Pause_Object.yy",},
     {"name":"PhysicsBody","order":5,"path":"objects/PhysicsBody/PhysicsBody.yy",},
     {"name":"Player","order":4,"path":"objects/Player/Player.yy",},
     {"name":"PlayerSpawner","order":6,"path":"objects/PlayerSpawner/PlayerSpawner.yy",},
