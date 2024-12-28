@@ -1,12 +1,14 @@
 // Key Stuffs
 var _hit_left = 0;
 var _hit_right = 0;
+var _hit_jump_release = 0;
 var _hit_jump = 0;
 
 if (hascontrol)
 {
    _hit_left = keyboard_check(vk_left) or keyboard_check(ord("A"));
    _hit_right = keyboard_check(vk_right) or keyboard_check(ord("D")); 
+   _hit_jump_release = keyboard_check_released(vk_space) or keyboard_check_released(ord("W")); 
    _hit_jump = keyboard_check_pressed(vk_space) or keyboard_check_pressed(ord("W")); 
    
    //Do you want me to do Gamepad stuffs?
@@ -34,6 +36,11 @@ if (!_midair) and (_hit_jump)
 	if (!_underwater) vsp = jump_strength;
 	else vsp = jump_strength_water;
 }
+if (_midair) and (_hit_jump_release) and vsp < 0
+{
+	vsp = 0.01;
+}
+
 
 // handle gimmick
 if (!_midair) {

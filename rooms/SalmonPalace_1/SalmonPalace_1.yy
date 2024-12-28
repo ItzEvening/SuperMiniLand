@@ -455,6 +455,7 @@
     {"name":"inst_30DC3B33","path":"rooms/SalmonPalace_1/SalmonPalace_1.yy",},
     {"name":"inst_500FDAC3","path":"rooms/SalmonPalace_1/SalmonPalace_1.yy",},
     {"name":"inst_53D13DC","path":"rooms/SalmonPalace_1/SalmonPalace_1.yy",},
+    {"name":"inst_44E4842B","path":"rooms/SalmonPalace_1/SalmonPalace_1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -476,6 +477,7 @@
         {"$GMRInstance":"","%Name":"inst_5B8477FC","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5B8477FC","objectId":{"name":"LevelEnd","path":"objects/LevelEnd/LevelEnd.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":1216.0,"y":3104.0,},
         {"$GMRInstance":"","%Name":"inst_45A36A31","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_45A36A31","objectId":{"name":"EndPlaceholder","path":"objects/EndPlaceholder/EndPlaceholder.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":11104.0,"y":1408.0,},
         {"$GMRInstance":"","%Name":"inst_100F126A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_100F126A","objectId":{"name":"EndPlaceholder","path":"objects/EndPlaceholder/EndPlaceholder.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":11136.0,"y":224.0,},
+        {"$GMRInstance":"","%Name":"inst_44E4842B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_44E4842B","objectId":{"name":"Pause_Object","path":"objects/Pause_Object/Pause_Object.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":32.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Gems","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_4FBE5E8A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4FBE5E8A","objectId":{"name":"Coin","path":"objects/Coin/Coin.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":96.0,},
