@@ -133,3 +133,14 @@ enable_gimmick = function() {
 gimmick_timer = time_source_create(time_source_global, 0.1, time_source_units_seconds, enable_gimmick);
 
 #endregion
+
+#region jump
+
+sustain_length = 0.25;
+jump_resist = 0.3;
+released_jump = true;
+finish_jump = function() {
+	released_jump = true;
+}
+jump_timer = time_source_create(time_source_global, sustain_length, time_source_units_seconds, finish_jump);
+#endregion

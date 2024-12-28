@@ -33,12 +33,21 @@ if (_underwater and !was_underwater) or (!_underwater and was_underwater)
 if (!_midair) and (_hit_jump)
 {
 	audio_play_sound(sfx_Jump,10,0);
+	
+	released_jump = false;
+	time_source_start(jump_timer);
+	
 	if (!_underwater) vsp = jump_strength;
 	else vsp = jump_strength_water;
 }
-if (_midair) and (_hit_jump_release) and vsp < 0
-{
-	vsp = 0.01;
+else if (!released_jump) {
+	vsp -= jump_resist;
+}
+
+// Release the jump
+if (_hit_jump_release and !released_jump) {
+	time_source_stop(jump_timer);
+	released_jump = true;
 }
 
 

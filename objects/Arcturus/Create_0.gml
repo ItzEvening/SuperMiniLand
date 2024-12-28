@@ -4,9 +4,10 @@ event_inherited();
 //// physics properties
 walksp = 3.2;
 walkstr = 0.1;
-jump_strength = -8.5;
 air_resistance = 0.3;
 frict = 0.07;
+sustain_length = 0.4;
+jump_resist = 0.44;
 
 // sprites
 idle = Arcturus_Idle

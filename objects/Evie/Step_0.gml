@@ -12,6 +12,8 @@ if (can_gimmick and _gimmick){
 		vsp = jump_strength;
 	}
 	
+	vsp *= 2.2;
+	
 	done_gimmick = true;
 	can_gimmick = false;
 }
