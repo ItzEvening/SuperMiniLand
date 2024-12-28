@@ -1,6 +1,6 @@
 // physics properties
 walksp = 5;
-walkstr = 0.3;
+walkstr = 0.05;
 hsp = 0;
 
 grv = 0.2;
