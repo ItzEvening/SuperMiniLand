@@ -228,6 +228,8 @@
     {"id":{"name":"sfx_Jump","path":"sounds/sfx_Jump/sfx_Jump.yy",},},
     {"id":{"name":"sfx_Jump2","path":"sounds/sfx_Jump2/sfx_Jump2.yy",},},
     {"id":{"name":"sfx_Jump3","path":"sounds/sfx_Jump3/sfx_Jump3.yy",},},
+    {"id":{"name":"sfx_Pause_2","path":"sounds/sfx_Pause_2/sfx_Pause_2.yy",},},
+    {"id":{"name":"sfx_Pause","path":"sounds/sfx_Pause/sfx_Pause.yy",},},
     {"id":{"name":"Sound51","path":"sounds/Sound51/Sound51.yy",},},
     {"id":{"name":"SoundTest","path":"sounds/SoundTest/SoundTest.yy",},},
     {"id":{"name":"SpringIsland","path":"sounds/SpringIsland/SpringIsland.yy",},},

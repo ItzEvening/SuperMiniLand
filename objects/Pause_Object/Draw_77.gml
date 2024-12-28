@@ -18,6 +18,7 @@ if (keyboard_check_pressed(ord("P"))) //Toggle Pause
     if (!pause) //pause now
     {
         pause = true;
+		audio_play_sound(sfx_Pause, 10,0);
 
         //Deactivate everything other than this instance
         instance_deactivate_all(true);
@@ -39,6 +40,7 @@ if (keyboard_check_pressed(ord("P"))) //Toggle Pause
 else //unpause now
 {
     pause = false;
+	audio_play_sound(sfx_Pause_2,10,0);
     instance_activate_all();
     if (surface_exists(pauseSurf)) surface_free(pauseSurf);
     if (buffer_exists(pauseSurfBuffer)) buffer_delete(pauseSurfBuffer);
