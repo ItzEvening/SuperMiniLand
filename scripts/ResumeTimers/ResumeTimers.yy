@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"ResumeTimers",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ResumeTimers",
+  "parent":{
+    "name":"Timer",
+    "path":"folders/Scripts/Timer.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

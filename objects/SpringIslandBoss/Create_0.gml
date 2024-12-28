@@ -30,7 +30,10 @@ end_fight = function() {
 
 jump = function() {
 	
-	if (place_meeting(x,y+1,ground_tiles) and !dead and BossStarter.activated) {
+	var _starter = instance_find(BossStarter, 0);
+	var _starter_triggered = _starter != noone and _starter.activated;
+	
+	if (place_meeting(x,y+1,ground_tiles) and !dead and _starter_triggered) {
 		
 		switch (phase) {
 			case 0:
