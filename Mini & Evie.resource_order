@@ -198,6 +198,7 @@
     {"name":"Title3","order":7,"path":"sounds/Title3/Title3.yy",},
     {"name":"Touhou","order":2,"path":"sounds/Touhou/Touhou.yy",},
     {"name":"TutorialStage","order":18,"path":"sounds/TutorialStage/TutorialStage.yy",},
+    {"name":"TutorialStageE","order":4,"path":"sounds/TutorialStageE/TutorialStageE.yy",},
     {"name":"WaterDesert_E","order":16,"path":"sounds/WaterDesert_E/WaterDesert_E.yy",},
     {"name":"WaterDesert_M","order":15,"path":"sounds/WaterDesert_M/WaterDesert_M.yy",},
     {"name":"WaterDesert2","order":9,"path":"sounds/WaterDesert2/WaterDesert2.yy",},

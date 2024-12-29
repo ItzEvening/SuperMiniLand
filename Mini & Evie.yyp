@@ -242,6 +242,7 @@
     {"id":{"name":"Title3","path":"sounds/Title3/Title3.yy",},},
     {"id":{"name":"Touhou","path":"sounds/Touhou/Touhou.yy",},},
     {"id":{"name":"TutorialStage","path":"sounds/TutorialStage/TutorialStage.yy",},},
+    {"id":{"name":"TutorialStageE","path":"sounds/TutorialStageE/TutorialStageE.yy",},},
     {"id":{"name":"WaterDesert_E","path":"sounds/WaterDesert_E/WaterDesert_E.yy",},},
     {"id":{"name":"WaterDesert_M","path":"sounds/WaterDesert_M/WaterDesert_M.yy",},},
     {"id":{"name":"WaterDesert2","path":"sounds/WaterDesert2/WaterDesert2.yy",},},
