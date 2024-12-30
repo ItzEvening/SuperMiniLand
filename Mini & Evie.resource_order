@@ -483,6 +483,7 @@
     {"name":"Tutorial_Mini","order":12,"path":"sprites/Tutorial_Mini/Tutorial_Mini.yy",},
     {"name":"Tutorial_Tiles","order":17,"path":"sprites/Tutorial_Tiles/Tutorial_Tiles.yy",},
     {"name":"unknown","order":13,"path":"sprites/unknown/unknown.yy",},
+    {"name":"Warning","order":64,"path":"sprites/Warning/Warning.yy",},
     {"name":"Water_Desert_2","order":16,"path":"sprites/Water_Desert_2/Water_Desert_2.yy",},
     {"name":"Water_Desert","order":10,"path":"sprites/Water_Desert/Water_Desert.yy",},
     {"name":"Water","order":2,"path":"sprites/Water/Water.yy",},
