@@ -13,7 +13,7 @@ if (pause) //draw frozen image to screen while paused
 surface_reset_target();
 }
 
-if (keyboard_check_pressed(ord("P"))) //Toggle Pause
+if (keyboard_check_pressed(vk_escape)) //Toggle Pause
 {
     if (!pause) //pause now
     {
