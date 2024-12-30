@@ -22,6 +22,7 @@ end_fight = function() {
 		if (hascontrol)
 		{
 			hascontrol = false;
+			global.savedata[? "boss beaten"] = true;
 			SlideTransition(TRANS_MODE.GOTO, Demo_End);
 
 		}

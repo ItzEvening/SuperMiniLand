@@ -1,21 +1,16 @@
 var _count = 0;
+var _advanced = global.savedata[? "boss beaten"];
 
-var _spring = global.savedata[? "spring"];
-var _salmon = global.savedata[? "salmon"];
+_count = CountGems(_advanced);
 
-// count the amount of rainbow gems
-for (var i = 0; i < ds_list_size(_spring); i++) {
-	if (_spring[| i]) {
-		_count++;
-	}
+if (_advanced) {
+	sprite_index = GemProgressAdvanced;
+	image_index = _count - 10;
 }
-for (var i = 0; i < ds_list_size(_salmon); i++) {
-	if (_salmon[| i]) {
-		_count++;
-	}
+else {
+	image_index = _count;
 }
 
-image_index = _count;
 
 if (_count == 10) {
 	if (!global.savedata[? "boss unlocked"]) {

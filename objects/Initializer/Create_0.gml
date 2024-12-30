@@ -8,26 +8,19 @@ global.rainbow_progress = [];
 // handle save data
 if (!file_exists("save")) {
 	global.savedata = ds_map_create();
-	
-	global.savedata[? "tutorial"] = false;
-	
-	global.savedata[? "spring"] = [false, false, false, false, false];
-	global.savedata[? "salmon"] = [false, false, false, false, false];
-	global.savedata[? "secret"] = [false, false, false, false, false, false, false, false];
-	
-	global.savedata[? "boss unlocked"] = false;
-	
-	// misleading key; this actually has to do with the bears
-	global.savedata[? "secret accessed"] = false;
-	
-	ds_map_secure_save(global.savedata, "save");
-	ds_map_destroy(global.savedata);
-	
-	global.savedata = ds_map_secure_load("save");
 }
 else {
 	global.savedata = ds_map_secure_load("save");
 }
+
+CheckSave();
+	
+ds_map_secure_save(global.savedata, "save");
+ds_map_destroy(global.savedata);
+	
+global.savedata = ds_map_secure_load("save");
+
+
 
 function HamSam(){
 	SlideTransition(TRANS_MODE.GOTO, Splash_Screen_2);

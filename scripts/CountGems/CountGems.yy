@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"CountGems",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"CountGems",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
