@@ -12,6 +12,7 @@ idle = Allie_Idle
 fall = Allie_Jump_Fall
 run = Allie_Run
 hpgui.sprite = HP_Player_Al
+hpgui.bear = true;
 
 // small
 hp_default = 2;

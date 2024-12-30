@@ -1,15 +1,16 @@
 frame = 0;
 sprite = HP_Player_M;
+bear = false;
 
 offset = 0;
 
-if (global.bear) {
+if (bear) {
 	offset = 32;
 }
 
 
 function lifetoframe (_life){
-	if (global.bear) {
+	if (bear) {
 		_life++;
 	}
 	
