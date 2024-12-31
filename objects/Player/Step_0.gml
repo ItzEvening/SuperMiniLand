@@ -84,13 +84,19 @@ if (_coinr != noone and !_coinr.collected)
 }
 
 var _coind = instance_place(x, y, CoinD);
-if (_coind != noone)
-{
-	instance_destroy(_coind);
+if (_coind != noone and _coind.activated)
+{ 
+	_coind.activated = false;
+	_coind.visible = false;
+	time_source_start(_coind.timer);
+	
 	hsp = 17.5 * image_xscale;
 	vsp = -0.5;
-	coins++;
 	audio_play_sound(CoinGot, 10, 0);
+	
+	if (!_coind.collected) {
+		coins++;
+	}
 }
 
 if (y > room_height + 50)
