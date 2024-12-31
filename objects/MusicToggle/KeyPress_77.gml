@@ -1,5 +1,5 @@
 /// @description Music toggle
-if (Demo_Level_Select.control) {
+if (global.menu_control) {
 	
 	if (global.music == 0) {
 		global.music = 1;

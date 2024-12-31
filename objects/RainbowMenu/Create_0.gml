@@ -18,5 +18,4 @@ if (_count == 10) {
 		PopupManager.notify(PolyAlert, "boss unlocked");
 		
 	}
-	Demo_Level_Select.update();
 }

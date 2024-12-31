@@ -1,4 +1,4 @@
-if (Demo_Level_Select.control) {
+if (global.menu_control) {
 	
 	if (global.music == 0) {
 		sprite_index = Menu_BG_E;

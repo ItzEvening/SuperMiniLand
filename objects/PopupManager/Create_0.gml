@@ -5,16 +5,23 @@ save = "boss unlocked"
 kill_notif = function() {
 	draw_notification = false;
 	MusicPlayer.play_music(Demo_Menu_Test);
-	Demo_Level_Select.control = true;
+	global.menu_control = true;
 	
 	global.savedata[? save] = true;
 	ds_map_secure_save(global.savedata, "save");
-	Demo_Level_Select.update();
+	
+	for (var i = 0; i < instance_number(DemoLevelCard); i++) {
+		var _card = instance_find(DemoLevelCard, i);
+		_card.update();
+	}
+	
+	
+	DemoLevelCard.update();
 }
 
 notify = function(_sprite, _save) {
 	
-	Demo_Level_Select.control = false;
+	global.menu_control = false;
 	audio_stop_all();
 	audio_play_sound(Clear, 10, 0);
 	draw_notification = true;

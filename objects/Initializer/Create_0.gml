@@ -4,6 +4,7 @@ global.level = SpringIsland_1;
 global.character = Mini;
 global.bear = false;
 global.rainbow_progress = [];
+global.menu_control = true;
 
 // handle save data
 if (!file_exists("save")) {
