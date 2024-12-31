@@ -1,59 +1,59 @@
 {
   "Parallax": [
     {
-      "Background": "Trees",
+      "Background": "Para_7",
       "Value": "7"
     },
     {
-      "Background": "Castle",
+      "Background": "Para_10",
       "Value": "10"
     },
     {
-      "Background": "Clouds",
+      "Background": "Para_1",
       "Value": "1"
     },
     {
-      "Background": "WaterBG",
+      "Background": "Para_1_1",
       "Value": "1.1"
     },
     {
-      "Background": "LCBuilding1",
+      "Background": "Para_15",
       "Value": "15"
     },
     {
-      "Background": "LCBuilding2",
+      "Background": "Para_10_2",
       "Value": "10"
     },
     {
-      "Background": "LCBuilding2_1",
+      "Background": "Para_8",
       "Value": "8"
     },
     {
-      "Background": "Pyramid",
+      "Background": "Para_20",
       "Value": "20"
     },
     {
-      "Background": "DesertHill",
+      "Background": "Para_17",
       "Value": "17"
     },
     {
-      "Background": "DesertRock",
+      "Background": "Para_2",
       "Value": "2"
     },
     {
-      "Background": "Clouds_2",
+      "Background": "Para_2_2",
       "Value": "2"
     },
     {
-      "Background": "Clouds_3",
+      "Background": "Para_3",
       "Value": "3"
     },
     {
-      "Background": "Clouds_4",
+      "Background": "Para_4",
       "Value": "4"
     },
     {
-      "Background": "CloudsReflect",
+      "Background": "Para_1_2",
       "Value": "1"
     }
   ]
