@@ -107,6 +107,10 @@
   {
     "Stage": "Tutorial_AR",
     "Song": "TutorialStage"
+  },
+  {
+    "Stage": "MidnightRush",
+    "Song": "song_MidnightRush"
   }
 
 
