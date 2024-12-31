@@ -83,6 +83,16 @@ if (_coinr != noone and !_coinr.collected)
 	_coinr.collect();
 }
 
+var _coind = instance_place(x, y, CoinD);
+if (_coind != noone)
+{
+	instance_destroy(_coind);
+	hsp = 17.5 * image_xscale;
+	vsp = -0.5;
+	coins++;
+	audio_play_sound(CoinGot, 10, 0);
+}
+
 if (y > room_height + 50)
 {
 	handle_death();
