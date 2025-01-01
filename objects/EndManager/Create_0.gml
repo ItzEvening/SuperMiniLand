@@ -1,6 +1,6 @@
 var _layer = layer_get_id("Assets_1");
 
-if (global.savedata[? "secret accessed"]) {
+if (global.savedata[? "bears unlocked"]) {
 	var arty = layer_sprite_create(_layer, 423, 748, Arcturus_Hang);
 	layer_sprite_xscale(arty, 6);
 	layer_sprite_yscale(arty, 6);
