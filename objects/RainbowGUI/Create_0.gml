@@ -21,6 +21,20 @@ else if (room == SecretSanctuary) {
 	lvl = "secret";
 }
 
+switch (room) {
+	case SalmonPalace_1:
+		lvl = "salmon";
+		break;
+		
+	case MidnightRush_1:
+		lvl = "midnight";
+		break;
+		
+	case SecretSanctuary:
+		lvl = "secret"
+		break;
+}
+
 // retrive all the rainbow gem instances
 for (var i = 0; i < array_length(_layer_elements); i++) {
 	if (layer_get_element_type(_layer_elements[i]) == layerelementtype_instance) {

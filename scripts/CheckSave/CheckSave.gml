@@ -6,6 +6,8 @@ function CheckSave(){
 	
 	CheckSaveBinding("spring", [false, false, false, false, false]);
 	CheckSaveBinding("salmon", [false, false, false, false, false]);
+	CheckSaveBinding("marble", [false, false, false, false, false, false]);
+	CheckSaveBinding("midnight", [false, false, false, false, false, false]);
 	CheckSaveBinding("secret", [false, false, false, false, false, false, false, false]);
 	
 	CheckSaveBinding("boss unlocked", false);

@@ -16,7 +16,7 @@ if (hascontrol)
 
 
 // Physics Stuffs
-var _midair = !place_meeting(x,y+1,ground_tiles) and !place_meeting(x,y+1,rail_tiles);
+var _midair = !meeting_solid(x, y + 1);
 var _move = _hit_right - _hit_left;
 var _underwater = place_meeting(x,y,water_tiles);
 

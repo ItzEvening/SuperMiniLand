@@ -5,7 +5,7 @@ function CountGems(_advanced){
 	var _return = 0;
 	
 	if (_advanced) {
-		_arr = ["spring", "salmon", "secret"];
+		_arr = ["spring", "salmon", "secret", "midnight", "marble"];
 	}
 	
 	for (var i = 0; i < array_length(_arr); i++) {

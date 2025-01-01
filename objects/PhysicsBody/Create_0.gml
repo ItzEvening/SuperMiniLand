@@ -122,14 +122,30 @@ calculate_speeds = function(_move, _underwater)
 
 }
 
+meeting_solid = function(_x, _y) {
+	var _solids = [ground_tiles, SolidObject];
+	
+	if (layer_exists("Rails")) {
+		array_push(_solids, rail_tiles);
+	}
+
+	for (var i = 0; i < array_length(_solids); i++) {
+		if (place_meeting(_x, _y, _solids[i])) {
+			return true;
+		}
+	}
+	
+	return false;
+}
+
 function manage_collisions()
 {
 	// Horizontal collisions
-	var _tile_collide_x = place_meeting(x + hsp, y, ground_tiles);
+	// var _tile_collide_x = place_meeting(x + hsp, y, ground_tiles);
 	var _barrier_collide = (x + hsp <= o_barrier_left.x) or (x + hsp >= o_barrier_right.x);
-	var _tile_collide_rx = place_meeting(x + hsp, y, rail_tiles);
+	// var _tile_collide_rx = place_meeting(x + hsp, y, rail_tiles);
 	
-	if (_tile_collide_x or _barrier_collide or _tile_collide_rx) 
+	if (meeting_solid(x + hsp, y) or _barrier_collide) 
 	{
 		
 	    while (!colliding_now("x"))
@@ -143,10 +159,10 @@ function manage_collisions()
 	x = x + hsp;
 	
 	// Vertical collisions
-	var _tile_collide_y = place_meeting(x, y + vsp, ground_tiles);
-	var _tile_collide_ry = place_meeting(x, y + vsp, rail_tiles);
+	// var _tile_collide_y = place_meeting(x, y + vsp, ground_tiles);
+	// var _tile_collide_ry = place_meeting(x, y + vsp, rail_tiles);
 	
-	if (_tile_collide_y or _tile_collide_ry)
+	if (meeting_solid(x, y + vsp))
 	{
 	    while (!colliding_now("y"))
 	    {
@@ -161,30 +177,38 @@ function colliding_now(_axis)
 {
 	if (_axis == "x")
 	{
-		// tiles
-		if (place_meeting(x + sign(hsp), y, ground_tiles))
-		{
-			return true;
-		}
-		if (place_meeting(x + sign(hsp), y, rail_tiles))
-		{
+		// solid tiles
+		//if (place_meeting(x + sign(hsp), y, ground_tiles))
+		//{
+		//	return true;
+		//}
+		//if (place_meeting(x + sign(hsp), y, rail_tiles))
+		//{
+		//	return true;
+		//}
+		
+		if (meeting_solid(x + sign(hsp), y)) {
 			return true;
 		}
 		
 		// barriers
-		else if ((x + sign(hsp) <= o_barrier_left.x) or (x + sign(hsp) >= o_barrier_right.x))
+		if ((x + sign(hsp) <= o_barrier_left.x) or (x + sign(hsp) >= o_barrier_right.x))
 		{
 			return true;
 		}
 	}
 	else
 	{
-		if (place_meeting(x, y + sign(vsp), ground_tiles))
-		{
-			return true;
-		}
-		if (place_meeting(x, y + sign(vsp), rail_tiles))
-		{
+		//if (place_meeting(x, y + sign(vsp), ground_tiles))
+		//{
+		//	return true;
+		//}
+		//if (place_meeting(x, y + sign(vsp), rail_tiles))
+		//{
+		//	return true;
+		//}
+		
+		if (meeting_solid(x, y + sign(vsp))) {
 			return true;
 		}
 	}

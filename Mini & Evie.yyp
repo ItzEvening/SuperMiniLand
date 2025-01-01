@@ -130,6 +130,7 @@
     {"id":{"name":"Reset","path":"objects/Reset/Reset.yy",},},
     {"id":{"name":"Restarter","path":"objects/Restarter/Restarter.yy",},},
     {"id":{"name":"Saver","path":"objects/Saver/Saver.yy",},},
+    {"id":{"name":"SolidObject","path":"objects/SolidObject/SolidObject.yy",},},
     {"id":{"name":"SpringIslandBoss","path":"objects/SpringIslandBoss/SpringIslandBoss.yy",},},
     {"id":{"name":"Start","path":"objects/Start/Start.yy",},},
     {"id":{"name":"TitleObject","path":"objects/TitleObject/TitleObject.yy",},},

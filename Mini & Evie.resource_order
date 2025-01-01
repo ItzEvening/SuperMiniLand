@@ -102,6 +102,7 @@
     {"name":"Reset","order":16,"path":"objects/Reset/Reset.yy",},
     {"name":"Restarter","order":16,"path":"objects/Restarter/Restarter.yy",},
     {"name":"Saver","order":15,"path":"objects/Saver/Saver.yy",},
+    {"name":"SolidObject","order":9,"path":"objects/SolidObject/SolidObject.yy",},
     {"name":"Start","order":6,"path":"objects/Start/Start.yy",},
     {"name":"TitleObject","order":4,"path":"objects/TitleObject/TitleObject.yy",},
     {"name":"Transition","order":7,"path":"objects/Transition/Transition.yy",},
