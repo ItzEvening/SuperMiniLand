@@ -1,9 +1,9 @@
 event_inherited();
 
-var _left_collide = place_meeting(x - 2, y, ground_tiles);
-var _left_on_ground = place_meeting(x - 2, y + 1, ground_tiles);
-var _right_collide = place_meeting(x + 2, y, ground_tiles);
-var _right_on_ground = place_meeting(x + 2, y + 1, ground_tiles);
+var _left_collide = place_meeting(x - 4, y, ground_tiles);
+var _left_on_ground = place_meeting(x - 4, y + 2, ground_tiles);
+var _right_collide = place_meeting(x + 4, y, ground_tiles);
+var _right_on_ground = place_meeting(x + 4, y + 2, ground_tiles);
 		
 if (!dead) {
 	
