@@ -13,13 +13,6 @@ var _layer_elements = layer_get_all_elements(_coin_layer);
 var _index = 0;
 
 lvl = "spring";
-	
-if (room == SalmonPalace_1) {
-	lvl = "salmon";
-}
-else if (room == SecretSanctuary) {
-	lvl = "secret";
-}
 
 switch (room) {
 	case SalmonPalace_1:

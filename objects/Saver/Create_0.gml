@@ -13,6 +13,10 @@ switch (global.level) {
 	case SecretSanctuary:
 		key = "secret";
 	break;
+	
+	case MidnightRush_1:
+		key = "midnight";
+	break;
 }
 
 if (key != "") {
