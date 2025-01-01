@@ -218,6 +218,7 @@
     {"id":{"name":"EnemyDefeat2","path":"sounds/EnemyDefeat2/EnemyDefeat2.yy",},},
     {"id":{"name":"ESides","path":"sounds/ESides/ESides.yy",},},
     {"id":{"name":"GameOver","path":"sounds/GameOver/GameOver.yy",},},
+    {"id":{"name":"GameOverE","path":"sounds/GameOverE/GameOverE.yy",},},
     {"id":{"name":"GhostCity","path":"sounds/GhostCity/GhostCity.yy",},},
     {"id":{"name":"LilacCity","path":"sounds/LilacCity/LilacCity.yy",},},
     {"id":{"name":"LilacCity2","path":"sounds/LilacCity2/LilacCity2.yy",},},
