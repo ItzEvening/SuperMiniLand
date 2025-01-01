@@ -396,6 +396,8 @@
     {"name":"MarbleFortressAct1","order":17,"path":"sprites/MarbleFortressAct1/MarbleFortressAct1.yy",},
     {"name":"Menu_BG_E","order":48,"path":"sprites/Menu_BG_E/Menu_BG_E.yy",},
     {"name":"Menu_BG","order":47,"path":"sprites/Menu_BG/Menu_BG.yy",},
+    {"name":"menu_left","order":54,"path":"sprites/menu_left/menu_left.yy",},
+    {"name":"menu_right","order":53,"path":"sprites/menu_right/menu_right.yy",},
     {"name":"Menu_Tiles","order":7,"path":"sprites/Menu_Tiles/Menu_Tiles.yy",},
     {"name":"Midnight_Rush","order":18,"path":"sprites/Midnight_Rush/Midnight_Rush.yy",},
     {"name":"MidnightRushAct1","order":16,"path":"sprites/MidnightRushAct1/MidnightRushAct1.yy",},

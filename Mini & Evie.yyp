@@ -449,6 +449,8 @@
     {"id":{"name":"MarbleFortressAct1","path":"sprites/MarbleFortressAct1/MarbleFortressAct1.yy",},},
     {"id":{"name":"Menu_BG_E","path":"sprites/Menu_BG_E/Menu_BG_E.yy",},},
     {"id":{"name":"Menu_BG","path":"sprites/Menu_BG/Menu_BG.yy",},},
+    {"id":{"name":"menu_left","path":"sprites/menu_left/menu_left.yy",},},
+    {"id":{"name":"menu_right","path":"sprites/menu_right/menu_right.yy",},},
     {"id":{"name":"Menu_Tiles","path":"sprites/Menu_Tiles/Menu_Tiles.yy",},},
     {"id":{"name":"Midnight_Rush","path":"sprites/Midnight_Rush/Midnight_Rush.yy",},},
     {"id":{"name":"MidnightRushAct1","path":"sprites/MidnightRushAct1/MidnightRushAct1.yy",},},
