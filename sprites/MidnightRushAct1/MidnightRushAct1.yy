@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"MidnightRushAct1",
   "bboxMode":0,
-  "bbox_bottom":1919,
+  "bbox_bottom":2239,
   "bbox_left":0,
-  "bbox_right":11199,
+  "bbox_right":12799,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3c3b53ff-dae1-49f3-9197-7eb45cb57abc","name":"3c3b53ff-dae1-49f3-9197-7eb45cb57abc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"82f266d4-b5a0-4f9e-87a3-06dcd82ff6f0","name":"82f266d4-b5a0-4f9e-87a3-06dcd82ff6f0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":1920,
+  "height":2240,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"bc4d3654-c6ad-4366-bb9c-9dbed7340b3d","blendMode":0,"displayName":"default","isLocked":false,"name":"bc4d3654-c6ad-4366-bb9c-9dbed7340b3d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"f2910371-33b6-491c-a418-af673fbfab26","blendMode":0,"displayName":"default","isLocked":false,"name":"f2910371-33b6-491c-a418-af673fbfab26","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"MidnightRushAct1",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3c3b53ff-dae1-49f3-9197-7eb45cb57abc","path":"sprites/MidnightRushAct1/MidnightRushAct1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5e1c2b48-cace-47a8-b4d5-493eac38f01d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"82f266d4-b5a0-4f9e-87a3-06dcd82ff6f0","path":"sprites/MidnightRushAct1/MidnightRushAct1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8cda3dfb-e974-41e3-86aa-8f7ed9eeda81","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":11200,
+  "width":12800,
 }

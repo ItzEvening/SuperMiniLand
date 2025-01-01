@@ -34,7 +34,7 @@ determine_character = function() {
 	var _2torial = (levels[index] == Tutorial_AL);
 	var _boss = (levels[index] == BossAttack);
 	var _secret = (levels[index] == SecretSanctuary);
-	
+
 	//if tutorial mini
 	if (_tutorial) {
 		global.character = Mini;
