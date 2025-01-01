@@ -141,9 +141,7 @@ meeting_solid = function(_x, _y) {
 function manage_collisions()
 {
 	// Horizontal collisions
-	// var _tile_collide_x = place_meeting(x + hsp, y, ground_tiles);
 	var _barrier_collide = (x + hsp <= o_barrier_left.x) or (x + hsp >= o_barrier_right.x);
-	// var _tile_collide_rx = place_meeting(x + hsp, y, rail_tiles);
 	
 	if (meeting_solid(x + hsp, y) or _barrier_collide) 
 	{
@@ -159,8 +157,6 @@ function manage_collisions()
 	x = x + hsp;
 	
 	// Vertical collisions
-	// var _tile_collide_y = place_meeting(x, y + vsp, ground_tiles);
-	// var _tile_collide_ry = place_meeting(x, y + vsp, rail_tiles);
 	
 	if (meeting_solid(x, y + vsp))
 	{
@@ -177,16 +173,6 @@ function colliding_now(_axis)
 {
 	if (_axis == "x")
 	{
-		// solid tiles
-		//if (place_meeting(x + sign(hsp), y, ground_tiles))
-		//{
-		//	return true;
-		//}
-		//if (place_meeting(x + sign(hsp), y, rail_tiles))
-		//{
-		//	return true;
-		//}
-		
 		if (meeting_solid(x + sign(hsp), y)) {
 			return true;
 		}
@@ -198,16 +184,7 @@ function colliding_now(_axis)
 		}
 	}
 	else
-	{
-		//if (place_meeting(x, y + sign(vsp), ground_tiles))
-		//{
-		//	return true;
-		//}
-		//if (place_meeting(x, y + sign(vsp), rail_tiles))
-		//{
-		//	return true;
-		//}
-		
+	{		
 		if (meeting_solid(x, y + sign(vsp))) {
 			return true;
 		}
