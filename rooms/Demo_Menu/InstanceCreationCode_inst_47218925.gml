@@ -14,6 +14,13 @@ update = function() {
 	else {
 		sprite_index =  card_lockedQ;
 	}
+	
+	if (levels[index] == Tutorial_M or levels[index] == BossAttack) {
+		Challenge.visible = false;
+	}
+	else {
+		Challenge.visible = true;
+	}
 }
 
 update();

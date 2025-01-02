@@ -33,3 +33,7 @@ if (enable_toggle) {
 	var _layer = layer_get_id("Assets_1");
 	layer_sprite_create(_layer, 1324, 1140, A_Press);
 }
+
+if (global.bear) {
+	Challenge.sprite_index = ChallengeBear;
+}

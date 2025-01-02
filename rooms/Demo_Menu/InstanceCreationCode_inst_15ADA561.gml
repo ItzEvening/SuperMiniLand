@@ -12,6 +12,12 @@ update = function() {
 		sprite_index =  card_lockedE;
 	}
 	
+	if (levels[index] == Tutorial_AL or levels[index] == SecretSanctuary) {
+		Challenge.visible = false;
+	}
+	else {
+		Challenge.visible = true;
+	}
 }
 
 update();

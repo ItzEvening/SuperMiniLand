@@ -24,6 +24,7 @@ increment = function(_i) {
 		index += sign(_i);
 	}
 	
+	o_MenuDots.image_index = index;
 	update();
 }
 
