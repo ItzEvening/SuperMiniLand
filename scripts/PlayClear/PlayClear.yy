@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"PlayClear",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"PlayClear",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

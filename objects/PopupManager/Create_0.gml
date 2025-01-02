@@ -23,7 +23,7 @@ notify = function(_sprite, _save) {
 	
 	global.menu_control = false;
 	audio_stop_all();
-	audio_play_sound(Clear, 10, 0);
+	PlayClear();
 	draw_notification = true;
 	
 	var _timer = time_source_create(time_source_global, 7.55, time_source_units_seconds, kill_notif);
