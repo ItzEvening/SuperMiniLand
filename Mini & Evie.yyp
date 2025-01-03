@@ -100,6 +100,7 @@
     {"id":{"name":"Garry","path":"objects/Garry/Garry.yy",},},
     {"id":{"name":"GUI_HP","path":"objects/GUI_HP/GUI_HP.yy",},},
     {"id":{"name":"Hazard_Lava","path":"objects/Hazard_Lava/Hazard_Lava.yy",},},
+    {"id":{"name":"Hazard_Spikeball_Moving","path":"objects/Hazard_Spikeball_Moving/Hazard_Spikeball_Moving.yy",},},
     {"id":{"name":"Hazard_Spikeball_Tutorial","path":"objects/Hazard_Spikeball_Tutorial/Hazard_Spikeball_Tutorial.yy",},},
     {"id":{"name":"Hazard_Spikeball","path":"objects/Hazard_Spikeball/Hazard_Spikeball.yy",},},
     {"id":{"name":"Hazard_Spikes_Death","path":"objects/Hazard_Spikes_Death/Hazard_Spikes_Death.yy",},},

@@ -76,6 +76,7 @@
     {"name":"Garry","order":6,"path":"objects/Garry/Garry.yy",},
     {"name":"GUI_HP","order":1,"path":"objects/GUI_HP/GUI_HP.yy",},
     {"name":"Hazard_Lava","order":5,"path":"objects/Hazard_Lava/Hazard_Lava.yy",},
+    {"name":"Hazard_Spikeball_Moving","order":6,"path":"objects/Hazard_Spikeball_Moving/Hazard_Spikeball_Moving.yy",},
     {"name":"Hazard_Spikeball_Tutorial","order":4,"path":"objects/Hazard_Spikeball_Tutorial/Hazard_Spikeball_Tutorial.yy",},
     {"name":"Hazard_Spikes_Death","order":2,"path":"objects/Hazard_Spikes_Death/Hazard_Spikes_Death.yy",},
     {"name":"Hazard_Spikes_Tutorial","order":3,"path":"objects/Hazard_Spikes_Tutorial/Hazard_Spikes_Tutorial.yy",},
