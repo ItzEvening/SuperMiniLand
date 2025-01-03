@@ -2,10 +2,7 @@
   "$GMObject":"",
   "%Name":"CrystalFishKnower",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
@@ -15,7 +12,10 @@
     "name":"Enemies",
     "path":"folders/Objects/Enemies.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Enemy",
+    "path":"objects/Enemy/Enemy.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -69,6 +69,7 @@
     {"name":"DrillOnlyBox","order":8,"path":"objects/DrillOnlyBox/DrillOnlyBox.yy",},
     {"name":"EndManager","order":20,"path":"objects/EndManager/EndManager.yy",},
     {"name":"EndPlaceholder","order":3,"path":"objects/EndPlaceholder/EndPlaceholder.yy",},
+    {"name":"Enemy","order":10,"path":"objects/Enemy/Enemy.yy",},
     {"name":"Evie","order":1,"path":"objects/Evie/Evie.yy",},
     {"name":"FishKnower","order":3,"path":"objects/FishKnower/FishKnower.yy",},
     {"name":"FishSpeaker","order":2,"path":"objects/FishSpeaker/FishSpeaker.yy",},

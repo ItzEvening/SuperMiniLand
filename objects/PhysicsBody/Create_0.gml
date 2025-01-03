@@ -1,3 +1,6 @@
+// following the laws of physics
+obey_physics = true;
+
 // physics properties
 walksp = 5;
 walkstr = 0.05;

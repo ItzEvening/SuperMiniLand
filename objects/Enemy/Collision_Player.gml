@@ -3,9 +3,9 @@ var _player = instance_place(x, y, Player);
 if (_player != noone) {
 	
 	// kill 
-	if (_player.y < y - 10 and !dead and _player.vsp > -3) {
-		sprite_index = CFiwDead;
-		audio_play_sound(EnemyDefeat, 10, 0);
+	if (_player.y < bbox_top and !dead and _player.vsp > -3 and killable) {
+		sprite_index = spr_dead;
+		audio_play_sound(sfx_dead, 10, 0);
 		dead = true;
 		time_source_start(death_timer);
 		_player.vsp = -5;
@@ -19,11 +19,9 @@ if (_player != noone) {
 			_player.handle_death();
 		}
 		else {
-			//_player.hp--;
 			_player.change_life(-1);
 			_player.reset_iframe();
 		}
 	}
 	
 }
-

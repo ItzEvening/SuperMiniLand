@@ -1,5 +1,7 @@
 event_inherited();
 
+spr_dead = CFiwDead;
+
 die = function() {
 	instance_destroy();
 }

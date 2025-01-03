@@ -92,6 +92,7 @@
     {"id":{"name":"DrillOnlyBox","path":"objects/DrillOnlyBox/DrillOnlyBox.yy",},},
     {"id":{"name":"EndManager","path":"objects/EndManager/EndManager.yy",},},
     {"id":{"name":"EndPlaceholder","path":"objects/EndPlaceholder/EndPlaceholder.yy",},},
+    {"id":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},},
     {"id":{"name":"Evie","path":"objects/Evie/Evie.yy",},},
     {"id":{"name":"FishKnower","path":"objects/FishKnower/FishKnower.yy",},},
     {"id":{"name":"FishSpeaker","path":"objects/FishSpeaker/FishSpeaker.yy",},},

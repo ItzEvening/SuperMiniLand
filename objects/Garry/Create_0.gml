@@ -1,8 +1,7 @@
 event_inherited();
 
-die = function() {
-	instance_destroy();
-}
+spr_dead = GarDead;
+
 jump = function() {
 	_inrange = distance_to_object(Player) < 250;
 	
@@ -37,8 +36,6 @@ jump = function() {
 	}
 }
 
-dead = false;
-death_timer = time_source_create(time_source_game, 1, time_source_units_seconds, die);
 jumped = false;
 jump_timer = time_source_create(time_source_game, 1, time_source_units_seconds, jump);
 
