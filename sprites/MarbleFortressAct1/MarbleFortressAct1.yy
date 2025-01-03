@@ -5,21 +5,21 @@
   "bbox_bottom":7999,
   "bbox_left":0,
   "bbox_right":6399,
-  "bbox_top":320,
+  "bbox_top":384,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1abf1c9e-45d0-4ef1-bb82-0498c169f67e","name":"1abf1c9e-45d0-4ef1-bb82-0498c169f67e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"3c3a7552-4287-4618-be9c-3cd4df4ccca7","name":"3c3a7552-4287-4618-be9c-3cd4df4ccca7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":8000,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"7839290d-9c85-4b93-bb0c-3aa32b4ab7b8","blendMode":0,"displayName":"default","isLocked":false,"name":"7839290d-9c85-4b93-bb0c-3aa32b4ab7b8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"0ac2569b-ec29-44dd-adf4-ce305587f26c","blendMode":0,"displayName":"default","isLocked":false,"name":"0ac2569b-ec29-44dd-adf4-ce305587f26c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"MarbleFortressAct1",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1abf1c9e-45d0-4ef1-bb82-0498c169f67e","path":"sprites/MarbleFortressAct1/MarbleFortressAct1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7ecc5172-3c67-4411-8e72-18c73dcd3d18","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3c3a7552-4287-4618-be9c-3cd4df4ccca7","path":"sprites/MarbleFortressAct1/MarbleFortressAct1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6c2e1900-ecca-47a4-9c74-31bcb410ddab","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
