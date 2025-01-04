@@ -239,6 +239,7 @@
     {"id":{"name":"MainMusic","path":"sounds/MainMusic/MainMusic.yy",},},
     {"id":{"name":"MainMusic2","path":"sounds/MainMusic2/MainMusic2.yy",},},
     {"id":{"name":"MarbleFortress","path":"sounds/MarbleFortress/MarbleFortress.yy",},},
+    {"id":{"name":"MarbleFortressE","path":"sounds/MarbleFortressE/MarbleFortressE.yy",},},
     {"id":{"name":"MSides","path":"sounds/MSides/MSides.yy",},},
     {"id":{"name":"PolyPalace","path":"sounds/PolyPalace/PolyPalace.yy",},},
     {"id":{"name":"Recovery","path":"sounds/Recovery/Recovery.yy",},},
