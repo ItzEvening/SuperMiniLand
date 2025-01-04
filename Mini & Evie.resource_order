@@ -196,6 +196,7 @@
     {"name":"Logo_Jingle_2","order":33,"path":"sounds/Logo_Jingle_2/Logo_Jingle_2.yy",},
     {"name":"MainMusic","order":4,"path":"sounds/MainMusic/MainMusic.yy",},
     {"name":"MarbleFortress","order":20,"path":"sounds/MarbleFortress/MarbleFortress.yy",},
+    {"name":"MarbleFortressE","order":6,"path":"sounds/MarbleFortressE/MarbleFortressE.yy",},
     {"name":"MSides","order":3,"path":"sounds/MSides/MSides.yy",},
     {"name":"PolyPalace","order":6,"path":"sounds/PolyPalace/PolyPalace.yy",},
     {"name":"Recovery","order":6,"path":"sounds/Recovery/Recovery.yy",},
