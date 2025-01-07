@@ -486,6 +486,8 @@
     {"id":{"name":"menu_right","path":"sprites/menu_right/menu_right.yy",},},
     {"id":{"name":"Menu_Tiles","path":"sprites/Menu_Tiles/Menu_Tiles.yy",},},
     {"id":{"name":"MenuDots","path":"sprites/MenuDots/MenuDots.yy",},},
+    {"id":{"name":"MF_Wall","path":"sprites/MF_Wall/MF_Wall.yy",},},
+    {"id":{"name":"MF_Window","path":"sprites/MF_Window/MF_Window.yy",},},
     {"id":{"name":"Midnight_Rush","path":"sprites/Midnight_Rush/Midnight_Rush.yy",},},
     {"id":{"name":"MidnightRush_Old","path":"sprites/MidnightRush_Old/MidnightRush_Old.yy",},},
     {"id":{"name":"MidnightRushAct1","path":"sprites/MidnightRushAct1/MidnightRushAct1.yy",},},

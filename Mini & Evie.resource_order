@@ -433,6 +433,8 @@
     {"name":"menu_right","order":53,"path":"sprites/menu_right/menu_right.yy",},
     {"name":"Menu_Tiles","order":7,"path":"sprites/Menu_Tiles/Menu_Tiles.yy",},
     {"name":"MenuDots","order":55,"path":"sprites/MenuDots/MenuDots.yy",},
+    {"name":"MF_Wall","order":72,"path":"sprites/MF_Wall/MF_Wall.yy",},
+    {"name":"MF_Window","order":73,"path":"sprites/MF_Window/MF_Window.yy",},
     {"name":"Midnight_Rush","order":18,"path":"sprites/Midnight_Rush/Midnight_Rush.yy",},
     {"name":"MidnightRush_Old","order":16,"path":"sprites/MidnightRush_Old/MidnightRush_Old.yy",},
     {"name":"MidnightRushAct1","order":18,"path":"sprites/MidnightRushAct1/MidnightRushAct1.yy",},
