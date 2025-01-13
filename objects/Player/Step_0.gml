@@ -84,18 +84,25 @@ if (_coinr != noone and !_coinr.collected)
 }
 
 var _coind = instance_place(x, y, CoinD);
-if (_coind != noone and _coind.activated)
+var _valid_coin = (_coind != noone) and _coind.activated;
+var _valid_state = (object_index == Mini) and done_gimmick;
+
+if (_valid_coin)
 { 
 	_coind.activated = false;
 	_coind.visible = false;
 	time_source_start(_coind.timer);
 	
-	hsp = 17.5 * image_xscale;
-	vsp = -0.5;
 	audio_play_sound(CoinGot, 10, 0);
 	
 	if (!_coind.collected) {
 		coins++;
+	}
+	
+	
+	if (_valid_state) {
+		hsp = 17.5 * image_xscale;
+		vsp = -0.5;
 	}
 }
 
