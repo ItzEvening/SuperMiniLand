@@ -102,7 +102,7 @@ if (_valid_coin)
 	
 	if (_valid_state) {
 		hsp = 17.5 * image_xscale;
-		vsp = -0.5;
+		vsp = -0.3;
 	}
 }
 
