@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":36.0,
+  "duration":50.4,
   "name":"Demo_Menu_Test",
   "parent":{
     "name":"Menu Themes",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"Demo_Menu_Test.ogg",
   "type":0,
-  "volume":0.78,
+  "volume":1.0,
 }
