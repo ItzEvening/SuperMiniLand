@@ -414,6 +414,7 @@
     {"id":{"name":"FiwIdle","path":"sprites/FiwIdle/FiwIdle.yy",},},
     {"id":{"name":"FlowerBlue","path":"sprites/FlowerBlue/FlowerBlue.yy",},},
     {"id":{"name":"FlowerPink","path":"sprites/FlowerPink/FlowerPink.yy",},},
+    {"id":{"name":"font_","path":"sprites/font_/font_.yy",},},
     {"id":{"name":"font_0","path":"sprites/font_0/font_0.yy",},},
     {"id":{"name":"font_1","path":"sprites/font_1/font_1.yy",},},
     {"id":{"name":"font_2","path":"sprites/font_2/font_2.yy",},},

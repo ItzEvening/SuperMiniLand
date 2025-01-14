@@ -361,6 +361,7 @@
     {"name":"FiwIdle","order":6,"path":"sprites/FiwIdle/FiwIdle.yy",},
     {"name":"FlowerBlue","order":33,"path":"sprites/FlowerBlue/FlowerBlue.yy",},
     {"name":"FlowerPink","order":32,"path":"sprites/FlowerPink/FlowerPink.yy",},
+    {"name":"font_","order":36,"path":"sprites/font_/font_.yy",},
     {"name":"font_0","order":17,"path":"sprites/font_0/font_0.yy",},
     {"name":"font_1","order":23,"path":"sprites/font_1/font_1.yy",},
     {"name":"font_2","order":29,"path":"sprites/font_2/font_2.yy",},
