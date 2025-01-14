@@ -8,7 +8,7 @@ timer_running = false;
 range = 400;
 
 sfx_dead = sfx_Car_Horn;
-spr_dead = CopCarDead;
+spr_dead = CarCopDead;
 
 activate_siren = function() {
 	

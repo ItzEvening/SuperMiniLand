@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"CopCarDrive",
-    "path":"sprites/CopCarDrive/CopCarDrive.yy",
+    "name":"CarCopDrive",
+    "path":"sprites/CarCopDrive/CarCopDrive.yy",
   },
   "spriteMaskId":null,
   "visible":true,
