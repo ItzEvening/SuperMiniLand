@@ -1,12 +1,12 @@
 {
   "$GMScript":"",
-  "%Name":"SlideTransition",
+  "%Name":"s_enable_gimmick",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"SlideTransition",
+  "name":"s_enable_gimmick",
   "parent":{
-    "name":"Sequences",
-    "path":"folders/Sequences.yy",
+    "name":"Player",
+    "path":"folders/Scripts/Player.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

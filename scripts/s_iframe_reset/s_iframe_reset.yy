@@ -1,12 +1,12 @@
 {
   "$GMScript":"",
-  "%Name":"SlideTransition",
+  "%Name":"s_iframe_reset",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"SlideTransition",
+  "name":"s_iframe_reset",
   "parent":{
-    "name":"Sequences",
-    "path":"folders/Sequences.yy",
+    "name":"Player",
+    "path":"folders/Scripts/Player.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

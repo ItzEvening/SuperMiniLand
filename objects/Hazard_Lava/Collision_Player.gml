@@ -8,7 +8,7 @@ if (_player != noone) {
 		audio_play_sound(Damage, 10, 0);
 	
 		
-			_player.handle_death();
+		_player.handle_death();
 		
 	}
 	
