@@ -448,6 +448,7 @@
     {"name":"Mini_Run2","order":6,"path":"sprites/Mini_Run2/Mini_Run2.yy",},
     {"name":"Mini_Wave","order":37,"path":"sprites/Mini_Wave/Mini_Wave.yy",},
     {"name":"MiniLivesIcon","order":14,"path":"sprites/MiniLivesIcon/MiniLivesIcon.yy",},
+    {"name":"MR_Buildings","order":74,"path":"sprites/MR_Buildings/MR_Buildings.yy",},
     {"name":"MusicM","order":21,"path":"sprites/MusicM/MusicM.yy",},
     {"name":"MusicV","order":22,"path":"sprites/MusicV/MusicV.yy",},
     {"name":"New_Menu_Tile","order":19,"path":"sprites/New_Menu_Tile/New_Menu_Tile.yy",},
