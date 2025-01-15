@@ -33,7 +33,7 @@ original_x = x;
 original_y = y;
 
 // lives stuff
-chances = 2;
+chances = 5;
 show_chances = true;
 
 // sprites
