@@ -10,5 +10,8 @@ function s_change_life(_delta){
 		hpgui.lifetoframe(hp);
 	}
 	
-	reset_iframe();
+	if (_delta < 0) {
+		reset_iframe();
+	}
+	
 }
