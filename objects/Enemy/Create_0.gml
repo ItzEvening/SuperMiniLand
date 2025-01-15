@@ -3,6 +3,7 @@ event_inherited();
 spr_dead = GarDead;
 sfx_dead = EnemyDefeat;
 killable = true;
+collide_on_death = true;
 
 die = function() {
 	instance_destroy();

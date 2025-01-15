@@ -1,6 +1,7 @@
 event_inherited();
 
-obey_physics = false;
+obey_collisions = false;
+obey_gravity = false;
 killable = false;
 p_speed = 2;
 x_prev = x;

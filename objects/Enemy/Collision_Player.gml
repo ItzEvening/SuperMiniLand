@@ -9,21 +9,21 @@ if (_player != noone) {
 		dead = true;
 		time_source_start(death_timer);
 		_player.vsp = -5;
+		
+		obey_gravity = true;
+		
+		if (collide_on_death) {
+			obey_collisions = true;
+		}
+		
+		if (path_index != -1) {
+			path_end();
+		}
 	}
 	
 	else if (!dead and !_player.invincible) {
 		audio_play_sound(Damage, 10, 0);
 		_player.change_life(-1);
-		
-		
-		//if (_player.hp == 0) 
-		//{
-		//	_player.handle_death();
-		//}
-		//else {
-		//	_player.change_life(-1);
-		//	_player.reset_iframe();
-		//}
 	}
 	
 }

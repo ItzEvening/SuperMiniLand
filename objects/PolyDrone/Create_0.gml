@@ -1,5 +1,6 @@
 event_inherited();
-obey_physics = false;
+obey_collisions = false;
+obey_gravity = false;
 
 spr_dead = DroneDead;
 sfx_dead = sfx_Drone_Defeat;
