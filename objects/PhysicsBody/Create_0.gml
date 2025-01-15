@@ -1,5 +1,6 @@
 // following the laws of physics
-obey_physics = true;
+obey_gravity = true;
+obey_collisions = true;
 
 // physics properties
 walksp = 5;
@@ -36,10 +37,11 @@ calculate_speeds = function(_move, _underwater)
 	if (!is_undefined(rail_tiles)) {
 		_touching_rail = place_meeting(x,y+1,rail_tiles);
 	}
-
 	
 	// Sets vertical speed
-    vsp = vsp + grv;
+	if (obey_gravity) {
+		vsp = vsp + grv;
+	}
 	if (_underwater)
 	{
 		vsp = vsp - water_damp_constant * vsp;
@@ -143,6 +145,13 @@ meeting_solid = function(_x, _y) {
 
 function manage_collisions()
 {
+	if (!obey_collisions) {
+		x += hsp;
+		y += vsp;
+		
+		return;
+	}
+	
 	// Horizontal collisions
 	var _barrier_collide = (x + hsp <= o_barrier_left.x) or (x + hsp >= o_barrier_right.x);
 	

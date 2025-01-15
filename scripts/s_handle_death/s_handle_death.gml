@@ -23,4 +23,6 @@ function s_handle_death(){
 	y = original_y;
 	hsp = 0;
 	vsp = 0;
+	
+	reset_iframe();
 }
