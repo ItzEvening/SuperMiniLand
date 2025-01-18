@@ -1,0 +1,1 @@
+time_source_destroy(death_timer);
