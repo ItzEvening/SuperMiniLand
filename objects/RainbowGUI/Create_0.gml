@@ -26,6 +26,10 @@ switch (room) {
 	case SecretSanctuary:
 		lvl = "secret"
 		break;
+		
+	case MarbleFortress_1:
+		lvl = "marble"
+		break;
 }
 
 // retrive all the rainbow gem instances

@@ -17,6 +17,10 @@ switch (global.level) {
 	case Old_MidnightRush_1:
 		key = "midnight";
 	break;
+	
+	case MarbleFortress_1:
+		key = "marble";
+	break;
 }
 
 if (key != "") {
