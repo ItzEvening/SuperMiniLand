@@ -1,4 +1,4 @@
-event_inherited();
+ybxevent_inherited();
 
 if (vsp > 0) {
 	sprite_index = spr_FireballDown;

@@ -115,7 +115,12 @@
   {
     "Stage": "MarbleFortress_1",
     "Song": "MarbleFortress"
+  },
+  {
+    "Stage": "GreenMountain_1",
+    "Song": "song_GreenMountain"
   }
+
 
 
 
