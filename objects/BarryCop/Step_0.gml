@@ -1,6 +1,6 @@
 event_inherited();
 
-var _onGround = place_meeting(x,y+1,ground_tiles);
+var _onGround = place_meeting(x,y+1,ground_tiles) or place_meeting(x,y+1,SolidObject);
 var _timerInactive = time_source_get_state(jump_timer) != time_source_state_active;
 
 if (_onGround and _timerInactive and !dead) {

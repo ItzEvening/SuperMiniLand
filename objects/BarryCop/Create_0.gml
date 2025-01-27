@@ -8,9 +8,9 @@ jump = function() {
 	
 	//The Supernatual ...for Final Chase
 	
+	_ground = place_meeting(x,y+1,ground_tiles) or place_meeting(x,y+1,SolidObject);
 	
-	
-	if (place_meeting(x,y+1,ground_tiles) and !dead and _inrange) {
+	if (_ground and !dead and _inrange) {
 		vsp = -5;
 		sprite_index = CBarFly;
 		jumped = true;

@@ -19,7 +19,7 @@ switch (room) {
 		lvl = "salmon";
 		break;
 		
-	case Old_MidnightRush_1:
+	case MidnightRush_1:
 		lvl = "midnight";
 		break;
 		

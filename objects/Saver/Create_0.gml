@@ -14,7 +14,7 @@ switch (global.level) {
 		key = "secret";
 	break;
 	
-	case Old_MidnightRush_1:
+	case MidnightRush_1:
 		key = "midnight";
 	break;
 	
