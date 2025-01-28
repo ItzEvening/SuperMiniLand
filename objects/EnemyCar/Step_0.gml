@@ -4,6 +4,8 @@ var _left_collide = place_meeting(x - walksp, y, ground_tiles);
 var _left_on_ground = place_meeting(x - walksp, y + 2, ground_tiles);
 var _right_collide = place_meeting(x + walksp, y, ground_tiles);
 var _right_on_ground = place_meeting(x + walksp, y + 2, ground_tiles);
+
+var _player_y_range = Player.y < y + 64 and Player.y > y - 128;
 		
 if (!dead) {
 	
@@ -20,11 +22,11 @@ if (!dead) {
 	}
 	
 	
-	if (!player_detected and !timer_running and distance_to_object(Player) < range) {
+	if (!player_detected and !timer_running and distance_to_object(Player) < range and _player_y_range) {
 		player_detected = true;
 		timer_running = true;
 		time_source_start(siren_timer);
-		audio_play_sound(sfx_Car_Horn_2, 5, 0);
+		audio_play_sound(sfx_horn, 5, 0);
 	}
 	else if (!timer_running and distance_to_object(Player) >= range) {
 		player_detected = false;

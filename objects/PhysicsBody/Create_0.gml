@@ -20,6 +20,9 @@ water_damp_constant = 0.12;
 // for underwater audio effect
 was_underwater = false;
 
+// for walkers/cars
+must_grounded = false;
+
 // tileset
 ground_tiles = layer_tilemap_get_id("Foreground_Tiles");
 water_tiles = layer_tilemap_get_id("Water");
@@ -154,8 +157,9 @@ function manage_collisions()
 	
 	// Horizontal collisions
 	var _barrier_collide = (x + hsp <= o_barrier_left.x) or (x + hsp >= o_barrier_right.x);
+	var _grounded_check = !must_grounded or meeting_solid(x + hsp, y + 1);
 	
-	if (meeting_solid(x + hsp, y) or _barrier_collide) 
+	if (meeting_solid(x + hsp, y) or _barrier_collide or !_grounded_check) 
 	{
 		
 	    while (!colliding_now("x"))
@@ -192,6 +196,10 @@ function colliding_now(_axis)
 		// barriers
 		if ((x + sign(hsp) <= o_barrier_left.x) or (x + sign(hsp) >= o_barrier_right.x))
 		{
+			return true;
+		}
+		
+		if (must_grounded and !meeting_solid(x + sign(hsp), y + 1)) {
 			return true;
 		}
 	}
