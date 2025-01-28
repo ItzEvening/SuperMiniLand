@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"ClearE",
+  "%Name":"sfx_Car_Horn_3",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,17 +9,17 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":7.384603,
-  "name":"ClearE",
+  "duration":1.854694,
+  "name":"sfx_Car_Horn_3",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Sound Effects",
+    "path":"folders/Sounds/Sound Effects.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"ClearE.wav",
-  "type":1,
+  "soundFile":"sfx_Car_Horn_3.ogg",
+  "type":0,
   "volume":1.0,
 }
