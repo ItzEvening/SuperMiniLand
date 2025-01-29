@@ -91,6 +91,7 @@ if (_valid_coin)
 { 
 	_coind.activated = false;
 	_coind.visible = false;
+	_coind.sprite_index = Dash_Gem_Used;
 	time_source_start(_coind.timer);
 	
 	audio_play_sound(CoinGot, 10, 0);

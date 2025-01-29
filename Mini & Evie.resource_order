@@ -356,6 +356,7 @@
     {"name":"City3","order":71,"path":"sprites/City3/City3.yy",},
     {"name":"Coin_Sprite","order":12,"path":"sprites/Coin_Sprite/Coin_Sprite.yy",},
     {"name":"CoinGUI","order":13,"path":"sprites/CoinGUI/CoinGUI.yy",},
+    {"name":"Dash_Gem_Used","order":71,"path":"sprites/Dash_Gem_Used/Dash_Gem_Used.yy",},
     {"name":"Dash_Gem","order":66,"path":"sprites/Dash_Gem/Dash_Gem.yy",},
     {"name":"Dash_Sign_Left","order":7,"path":"sprites/Dash_Sign_Left/Dash_Sign_Left.yy",},
     {"name":"Dash_Sign_Right","order":6,"path":"sprites/Dash_Sign_Right/Dash_Sign_Right.yy",},

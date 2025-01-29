@@ -407,6 +407,7 @@
     {"id":{"name":"City3","path":"sprites/City3/City3.yy",},},
     {"id":{"name":"Coin_Sprite","path":"sprites/Coin_Sprite/Coin_Sprite.yy",},},
     {"id":{"name":"CoinGUI","path":"sprites/CoinGUI/CoinGUI.yy",},},
+    {"id":{"name":"Dash_Gem_Used","path":"sprites/Dash_Gem_Used/Dash_Gem_Used.yy",},},
     {"id":{"name":"Dash_Gem","path":"sprites/Dash_Gem/Dash_Gem.yy",},},
     {"id":{"name":"Dash_Sign_Left","path":"sprites/Dash_Sign_Left/Dash_Sign_Left.yy",},},
     {"id":{"name":"Dash_Sign_Right","path":"sprites/Dash_Sign_Right/Dash_Sign_Right.yy",},},
