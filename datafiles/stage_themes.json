@@ -127,7 +127,12 @@
   {
     "Stage": "DarkForest_1",
     "Song": "song_DarkForest"
+  },
+  {
+    "Stage": "DarkForest_2",
+    "Song": "song_DarkForest"
   }
+
 
 
 

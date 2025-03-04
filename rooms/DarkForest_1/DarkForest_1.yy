@@ -128,8 +128,8 @@
   ],
   "name":"DarkForest_1",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Alramech Adventures",
+    "path":"folders/Rooms/Alramech Adventures.yy",
   },
   "parentRoom":{
     "name":"Level",
