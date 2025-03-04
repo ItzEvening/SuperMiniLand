@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"song_GreenMountain",
+  "%Name":"song_DarkForest",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":18.857143,
-  "name":"song_GreenMountain",
+  "duration":17.142857,
+  "name":"song_DarkForest",
   "parent":{
     "name":"Super Alramech Ost",
     "path":"folders/Sounds/Super Alramech Ost.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"song_GreenMountain.ogg",
+  "soundFile":"song_DarkForest.ogg",
   "type":0,
   "volume":1.0,
 }
