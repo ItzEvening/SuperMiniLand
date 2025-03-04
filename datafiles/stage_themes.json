@@ -119,7 +119,12 @@
   {
     "Stage": "GreenMountain_1",
     "Song": "song_GreenMountain"
+  },
+  {
+    "Stage": "GreenMountain_2",
+    "Song": "song_GreenMountain"
   }
+
 
 
 
