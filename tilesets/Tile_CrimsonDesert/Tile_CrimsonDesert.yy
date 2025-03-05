@@ -1,0 +1,46 @@
+{
+  "$GMTileSet":"",
+  "%Name":"Tile_CrimsonDesert",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"Tile_CrimsonDesert",
+  "out_columns":3,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Stage Tiles",
+    "path":"folders/Tile Sets/Stage Tiles.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"Crimson_Desert",
+    "path":"sprites/Crimson_Desert/Crimson_Desert.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimation":{
+    "FrameData":[
+      0,0,0,0,1,1,1,1,2,2,2,2,3,3,4,4,4,4,3,3,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,
+    ],
+    "SerialiseFrameCount":4,
+  },
+  "tileAnimationFrames":[
+    {"$GMTileAnimation":"","%Name":"animation_1","frames":[3,3,4,4,],"name":"animation_1","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
+  ],
+  "tileAnimationSpeed":6.0,
+  "tileHeight":32,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":32,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":9,
+}
