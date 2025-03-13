@@ -135,7 +135,12 @@
   {
     "Stage": "CrimsonDesert_1",
     "Song": "song_CrimsonDesert"
-  }
+  },
+  {
+      "Stage": "SpringIsland__1",
+      "Song": "SpringIsland"
+    }
+
 
 
 

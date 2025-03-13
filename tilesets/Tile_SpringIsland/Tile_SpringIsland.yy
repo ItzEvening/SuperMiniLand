@@ -3,9 +3,9 @@
   "%Name":"Tile_SpringIsland",
   "autoTileSets":[],
   "macroPageTiles":{
-    "SerialiseHeight":0,
-    "SerialiseWidth":0,
-    "TileSerialiseData":[],
+    "SerialiseHeight":3,
+    "SerialiseWidth":2,
+    "TileSerialiseData":[0,0,0,22,0,21,],
   },
   "name":"Tile_SpringIsland",
   "out_columns":6,
