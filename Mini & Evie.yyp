@@ -253,6 +253,7 @@
     {"id":{"name":"Sequence3","path":"sequences/Sequence3/Sequence3.yy",},},
     {"id":{"name":"Sequence4","path":"sequences/Sequence4/Sequence4.yy",},},
     {"id":{"name":"Sequence5","path":"sequences/Sequence5/Sequence5.yy",},},
+    {"id":{"name":"Sequence6","path":"sequences/Sequence6/Sequence6.yy",},},
     {"id":{"name":"AirBase","path":"sounds/AirBase/AirBase.yy",},},
     {"id":{"name":"AirBase2","path":"sounds/AirBase2/AirBase2.yy",},},
     {"id":{"name":"BalloonPark","path":"sounds/BalloonPark/BalloonPark.yy",},},

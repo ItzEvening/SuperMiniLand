@@ -211,6 +211,7 @@
     {"name":"Sequence3","order":3,"path":"sequences/Sequence3/Sequence3.yy",},
     {"name":"Sequence4","order":5,"path":"sequences/Sequence4/Sequence4.yy",},
     {"name":"Sequence5","order":6,"path":"sequences/Sequence5/Sequence5.yy",},
+    {"name":"Sequence6","order":7,"path":"sequences/Sequence6/Sequence6.yy",},
     {"name":"AirBase","order":13,"path":"sounds/AirBase/AirBase.yy",},
     {"name":"BalloonPark","order":1,"path":"sounds/BalloonPark/BalloonPark.yy",},
     {"name":"BalloonPark2","order":14,"path":"sounds/BalloonPark2/BalloonPark2.yy",},

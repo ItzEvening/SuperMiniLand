@@ -32,7 +32,7 @@ HamSam = function(){
 	time_source_start(splash_timer2);
 }
 
-splash_timer = time_source_create(time_source_global, 180, time_source_units_frames, HamSam);
+splash_timer = time_source_create(time_source_global, 610, time_source_units_frames, HamSam);
 
 time_source_start(splash_timer);
 
