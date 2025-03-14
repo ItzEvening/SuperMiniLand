@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":57.6,
+  "duration":91.2973,
   "name":"song_MidnightRushE",
   "parent":{
     "name":"Stage Themes E",

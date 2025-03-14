@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":4.707823,
+  "duration":7.256259,
   "name":"Logo_Jingle_2",
   "parent":{
     "name":"Sounds",
