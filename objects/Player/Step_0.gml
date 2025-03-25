@@ -85,7 +85,7 @@ if (_coinr != noone and !_coinr.collected)
 
 var _coind = instance_place(x, y, CoinD);
 var _valid_coin = (_coind != noone) and _coind.activated;
-var _valid_state = (object_index == Mini) and done_gimmick;
+var _valid_state = (object_index == Mini or object_index == P_MetalNamey) and done_gimmick;
 
 if (_valid_coin)
 { 
