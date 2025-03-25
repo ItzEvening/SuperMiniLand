@@ -3,18 +3,17 @@
   "%Name":"Garry",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"Garry",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Objects/Enemies.yy",
+    "name":"Barry",
+    "path":"folders/Objects/Enemies/Barry.yy",
   },
   "parentObjectId":{
-    "name":"Enemy",
-    "path":"objects/Enemy/Enemy.yy",
+    "name":"Barry",
+    "path":"objects/Barry/Barry.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

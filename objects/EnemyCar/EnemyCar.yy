@@ -9,8 +9,8 @@
   "name":"EnemyCar",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Objects/Enemies.yy",
+    "name":"Cars",
+    "path":"folders/Objects/Enemies/Cars.yy",
   },
   "parentObjectId":{
     "name":"Enemy",

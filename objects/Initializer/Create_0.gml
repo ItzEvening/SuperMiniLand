@@ -25,14 +25,13 @@ JamSam = function(){
 	SlideTransition(TRANS_MODE.GOTO, Main_Menu);
 }
 
-splash_timer2 = time_source_create(time_source_global, 7, time_source_units_seconds, JamSam);
-
 HamSam = function(){
 	SlideTransition(TRANS_MODE.GOTO, Splash_Screen_2);
 	time_source_start(splash_timer2);
 }
 
-splash_timer = time_source_create(time_source_global, 610, time_source_units_frames, HamSam);
+splash_timer = time_source_create(time_source_global, 640, time_source_units_frames, HamSam);
+splash_timer2 = time_source_create(time_source_global, 7, time_source_units_seconds, JamSam);
 
 time_source_start(splash_timer);
 

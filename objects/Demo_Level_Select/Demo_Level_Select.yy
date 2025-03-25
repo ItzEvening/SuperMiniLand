@@ -21,8 +21,8 @@
   "name":"Demo_Level_Select",
   "overriddenProperties":[],
   "parent":{
-    "name":"GUI",
-    "path":"folders/Objects/GUI.yy",
+    "name":"Obsolete",
+    "path":"folders/Objects/Obsolete.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -9,8 +9,8 @@
   "name":"Birdie",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Objects/Enemies.yy",
+    "name":"Drones",
+    "path":"folders/Objects/Enemies/Drones.yy",
   },
   "parentObjectId":{
     "name":"Enemy",

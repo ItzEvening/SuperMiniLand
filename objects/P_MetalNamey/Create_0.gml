@@ -21,17 +21,18 @@ hp = hp_default;
 
 boost_default = 0;
 boost = boost_default;
+boosted = false;
 // forcefield
 forcefield = noone;
 
 manage_animations = function(_midair)
 {
 	// If drilling
-	if (_midair and done_gimmick and boost > 0) {
+	if (_midair and done_gimmick and boosted) {
 		image_speed = 1;
 		sprite_index = M_Mini_Dash;
 	}
-	else if (_midair and done_gimmick and boost == 0) {
+	else if (_midair and done_gimmick) {
 		image_speed = 1;
 		sprite_index = M_Mini_Dash_Empty;
 	}

@@ -5,4 +5,4 @@ teleport = function() {
 	}
 }
 
-teleport_timer = time_source_create(time_source_global, 2, time_source_units_seconds, teleport);
+teleport_timer = time_source_create(time_source_global, 1.5, time_source_units_seconds, teleport);

@@ -6,9 +6,9 @@ var _timerInactive = time_source_get_state(jump_timer) != time_source_state_acti
 if (_onGround and _timerInactive and !dead) {
 	time_source_start(jump_timer);
 	jumped = false;
-	sprite_index = BarIdle;
+	sprite_index = spr_idle;
 }
 
 if (jumped && !_onGround) {
-	hsp = 3 * jump_direction;
+	hsp = jump_length * jump_direction;
 }

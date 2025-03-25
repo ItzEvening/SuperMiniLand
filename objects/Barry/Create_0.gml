@@ -1,18 +1,13 @@
 event_inherited();
 
-spr_dead = BarDead;
-sfx_dead = EnemyDefeat2;
-
 jump = function() {
-	_inrange = distance_to_object(Player) < 500;
+	_inrange = distance_to_object(Player) < detect_distance;
 	
 	//The Supernatual ...for Final Chase
 	
-	
-	
 	if (place_meeting(x,y+1,ground_tiles) and !dead and _inrange) {
-		vsp = -7;
-		sprite_index = BarFly;
+		vsp = jump_height;
+		sprite_index = spr_fly;
 		jumped = true;
 		
 		// decide jump direction
@@ -37,8 +32,15 @@ jump = function() {
 	}
 }
 
+spr_dead = BarDead;
+sfx_dead = EnemyDefeat2;
+jump_height = -7;
+jump_length = 3;
+detect_distance = 500;
+
+spr_fly = BarFly;
+spr_idle = BarIdle;
 
 jumped = false;
 jump_timer = time_source_create(time_source_game, 1, time_source_units_seconds, jump);
-
 jump_direction = 1;

@@ -1,6 +1,12 @@
 event_inherited();
 
 var _gimmick = keyboard_check_pressed(vk_space) or keyboard_check_pressed(ord("W"));
+var _midair = !meeting_solid(x, y + 1);
+
+// to inform that the player touched ground after boost
+if (!_midair and boosted) {
+	boosted = false;
+}
 
 if (can_gimmick and _gimmick and boost > 0) {
 	// hsp = 17.5 * image_xscale;
@@ -14,11 +20,12 @@ if (can_gimmick and _gimmick and boost > 0) {
 	
 	done_gimmick = true;
 	can_gimmick = false;
+	boosted = true;
 	
 	forcefield = instance_create_layer(x, y, layer, o_Forcefield);
 }
 
-if (can_gimmick and _gimmick and boost = 0) {
+if (can_gimmick and _gimmick and boost == 0) {
 	// hsp = 17.5 * image_xscale;
 	audio_play_sound(sfx_Drone_Defeat,10,0);
 	hsp = 0 * image_xscale;

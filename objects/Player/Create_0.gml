@@ -3,25 +3,105 @@ event_inherited();
 #region functions
 
 // iframe functions
-reset_iframe = method(self, s_iframe_reset);
-expire_iframe = method(self, s_iframe_expire);
-blink_iframe = method(self, s_iframe_blink);
-change_visibility = method(self, s_change_visibility);
+reset_iframe = function() {
+	time_source_start(iframe_timer);
+	time_source_start(blink_timer);
+	invincible = true;
+}
+
+expire_iframe = function() {
+	invincible = false;
+	visible = true;
+}
+
+blink_iframe = function() {
+	visible = !visible;
+}
+
+change_visibility = function() {
+	show_chances = !show_chances;
+}
 
 // life functions
-change_life = method(self, s_change_life);
+change_life = function(_delta) {
+	if (hp == 0 and _delta < 0) {
+		handle_death();
+	}
+	
+	else {
+		hp += _delta;
+		hpgui.lifetoframe(hp);
+	}
+	
+	if (_delta < 0) {
+		reset_iframe();
+	}
+}
 
 // animation function
-manage_animations = method(self, s_manage_animations);
+manage_animations = function(_midair) {
+	//Animation Stuffs
+	if (_midair)
+	{
+	    sprite_index = fall;
+	    image_speed = 0;
+	if (sign(vsp) > 0) image_index = 1; else image_index = 0;
+	}
+	else
+	{
+		image_speed = 1;
+		if (hsp == 0)
+		{
+			sprite_index = idle;
+		}
+		else
+		{
+			sprite_index = run;
+		}
+	}
+	if (hsp != 0)
+	{
+		image_xscale = sign(hsp);
+	}
+}
 
 // death function
-handle_death = method(self, s_handle_death);
+handle_death = function() {
+	if (chances == 0)
+	{
+		SlideTransition(TRANS_MODE.GOTO, Game_Over);
+	}
+	else if (chances == 1)
+	{
+		timer = time_source_create(time_source_global, 0.75, time_source_units_seconds, change_visibility, [], -1);
+		time_source_start(timer);
+	}
+	
+	if (chances > 0) {
+		chances--;
+		
+	}
+	
+	hp = hp_default;
+	hpgui.lifetoframe(hp);
+	//change_life(3);
+	x = original_x;
+	y = original_y;
+	hsp = 0;
+	vsp = 0;
+	
+	reset_iframe();
+}
 
 // gimmick function
-enable_gimmick = method(self, s_enable_gimmick);
+enable_gimmick = function() {
+	can_gimmick = true;
+}
 
 // jump function
-finish_jump = method(self, s_finish_jump);
+finish_jump = function() {
+	released_jump = true;
+}
 #endregion
 
 #region variables
