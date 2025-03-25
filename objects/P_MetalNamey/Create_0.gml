@@ -53,7 +53,7 @@ manage_animations = function(_midair)
 		{
 			sprite_index = idle;
 		}
-		else if (hsp > 10)
+		else if (hsp > 10 or hsp == -15)
 		{
 			sprite_index = booster;
 		}
