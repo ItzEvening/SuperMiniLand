@@ -9,6 +9,7 @@ if (can_gimmick and _gimmick and boost > 0) {
 	vsp = -3.5;
 	walksp = 15;
 	boost--;
+	coins--;
 	
 	
 	done_gimmick = true;

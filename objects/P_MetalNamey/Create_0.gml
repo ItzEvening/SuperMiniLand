@@ -11,6 +11,7 @@ frict = 0.3;
 idle = M_Mini_Idle
 fall = M_Mini_Jump_Fall
 run = M_Mini_Run
+booster = M_Mini_Boost
 hpgui.sprite = HP_Player_M
 hpgui.bear = false;
 
@@ -18,7 +19,7 @@ hpgui.bear = false;
 hp_default = 8;
 hp = hp_default;
 
-boost_default = 3;
+boost_default = 0;
 boost = boost_default;
 // forcefield
 forcefield = noone;
@@ -26,11 +27,14 @@ forcefield = noone;
 manage_animations = function(_midair)
 {
 	// If drilling
-	if (_midair and done_gimmick) {
+	if (_midair and done_gimmick and boost > 0) {
 		image_speed = 1;
-		sprite_index = M_Mini_Boost;
+		sprite_index = M_Mini_Dash;
 	}
-	
+	else if (_midair and done_gimmick and boost == 0) {
+		image_speed = 1;
+		sprite_index = M_Mini_Dash_Empty;
+	}
 	//If midair but not dashing
 	else if (_midair)
 	{
@@ -48,6 +52,10 @@ manage_animations = function(_midair)
 		if (hsp == 0)
 		{
 			sprite_index = idle;
+		}
+		else if (hsp > 10)
+		{
+			sprite_index = booster;
 		}
 		else
 		{
