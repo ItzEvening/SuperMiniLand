@@ -508,6 +508,7 @@
     {"name":"Logo2_Slash","order":41,"path":"sprites/Logo2_Slash/Logo2_Slash.yy",},
     {"name":"Logo2","order":42,"path":"sprites/Logo2/Logo2.yy",},
     {"name":"Lose","order":30,"path":"sprites/Lose/Lose.yy",},
+    {"name":"M_Mini_Boost","order":27,"path":"sprites/M_Mini_Boost/M_Mini_Boost.yy",},
     {"name":"M_Mini_Dash","order":24,"path":"sprites/M_Mini_Dash/M_Mini_Dash.yy",},
     {"name":"M_Mini_Idle","order":23,"path":"sprites/M_Mini_Idle/M_Mini_Idle.yy",},
     {"name":"M_Mini_Jump_Fall","order":25,"path":"sprites/M_Mini_Jump_Fall/M_Mini_Jump_Fall.yy",},

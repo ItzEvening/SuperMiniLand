@@ -18,6 +18,8 @@ hpgui.bear = false;
 hp_default = 8;
 hp = hp_default;
 
+boost_default = 3;
+boost = boost_default;
 // forcefield
 forcefield = noone;
 
@@ -26,7 +28,7 @@ manage_animations = function(_midair)
 	// If drilling
 	if (_midair and done_gimmick) {
 		image_speed = 1;
-		sprite_index = M_Mini_Dash;
+		sprite_index = M_Mini_Boost;
 	}
 	
 	//If midair but not dashing

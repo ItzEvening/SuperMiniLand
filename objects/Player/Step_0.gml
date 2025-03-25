@@ -73,6 +73,7 @@ if (_coin != noone)
 {
 	instance_destroy(_coin);
 	coins++;
+	boost++;
 	audio_play_sound(CoinGot, 10, 0);
 }
 

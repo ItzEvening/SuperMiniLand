@@ -50,6 +50,9 @@ blink_timer = time_source_create(time_source_game, 0.2, time_source_units_second
 hp_default = 3;
 hp = hp_default;
 
+boost_default = 1;
+boost = boost_default;
+
 // create font stuff
 var _lives_struct = {xDraw: 140, yDraw: 800, scale: 0.75};
 livesFont = instance_create_layer(0, 0, "Instances", FontDrawer, _lives_struct);
