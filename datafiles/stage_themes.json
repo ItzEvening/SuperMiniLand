@@ -143,7 +143,17 @@
   {
       "Stage": "Test_Boost",
       "Song": "PolyPalace"
+  },
+  {
+      "Stage": "Blank_Canvas",
+      "Song": "The_Land_With_No_Color"
+  },
+  {
+      "Stage": "Character_Select",
+      "Song": "song_Player_Select"
   }
+
+
 
 
 
