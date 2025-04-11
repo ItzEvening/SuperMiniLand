@@ -35,10 +35,12 @@ right_barrier = instance_create_layer(room_width, y, layer, o_barrier_right);
 calculate_speeds = function(_move, _underwater) 
 {
 	// Initializes collision variables
-	var _touching_ground = place_meeting(x,y+1,ground_tiles);
+	var _g = sign(grv)
+	
+	var _touching_ground = place_meeting(x,y + _g,ground_tiles);
 	var _touching_rail = false
 	if (!is_undefined(rail_tiles)) {
-		_touching_rail = place_meeting(x,y+1,rail_tiles);
+		_touching_rail = place_meeting(x,y + _g,rail_tiles);
 	}
 	
 	// Sets vertical speed

@@ -16,7 +16,7 @@ if (hascontrol)
 
 
 // Physics Stuffs
-var _midair = !meeting_solid(x, y + 1);
+var _midair = !meeting_solid(x, y + sign(grv));
 var _move = _hit_right - _hit_left;
 var _underwater = place_meeting(x,y,water_tiles);
 
@@ -39,9 +39,11 @@ if (!_midair) and (_hit_jump)
 	
 	if (!_underwater) vsp = jump_strength;
 	else vsp = jump_strength_water;
+	
+	vsp *= sign(grv)
 }
 else if (!released_jump) {
-	vsp -= jump_resist;
+	vsp -= jump_resist * sign(grv);
 }
 
 // Release the jump
