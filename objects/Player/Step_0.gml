@@ -99,6 +99,7 @@ if (_valid_coin)
 	
 	if (!_coind.collected) {
 		coins++;
+		boost++;
 	}
 	
 	
