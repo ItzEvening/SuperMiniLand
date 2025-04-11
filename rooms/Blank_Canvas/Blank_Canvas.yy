@@ -37,6 +37,7 @@
     {"name":"inst_1813ABA1","path":"rooms/Blank_Canvas/Blank_Canvas.yy",},
     {"name":"inst_549850A","path":"rooms/Blank_Canvas/Blank_Canvas.yy",},
     {"name":"inst_63114AEA","path":"rooms/Blank_Canvas/Blank_Canvas.yy",},
+    {"name":"inst_5724247F","path":"rooms/Blank_Canvas/Blank_Canvas.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -87,6 +88,7 @@
         {"$GMRInstance":"","%Name":"inst_41E2DAB7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_41E2DAB7","objectId":{"name":"Hazard_Spikes_Tutorial","path":"objects/Hazard_Spikes_Tutorial/Hazard_Spikes_Tutorial.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1024.0,"y":160.0,},
         {"$GMRInstance":"","%Name":"inst_7C4B9A8F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7C4B9A8F","objectId":{"name":"Hazard_Spikes_Tutorial","path":"objects/Hazard_Spikes_Tutorial/Hazard_Spikes_Tutorial.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1056.0,"y":160.0,},
         {"$GMRInstance":"","%Name":"inst_4985CECC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4985CECC","objectId":{"name":"Hazard_Spikes_Tutorial","path":"objects/Hazard_Spikes_Tutorial/Hazard_Spikes_Tutorial.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1088.0,"y":160.0,},
+        {"$GMRInstance":"","%Name":"inst_5724247F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5724247F","objectId":{"name":"Rotate_Gravity","path":"objects/Rotate_Gravity/Rotate_Gravity.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1888.0,"y":448.0,},
       ],"layers":[],"name":"Hazards","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Foreground_Tiles","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Foreground_Tiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":25,"SerialiseWidth":141,"TileCompressedData":[
           -25,0,1,3,-8,2,1,5,-8,0,-98,-2147483648,-25,0,1,3,-8,2,1,5,-8,0,-98,-2147483648,-25,0,1,3,-8,2,1,5,-8,
