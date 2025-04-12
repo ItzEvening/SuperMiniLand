@@ -151,7 +151,12 @@
   {
       "Stage": "Character_Select",
       "Song": "song_Player_Select"
+  },
+  {
+      "Stage": "StarlightStation",
+      "Song": "song_StarlightStation"
   }
+
 
 
 
