@@ -579,6 +579,8 @@
     {"name":"Old_LarDead","order":14,"path":"sprites/Old_LarDead/Old_LarDead.yy",},
     {"name":"Old_LarFly","order":13,"path":"sprites/Old_LarFly/Old_LarFly.yy",},
     {"name":"Old_LarIdle","order":12,"path":"sprites/Old_LarIdle/Old_LarIdle.yy",},
+    {"name":"Planets_1","order":76,"path":"sprites/Planets_1/Planets_1.yy",},
+    {"name":"Planets_2","order":77,"path":"sprites/Planets_2/Planets_2.yy",},
     {"name":"Poly_Flex","order":35,"path":"sprites/Poly_Flex/Poly_Flex.yy",},
     {"name":"Poly_Palace","order":12,"path":"sprites/Poly_Palace/Poly_Palace.yy",},
     {"name":"PolyAlert","order":29,"path":"sprites/PolyAlert/PolyAlert.yy",},
