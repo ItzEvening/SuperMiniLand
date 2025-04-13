@@ -314,6 +314,7 @@
     {"id":{"name":"sfx_Checkpoint","path":"sounds/sfx_Checkpoint/sfx_Checkpoint.yy",},},
     {"id":{"name":"sfx_Dash","path":"sounds/sfx_Dash/sfx_Dash.yy",},},
     {"id":{"name":"sfx_Drone_Defeat","path":"sounds/sfx_Drone_Defeat/sfx_Drone_Defeat.yy",},},
+    {"id":{"name":"sfx_Gravity","path":"sounds/sfx_Gravity/sfx_Gravity.yy",},},
     {"id":{"name":"sfx_Helicopter","path":"sounds/sfx_Helicopter/sfx_Helicopter.yy",},},
     {"id":{"name":"sfx_Jump","path":"sounds/sfx_Jump/sfx_Jump.yy",},},
     {"id":{"name":"sfx_Jump2","path":"sounds/sfx_Jump2/sfx_Jump2.yy",},},
