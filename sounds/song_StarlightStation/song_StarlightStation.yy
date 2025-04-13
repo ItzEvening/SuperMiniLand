@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":46.829273,
+  "duration":49.23077,
   "name":"song_StarlightStation",
   "parent":{
     "name":"Stage Themes",
