@@ -6,5 +6,5 @@ if (global.bear) {
 	global.character = Arcturus;
 }
 
-global.level = SpringIsland_1;
+global.level = OldSpringIsland_1;
 }

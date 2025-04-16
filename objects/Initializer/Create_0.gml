@@ -1,6 +1,6 @@
 // initialize global variables
 global.music = 0;
-global.level = SpringIsland_1;
+global.level = OldSpringIsland_1;
 global.character = Mini;
 global.bear = false;
 global.rainbow_progress = [];

@@ -1,1 +1,1 @@
-target = SpringIsland__1;
+target = SpringIsland_1;

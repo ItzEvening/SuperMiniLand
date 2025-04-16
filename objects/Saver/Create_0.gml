@@ -3,7 +3,7 @@ key = "";
 
 // decide which key to update
 switch (global.level) {
-	case SpringIsland__1:
+	case SpringIsland_1:
 		key = "spring";
 	break;
 	
