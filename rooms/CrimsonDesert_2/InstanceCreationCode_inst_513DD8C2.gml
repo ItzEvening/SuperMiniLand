@@ -1,2 +1,2 @@
 target = Level_Card_Adventure;
-global.level = CrimsonDesert_2;
+global.level = FestivalNight_1;
