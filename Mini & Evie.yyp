@@ -193,6 +193,7 @@
     {"id":{"name":"Camera_Test","path":"rooms/Camera_Test/Camera_Test.yy",},},
     {"id":{"name":"Character_Select","path":"rooms/Character_Select/Character_Select.yy",},},
     {"id":{"name":"CrimsonDesert_1","path":"rooms/CrimsonDesert_1/CrimsonDesert_1.yy",},},
+    {"id":{"name":"CrimsonDesert_2","path":"rooms/CrimsonDesert_2/CrimsonDesert_2.yy",},},
     {"id":{"name":"DarkForest_1","path":"rooms/DarkForest_1/DarkForest_1.yy",},},
     {"id":{"name":"DarkForest_2","path":"rooms/DarkForest_2/DarkForest_2.yy",},},
     {"id":{"name":"Demo_End","path":"rooms/Demo_End/Demo_End.yy",},},
@@ -904,6 +905,7 @@
     {"roomId":{"name":"StarlightStation","path":"rooms/StarlightStation/StarlightStation.yy",},},
     {"roomId":{"name":"Level_Card_Starlight","path":"rooms/Level_Card_Starlight/Level_Card_Starlight.yy",},},
     {"roomId":{"name":"RivalAttack","path":"rooms/RivalAttack/RivalAttack.yy",},},
+    {"roomId":{"name":"CrimsonDesert_2","path":"rooms/CrimsonDesert_2/CrimsonDesert_2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

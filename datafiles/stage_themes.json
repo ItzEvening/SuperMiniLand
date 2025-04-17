@@ -155,7 +155,12 @@
   {
       "Stage": "StarlightStation",
       "Song": "song_StarlightStation"
+  },
+  {
+    "Stage": "CrimsonDesert_2",
+    "Song": "song_CrimsonDesert"
   }
+
 
 
 
