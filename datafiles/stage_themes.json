@@ -163,7 +163,34 @@
   {
     "Stage": "FestivalNight_1",
     "Song": "song_FestivalNight"
+  },
+  {
+    "Stage": "FestivalNight_2",
+    "Song": "song_FestivalNight"
+  },
+  {
+    "Stage": "SkyCloud_1",
+    "Song": "song_SkyCloud"
+  },
+  {
+    "Stage": "SkyCloud_2",
+    "Song": "song_SkyCloud"
+  },
+  {
+    "Stage": "SkyCloud_1",
+    "Song": "song_SkyCloud"
+  },
+  {
+    "Stage": "CircleCastle_1",
+    "Song": "song_CircleCastle"
+  },
+  {
+    "Stage": "CircleCastle_2",
+    "Song": "song_CircleCastle"
   }
+
+
+
 
 
 
