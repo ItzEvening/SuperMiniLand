@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Festival_Night",
-    "path":"sprites/Festival_Night/Festival_Night.yy",
+    "name":"Sky_Cloud",
+    "path":"sprites/Sky_Cloud/Sky_Cloud.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
