@@ -226,6 +226,7 @@
     {"id":{"name":"SalmonPalace_RIP","path":"rooms/SalmonPalace_RIP/SalmonPalace_RIP.yy",},},
     {"id":{"name":"SecretSanctuary","path":"rooms/SecretSanctuary/SecretSanctuary.yy",},},
     {"id":{"name":"SkyCloud_1","path":"rooms/SkyCloud_1/SkyCloud_1.yy",},},
+    {"id":{"name":"SkyCloud_2","path":"rooms/SkyCloud_2/SkyCloud_2.yy",},},
     {"id":{"name":"Sound_Select","path":"rooms/Sound_Select/Sound_Select.yy",},},
     {"id":{"name":"Splash_Screen_1","path":"rooms/Splash_Screen_1/Splash_Screen_1.yy",},},
     {"id":{"name":"Splash_Screen_2","path":"rooms/Splash_Screen_2/Splash_Screen_2.yy",},},
@@ -925,6 +926,7 @@
     {"roomId":{"name":"FestivalNight_1","path":"rooms/FestivalNight_1/FestivalNight_1.yy",},},
     {"roomId":{"name":"FestivalNight_2","path":"rooms/FestivalNight_2/FestivalNight_2.yy",},},
     {"roomId":{"name":"SkyCloud_1","path":"rooms/SkyCloud_1/SkyCloud_1.yy",},},
+    {"roomId":{"name":"SkyCloud_2","path":"rooms/SkyCloud_2/SkyCloud_2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
