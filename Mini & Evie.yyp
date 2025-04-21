@@ -192,6 +192,7 @@
     {"id":{"name":"Camera_Test_3","path":"rooms/Camera_Test_3/Camera_Test_3.yy",},},
     {"id":{"name":"Camera_Test","path":"rooms/Camera_Test/Camera_Test.yy",},},
     {"id":{"name":"Character_Select","path":"rooms/Character_Select/Character_Select.yy",},},
+    {"id":{"name":"CircleCastle_1","path":"rooms/CircleCastle_1/CircleCastle_1.yy",},},
     {"id":{"name":"CrimsonDesert_1","path":"rooms/CrimsonDesert_1/CrimsonDesert_1.yy",},},
     {"id":{"name":"CrimsonDesert_2","path":"rooms/CrimsonDesert_2/CrimsonDesert_2.yy",},},
     {"id":{"name":"DarkForest_1","path":"rooms/DarkForest_1/DarkForest_1.yy",},},
@@ -927,6 +928,7 @@
     {"roomId":{"name":"FestivalNight_2","path":"rooms/FestivalNight_2/FestivalNight_2.yy",},},
     {"roomId":{"name":"SkyCloud_1","path":"rooms/SkyCloud_1/SkyCloud_1.yy",},},
     {"roomId":{"name":"SkyCloud_2","path":"rooms/SkyCloud_2/SkyCloud_2.yy",},},
+    {"roomId":{"name":"CircleCastle_1","path":"rooms/CircleCastle_1/CircleCastle_1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
