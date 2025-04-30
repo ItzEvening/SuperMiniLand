@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":2,
   "conversionMode":0,
-  "duration":82.906845,
+  "duration":42.666668,
   "name":"SpringIslandE",
   "parent":{
     "name":"Stage Themes E",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"SpringIslandE.wav",
+  "soundFile":"SpringIslandE.ogg",
   "type":1,
   "volume":1.0,
 }
