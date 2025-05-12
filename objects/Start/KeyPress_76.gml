@@ -3,4 +3,4 @@
 audio_stop_sound(MainMusic2);
 SlideTransition(TRANS_MODE.LEVEL, Level_Card);
 //global.level = StarlightStation;
-global.level = RivalAttack;
+global.level = Special_Stage_3;
