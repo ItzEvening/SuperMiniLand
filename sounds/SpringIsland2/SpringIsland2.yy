@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":49.65517,
+  "duration":61.333332,
   "name":"SpringIsland2",
   "parent":{
     "name":"Stage Themes",
