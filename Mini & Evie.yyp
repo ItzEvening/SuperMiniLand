@@ -824,6 +824,7 @@
     {"id":{"name":"Title_BG1","path":"sprites/Title_BG1/Title_BG1.yy",},},
     {"id":{"name":"Tutorial_Tiles","path":"sprites/Tutorial_Tiles/Tutorial_Tiles.yy",},},
     {"id":{"name":"unknown","path":"sprites/unknown/unknown.yy",},},
+    {"id":{"name":"Warning_Space","path":"sprites/Warning_Space/Warning_Space.yy",},},
     {"id":{"name":"Warning","path":"sprites/Warning/Warning.yy",},},
     {"id":{"name":"WatcherEyeAttack","path":"sprites/WatcherEyeAttack/WatcherEyeAttack.yy",},},
     {"id":{"name":"WatcherEyeIdle","path":"sprites/WatcherEyeIdle/WatcherEyeIdle.yy",},},

@@ -758,6 +758,7 @@
     {"name":"Title_BG1","order":45,"path":"sprites/Title_BG1/Title_BG1.yy",},
     {"name":"Tutorial_Tiles","order":17,"path":"sprites/Tutorial_Tiles/Tutorial_Tiles.yy",},
     {"name":"unknown","order":13,"path":"sprites/unknown/unknown.yy",},
+    {"name":"Warning_Space","order":29,"path":"sprites/Warning_Space/Warning_Space.yy",},
     {"name":"WatcherEyeAttack","order":55,"path":"sprites/WatcherEyeAttack/WatcherEyeAttack.yy",},
     {"name":"WatcherEyeIdle","order":54,"path":"sprites/WatcherEyeIdle/WatcherEyeIdle.yy",},
     {"name":"Water_Desert_2","order":16,"path":"sprites/Water_Desert_2/Water_Desert_2.yy",},
