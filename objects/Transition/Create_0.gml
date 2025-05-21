@@ -13,7 +13,7 @@ enum TRANS_MODE
    LEVEL
 }
 mode = TRANS_MODE.OFF;
-percent = 1.2;
+percent = 0;
 target = room;
 show_debug_message(w);
 //Paste this in transition's create event
