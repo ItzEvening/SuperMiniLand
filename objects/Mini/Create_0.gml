@@ -13,7 +13,7 @@ manage_animations = function(_midair)
 	{
 	    sprite_index = fall;
 	    image_speed = 0;
-	if (sign(vsp) > 0) image_index = 1; else image_index = 0;
+	if (sign(vsp) == sign(grv)) image_index = 1; else image_index = 0;
 	
 	
 	}

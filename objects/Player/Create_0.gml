@@ -45,7 +45,7 @@ manage_animations = function(_midair) {
 	{
 	    sprite_index = fall;
 	    image_speed = 0;
-	if (sign(vsp) > 0) image_index = 1; else image_index = 0;
+	if (sign(vsp) == sign(grv)) image_index = 1; else image_index = 0;
 	}
 	else
 	{
@@ -90,6 +90,10 @@ handle_death = function() {
 	hsp = 0;
 	vsp = 0;
 	
+	// handle gravity
+	grv = original_g;
+	image_yscale = sign(grv);
+	
 	reset_iframe();
 }
 
@@ -111,6 +115,7 @@ hascontrol = true;
 // original position for respawn
 original_x = x;
 original_y = y;
+original_g = grv;
 
 // lives stuff
 chances = 5;

@@ -8,6 +8,7 @@ if (_player != noone and !current) {
 	
 	_player.original_x = x;
 	_player.original_y = y;
+	_player.original_g = grv;
 	
 	current = true;
 	
