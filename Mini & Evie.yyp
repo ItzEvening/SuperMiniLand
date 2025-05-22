@@ -138,6 +138,7 @@
     {"id":{"name":"KeyLeft_Press","path":"objects/KeyLeft_Press/KeyLeft_Press.yy",},},
     {"id":{"name":"KeyRight_Press","path":"objects/KeyRight_Press/KeyRight_Press.yy",},},
     {"id":{"name":"Larry","path":"objects/Larry/Larry.yy",},},
+    {"id":{"name":"Level_Selector","path":"objects/Level_Selector/Level_Selector.yy",},},
     {"id":{"name":"LevelEnd","path":"objects/LevelEnd/LevelEnd.yy",},},
     {"id":{"name":"LevelSelect","path":"objects/LevelSelect/LevelSelect.yy",},},
     {"id":{"name":"LivesIcon","path":"objects/LivesIcon/LivesIcon.yy",},},
@@ -216,6 +217,7 @@
     {"id":{"name":"Level_Card_Adventure","path":"rooms/Level_Card_Adventure/Level_Card_Adventure.yy",},},
     {"id":{"name":"Level_Card_Starlight","path":"rooms/Level_Card_Starlight/Level_Card_Starlight.yy",},},
     {"id":{"name":"Level_Card","path":"rooms/Level_Card/Level_Card.yy",},},
+    {"id":{"name":"Level_Select_Test","path":"rooms/Level_Select_Test/Level_Select_Test.yy",},},
     {"id":{"name":"Level_Select","path":"rooms/Level_Select/Level_Select.yy",},},
     {"id":{"name":"Level","path":"rooms/Level/Level.yy",},},
     {"id":{"name":"LilacCity_1","path":"rooms/LilacCity_1/LilacCity_1.yy",},},
@@ -982,6 +984,7 @@
     {"roomId":{"name":"Special_Stage_3","path":"rooms/Special_Stage_3/Special_Stage_3.yy",},},
     {"roomId":{"name":"Main_Menu_2","path":"rooms/Main_Menu_2/Main_Menu_2.yy",},},
     {"roomId":{"name":"Demo_End_2","path":"rooms/Demo_End_2/Demo_End_2.yy",},},
+    {"roomId":{"name":"Level_Select_Test","path":"rooms/Level_Select_Test/Level_Select_Test.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
