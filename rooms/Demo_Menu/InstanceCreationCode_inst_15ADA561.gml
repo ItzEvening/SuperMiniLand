@@ -1,23 +1,20 @@
-levels = [Tutorial_AL, SalmonPalace_1, MidnightRush_1, SecretSanctuary];
-access = [global.savedata[? "bears unlocked"], true, global.savedata[? "boss beaten"], global.savedata[? "sanctuary accessed"]];
-sprites = [card_2torial, card_salmon, card_midnight, card_secret];
 trigger_key = ord("E");
+lock_sprite = card_lockedE;
 
-update = function() {
-	access = [global.savedata[? "bears unlocked"], true, global.savedata[? "boss beaten"], global.savedata[? "sanctuary accessed"]];
-	if (access[index]) {
-		sprite_index = sprites[index];
-	}
-	else {
-		sprite_index =  card_lockedE;
-	}
-	
-	if (levels[index] == Tutorial_AL or levels[index] == SecretSanctuary) {
-		Challenge.visible = false;
-	}
-	else {
-		Challenge.visible = true;
-	}
+bool_callback_bears = function() {
+	return global.savedata[? "bears unlocked"];
 }
+
+bool_callback_sanctuary = function() {
+	return global.savedata[? "sanctuary accessed"];
+}
+
+tutA = new LevelCardData(Tutorial_AL, bool_callback_bears, card_2torial, false);
+sp = new LevelCardData(SalmonPalace_1, bool_callback, card_salmon, true);
+mr = new LevelCardData(MidnightRush_1, bool_callback_boss_beaten, card_midnight, true);
+secsan = new LevelCardData(SecretSanctuary, bool_callback_sanctuary, card_secret, false);
+bc = new LevelCardData(Blank_Canvas, bool_callback_all_gems, card_blank, false);
+
+metas = [tutA, sp, mr, secsan, bc]
 
 update();

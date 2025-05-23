@@ -1,15 +1,46 @@
-max_index = 3;
+max_index = 4;
 index = 0;
-levels = [];
-access = [];
-sprites = [];
+metas = [];
 trigger_key = vk_enter;
 character = Mini;
 bear = Allie;
+lock_sprite = card_lockedQ;
+
+LevelCardData = function(_level, _requirement, _sprite, _chr_bound) constructor {
+	lvl = _level;
+	requirement = _requirement;
+	sprite = _sprite;
+	chr_bound = _chr_bound;
+}
+
+bool_callback = function() {
+	return true;
+}
+
+bool_callback_boss_beaten = function() {
+	return global.savedata[? "boss beaten"];
+}
+
+bool_callback_all_gems = function() {
+	return CountGems(true) == 30;
+}
 
 update = function() {
-	access = [];
-	sprite_index = sprites[index];
+	var _card_data = metas[index];
+	
+	if (script_execute(_card_data.requirement)) {
+		sprite_index = _card_data.sprite;
+	}
+	else {
+		sprite_index = lock_sprite;
+	}
+	
+	if (!_card_data.chr_bound) {
+		Challenge.visible = false;
+	}
+	else {
+		Challenge.visible = true;
+	}
 }
 
 increment = function(_i) {
@@ -29,12 +60,10 @@ increment = function(_i) {
 }
 
 determine_character = function() {
-	var _level = levels[index];
+	var _card_data = metas[index];
 	
-	var _tutorial = (levels[index] == Tutorial_M);
-	var _2torial = (levels[index] == Tutorial_AL);
-	var _boss = (levels[index] == BossAttack);
-	var _secret = (levels[index] == SecretSanctuary);
+	var _tutorial = (_card_data.lvl == Tutorial_M);
+	var _2torial = (_card_data.lvl == Tutorial_AL);
 
 	//if tutorial mini
 	if (_tutorial) {
@@ -44,8 +73,7 @@ determine_character = function() {
 	else if (_2torial) {
 		global.character = Allie;
 	}
-	// not boss or secret sanctuary
-	else if (!_boss and !_secret) {
+	else if (_card_data.chr_bound) {
 		global.character = character;
 		
 		if (global.bear) {

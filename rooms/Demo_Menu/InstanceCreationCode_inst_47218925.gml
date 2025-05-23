@@ -1,26 +1,17 @@
-levels = [Tutorial_M, SpringIsland_1, MarbleFortress_1, BossAttack];
-access = [true, true, global.savedata[? "boss beaten"], global.savedata[? "boss unlocked"]];
-sprites = [card_tutorial, card_spring, card_marble, card_boss];
 trigger_key = ord("Q");
 character = Evie;
 bear = Arcturus;
 
-update = function() {
-	access = [true, true, global.savedata[? "boss beaten"], global.savedata[? "boss unlocked"]];
-
-	if (access[index]) {
-		sprite_index = sprites[index];
-	}
-	else {
-		sprite_index =  card_lockedQ;
-	}
-	
-	if (levels[index] == Tutorial_M or levels[index] == BossAttack) {
-		Challenge.visible = false;
-	}
-	else {
-		Challenge.visible = true;
-	}
+bool_callback_boss_unlocked = function() {
+	return global.savedata[? "boss unlocked"];
 }
+
+tutM = new LevelCardData(Tutorial_M, bool_callback, card_tutorial, false);
+si = new LevelCardData(SpringIsland_1, bool_callback, card_spring, true);
+mf = new LevelCardData(MarbleFortress_1, bool_callback_boss_beaten, card_marble, true);
+ba = new LevelCardData(BossAttack, bool_callback_boss_unlocked, card_boss, false);
+strsta = new LevelCardData(StarlightStation, bool_callback_all_gems, card_starlight, false);
+
+metas = [tutM, si, mf, ba, strsta]
 
 update();
