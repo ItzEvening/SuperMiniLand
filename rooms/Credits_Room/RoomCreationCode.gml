@@ -1,0 +1,1 @@
+audio_play_sound(song_Credits,1,0);

@@ -1,2 +1,2 @@
-audio_stop_sound(MainMusic2);
+audio_stop_all();
 SlideTransition(TRANS_MODE.GOTO, Demo_Menu);
