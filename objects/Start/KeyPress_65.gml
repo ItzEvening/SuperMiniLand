@@ -1,2 +1,4 @@
-audio_stop_sound(MainMusic2);
+/// @description Allie Adventure
+
+audio_stop_all();
 SlideTransition(TRANS_MODE.GOTO, Adventure_Title);
