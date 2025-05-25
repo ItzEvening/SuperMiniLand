@@ -556,6 +556,7 @@
     {"name":"Hub_MidnightRush","order":16,"path":"sprites/Hub_MidnightRush/Hub_MidnightRush.yy",},
     {"name":"Hub_SalmonPalace","order":14,"path":"sprites/Hub_SalmonPalace/Hub_SalmonPalace.yy",},
     {"name":"Hub_SecretSanctuary","order":17,"path":"sprites/Hub_SecretSanctuary/Hub_SecretSanctuary.yy",},
+    {"name":"Hub_SparklingHill","order":30,"path":"sprites/Hub_SparklingHill/Hub_SparklingHill.yy",},
     {"name":"Hub_SpringIsland","order":13,"path":"sprites/Hub_SpringIsland/Hub_SpringIsland.yy",},
     {"name":"Hub_StarlightStation","order":18,"path":"sprites/Hub_StarlightStation/Hub_StarlightStation.yy",},
     {"name":"Icon_AirBase","order":13,"path":"sprites/Icon_AirBase/Icon_AirBase.yy",},
