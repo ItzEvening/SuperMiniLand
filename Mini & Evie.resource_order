@@ -370,6 +370,7 @@
     {"name":"BG_Space_Rock","order":85,"path":"sprites/BG_Space_Rock/BG_Space_Rock.yy",},
     {"name":"BG_Stars_2","order":84,"path":"sprites/BG_Stars_2/BG_Stars_2.yy",},
     {"name":"BG_Stars","order":32,"path":"sprites/BG_Stars/BG_Stars.yy",},
+    {"name":"BG_Volcano","order":92,"path":"sprites/BG_Volcano/BG_Volcano.yy",},
     {"name":"BG_Water_2","order":52,"path":"sprites/BG_Water_2/BG_Water_2.yy",},
     {"name":"BG_Water_3","order":54,"path":"sprites/BG_Water_3/BG_Water_3.yy",},
     {"name":"BG_Water_4","order":57,"path":"sprites/BG_Water_4/BG_Water_4.yy",},

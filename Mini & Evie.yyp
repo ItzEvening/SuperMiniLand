@@ -426,6 +426,7 @@
     {"id":{"name":"BG_Space_Rock","path":"sprites/BG_Space_Rock/BG_Space_Rock.yy",},},
     {"id":{"name":"BG_Stars_2","path":"sprites/BG_Stars_2/BG_Stars_2.yy",},},
     {"id":{"name":"BG_Stars","path":"sprites/BG_Stars/BG_Stars.yy",},},
+    {"id":{"name":"BG_Volcano","path":"sprites/BG_Volcano/BG_Volcano.yy",},},
     {"id":{"name":"BG_Water_2","path":"sprites/BG_Water_2/BG_Water_2.yy",},},
     {"id":{"name":"BG_Water_3","path":"sprites/BG_Water_3/BG_Water_3.yy",},},
     {"id":{"name":"BG_Water_4","path":"sprites/BG_Water_4/BG_Water_4.yy",},},
