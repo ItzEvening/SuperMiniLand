@@ -4,6 +4,9 @@ event_inherited();
 
 // iframe functions
 reset_iframe = function() {
+	time_source_reset(iframe_timer);
+	time_source_reset(blink_timer);
+	
 	time_source_start(iframe_timer);
 	time_source_start(blink_timer);
 	invincible = true;
