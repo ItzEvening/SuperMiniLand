@@ -879,6 +879,8 @@
     {"id":{"name":"Text_Hold","path":"sprites/Text_Hold/Text_Hold.yy",},},
     {"id":{"name":"Text_Move_Left","path":"sprites/Text_Move_Left/Text_Move_Left.yy",},},
     {"id":{"name":"Text_Press_Jump","path":"sprites/Text_Press_Jump/Text_Press_Jump.yy",},},
+    {"id":{"name":"Text_Return","path":"sprites/Text_Return/Text_Return.yy",},},
+    {"id":{"name":"Text_Sound_Select","path":"sprites/Text_Sound_Select/Text_Sound_Select.yy",},},
     {"id":{"name":"Text_Use_Drill","path":"sprites/Text_Use_Drill/Text_Use_Drill.yy",},},
     {"id":{"name":"Text_Use_Float","path":"sprites/Text_Use_Float/Text_Use_Float.yy",},},
     {"id":{"name":"TheMonaBlank","path":"sprites/TheMonaBlank/TheMonaBlank.yy",},},

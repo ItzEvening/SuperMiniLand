@@ -811,6 +811,8 @@
     {"name":"Text_Hold","order":60,"path":"sprites/Text_Hold/Text_Hold.yy",},
     {"name":"Text_Move_Left","order":51,"path":"sprites/Text_Move_Left/Text_Move_Left.yy",},
     {"name":"Text_Press_Jump","order":52,"path":"sprites/Text_Press_Jump/Text_Press_Jump.yy",},
+    {"name":"Text_Return","order":71,"path":"sprites/Text_Return/Text_Return.yy",},
+    {"name":"Text_Sound_Select","order":70,"path":"sprites/Text_Sound_Select/Text_Sound_Select.yy",},
     {"name":"Text_Use_Drill","order":57,"path":"sprites/Text_Use_Drill/Text_Use_Drill.yy",},
     {"name":"Text_Use_Float","order":56,"path":"sprites/Text_Use_Float/Text_Use_Float.yy",},
     {"name":"TheMonaBlank","order":27,"path":"sprites/TheMonaBlank/TheMonaBlank.yy",},
