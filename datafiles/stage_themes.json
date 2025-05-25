@@ -191,7 +191,12 @@
   {
     "Stage": "Special_Stage_3",
     "Song": "Special_Stage_Theme"
+  },
+  {
+    "Stage": "SparklingHill",
+    "Song": "song_SparklingHill"
   }
+
 
 
 
