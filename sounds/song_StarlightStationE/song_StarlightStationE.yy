@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":89.6,
+  "duration":67.666664,
   "name":"song_StarlightStationE",
   "parent":{
     "name":"Stage Themes E",
@@ -20,6 +20,6 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"song_StarlightStationE.ogg",
-  "type":0,
-  "volume":1.0,
+  "type":1,
+  "volume":0.85,
 }

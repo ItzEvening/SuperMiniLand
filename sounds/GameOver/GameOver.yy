@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":51.423607,
+  "duration":60.8,
   "name":"GameOver",
   "parent":{
     "name":"Menu Themes",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.712472,
+  "duration":2.734376,
   "name":"MSides",
   "parent":{
     "name":"Menu Themes",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"MSides.wav",
+  "soundFile":"MSides.ogg",
   "type":0,
   "volume":1.0,
 }

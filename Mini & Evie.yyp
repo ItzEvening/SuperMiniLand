@@ -360,6 +360,7 @@
     {"id":{"name":"song_MidnightRush","path":"sounds/song_MidnightRush/song_MidnightRush.yy",},},
     {"id":{"name":"song_MidnightRushE","path":"sounds/song_MidnightRushE/song_MidnightRushE.yy",},},
     {"id":{"name":"song_Player_Select","path":"sounds/song_Player_Select/song_Player_Select.yy",},},
+    {"id":{"name":"song_Player_SelectE","path":"sounds/song_Player_SelectE/song_Player_SelectE.yy",},},
     {"id":{"name":"song_SkyCloud","path":"sounds/song_SkyCloud/song_SkyCloud.yy",},},
     {"id":{"name":"song_SparklingHill","path":"sounds/song_SparklingHill/song_SparklingHill.yy",},},
     {"id":{"name":"song_SparklingHillE","path":"sounds/song_SparklingHillE/song_SparklingHillE.yy",},},

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":55.2,
+  "duration":64.8,
   "name":"Demo_Menu_TestE",
   "parent":{
     "name":"Menu Themes",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Demo_Menu_TestE.wav",
-  "type":0,
+  "soundFile":"Demo_Menu_TestE.ogg",
+  "type":1,
   "volume":1.0,
 }

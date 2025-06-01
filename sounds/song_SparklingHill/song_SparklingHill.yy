@@ -12,8 +12,8 @@
   "duration":25.6,
   "name":"song_SparklingHill",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Stage Themes",
+    "path":"folders/Sounds/Stage Themes.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

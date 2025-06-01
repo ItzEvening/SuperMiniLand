@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":117.81805,
+  "duration":101.76,
   "name":"TutorialStageE",
   "parent":{
     "name":"Stage Themes E",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"TutorialStageE.wav",
+  "soundFile":"TutorialStageE.ogg",
   "type":1,
   "volume":1.0,
 }
