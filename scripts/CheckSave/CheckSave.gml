@@ -2,6 +2,8 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function CheckSave(){
 	
+	CheckSaveBinding("version", "0.4");
+	
 	CheckSaveBinding("tutorial", false);
 	
 	CheckSaveBinding("spring", [false, false, false, false, false]);
@@ -15,4 +17,6 @@ function CheckSave(){
 	
 	CheckSaveBinding("boss beaten", false);
 	CheckSaveBinding("sanctuary accessed", false);
+	
+	CheckSaveBinding("all gems", false);
 }

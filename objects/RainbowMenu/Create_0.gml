@@ -19,4 +19,10 @@ if (_count == 10) {
 		
 	}
 }
-
+else if (_count == 30) {
+	if (!global.savedata[? "all gems"]) {
+		
+		PopupManager.notify(GemAlert, "all gems");
+		
+	}
+}
