@@ -205,6 +205,8 @@
     {"id":{"name":"Camera_Test","path":"rooms/Camera_Test/Camera_Test.yy",},},
     {"id":{"name":"Character_Select","path":"rooms/Character_Select/Character_Select.yy",},},
     {"id":{"name":"CircleCastle_1","path":"rooms/CircleCastle_1/CircleCastle_1.yy",},},
+    {"id":{"name":"CircleCastle_2","path":"rooms/CircleCastle_2/CircleCastle_2.yy",},},
+    {"id":{"name":"CircleCastle_3","path":"rooms/CircleCastle_3/CircleCastle_3.yy",},},
     {"id":{"name":"Credits_Room","path":"rooms/Credits_Room/Credits_Room.yy",},},
     {"id":{"name":"CrimsonDesert_1","path":"rooms/CrimsonDesert_1/CrimsonDesert_1.yy",},},
     {"id":{"name":"CrimsonDesert_2","path":"rooms/CrimsonDesert_2/CrimsonDesert_2.yy",},},
@@ -1034,6 +1036,8 @@
     {"roomId":{"name":"Level_Select_Test","path":"rooms/Level_Select_Test/Level_Select_Test.yy",},},
     {"roomId":{"name":"Credits_Room","path":"rooms/Credits_Room/Credits_Room.yy",},},
     {"roomId":{"name":"SparklingHill","path":"rooms/SparklingHill/SparklingHill.yy",},},
+    {"roomId":{"name":"CircleCastle_2","path":"rooms/CircleCastle_2/CircleCastle_2.yy",},},
+    {"roomId":{"name":"CircleCastle_3","path":"rooms/CircleCastle_3/CircleCastle_3.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
