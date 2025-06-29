@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":36.1644,
+  "duration":55.24896,
   "name":"song_Player_SelectE",
   "parent":{
     "name":"Menu Themes",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"song_Player_SelectE.ogg",
+  "soundFile":"song_Player_SelectE.mp3",
   "type":1,
   "volume":1.0,
 }
