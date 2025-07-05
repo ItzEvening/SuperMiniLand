@@ -1,2 +1,2 @@
 target = Level_Card_Adventure;
-global.level = CircleCastle_1;
+global.level = CircleCastle_2;

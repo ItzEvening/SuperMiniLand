@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":6.857143,
+  "duration":17.142857,
   "name":"song_CrimsonDesert",
   "parent":{
     "name":"Super Alramech Ost",
