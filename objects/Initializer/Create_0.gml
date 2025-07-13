@@ -6,6 +6,10 @@ global.bear = false;
 global.rainbow_progress = [];
 global.menu_control = true;
 
+// TO BE CHANGED FOR RELEASE
+var debug_splash_time = false;
+landing_point = Main_Menu;
+
 // handle save data
 if (!file_exists("save")) {
 	global.savedata = ds_map_create();
@@ -22,7 +26,7 @@ ds_map_destroy(global.savedata);
 global.savedata = ds_map_secure_load("save");
 
 JamSam = function(){
-	SlideTransition(TRANS_MODE.GOTO, Main_Menu);
+	SlideTransition(TRANS_MODE.GOTO, landing_point);
 }
 
 HamSam = function(){
@@ -30,8 +34,17 @@ HamSam = function(){
 	time_source_start(splash_timer2);
 }
 
-splash_timer = time_source_create(time_source_global, 600, time_source_units_frames, HamSam);
-splash_timer2 = time_source_create(time_source_global, 7, time_source_units_seconds, JamSam);
+timer_length_1 = 600;
+timer_length_2 = 7;
+
+
+if (debug_splash_time) {
+	timer_length_1 = 120;
+	timer_length_2 = 2;
+}
+
+splash_timer = time_source_create(time_source_global, timer_length_1, time_source_units_frames, HamSam);
+splash_timer2 = time_source_create(time_source_global, timer_length_2, time_source_units_seconds, JamSam);
 
 time_source_start(splash_timer);
 

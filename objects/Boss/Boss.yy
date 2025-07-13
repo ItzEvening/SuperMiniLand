@@ -1,24 +1,22 @@
 {
   "$GMObject":"",
-  "%Name":"SpringIslandBoss",
+  "%Name":"Boss",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"o_Forcefield","path":"objects/o_Forcefield/o_Forcefield.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"SpringIslandBoss",
+  "name":"Boss",
   "overriddenProperties":[],
   "parent":{
     "name":"Bosses",
     "path":"folders/Objects/Bosses.yy",
   },
   "parentObjectId":{
-    "name":"Boss",
-    "path":"objects/Boss/Boss.yy",
+    "name":"PhysicsBody",
+    "path":"objects/PhysicsBody/PhysicsBody.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -37,10 +35,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"SICarIdle",
-    "path":"sprites/SICarIdle/SICarIdle.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

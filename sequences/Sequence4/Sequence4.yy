@@ -47,7 +47,7 @@
   "tracks":[
     {"$GMInstanceTrack":"","%Name":"Intro_Text_2","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<AssetInstanceKeyframe>":"","Keyframes":[
           {"$Keyframe<AssetInstanceKeyframe>":"","Channels":{
-              "0":{"$AssetInstanceKeyframe":"","Id":{"name":"Intro_Text_2","path":"objects/Intro_Text_2/Intro_Text_2.yy",},"resourceType":"AssetInstanceKeyframe","resourceVersion":"2.0",},
+              "0":{"$AssetInstanceKeyframe":"","Id":{"name":"AlramechLevelCardText","path":"objects/AlramechLevelCardText/AlramechLevelCardText.yy",},"resourceType":"AssetInstanceKeyframe","resourceVersion":"2.0",},
             },"Disabled":false,"id":"d8b8935d-7fb4-4cd0-aa23-219a061a2ad2","IsCreationKey":false,"Key":0.0,"Length":180.0,"resourceType":"Keyframe<AssetInstanceKeyframe>","resourceVersion":"2.0","Stretch":false,},
         ],"resourceType":"KeyframeStore<AssetInstanceKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"Intro_Text_2","resourceType":"GMInstanceTrack","resourceVersion":"2.0","trackColour":4282956274,"tracks":[
         {"$GMRealTrack":"","%Name":"origin","builtinName":16,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":true,"keyframes":{"$KeyframeStore<RealKeyframe>":"","Keyframes":[

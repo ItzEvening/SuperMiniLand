@@ -1,33 +1,10 @@
 event_inherited();
 
-dead = false;
-state = 0;
-hp = 6;
-invincible = false;
 scale = 1.5;
-phase = 0;
 
 // jump variables
 jumped = false;
 jump_direction = 1;
-
-recover = function() {
-	invincible = false;
-	state = 0;
-}
-
-end_fight = function() {
-	with (Player)
-	{
-		if (hascontrol)
-		{
-			hascontrol = false;
-			global.savedata[? "boss beaten"] = true;
-			SlideTransition(TRANS_MODE.GOTO, Demo_End);
-
-		}
-	}
-}
 
 jump = function() {
 	
@@ -75,15 +52,4 @@ jump = function() {
 	}
 }
 
-change_phase = function() {
-	if (hp == 4) {
-		phase = 1;
-	}
-	else if (hp == 2) {
-		phase = 2;
-	}
-}
-
-invincible_timer = time_source_create(time_source_global, 1.5, time_source_units_seconds, recover);
-end_timer = time_source_create(time_source_global, 2.5, time_source_units_seconds, end_fight);
 jump_timer = time_source_create(time_source_game, 1, time_source_units_seconds, jump);
