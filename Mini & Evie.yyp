@@ -102,7 +102,6 @@
     {"id":{"name":"BearToggle","path":"objects/BearToggle/BearToggle.yy",},},
     {"id":{"name":"Birdie","path":"objects/Birdie/Birdie.yy",},},
     {"id":{"name":"Boss","path":"objects/Boss/Boss.yy",},},
-    {"id":{"name":"BossStarter_2","path":"objects/BossStarter_2/BossStarter_2.yy",},},
     {"id":{"name":"BossStarter","path":"objects/BossStarter/BossStarter.yy",},},
     {"id":{"name":"Camera","path":"objects/Camera/Camera.yy",},},
     {"id":{"name":"Challenge","path":"objects/Challenge/Challenge.yy",},},

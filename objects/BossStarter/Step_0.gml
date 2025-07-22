@@ -3,16 +3,16 @@ if (!activated and Player.x > x) {
 	audio_stop_all();
 	
 	if (global.music == 0) {
-		MusicPlayer.play_music(BossTheme);
+		MusicPlayer.play_music(theme_m);
 	}
 	else {
-		MusicPlayer.play_music(BossThemeE);
+		MusicPlayer.play_music(theme_e);
 	}
 	
 	// 10 tiles back
-	var _offset = 10 * 32;
+	var _offset = tiles_back * 32;
 	
-	SpringIslandBoss.left_barrier.x = x - _offset;
+	boss_object.left_barrier.x = x - _offset;
 	Player.left_barrier.x = x - _offset;
 	Camera.change_left_border(x - _offset);
 	

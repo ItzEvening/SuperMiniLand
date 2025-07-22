@@ -76,7 +76,6 @@
     {"name":"Bat","order":3,"path":"objects/Bat/Bat.yy",},
     {"name":"BearToggle","order":19,"path":"objects/BearToggle/BearToggle.yy",},
     {"name":"Boss","order":1,"path":"objects/Boss/Boss.yy",},
-    {"name":"BossStarter_2","order":26,"path":"objects/BossStarter_2/BossStarter_2.yy",},
     {"name":"BossStarter","order":19,"path":"objects/BossStarter/BossStarter.yy",},
     {"name":"Camera","order":5,"path":"objects/Camera/Camera.yy",},
     {"name":"Challenge","order":24,"path":"objects/Challenge/Challenge.yy",},

@@ -7,7 +7,7 @@ global.rainbow_progress = [];
 global.menu_control = true;
 
 // TO BE CHANGED FOR RELEASE
-var debug_splash_time = false;
+global.dev_mode = false;
 landing_point = Main_Menu;
 
 // handle save data
@@ -38,9 +38,9 @@ timer_length_1 = 600;
 timer_length_2 = 7;
 
 
-if (debug_splash_time) {
-	timer_length_1 = 120;
-	timer_length_2 = 2;
+if (global.dev_mode) {
+	timer_length_1 = 30;
+	timer_length_2 = 0.5;
 }
 
 splash_timer = time_source_create(time_source_global, timer_length_1, time_source_units_frames, HamSam);

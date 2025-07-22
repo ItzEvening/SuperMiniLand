@@ -11,8 +11,8 @@
     {"name":"inst_379F129D","path":"rooms/RivalAttack/RivalAttack.yy",},
     {"name":"inst_16E40ADD","path":"rooms/RivalAttack/RivalAttack.yy",},
     {"name":"inst_571148EC","path":"rooms/RivalAttack/RivalAttack.yy",},
-    {"name":"inst_5CB7459A","path":"rooms/RivalAttack/RivalAttack.yy",},
     {"name":"inst_16B418AD","path":"rooms/RivalAttack/RivalAttack.yy",},
+    {"name":"inst_2DE9877C","path":"rooms/RivalAttack/RivalAttack.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -27,7 +27,9 @@
         {"$GMRInstance":"","%Name":"inst_379F129D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_379F129D","objectId":{"name":"PlayerSpawner","path":"objects/PlayerSpawner/PlayerSpawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":384.0,},
         {"$GMRInstance":"","%Name":"inst_16E40ADD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_16E40ADD","objectId":{"name":"Rotate_Gravity","path":"objects/Rotate_Gravity/Rotate_Gravity.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1536.0,"y":352.0,},
         {"$GMRInstance":"","%Name":"inst_571148EC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_571148EC","objectId":{"name":"Rotate_Gravity","path":"objects/Rotate_Gravity/Rotate_Gravity.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":96.0,},
-        {"$GMRInstance":"","%Name":"inst_5CB7459A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5CB7459A","objectId":{"name":"BossStarter_2","path":"objects/BossStarter_2/BossStarter_2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":320.0,},
+        {"$GMRInstance":"","%Name":"inst_2DE9877C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2DE9877C","objectId":{"name":"BossStarter","path":"objects/BossStarter/BossStarter.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"BossStarter","path":"objects/BossStarter/BossStarter.yy",},"propertyId":{"name":"theme_m","path":"objects/BossStarter/BossStarter.yy",},"resource":{"name":"RivalTheme","path":"sounds/RivalTheme/RivalTheme.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"RivalTheme",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":320.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Gems","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Gems","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Enemies","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
