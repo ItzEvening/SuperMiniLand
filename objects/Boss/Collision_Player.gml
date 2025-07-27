@@ -11,7 +11,7 @@ if (_player != noone and !invincible) {
 		 
 		if (hp > 0) {
 			time_source_start(invincible_timer);
-			state = hurt_state;
+			frame = BOSS_HURT;
 			hp--;
 			
 			change_phase();
@@ -20,7 +20,7 @@ if (_player != noone and !invincible) {
 			time_source_start(end_timer);
 			dead = true;
 			MusicPlayer.stop_music();
-			state = dead_state;
+			frame = BOSS_DEAD;
 		}
 	}
 	

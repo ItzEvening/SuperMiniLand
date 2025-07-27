@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"BossMacros",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"BossMacros",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

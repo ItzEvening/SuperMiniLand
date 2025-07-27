@@ -1,0 +1,1 @@
+draw_sprite_ext(CircleKing, get_frame_index(frame), x, y, 1, squish_factor, 0, c_white, 1);

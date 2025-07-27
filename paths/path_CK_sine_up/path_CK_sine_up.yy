@@ -1,9 +1,9 @@
 {
   "$GMPath":"",
-  "%Name":"CircleKingPath1",
+  "%Name":"path_CK_sine_up",
   "closed":false,
   "kind":0,
-  "name":"CircleKingPath1",
+  "name":"path_CK_sine_up",
   "parent":{
     "name":"Paths",
     "path":"folders/Paths.yy",

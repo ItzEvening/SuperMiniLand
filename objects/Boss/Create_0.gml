@@ -1,17 +1,15 @@
 event_inherited();
 
 dead = false;
-state = 0;
 hp = 6;
 invincible = false;
 phase = 0;
-
-dead_state = 3;
-hurt_state = 2;
+frame = BOSS_IDLE;
 
 recover = function() {
 	invincible = false;
-	state = 0;
+	frame = BOSS_IDLE;
+	hurt = false;
 }
 
 end_fight = function() {
@@ -27,7 +25,15 @@ end_fight = function() {
 	}
 }
 
+get_frame_index = function(_status) {
+	// This should do not do anything since this is an abstract superobject
+}
 
+function inv_callback(_boss) {
+	with (_boss) {
+		recover();
+	}
+}
 
 change_phase = function() {
 	if (hp == 4) {
@@ -38,5 +44,5 @@ change_phase = function() {
 	}
 }
 
-invincible_timer = time_source_create(time_source_global, 1.5, time_source_units_seconds, recover);
+invincible_timer = time_source_create(time_source_global, 1.5, time_source_units_seconds, inv_callback, [self]);
 end_timer = time_source_create(time_source_global, 2.5, time_source_units_seconds, end_fight);

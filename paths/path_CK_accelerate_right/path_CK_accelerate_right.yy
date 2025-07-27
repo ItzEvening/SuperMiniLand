@@ -1,0 +1,20 @@
+{
+  "$GMPath":"",
+  "%Name":"path_CK_accelerate_right",
+  "closed":false,
+  "kind":0,
+  "name":"path_CK_accelerate_right",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":200.0,"x":864.0,"y":160.0,},
+    {"speed":200.0,"x":1248.0,"y":160.0,},
+    {"speed":20.0,"x":1280.0,"y":160.0,},
+    {"speed":80.0,"x":1440.0,"y":160.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

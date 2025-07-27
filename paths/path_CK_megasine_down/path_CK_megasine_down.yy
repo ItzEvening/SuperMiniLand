@@ -1,0 +1,26 @@
+{
+  "$GMPath":"",
+  "%Name":"path_CK_megasine_down",
+  "closed":false,
+  "kind":1,
+  "name":"path_CK_megasine_down",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":125.0,"x":864.0,"y":160.0,},
+    {"speed":125.0,"x":928.0,"y":-32.0,},
+    {"speed":125.0,"x":992.0,"y":160.0,},
+    {"speed":125.0,"x":1056.0,"y":352.0,},
+    {"speed":125.0,"x":1120.0,"y":160.0,},
+    {"speed":125.0,"x":1184.0,"y":-32.0,},
+    {"speed":125.0,"x":1248.0,"y":160.0,},
+    {"speed":125.0,"x":1312.0,"y":352.0,},
+    {"speed":125.0,"x":1376.0,"y":-32.0,},
+    {"speed":125.0,"x":1440.0,"y":160.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

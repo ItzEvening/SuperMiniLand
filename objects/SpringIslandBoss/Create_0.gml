@@ -6,6 +6,17 @@ scale = 1.5;
 jumped = false;
 jump_direction = 1;
 
+get_frame_index = function(_status) {
+	switch(_status) {
+		case BOSS_IDLE:
+			return 0;
+		case BOSS_HURT:
+			return 2;
+		case BOSS_DEAD:
+			return 3;
+	}
+}
+
 jump = function() {
 	
 	var _starter = instance_find(BossStarter, 0);
