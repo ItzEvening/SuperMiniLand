@@ -1,0 +1,1 @@
+draw_sprite_ext(SuperAllie_Scan, 0, 600, 440, scale_x, scale_y, 0, c_white, 1);
