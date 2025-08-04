@@ -32,7 +32,9 @@ if (_underwater and !was_underwater) or (!_underwater and was_underwater)
 // Jump Stuffs
 if (!_midair) and (_hit_jump)
 {
-	audio_play_sound(sfx_Jump,10,0);
+	if (BeNoisy()) {
+		audio_play_sound(sfx_Jump,10,0);
+	}
 	
 	released_jump = false;
 	time_source_start(jump_timer);

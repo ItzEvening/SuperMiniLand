@@ -19,8 +19,13 @@ end_fight = function() {
 		{
 			hascontrol = false;
 			global.savedata[? "boss beaten"] = true;
-			SlideTransition(TRANS_MODE.GOTO, Demo_End);
-
+			
+			if (!global.savedata[? "sanctuary accessed"]) {
+				room_goto(HintLevel);
+			}
+			else {
+				SlideTransition(TRANS_MODE.GOTO, Demo_End);
+			}
 		}
 	}
 }

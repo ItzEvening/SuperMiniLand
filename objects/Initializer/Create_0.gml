@@ -7,7 +7,7 @@ global.rainbow_progress = [];
 global.menu_control = true;
 
 // TO BE CHANGED FOR RELEASE
-global.dev_mode = false;
+global.dev_mode = true;
 landing_point = Main_Menu;
 
 // handle save data

@@ -4,7 +4,10 @@ var _gimmick = keyboard_check_pressed(vk_space) or keyboard_check_pressed(ord("W
 
 if (can_gimmick and _gimmick) {
 	// hsp = 17.5 * image_xscale;
-	audio_play_sound(Drill,10,0);
+	if (BeNoisy()) {
+		audio_play_sound(Drill,10,0);
+	}
+	
 	hsp = 0;
 	vsp = 20 * sign(grv);
 	
