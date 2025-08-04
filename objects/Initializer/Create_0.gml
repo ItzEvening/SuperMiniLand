@@ -11,19 +11,28 @@ global.dev_mode = false;
 landing_point = Main_Menu;
 
 // handle save data
-if (!file_exists("save")) {
+save_file = "save";
+if (!file_exists("save") or global.dev_mode) {
 	global.savedata = ds_map_create();
 }
 else {
 	global.savedata = ds_map_secure_load("save");
 }
 
-CheckSave();
+if (global.dev_mode) {
+	DevSave();
+	save_file = "save_dev";
+}
+else {
+	CheckSave();
+}
 	
-ds_map_secure_save(global.savedata, "save");
+WriteSaveFile();
 ds_map_destroy(global.savedata);
 	
-global.savedata = ds_map_secure_load("save");
+global.savedata = ds_map_secure_load(save_file);
+
+
 
 JamSam = function(){
 	SlideTransition(TRANS_MODE.GOTO, landing_point);

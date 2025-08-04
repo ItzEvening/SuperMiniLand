@@ -31,4 +31,4 @@ if (key != "") {
 	}
 }
 
-ds_map_secure_save(global.savedata, "save");
+WriteSaveFile();

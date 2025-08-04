@@ -7,11 +7,11 @@ with (Player)
 		// manage tutorial save
 		if (room == Tutorial_E and !global.savedata[? "secret accessed"]) {
 			global.savedata[? "tutorial"] = true;
-			ds_map_secure_save(global.savedata, "save");
+			WriteSaveFile();
 		}
 		else if (room == Tutorial_AR) {
 			global.savedata[? "tutorial"] = true;
-			ds_map_secure_save(global.savedata, "save");
+			WriteSaveFile();
 		}
 		
 		// Manage targets and characters

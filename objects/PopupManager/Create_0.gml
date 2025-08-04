@@ -8,7 +8,7 @@ kill_notif = function() {
 	global.menu_control = true;
 	
 	global.savedata[? save] = true;
-	ds_map_secure_save(global.savedata, "save");
+	WriteSaveFile();
 	
 	for (var i = 0; i < instance_number(DemoLevelCard); i++) {
 		var _card = instance_find(DemoLevelCard, i);
