@@ -1,6 +1,6 @@
 update = function() {
 	if (global.bear) {
-		if (global.savedata[? "boss unlocked"]) {
+		if (GetSave(SV_BOSS_UNLOCKED)) {
 			sprite_index = Demo_Level_6;
 		}
 		else {
@@ -8,7 +8,7 @@ update = function() {
 		}
 	}
 	else {
-		if (global.savedata[? "boss unlocked"]) {
+		if (GetSave(SV_BOSS_UNLOCKED)) {
 			sprite_index = Demo_Level_4;
 		}
 		else {

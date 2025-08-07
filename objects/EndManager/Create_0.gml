@@ -1,6 +1,6 @@
 var _layer = layer_get_id("Assets_1");
 
-if (global.savedata[? "bears unlocked"]) {
+if (GetSave(SV_BEARS_UNLOCKED)) {
 	var arty = layer_sprite_create(_layer, 423, 748, Arcturus_Hang);
 	layer_sprite_xscale(arty, 6);
 	layer_sprite_yscale(arty, 6);
@@ -10,7 +10,7 @@ if (global.savedata[? "bears unlocked"]) {
 	layer_sprite_yscale(allie, 5.7812);
 	
 }
-if (global.savedata[? "boss unlocked"]) {
+if (GetSave(SV_BOSS_UNLOCKED)) {
 	var poly = layer_sprite_create(_layer, 1600, 704, Poly_Flex);
 	layer_sprite_xscale(poly, -8.5);
 	layer_sprite_yscale(poly, 9);

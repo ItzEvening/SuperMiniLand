@@ -12,23 +12,23 @@ if (_coin_layer == -1) {
 var _layer_elements = layer_get_all_elements(_coin_layer);
 var _index = 0;
 
-lvl = "spring";
+lvl = SV_GEM_SPRING;
 
 switch (room) {
 	case SalmonPalace_1:
-		lvl = "salmon";
+		lvl = SV_GEM_SALMON;
 		break;
 		
 	case MidnightRush_1:
-		lvl = "midnight";
+		lvl = SV_GEM_MIDNIGHT;
 		break;
 		
 	case SecretSanctuary:
-		lvl = "secret"
+		lvl = SV_GEM_SECRET
 		break;
 		
 	case MarbleFortress_1:
-		lvl = "marble"
+		lvl = SV_GEM_MARBLE
 		break;
 }
 
@@ -43,7 +43,7 @@ for (var i = 0; i < array_length(_layer_elements); i++) {
 			array_push(gem_list, _instance);
 			
 			// make gems faded if collected
-			if (global.savedata[? lvl][| _index]) {
+			if (GetSave(lvl)[| _index]) {
 				_instance.image_alpha = 0.25;
 				array_push(global.rainbow_progress, true);
 			}

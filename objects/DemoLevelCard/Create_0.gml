@@ -17,8 +17,8 @@ bool_callback = function() {
 	return true;
 }
 
-bool_callback_boss_beaten = function() {
-	return global.savedata[? "boss beaten"];
+bool_callback_marble_midnight = function() {
+	return GetSave(SV_MAR_MID_UNLOCKED);
 }
 
 bool_callback_all_gems = function() {

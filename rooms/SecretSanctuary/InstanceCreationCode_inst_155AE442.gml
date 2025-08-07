@@ -1,2 +1,2 @@
 target = Demo_End;
-global.savedata[? "sanctuary accessed"] = true;
+SetSave(SV_SANCT_FOUND, true);

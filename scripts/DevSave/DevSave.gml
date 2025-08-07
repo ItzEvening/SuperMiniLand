@@ -2,21 +2,22 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function DevSave(){
 	
-	CheckSaveBinding("version", "0.4");
+	CheckSaveBinding(SV_VERSION, "0.4");
 	
-	CheckSaveBinding("tutorial", true);
+	CheckSaveBinding(SV_TUTORIAL, false);
 	
-	CheckSaveBinding("spring", [true, true, true, true, true]);
-	CheckSaveBinding("salmon", [true, true, true, true, true]);
-	CheckSaveBinding("marble", [false, false, false, false, false, false]);
-	CheckSaveBinding("midnight", [false, false, false, false, false, false]);
-	CheckSaveBinding("secret", [false, false, false, false, false, false, false, false]);
+	CheckSaveBinding(SV_GEM_SPRING, [false, false, false, false, false]);
+	CheckSaveBinding(SV_GEM_SALMON, [false, false, false, false, false]);
+	CheckSaveBinding(SV_GEM_MARBLE, [false, false, false, false, false, false]);
+	CheckSaveBinding(SV_GEM_MIDNIGHT, [false, false, false, false, false, false]);
+	CheckSaveBinding(SV_GEM_SECRET, [false, false, false, false, false, false, false, false]);
 	
-	CheckSaveBinding("boss unlocked", false);
-	CheckSaveBinding("bears unlocked", false);
+	CheckSaveBinding(SV_BOSS_UNLOCKED, false);
+	CheckSaveBinding(SV_BEARS_UNLOCKED, false);
 	
-	CheckSaveBinding("boss beaten", false);
-	CheckSaveBinding("sanctuary accessed", false);
+	CheckSaveBinding(SV_BOSS_BEATEN, false);
+	CheckSaveBinding(SV_MAR_MID_UNLOCKED, false);
+	CheckSaveBinding(SV_SANCT_FOUND, false);
 	
-	CheckSaveBinding("all gems", false);
+	CheckSaveBinding(SV_ALL_GEMS, false);
 }

@@ -5,12 +5,12 @@ with (Player)
 		hascontrol = false;
 		
 		// manage tutorial save
-		if (room == Tutorial_E and !global.savedata[? "secret accessed"]) {
-			global.savedata[? "tutorial"] = true;
+		if (room == Tutorial_E and !GetSave("secret accessed")) {
+			SetSave(SV_TUTORIAL, true);
 			WriteSaveFile();
 		}
 		else if (room == Tutorial_AR) {
-			global.savedata[? "tutorial"] = true;
+			SetSave(SV_TUTORIAL, true);
 			WriteSaveFile();
 		}
 		

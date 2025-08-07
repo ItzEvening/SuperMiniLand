@@ -18,9 +18,9 @@ end_fight = function() {
 		if (hascontrol)
 		{
 			hascontrol = false;
-			global.savedata[? "boss beaten"] = true;
+			SetSave(SV_BOSS_BEATEN, true);
 			
-			if (!global.savedata[? "sanctuary accessed"]) {
+			if (!GetSave(SV_SANCT_FOUND)) {
 				room_goto(HintLevel);
 			}
 			else {

@@ -1,7 +1,7 @@
 secret_gems = 0;
 enable_toggle = false;
 
-var secret = global.savedata[? "secret"];
+var secret = GetSave(SV_GEM_SECRET);
 
 for (var i = 0; i < ds_list_size(secret); i++) {
 	if (secret[| i]) {
@@ -14,9 +14,9 @@ if (secret_gems == 8)
 	enable_toggle = true;
 }
 
-if (!global.savedata[? "bears unlocked"] and enable_toggle) {
-	global.savedata[? "tutorial"] = false;
-	PopupManager.notify(BearAlert, "bears unlocked");
+if (!GetSave(SV_BEARS_UNLOCKED) and enable_toggle) {
+	SetSave(SV_TUTORIAL, false);
+	PopupManager.notify(BearAlert, SV_BEARS_UNLOCKED);
 }
 
 if (enable_toggle) {

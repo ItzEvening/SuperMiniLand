@@ -1,13 +1,13 @@
 draw_notification = false
 sprite = PolyAlert;
-save = "boss unlocked"
+save = SV_BOSS_UNLOCKED
 
 kill_notif = function() {
 	draw_notification = false;
 	MusicPlayer.play_music(Demo_Menu_Test);
 	global.menu_control = true;
 	
-	global.savedata[? save] = true;
+	SetSave(save, true);
 	WriteSaveFile();
 	
 	for (var i = 0; i < instance_number(DemoLevelCard); i++) {

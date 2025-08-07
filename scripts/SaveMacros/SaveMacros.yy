@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"SaveMacros",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SaveMacros",
+  "parent":{
+    "name":"Macros",
+    "path":"folders/Scripts/Macros.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
