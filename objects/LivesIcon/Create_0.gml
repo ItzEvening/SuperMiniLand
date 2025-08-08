@@ -5,7 +5,7 @@ sprite = MiniLivesIcon;
 init = function(_player) {
 	player = _player;
 	
-	switch (global.character) {
+	switch (player.object_index) {
 		case Evie:
 			sprite = EvieLivesIcon;
 		break;
@@ -16,6 +16,10 @@ init = function(_player) {
 		
 		case Allie:
 			sprite = AllieLivesIcon;
+		break;
+		
+		case A_Allie:
+			sprite = AlramechLivesIcon;
 		break;
 	}
 }

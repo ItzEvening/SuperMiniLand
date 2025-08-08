@@ -21,6 +21,8 @@ hp = hp_default;
 // forcefield
 forcefield = noone;
 
+instance_destroy(coinsFont);
+
 manage_animations = function(_midair)
 {
 	// If drilling

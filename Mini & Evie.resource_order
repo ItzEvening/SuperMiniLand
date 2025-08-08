@@ -375,6 +375,7 @@
     {"name":"Allie_Sit","order":41,"path":"sprites/Allie_Sit/Allie_Sit.yy",},
     {"name":"Allie_Stomp","order":17,"path":"sprites/Allie_Stomp/Allie_Stomp.yy",},
     {"name":"AllieLivesIcon","order":34,"path":"sprites/AllieLivesIcon/AllieLivesIcon.yy",},
+    {"name":"AlramechLivesIcon","order":73,"path":"sprites/AlramechLivesIcon/AlramechLivesIcon.yy",},
     {"name":"Arcturus_Float","order":18,"path":"sprites/Arcturus_Float/Arcturus_Float.yy",},
     {"name":"Arcturus_Hang","order":42,"path":"sprites/Arcturus_Hang/Arcturus_Hang.yy",},
     {"name":"Arcturus_Idle","order":7,"path":"sprites/Arcturus_Idle/Arcturus_Idle.yy",},

@@ -430,6 +430,7 @@
     {"id":{"name":"Allie_Sit","path":"sprites/Allie_Sit/Allie_Sit.yy",},},
     {"id":{"name":"Allie_Stomp","path":"sprites/Allie_Stomp/Allie_Stomp.yy",},},
     {"id":{"name":"AllieLivesIcon","path":"sprites/AllieLivesIcon/AllieLivesIcon.yy",},},
+    {"id":{"name":"AlramechLivesIcon","path":"sprites/AlramechLivesIcon/AlramechLivesIcon.yy",},},
     {"id":{"name":"Arcturus_Float","path":"sprites/Arcturus_Float/Arcturus_Float.yy",},},
     {"id":{"name":"Arcturus_Hang","path":"sprites/Arcturus_Hang/Arcturus_Hang.yy",},},
     {"id":{"name":"Arcturus_Idle","path":"sprites/Arcturus_Idle/Arcturus_Idle.yy",},},

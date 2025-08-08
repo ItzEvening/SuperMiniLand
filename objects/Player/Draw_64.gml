@@ -1,5 +1,7 @@
-coinsFont.text = NumberFormatter(coins);
-//healthFont.text = NumberFormatter(hp);
+if (instance_exists(coinsFont)) {
+	coinsFont.text = NumberFormatter(coins);
+}
+
 
 if (livesText == "") {
 	livesFont.text = NumberFormatter(chances);
