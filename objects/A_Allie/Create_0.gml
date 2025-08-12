@@ -11,8 +11,6 @@ frict = 0.3;
 idle = A_Allie_Idle
 fall = A_Allie_Jump_Fall
 run = A_Allie_Run
-hpgui.sprite = HP_Player_Al
-hpgui.bear = true;
 
 // small
 hp_default = 2;
@@ -22,42 +20,3 @@ hp = hp_default;
 forcefield = noone;
 
 instance_destroy(coinsFont);
-
-manage_animations = function(_midair)
-{
-	// If drilling
-	if (_midair and done_gimmick) {
-		image_speed = 1;
-		sprite_index = Allie_Drill;
-	}
-	
-	//If midair but not dashing
-	else if (_midair)
-	{
-	    sprite_index = fall;
-	    image_speed = 0;
-	if (sign(vsp) > 0) image_index = 1; else image_index = 0;
-	
-	
-	}
-	
-	// If on ground
-	else
-	{
-		image_speed = 1;
-		if (hsp == 0)
-		{
-			sprite_index = idle;
-		}
-		else
-		{
-			sprite_index = run;
-		}
-	}
-	
-	// Make Mini face the correct direction
-	if (hsp != 0)
-	{
-		image_xscale = sign(hsp);
-	}
-}

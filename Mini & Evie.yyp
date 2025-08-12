@@ -646,6 +646,7 @@
     {"id":{"name":"Hazard_Eye_Drop","path":"sprites/Hazard_Eye_Drop/Hazard_Eye_Drop.yy",},},
     {"id":{"name":"HomePlanet_2","path":"sprites/HomePlanet_2/HomePlanet_2.yy",},},
     {"id":{"name":"HomePlanet","path":"sprites/HomePlanet/HomePlanet.yy",},},
+    {"id":{"name":"HP_Player_Aa","path":"sprites/HP_Player_Aa/HP_Player_Aa.yy",},},
     {"id":{"name":"HP_Player_Al","path":"sprites/HP_Player_Al/HP_Player_Al.yy",},},
     {"id":{"name":"HP_Player_Ar","path":"sprites/HP_Player_Ar/HP_Player_Ar.yy",},},
     {"id":{"name":"HP_Player_E","path":"sprites/HP_Player_E/HP_Player_E.yy",},},

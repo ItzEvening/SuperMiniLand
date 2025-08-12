@@ -583,6 +583,7 @@
     {"name":"Hazard_Eye_Drop","order":69,"path":"sprites/Hazard_Eye_Drop/Hazard_Eye_Drop.yy",},
     {"name":"HomePlanet_2","order":75,"path":"sprites/HomePlanet_2/HomePlanet_2.yy",},
     {"name":"HomePlanet","order":41,"path":"sprites/HomePlanet/HomePlanet.yy",},
+    {"name":"HP_Player_Aa","order":77,"path":"sprites/HP_Player_Aa/HP_Player_Aa.yy",},
     {"name":"HP_Player_Al","order":46,"path":"sprites/HP_Player_Al/HP_Player_Al.yy",},
     {"name":"HP_Player_Ar","order":47,"path":"sprites/HP_Player_Ar/HP_Player_Ar.yy",},
     {"name":"HP_Player_E","order":25,"path":"sprites/HP_Player_E/HP_Player_E.yy",},

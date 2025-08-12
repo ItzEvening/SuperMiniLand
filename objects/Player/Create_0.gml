@@ -23,6 +23,7 @@ blink_iframe = function() {
 
 change_visibility = function() {
 	show_chances = !show_chances;
+	livesicon.set_show_chances(show_chances);
 }
 
 // life functions
@@ -151,10 +152,11 @@ coinsFont = instance_create_layer(0, 0, "Instances", FontDrawer, _coins_struct);
 
 // create the lives icon
 livesicon = instance_create_layer(0, 0, "Instances", LivesIcon);
-livesicon.init(self);
+livesicon.init(object_index);
 
 //create HP GUI
 hpgui = instance_create_layer(0, 0, "Instances", GUI_HP);
+hpgui.init(object_index);
 
 // create the rainbow gem gui
 rainbow = instance_create_layer(0, 0, "Instances", RainbowGUI);

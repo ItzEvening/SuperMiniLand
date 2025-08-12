@@ -1,11 +1,11 @@
-player = noone;
+show_chances = true;
 sprite = MiniLivesIcon;
 
 
 init = function(_player) {
 	player = _player;
 	
-	switch (player.object_index) {
+	switch (player) {
 		case Evie:
 			sprite = EvieLivesIcon;
 		break;
@@ -24,5 +24,6 @@ init = function(_player) {
 	}
 }
 
-
-
+set_show_chances = function(_show) {
+	show_chances = _show;
+}

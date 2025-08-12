@@ -13,8 +13,6 @@ jump_resist = 0.44;
 idle = Arcturus_Idle
 fall = Arcturus_Jump_Fall
 run = Arcturus_Run
-hpgui.sprite = HP_Player_Ar
-hpgui.bear = true;
 
 // small
 hp_default = 2;
