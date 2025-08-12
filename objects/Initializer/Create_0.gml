@@ -5,6 +5,7 @@ global.character = Mini;
 global.bear = false;
 global.rainbow_progress = [];
 global.menu_control = true;
+global.score = 0;
 
 // TO BE CHANGED FOR RELEASE
 global.dev_mode = false;

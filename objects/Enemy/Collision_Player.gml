@@ -19,6 +19,10 @@ if (_player != noone) {
 		if (path_index != -1) {
 			path_end();
 		}
+		
+		if (score_giver) {
+			global.score += 100;
+		}
 	}
 	
 	else if (!dead and !_player.invincible) {

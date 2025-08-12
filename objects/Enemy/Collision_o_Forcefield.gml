@@ -13,6 +13,10 @@ if (!dead and killable) {
 		path_end();
 	}
 	
+	if (score_giver) {
+		global.score += 100;
+	}
+	
 	time_source_start(death_timer);
 	
 

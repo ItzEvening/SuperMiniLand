@@ -1,4 +1,5 @@
 audio_stop_all();
+global.score = 0;
 
 var _random = random(10);
 			

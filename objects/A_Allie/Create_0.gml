@@ -19,4 +19,8 @@ hp = hp_default;
 // forcefield
 forcefield = noone;
 
+// create font stuff
+var _score_struct = {xDraw: 1180, yDraw: 25, scale: 0.5, align_right: true};
+scoreFont = instance_create_layer(0, 0, "Instances", FontDrawer, _score_struct);
+
 instance_destroy(coinsFont);

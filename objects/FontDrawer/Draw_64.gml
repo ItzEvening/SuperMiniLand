@@ -48,11 +48,14 @@ for (var i = 1; i <= string_length(text); i++) {
 	
 	//draw the thing
 	//draw_sprite_ext(_font_sprite, 0, _cursor_x, _cursor_y, scale, scale, 0, c_white, 1);
-	_current_position += _sprite_width + _left_space;
+	_current_position += (_sprite_width + _left_space);
 }
 
 if (drawCoin) {
 	_cursor_x -= _total_width / 2;
+}
+else if (align_right) {
+	_cursor_x -= _total_width;
 }
 
 for (var i = 0; i < string_length(text); i++) {
