@@ -5,21 +5,21 @@
   "bbox_bottom":351,
   "bbox_left":0,
   "bbox_right":351,
-  "bbox_top":121,
+  "bbox_top":139,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f307b4fe-454b-4081-8ae3-8edabe9fde1b","name":"f307b4fe-454b-4081-8ae3-8edabe9fde1b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f08ee9ca-7c0c-4887-aa2d-adb947ccda7f","name":"f08ee9ca-7c0c-4887-aa2d-adb947ccda7f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":352,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c0fc0552-462c-4144-913d-f0fbbae2ebd8","blendMode":0,"displayName":"default","isLocked":false,"name":"c0fc0552-462c-4144-913d-f0fbbae2ebd8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"9846fb82-fbf6-4524-9d6b-827bb077eb07","blendMode":0,"displayName":"default","isLocked":false,"name":"9846fb82-fbf6-4524-9d6b-827bb077eb07","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"SpringIslandCloud",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f307b4fe-454b-4081-8ae3-8edabe9fde1b","path":"sprites/SpringIslandCloud/SpringIslandCloud.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"62d6c519-7e64-4253-9d86-8ba3a924a195","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f08ee9ca-7c0c-4887-aa2d-adb947ccda7f","path":"sprites/SpringIslandCloud/SpringIslandCloud.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"72f50a8d-8693-4e72-824e-a67fbdc8d859","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
