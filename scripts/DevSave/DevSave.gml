@@ -16,7 +16,7 @@ function DevSave(){
 	CheckSaveBinding(SV_BEARS_UNLOCKED, false);
 	
 	CheckSaveBinding(SV_BOSS_BEATEN, false);
-	CheckSaveBinding(SV_MAR_MID_UNLOCKED, false);
+	CheckSaveBinding(SV_MAR_MID_UNLOCKED, true);
 	CheckSaveBinding(SV_SANCT_FOUND, false);
 	
 	CheckSaveBinding(SV_ALL_GEMS, false);
