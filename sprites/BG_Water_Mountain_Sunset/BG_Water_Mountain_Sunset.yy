@@ -1,27 +1,28 @@
 {
   "$GMSprite":"",
-  "%Name":"SICloudSunset",
+  "%Name":"BG_Water_Mountain_Sunset",
   "bboxMode":0,
-  "bbox_bottom":351,
+  "bbox_bottom":159,
   "bbox_left":0,
-  "bbox_right":351,
-  "bbox_top":139,
+  "bbox_right":159,
+  "bbox_top":80,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"12f9c0c9-30a8-416d-b949-cc39c4f5719b","name":"12f9c0c9-30a8-416d-b949-cc39c4f5719b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"ebbb95fd-a67f-41a9-b3ad-e12fef27679c","name":"ebbb95fd-a67f-41a9-b3ad-e12fef27679c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"9a3bbe27-8535-4ecd-a6a8-146678d9e30c","name":"9a3bbe27-8535-4ecd-a6a8-146678d9e30c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":352,
+  "height":160,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"2966ba67-5a0b-4846-9e7f-4b998ce3cbe8","blendMode":0,"displayName":"default","isLocked":false,"name":"2966ba67-5a0b-4846-9e7f-4b998ce3cbe8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"7bb4fdfd-5407-495e-8347-e08ea673bd32","blendMode":0,"displayName":"default","isLocked":false,"name":"7bb4fdfd-5407-495e-8347-e08ea673bd32","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"SICloudSunset",
+  "name":"BG_Water_Mountain_Sunset",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +34,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"SICloudSunset",
+    "%Name":"BG_Water_Mountain_Sunset",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -49,7 +50,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":2.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -57,9 +58,9 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"SICloudSunset",
+    "name":"BG_Water_Mountain_Sunset",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":4.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -69,8 +70,11 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"12f9c0c9-30a8-416d-b949-cc39c4f5719b","path":"sprites/SICloudSunset/SICloudSunset.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1fac4630-633c-4eb6-b72f-76f96f0302a5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ebbb95fd-a67f-41a9-b3ad-e12fef27679c","path":"sprites/BG_Water_Mountain_Sunset/BG_Water_Mountain_Sunset.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"180d1e56-983f-41f1-8706-eb645415bc98","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9a3bbe27-8535-4ecd-a6a8-146678d9e30c","path":"sprites/BG_Water_Mountain_Sunset/BG_Water_Mountain_Sunset.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b5675fff-cce0-4179-9afd-23261e5bb061","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +90,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":352,
+  "width":160,
 }

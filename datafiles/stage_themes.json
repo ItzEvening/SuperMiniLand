@@ -197,13 +197,18 @@
     "Song": "Special_Stage_Theme"
   },
   {
-    "Stage": "SparklingHill",
+    "Stage": "SparklingHill_1",
     "Song": "song_SparklingHill"
   },
   {
     "Stage": "HintLevel",
     "Song": "Sound51"
-  }
+  },
+  {
+    "Stage": "SparklingHill_2",
+    "Song": "song_SparklingHill2"
+  },
+
 
   ]
 }
