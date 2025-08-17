@@ -5,21 +5,21 @@
   "bbox_bottom":351,
   "bbox_left":0,
   "bbox_right":351,
-  "bbox_top":121,
+  "bbox_top":139,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b05db90d-d63c-4f62-9432-71055e0cd3ab","name":"b05db90d-d63c-4f62-9432-71055e0cd3ab","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"12f9c0c9-30a8-416d-b949-cc39c4f5719b","name":"12f9c0c9-30a8-416d-b949-cc39c4f5719b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":352,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"efa3b411-1cd5-450f-9caa-2a322bae8428","blendMode":0,"displayName":"default","isLocked":false,"name":"efa3b411-1cd5-450f-9caa-2a322bae8428","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"2966ba67-5a0b-4846-9e7f-4b998ce3cbe8","blendMode":0,"displayName":"default","isLocked":false,"name":"2966ba67-5a0b-4846-9e7f-4b998ce3cbe8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"SICloudSunset",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b05db90d-d63c-4f62-9432-71055e0cd3ab","path":"sprites/SICloudSunset/SICloudSunset.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d429eef7-653f-4458-a50a-d44fc13ac0a5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"12f9c0c9-30a8-416d-b949-cc39c4f5719b","path":"sprites/SICloudSunset/SICloudSunset.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1fac4630-633c-4eb6-b72f-76f96f0302a5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

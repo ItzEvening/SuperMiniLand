@@ -21,7 +21,8 @@ end_fight = function() {
 			SetSave(SV_BOSS_BEATEN, true);
 			
 			if (!GetSave(SV_SANCT_FOUND)) {
-				room_goto(HintLevel);
+				room_goto(Airborne_Informant);
+				global.level = SparklingHill_A;
 			}
 			else {
 				SlideTransition(TRANS_MODE.GOTO, Demo_End);
