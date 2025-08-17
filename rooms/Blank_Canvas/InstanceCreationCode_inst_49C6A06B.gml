@@ -1,1 +1,1 @@
-target = SparklingHill_1;
+target = SparklingHill;
