@@ -197,7 +197,7 @@
     "Song": "Special_Stage_Theme"
   },
   {
-    "Stage": "SparklingHill",
+    "Stage": "SparklingHill_A",
     "Song": "song_SparklingHill"
   },
   {
@@ -205,9 +205,14 @@
     "Song": "Sound51"
   },
   {
-    "Stage": "SparklingHill_2",
+    "Stage": "SparklingHill_B",
     "Song": "song_SparklingHill2"
   },
+  {
+    "Stage": "Airborne_Informant",
+    "Song": "song_Airborne_Informant"
+  },
+
 
 
   ]

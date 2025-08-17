@@ -6,8 +6,8 @@ function DevSave(){
 	
 	CheckSaveBinding(SV_TUTORIAL, false);
 	
-	CheckSaveBinding(SV_GEM_SPRING, [false, false, false, false, false]);
-	CheckSaveBinding(SV_GEM_SALMON, [false, false, false, false, false]);
+	CheckSaveBinding(SV_GEM_SPRING, [true, true, true, true, true]);
+	CheckSaveBinding(SV_GEM_SALMON, [true, true, true, true, true]);
 	CheckSaveBinding(SV_GEM_MARBLE, [false, false, false, false, false, false]);
 	CheckSaveBinding(SV_GEM_MIDNIGHT, [false, false, false, false, false, false]);
 	CheckSaveBinding(SV_GEM_SECRET, [false, false, false, false, false, false, false, false]);
