@@ -77,8 +77,8 @@ handle_death = function() {
 	}
 	else if (chances == 1)
 	{
-		timer = time_source_create(time_source_global, 0.75, time_source_units_seconds, change_visibility, [], -1);
-		time_source_start(timer);
+		icon_blink_timer = time_source_create(time_source_global, 0.75, time_source_units_seconds, change_visibility, [], -1);
+		time_source_start(icon_blink_timer);
 	}
 	
 	if (chances > 0) {
