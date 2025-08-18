@@ -77,7 +77,6 @@ handle_death = function() {
 	}
 	else if (chances == 1)
 	{
-		icon_blink_timer = time_source_create(time_source_global, 0.75, time_source_units_seconds, change_visibility, [], -1);
 		time_source_start(icon_blink_timer);
 	}
 	
@@ -135,6 +134,7 @@ coins = 0;
 invincible = false;
 iframe_timer = time_source_create(time_source_game, 2, time_source_units_seconds, expire_iframe);
 blink_timer = time_source_create(time_source_game, 0.2, time_source_units_seconds, blink_iframe, [], 8);
+icon_blink_timer = time_source_create(time_source_global, 0.75, time_source_units_seconds, change_visibility, [], -1);
 
 hp_default = 3;
 hp = hp_default;
