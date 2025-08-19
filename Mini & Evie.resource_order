@@ -349,6 +349,7 @@
     {"name":"song_SkyCloud","order":4,"path":"sounds/song_SkyCloud/song_SkyCloud.yy",},
     {"name":"song_SparklingHill","order":22,"path":"sounds/song_SparklingHill/song_SparklingHill.yy",},
     {"name":"song_SparklingHill2","order":23,"path":"sounds/song_SparklingHill2/song_SparklingHill2.yy",},
+    {"name":"song_SparklingHill2E","order":10,"path":"sounds/song_SparklingHill2E/song_SparklingHill2E.yy",},
     {"name":"song_SparklingHillE","order":8,"path":"sounds/song_SparklingHillE/song_SparklingHillE.yy",},
     {"name":"song_StarlightStation","order":21,"path":"sounds/song_StarlightStation/song_StarlightStation.yy",},
     {"name":"song_StarlightStationE","order":7,"path":"sounds/song_StarlightStationE/song_StarlightStationE.yy",},
