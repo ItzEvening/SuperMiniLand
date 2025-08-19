@@ -389,6 +389,7 @@
     {"id":{"name":"sfx_Pause","path":"sounds/sfx_Pause/sfx_Pause.yy",},},
     {"id":{"name":"sfx_Police_Siren","path":"sounds/sfx_Police_Siren/sfx_Police_Siren.yy",},},
     {"id":{"name":"song_Airborne_Informant","path":"sounds/song_Airborne_Informant/song_Airborne_Informant.yy",},},
+    {"id":{"name":"song_Airborne_InformantE","path":"sounds/song_Airborne_InformantE/song_Airborne_InformantE.yy",},},
     {"id":{"name":"song_CircleCastle","path":"sounds/song_CircleCastle/song_CircleCastle.yy",},},
     {"id":{"name":"song_Credits","path":"sounds/song_Credits/song_Credits.yy",},},
     {"id":{"name":"song_CrimsonDesert","path":"sounds/song_CrimsonDesert/song_CrimsonDesert.yy",},},

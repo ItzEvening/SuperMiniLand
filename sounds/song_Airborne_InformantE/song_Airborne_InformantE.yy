@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"song_Airborne_InformantE",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":119.1724,
+  "name":"song_Airborne_InformantE",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"song_Airborne_InformantE.ogg",
+  "type":1,
+  "volume":1.0,
+}

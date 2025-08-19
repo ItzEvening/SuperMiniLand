@@ -336,6 +336,7 @@
     {"name":"sfx_Pause","order":12,"path":"sounds/sfx_Pause/sfx_Pause.yy",},
     {"name":"sfx_Police_Siren","order":14,"path":"sounds/sfx_Police_Siren/sfx_Police_Siren.yy",},
     {"name":"song_Airborne_Informant","order":45,"path":"sounds/song_Airborne_Informant/song_Airborne_Informant.yy",},
+    {"name":"song_Airborne_InformantE","order":46,"path":"sounds/song_Airborne_InformantE/song_Airborne_InformantE.yy",},
     {"name":"song_CircleCastle","order":5,"path":"sounds/song_CircleCastle/song_CircleCastle.yy",},
     {"name":"song_Credits","order":41,"path":"sounds/song_Credits/song_Credits.yy",},
     {"name":"song_CrimsonDesert","order":2,"path":"sounds/song_CrimsonDesert/song_CrimsonDesert.yy",},
