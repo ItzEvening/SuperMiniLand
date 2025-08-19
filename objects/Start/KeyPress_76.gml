@@ -2,8 +2,8 @@
 // SlideTransition(TRANS_MODE.GOTO, Level_Select);
 
 //Dev Level Select
-//audio_stop_all();
-//SlideTransition(TRANS_MODE.LEVEL, Level_Select_Test);
+audio_stop_all();
+SlideTransition(TRANS_MODE.LEVEL, Level_Select_Test);
 
 
 //global.level = StarlightStation;
