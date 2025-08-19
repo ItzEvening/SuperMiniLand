@@ -303,6 +303,7 @@
     {"name":"GameOver","order":2,"path":"sounds/GameOver/GameOver.yy",},
     {"name":"GameOverE","order":7,"path":"sounds/GameOverE/GameOverE.yy",},
     {"name":"GhostCity","order":3,"path":"sounds/GhostCity/GhostCity.yy",},
+    {"name":"HeadStomped","order":22,"path":"sounds/HeadStomped/HeadStomped.yy",},
     {"name":"LilacCity","order":4,"path":"sounds/LilacCity/LilacCity.yy",},
     {"name":"LilacCity2","order":5,"path":"sounds/LilacCity2/LilacCity2.yy",},
     {"name":"Logo_Jingle_1","order":31,"path":"sounds/Logo_Jingle_1/Logo_Jingle_1.yy",},

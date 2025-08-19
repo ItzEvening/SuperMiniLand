@@ -57,3 +57,12 @@ manage_animations = function(_midair)
 		image_xscale = sign(hsp);
 	}
 }
+
+bounce = function(_enemy) {
+	var _dist = abs(_enemy.x - x);
+	
+	if (_dist <= 32 and vsp <= 20.6 * sign(grv)) {
+		vsp = -6.5;
+		audio_play_sound(HeadStomped, 10, false);
+	}
+}

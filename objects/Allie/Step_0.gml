@@ -1,6 +1,12 @@
 event_inherited();
 
+if (forcefield != noone) {
+	forcefield.x = x;
+	forcefield.y = y;
+}
+
 var _gimmick = keyboard_check_pressed(vk_space) or keyboard_check_pressed(ord("W"));
+
 
 if (can_gimmick and _gimmick) {
 	// hsp = 17.5 * image_xscale;
@@ -14,15 +20,14 @@ if (can_gimmick and _gimmick) {
 	
 	done_gimmick = true;
 	can_gimmick = false;
+	ignore_drill_blocks = true;
 	
 	forcefield = instance_create_layer(x, y, layer, o_Forcefield);
+	forcefield.bounce_function = bounce;
 }
 
-if (done_gimmick) {
-	forcefield.x = x;
-	forcefield.y = y;
-}
-else if (forcefield != noone) {
+if (forcefield != noone and !done_gimmick) {
 	instance_destroy(forcefield);
 	forcefield = noone;
+	ignore_drill_blocks = false;
 }

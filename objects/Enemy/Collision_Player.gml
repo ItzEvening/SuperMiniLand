@@ -3,7 +3,8 @@ var _player = instance_place(x, y, Player);
 if (_player != noone) {
 	
 	// kill 
-	if (_player.y < bbox_top and !dead and _player.vsp > -3 and killable) {
+	if (good_to_kill(_player)) {
+		
 		sprite_index = spr_dead;
 		audio_play_sound(sfx_dead, 10, 0);
 		dead = true;
@@ -25,7 +26,7 @@ if (_player != noone) {
 		}
 	}
 	
-	else if (!dead and !_player.invincible) {
+	else if (!dead and !_player.invincible and !place_meeting(x, y, o_Forcefield)) {
 		audio_play_sound(Damage, 10, 0);
 		_player.change_life(-1);
 	}

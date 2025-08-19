@@ -28,6 +28,9 @@ ground_tiles = layer_tilemap_get_id("Foreground_Tiles");
 water_tiles = layer_tilemap_get_id("Water");
 rail_tiles = layer_tilemap_get_id("Rails");
 
+// collisions
+ignore_drill_blocks = false;
+
 // create the barriers
 left_barrier = instance_create_layer(0, y, layer, o_barrier_left);
 right_barrier = instance_create_layer(room_width, y, layer, o_barrier_right);
@@ -133,6 +136,8 @@ calculate_speeds = function(_move, _underwater)
 }
 
 meeting_solid = function(_x, _y) {
+	
+	// assumption: solid objects should not overlap
 	var _solids = [ground_tiles, SolidObject];
 	
 	if (layer_exists("Rails")) {
@@ -140,9 +145,14 @@ meeting_solid = function(_x, _y) {
 	}
 
 	for (var i = 0; i < array_length(_solids); i++) {
+		
 		if (place_meeting(_x, _y, _solids[i])) {
 			return true;
 		}
+	}
+	
+	if (place_meeting(_x, _y, DrillOnlyBox) and !ignore_drill_blocks) {
+		return true;
 	}
 	
 	return false;

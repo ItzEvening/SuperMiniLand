@@ -353,6 +353,7 @@
     {"id":{"name":"GameOver","path":"sounds/GameOver/GameOver.yy",},},
     {"id":{"name":"GameOverE","path":"sounds/GameOverE/GameOverE.yy",},},
     {"id":{"name":"GhostCity","path":"sounds/GhostCity/GhostCity.yy",},},
+    {"id":{"name":"HeadStomped","path":"sounds/HeadStomped/HeadStomped.yy",},},
     {"id":{"name":"LilacCity","path":"sounds/LilacCity/LilacCity.yy",},},
     {"id":{"name":"LilacCity2","path":"sounds/LilacCity2/LilacCity2.yy",},},
     {"id":{"name":"Logo_Jingle_1","path":"sounds/Logo_Jingle_1/Logo_Jingle_1.yy",},},
