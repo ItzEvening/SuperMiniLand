@@ -6,6 +6,7 @@ global.bear = false;
 global.rainbow_progress = [];
 global.menu_control = true;
 global.score = 0;
+global.lo = new SignalController();
 
 // TO BE CHANGED FOR RELEASE
 global.dev_mode = false;

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"SignalMacros",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SignalMacros",
+  "parent":{
+    "name":"Macros",
+    "path":"folders/Scripts/Macros.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

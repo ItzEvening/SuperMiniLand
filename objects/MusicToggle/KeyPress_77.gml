@@ -12,5 +12,7 @@ if (global.menu_control) {
 		audio_play_sound(MSides, 10, 0);
 	}
 	
+	global.lo.send(MUSIC_CHANGE, global.music);
+	
 }
 

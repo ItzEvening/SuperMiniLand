@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"ListenerBinding",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ListenerBinding",
+  "parent":{
+    "name":"ListenerObserver",
+    "path":"folders/Scripts/ListenerObserver.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

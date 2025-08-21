@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"SignalController",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SignalController",
+  "parent":{
+    "name":"ListenerObserver",
+    "path":"folders/Scripts/ListenerObserver.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
