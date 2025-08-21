@@ -25,7 +25,13 @@ bool_callback_all_gems = function() {
 	return CountGems(true) == 30;
 }
 
+// to be overwritten by child objects
+generate_metadatas = function() {
+	metas = [];
+}
+
 update = function() {
+	generate_metadatas();
 	var _card_data = metas[index];
 	
 	if (script_execute(_card_data.requirement)) {

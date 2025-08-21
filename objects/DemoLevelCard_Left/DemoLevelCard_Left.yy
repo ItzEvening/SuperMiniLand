@@ -1,18 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"DemoLevelCard",
+  "%Name":"DemoLevelCard_Left",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":77,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"DemoLevelCard",
+  "name":"DemoLevelCard_Left",
   "overriddenProperties":[],
   "parent":{
     "name":"LevelCards",
     "path":"folders/Objects/GUI/LevelCards.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"DemoLevelCard",
+    "path":"objects/DemoLevelCard/DemoLevelCard.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"card_",
-    "path":"sprites/card_/card_.yy",
+    "name":"card_tutorial",
+    "path":"sprites/card_tutorial/card_tutorial.yy",
   },
   "spriteMaskId":null,
   "visible":true,
