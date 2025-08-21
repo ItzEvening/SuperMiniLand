@@ -19,9 +19,5 @@ if (!dead and killable) {
 	
 	time_source_start(death_timer);
 	
-	// boing the player
-	var _collding_forcefield = instance_place(x, y, o_Forcefield);
-	if (_collding_forcefield != noone) {
-		_collding_forcefield.bounce_function(self);
-	}
+	o_Forcefield.bounce_function(self);
 }

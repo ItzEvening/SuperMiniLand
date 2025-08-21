@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"AllieMacros",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"AllieMacros",
+  "parent":{
+    "name":"Macros",
+    "path":"folders/Scripts/Macros.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

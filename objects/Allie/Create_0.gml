@@ -19,6 +19,9 @@ hp = hp_default;
 // forcefield
 forcefield = noone;
 
+// her special indicator
+indicator = instance_create_depth(0, 0, 99, AllieIndicator);
+
 manage_animations = function(_midair)
 {
 	// If drilling
@@ -61,8 +64,22 @@ manage_animations = function(_midair)
 bounce = function(_enemy) {
 	var _dist = abs(_enemy.x - x);
 	
-	if (_dist <= 32 and vsp <= 20.6 * sign(grv)) {
+	var _dist_good = _dist <= 32;
+	var _speed_good = vsp <= 20.6 * sign(grv);
+	
+	if (!_dist_good and !_speed_good) {
+		global.lo.send(ALLIE_KILL, ALLIE_BAD);
+	}
+	else if (!_dist_good) {
+		global.lo.send(ALLIE_KILL, ALLIE_OFF_BALANCE);
+	}
+	else if (!_speed_good) {
+		global.lo.send(ALLIE_KILL, ALLIE_TOO_ROUGH);
+	}
+	
+	else {
 		vsp = -6.5;
+		global.lo.send(ALLIE_KILL, ALLIE_GOOD);
 		audio_play_sound(HeadStomped, 10, false);
 	}
 }

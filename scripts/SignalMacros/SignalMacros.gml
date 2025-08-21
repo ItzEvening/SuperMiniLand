@@ -2,4 +2,5 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function SignalMacros(){
 	#macro MUSIC_CHANGE "music"
+	#macro ALLIE_KILL "allie"
 }
