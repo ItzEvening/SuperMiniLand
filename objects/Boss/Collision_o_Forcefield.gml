@@ -14,4 +14,6 @@ if (!dead and !invincible) {
 		MusicPlayer.stop_music();
 		frame = BOSS_DEAD
 	}
+	
+	o_Forcefield.bounce_function(self);
 }

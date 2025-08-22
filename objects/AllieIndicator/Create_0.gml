@@ -26,10 +26,8 @@ show = function(_status) {
 	if (time_source_get_state(hide_timer) == time_source_state_active) {
 		time_source_stop(hide_timer);
 	}
-	else {
-		time_source_start(hide_timer);
-	}
 	
+	time_source_start(hide_timer);
 }
 
 hide = function() {
