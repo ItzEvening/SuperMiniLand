@@ -20,4 +20,6 @@ if (!activated and Player.x > x) {
 	Player.original_y = y;
 	
 	activated = true;
+	
+	global.lo.send(BOSS_STARTED, 0);
 }

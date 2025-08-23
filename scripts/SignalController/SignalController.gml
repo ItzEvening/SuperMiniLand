@@ -61,4 +61,38 @@ function SignalController() constructor {
 		}
 		
 	}
+	
+	static remove = function(_id, _signal) {
+	
+		// check if given signal is yet known
+		if (!struct_exists(__listeners, _signal)) {
+			
+			show_debug_message("Signal " + _signal + " has not been added to controller yet.");
+            return;
+        }
+		
+		var _listeners = __listeners[$ _signal];
+		
+		// check if any listeners have been added for this signal
+		if (array_length(_listeners) <= 0) {
+			
+			show_debug_message("No listeners added to " + _signal + ".");
+            return;
+		}
+		
+		// remove
+		// send!!!!!!
+		for (var i = 0; i < array_length(_listeners); i++) {
+			
+			var _binding = _listeners[i];
+			var _listener = _binding.listener;
+			
+			if (_listener == _id) {
+				array_delete(_listeners, i, 1);
+				return;
+			}
+		}
+		
+		show_debug_message("Could not find " + _id + " in " + _signal + " to delete.");
+	}
 }
