@@ -1,5 +1,5 @@
 event_inherited();
-if (path_index == -1 and !dead) {
+if (path_index == -1 and !dead and phase > 0) {
 	
 	if (current_state == boss_states.move) {
 		frame = BOSS_IDLE;

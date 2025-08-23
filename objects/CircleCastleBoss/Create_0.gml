@@ -14,7 +14,7 @@ chosen_path = path_duplicate(path_CK);
 
 pth_speed = 2;
 
-frame = BOSS_RIGHT;
+frame = BOSS_IDLE;
 
 
 enum boss_states {
@@ -40,6 +40,14 @@ get_frame_index = function(_status) {
 
 
 follow_path = function() {
+	// change direction to face
+	if (path_direction == 1) {
+		frame = BOSS_RIGHT;
+	}
+	else if (path_direction == -1) {
+		frame = BOSS_LEFT;
+	}
+	
 	path_start(chosen_path, pth_speed * path_direction, path_action_stop, true);
 }
 
@@ -48,11 +56,11 @@ change_path = function() {
 	
 	var _path_list = [path_CK];
 	
-	if (phase > 0) {
+	if (phase > 1) {
 		array_push(_path_list, path_CK_divot_down, path_CK_divot_up, 
 			path_CK_logistic_up, path_CK_logistic_down, path_CK_sine_up, path_CK_sine_down);
 	}
-	if (phase > 1) {
+	if (phase > 2) {
 		
 		array_push(_path_list, path_CK_Z_up, path_CK_Z_down, path_CK_megasine_down, path_CK_megasine_up);
 		
@@ -115,14 +123,6 @@ teleport = function() {
 	
 	x = _x;
 	y = _y
-	
-	// change direction to face
-	if (path_direction == 1) {
-		frame = BOSS_LEFT;
-	}
-	else if (path_direction == -1) {
-		frame = BOSS_RIGHT;
-	}
 }
 
 // so goddamn special you need your own overwritten recover function, eh?
@@ -144,13 +144,20 @@ recover = function() {
 // circle king phasessss
 change_phase = function() {
 	if (hp == 9) {
-		phase = 1;
+		phase = 2;
 		pth_speed = 2.5;
 	}
 	else if (hp == 4) {
-		phase = 2;
+		phase = 3;
 		pth_speed = 3;
 	}
 }
 
-follow_path();
+activate = function() {
+	phase++;
+	frame = BOSS_HURT;
+	current_state = boss_states.fade_out;
+	squish();
+}
+
+global.lo.add(self, BOSS_STARTED, activate);
