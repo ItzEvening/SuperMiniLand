@@ -1,0 +1,1 @@
+global.lo.remove(self, ALLIE_KILL);
