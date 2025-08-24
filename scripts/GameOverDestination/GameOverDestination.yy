@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"GameOverDestination",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"GameOverDestination",
+  "parent":{
+    "name":"PlayerHelpers",
+    "path":"folders/Scripts/PlayerHelpers.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

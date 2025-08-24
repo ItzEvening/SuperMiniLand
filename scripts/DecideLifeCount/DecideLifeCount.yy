@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"DecideLifeCount",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"DecideLifeCount",
+  "parent":{
+    "name":"PlayerHelpers",
+    "path":"folders/Scripts/PlayerHelpers.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -106,7 +106,8 @@ handle_death = function() {
 game_over = function() {
 	hascontrol = false;
 	alive = false;
-	SlideTransition(TRANS_MODE.GOTO, Game_Over);
+	
+	SlideTransition(TRANS_MODE.GOTO, GameOverDestination());
 }
 
 // gimmick function
@@ -130,10 +131,7 @@ original_y = y;
 original_g = grv;
 
 // lives stuff
-chances = 5;
-if (IsCanvasChallenge()) {
-	chances = 0;
-}
+chances = DecideLifeCount();
 alive = true;
 show_chances = true;
 
