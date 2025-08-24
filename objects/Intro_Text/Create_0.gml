@@ -30,7 +30,21 @@ function StageToNum(_room){
 	return string_digits(_char);
 }
 
+function CalculateOffset() {
+	if (Stage == "CANVAS\nCHALLENGE") {
+		x_offset = -270;
+	}
+	else {
+		x_offset = -180;
+	}
+}
+
 Stage = StageToString(global.level);
 Stage_Num= StageToNum(global.level);
 text_to_draw=Stage;
+x_offset = 0;
+y_offset = -50;
+CalculateOffset();
+
+
 

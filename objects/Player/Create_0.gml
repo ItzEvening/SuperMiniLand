@@ -73,7 +73,7 @@ manage_animations = function(_midair) {
 handle_death = function() {
 	if (chances == 0)
 	{
-		SlideTransition(TRANS_MODE.GOTO, Game_Over);
+		game_over();
 	}
 	else if (chances == 1)
 	{
@@ -87,17 +87,26 @@ handle_death = function() {
 	
 	hp = hp_default;
 	hpgui.lifetoframe(hp);
-	//change_life(3);
-	x = original_x;
-	y = original_y;
-	hsp = 0;
-	vsp = 0;
+
+	if (alive) {
+		x = original_x;
+		y = original_y;
+		hsp = 0;
+		vsp = 0;
+	}
 	
 	// handle gravity
 	grv = original_g;
 	image_yscale = sign(grv);
 	
 	reset_iframe();
+}
+
+// game over function
+game_over = function() {
+	hascontrol = false;
+	alive = false;
+	SlideTransition(TRANS_MODE.GOTO, Game_Over);
 }
 
 // gimmick function
@@ -122,6 +131,10 @@ original_g = grv;
 
 // lives stuff
 chances = 5;
+if (IsCanvasChallenge()) {
+	chances = 0;
+}
+alive = true;
 show_chances = true;
 
 // sprites

@@ -323,6 +323,7 @@
     {"id":{"name":"CountGems","path":"scripts/CountGems/CountGems.yy",},},
     {"id":{"name":"DevSave","path":"scripts/DevSave/DevSave.yy",},},
     {"id":{"name":"GetSave","path":"scripts/GetSave/GetSave.yy",},},
+    {"id":{"name":"IsCanvasChallenge","path":"scripts/IsCanvasChallenge/IsCanvasChallenge.yy",},},
     {"id":{"name":"JSONHelper","path":"scripts/JSONHelper/JSONHelper.yy",},},
     {"id":{"name":"ListenerBinding","path":"scripts/ListenerBinding/ListenerBinding.yy",},},
     {"id":{"name":"NewLevel","path":"scripts/NewLevel/NewLevel.yy",},},

@@ -277,6 +277,7 @@
     {"name":"CountGems","order":5,"path":"scripts/CountGems/CountGems.yy",},
     {"name":"DevSave","order":3,"path":"scripts/DevSave/DevSave.yy",},
     {"name":"GetSave","order":4,"path":"scripts/GetSave/GetSave.yy",},
+    {"name":"IsCanvasChallenge","order":11,"path":"scripts/IsCanvasChallenge/IsCanvasChallenge.yy",},
     {"name":"NewLevel","order":2,"path":"scripts/NewLevel/NewLevel.yy",},
     {"name":"NumberFormatter","order":1,"path":"scripts/NumberFormatter/NumberFormatter.yy",},
     {"name":"PlayClear","order":6,"path":"scripts/PlayClear/PlayClear.yy",},
