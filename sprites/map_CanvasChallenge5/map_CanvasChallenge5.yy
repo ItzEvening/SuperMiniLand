@@ -4,7 +4,7 @@
   "bboxMode":0,
   "bbox_bottom":959,
   "bbox_left":0,
-  "bbox_right":9599,
+  "bbox_right":15999,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f3e7fb05-cac6-4853-b56d-57ae1b34694b","name":"f3e7fb05-cac6-4853-b56d-57ae1b34694b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"3afc71a6-4b85-4aa1-b87a-b3e02f323eb2","name":"3afc71a6-4b85-4aa1-b87a-b3e02f323eb2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":960,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"15cab673-5565-4683-8f4d-9cc77183ca2a","blendMode":0,"displayName":"default","isLocked":false,"name":"15cab673-5565-4683-8f4d-9cc77183ca2a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"912a1a8e-9346-4f0c-8abc-a73124ac9771","blendMode":0,"displayName":"default","isLocked":false,"name":"912a1a8e-9346-4f0c-8abc-a73124ac9771","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"map_CanvasChallenge5",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f3e7fb05-cac6-4853-b56d-57ae1b34694b","path":"sprites/map_CanvasChallenge5/map_CanvasChallenge5.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"de1e229c-3bc0-4bdc-b0de-818e193f0081","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3afc71a6-4b85-4aa1-b87a-b3e02f323eb2","path":"sprites/map_CanvasChallenge5/map_CanvasChallenge5.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3dd1233a-b419-41a6-a8d2-d507125ac0e0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":9600,
+  "width":16000,
 }
