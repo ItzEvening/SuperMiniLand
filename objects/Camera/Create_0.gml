@@ -6,10 +6,16 @@ xTo = xstart;
 yTo = ystart;
 
 left_border = 0;
+shaking = false;
 
 function change_left_border(_x) {
 	left_border = _x;
 }
+
+toggle_shake = function(_val) {
+	shaking = _val;
+}
+global.lo.add(self, TOGGLE_SHAKE, toggle_shake);
 
 #region Parallax Stuff
 parallax_values = ds_map_create();

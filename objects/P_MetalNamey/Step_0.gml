@@ -6,6 +6,7 @@ var _midair = !meeting_solid(x, y + 1);
 // to inform that the player touched ground after boost
 if (!_midair and boosted) {
 	boosted = false;
+	global.lo.send(TOGGLE_SHAKE, false);
 }
 
 if (can_gimmick and _gimmick and boost > 0) {
@@ -23,6 +24,7 @@ if (can_gimmick and _gimmick and boost > 0) {
 	boosted = true;
 	
 	forcefield = instance_create_layer(x, y, layer, o_Forcefield);
+	global.lo.send(TOGGLE_SHAKE, true);
 }
 
 if (can_gimmick and _gimmick and boost == 0) {

@@ -4,4 +4,5 @@ function SignalMacros(){
 	#macro MUSIC_CHANGE "music"
 	#macro ALLIE_KILL "allie"
 	#macro BOSS_STARTED "boss started"
+	#macro TOGGLE_SHAKE "shake shake shake"
 }
