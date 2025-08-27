@@ -11,7 +11,8 @@ frict = 0.3;
 idle = M_Mini_Idle
 fall = M_Mini_Jump_Fall
 run = M_Mini_Run
-booster = M_Mini_Boost_Old
+
+booster = M_Mini_Boost
 
 // small
 hp_default = 7;
