@@ -18,6 +18,10 @@ init = function(_player) {
 			sprite = AllieLivesIcon;
 		break;
 		
+		case P_MetalNamey:
+			sprite = MetalLivesIcon;
+		break;
+		
 		case A_Allie:
 			sprite = AlramechLivesIcon;
 		break;

@@ -1,6 +1,6 @@
 frame = 0;
 sprite = HP_Player_M;
-bear = false;
+max_hp = 3
 
 render_x = 1200;
 render_y = 0;
@@ -19,17 +19,22 @@ function init(_type) {
 		
 		case Allie:
 			sprite = HP_Player_Al;
-			bear = true;
+			max_hp = 2;
 		break;
 		
 		case Arcturus:
 			sprite = HP_Player_Ar;
-			bear = true;
+			max_hp = 2;
+		break;
+		
+		case P_MetalNamey:
+			sprite = HP_Player_Mt;
+			max_hp = 7;
 		break;
 		
 		case A_Allie:
 			sprite = HP_Player_Aa;
-			bear = true;
+			max_hp = 2;
 			render_y = 880;
 			render_scale = 2;
 		break;
@@ -37,14 +42,5 @@ function init(_type) {
 }
 
 function lifetoframe (_life){
-	if (bear) {
-		_life++;
-	}
-	
-	if (_life >= 3){
-		frame = 0;
-	}
-	else {
-		frame = 3 - _life;
-	}
+	frame = max_hp - _life;
 }

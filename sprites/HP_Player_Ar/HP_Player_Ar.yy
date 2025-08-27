@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":2,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"HP Icons",
+    "path":"folders/Sprites/menu/HP Icons.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

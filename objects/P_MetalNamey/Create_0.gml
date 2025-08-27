@@ -12,11 +12,9 @@ idle = M_Mini_Idle
 fall = M_Mini_Jump_Fall
 run = M_Mini_Run
 booster = M_Mini_Boost_Old
-hpgui.sprite = HP_Player_M
-hpgui.bear = false;
 
 // small
-hp_default = 8;
+hp_default = 7;
 hp = hp_default;
 
 boost_default = 0;

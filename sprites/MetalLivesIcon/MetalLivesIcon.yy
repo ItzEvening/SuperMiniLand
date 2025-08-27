@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"MiniLivesIcon",
+  "%Name":"MetalLivesIcon",
   "bboxMode":0,
   "bbox_bottom":31,
   "bbox_left":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"70ad9626-18d0-44dc-b618-7aaa6e2b3a3b","name":"70ad9626-18d0-44dc-b618-7aaa6e2b3a3b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"870b60a7-3fea-44b7-8e80-d41caa0d9093","name":"870b60a7-3fea-44b7-8e80-d41caa0d9093","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"5d3aa90a-a3d6-4420-bb6d-6afa950c30b8","blendMode":0,"displayName":"default","isLocked":false,"name":"5d3aa90a-a3d6-4420-bb6d-6afa950c30b8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"f0cd8553-b2bd-430d-a7d7-c0ad67d4035d","blendMode":0,"displayName":"default","isLocked":false,"name":"f0cd8553-b2bd-430d-a7d7-c0ad67d4035d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"MiniLivesIcon",
+  "name":"MetalLivesIcon",
   "nineSlice":null,
   "origin":6,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"MiniLivesIcon",
+    "%Name":"MetalLivesIcon",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"MiniLivesIcon",
+    "name":"MetalLivesIcon",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"70ad9626-18d0-44dc-b618-7aaa6e2b3a3b","path":"sprites/MiniLivesIcon/MiniLivesIcon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"88b7cdec-c2d5-42ca-8ddb-1cafba7030b8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"870b60a7-3fea-44b7-8e80-d41caa0d9093","path":"sprites/MetalLivesIcon/MetalLivesIcon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c7ddb484-6e10-4e7b-b425-e0979c610472","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
