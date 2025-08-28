@@ -87,7 +87,7 @@
     {"name":"BearToggle","order":19,"path":"objects/BearToggle/BearToggle.yy",},
     {"name":"Boss","order":1,"path":"objects/Boss/Boss.yy",},
     {"name":"BossStarter","order":19,"path":"objects/BossStarter/BossStarter.yy",},
-    {"name":"BouncyObject","order":19,"path":"objects/BouncyObject/BouncyObject.yy",},
+    {"name":"BouncyObject","order":18,"path":"objects/BouncyObject/BouncyObject.yy",},
     {"name":"Camera","order":5,"path":"objects/Camera/Camera.yy",},
     {"name":"Challenge","order":24,"path":"objects/Challenge/Challenge.yy",},
     {"name":"CircleCastleBoss","order":2,"path":"objects/CircleCastleBoss/CircleCastleBoss.yy",},

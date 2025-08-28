@@ -1,5 +1,5 @@
-var _player = instance_place(x, y, Player);
+//var _player = instance_place(x, y, Player);
 
-if (_player != noone) {
-	_player.vsp = -5;
-}
+//if (_player != noone) {
+//	_player.vsp = -5;
+//}
