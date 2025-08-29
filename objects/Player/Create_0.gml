@@ -100,6 +100,12 @@ handle_death = function() {
 	image_yscale = sign(grv);
 	
 	reset_iframe();
+	reset_animations();
+}
+
+// reset animations
+reset_animations = function() {
+	// to be overwritten
 }
 
 // game over function

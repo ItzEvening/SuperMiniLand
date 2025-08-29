@@ -5,4 +5,6 @@ function SignalMacros(){
 	#macro ALLIE_KILL "allie"
 	#macro BOSS_STARTED "boss started"
 	#macro TOGGLE_SHAKE "shake shake shake"
+	#macro ARTY_OHNO "arty die"
+	#macro SWITCH_SIGNS "mini"
 }

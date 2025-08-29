@@ -10,10 +10,20 @@ sustain_length = 0.4;
 jump_resist = 0.44;
 
 // sprites
-idle = Arcturus_Idle
-fall = Arcturus_Jump_Fall
-run = Arcturus_Run
+idle = Arcturus_Idle;
+fall = Arcturus_Jump_Fall;
+run = Arcturus_Run;
+floating = Arcturus_Float;
 
 // small
 hp_default = 2;
 hp = hp_default;
+
+screwed = function() {
+	floating = Arcturus_Float_Help;
+}
+reset_animations = function() {
+	floating = Arcturus_Float;
+}
+
+global.lo.add(self, ARTY_OHNO, screwed);
