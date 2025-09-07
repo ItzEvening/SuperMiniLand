@@ -3,11 +3,7 @@
 /// @return {Real} Amount of lives player should have
 function DecideLifeCount(){
 	
-	if (room == CanvasChallenge_3) {
-		return 2;
-	}
-	
-	else if (room == CanvasChallenge_5) {
+	if (room == CanvasChallenge_5) {
 		return 0;
 	}
 
