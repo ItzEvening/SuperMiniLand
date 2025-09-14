@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Ohmygah",
-    "path":"sprites/Ohmygah/Ohmygah.yy",
+    "name":"DrillBounder",
+    "path":"sprites/DrillBounder/DrillBounder.yy",
   },
   "spriteMaskId":null,
   "visible":true,
