@@ -225,3 +225,6 @@ function colliding_now(_axis)
 	return false;
 }
 
+water_stream_callback = function() {
+	vsp = 7 * sign(grv);
+}
