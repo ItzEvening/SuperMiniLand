@@ -147,6 +147,7 @@
     {"name":"o_barrier_right","order":6,"path":"objects/o_barrier_right/o_barrier_right.yy",},
     {"name":"o_Checkpoint","order":4,"path":"objects/o_Checkpoint/o_Checkpoint.yy",},
     {"name":"o_Forcefield","order":21,"path":"objects/o_Forcefield/o_Forcefield.yy",},
+    {"name":"o_LavaRock","order":12,"path":"objects/o_LavaRock/o_LavaRock.yy",},
     {"name":"o_MenuDots","order":23,"path":"objects/o_MenuDots/o_MenuDots.yy",},
     {"name":"Object47","order":20,"path":"objects/Object47/Object47.yy",},
     {"name":"P_MetalNamey","order":8,"path":"objects/P_MetalNamey/P_MetalNamey.yy",},

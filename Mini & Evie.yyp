@@ -180,6 +180,7 @@
     {"id":{"name":"o_barrier_right","path":"objects/o_barrier_right/o_barrier_right.yy",},},
     {"id":{"name":"o_Checkpoint","path":"objects/o_Checkpoint/o_Checkpoint.yy",},},
     {"id":{"name":"o_Forcefield","path":"objects/o_Forcefield/o_Forcefield.yy",},},
+    {"id":{"name":"o_LavaRock","path":"objects/o_LavaRock/o_LavaRock.yy",},},
     {"id":{"name":"o_MenuDots","path":"objects/o_MenuDots/o_MenuDots.yy",},},
     {"id":{"name":"Object2","path":"objects/Object2/Object2.yy",},},
     {"id":{"name":"Object47","path":"objects/Object47/Object47.yy",},},
