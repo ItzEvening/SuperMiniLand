@@ -5,8 +5,8 @@
   "kind":0,
   "name":"path_CK_accelerate_left",
   "parent":{
-    "name":"Paths",
-    "path":"folders/Paths.yy",
+    "name":"CircleKing",
+    "path":"folders/Paths/CircleKing.yy",
   },
   "points":[
     {"speed":80.0,"x":864.0,"y":160.0,},

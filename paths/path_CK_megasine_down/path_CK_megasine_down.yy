@@ -5,8 +5,8 @@
   "kind":1,
   "name":"path_CK_megasine_down",
   "parent":{
-    "name":"Paths",
-    "path":"folders/Paths.yy",
+    "name":"CircleKing",
+    "path":"folders/Paths/CircleKing.yy",
   },
   "points":[
     {"speed":125.0,"x":864.0,"y":160.0,},

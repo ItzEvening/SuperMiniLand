@@ -1,0 +1,1 @@
+path_delete(custom_path);

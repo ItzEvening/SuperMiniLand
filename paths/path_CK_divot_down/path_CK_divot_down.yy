@@ -5,8 +5,8 @@
   "kind":1,
   "name":"path_CK_divot_down",
   "parent":{
-    "name":"Paths",
-    "path":"folders/Paths.yy",
+    "name":"CircleKing",
+    "path":"folders/Paths/CircleKing.yy",
   },
   "points":[
     {"speed":100.0,"x":864.0,"y":160.0,},

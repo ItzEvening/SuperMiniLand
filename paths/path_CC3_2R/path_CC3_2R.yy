@@ -1,0 +1,24 @@
+{
+  "$GMPath":"",
+  "%Name":"path_CC3_2R",
+  "closed":true,
+  "kind":0,
+  "name":"path_CC3_2R",
+  "parent":{
+    "name":"CanvasChallenge3",
+    "path":"folders/Paths/CanvasChallenge3.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":1056.0,"y":18592.0,},
+    {"speed":100.0,"x":1056.0,"y":18784.0,},
+    {"speed":100.0,"x":1056.0,"y":18976.0,},
+    {"speed":100.0,"x":1248.0,"y":18976.0,},
+    {"speed":100.0,"x":1440.0,"y":18976.0,},
+    {"speed":100.0,"x":1440.0,"y":18784.0,},
+    {"speed":100.0,"x":1440.0,"y":18592.0,},
+    {"speed":100.0,"x":1248.0,"y":18592.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
