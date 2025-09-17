@@ -18,6 +18,7 @@ hp = hp_default;
 
 // forcefield
 forcefield = noone;
+perfect_hit = false;
 
 // her special indicator
 indicator = instance_create_depth(0, 0, 99, AllieIndicator);
@@ -26,8 +27,15 @@ manage_animations = function(_midair)
 {
 	// If drilling
 	if (_midair and done_gimmick) {
-		image_speed = 1;
-		sprite_index = Allie_Drill;
+		if (perfect_hit) {
+			image_speed = 1;
+			sprite_index = Allie_Drill;
+			
+		}
+		else {
+			image_speed = 1;
+			sprite_index = Allie_Stomp;
+		}
 	}
 	
 	//If midair but not dashing
@@ -81,5 +89,6 @@ bounce = function(_enemy) {
 		vsp = -6.5;
 		global.lo.send(ALLIE_KILL, ALLIE_GOOD);
 		audio_play_sound(HeadStomped, 10, false);
+		perfect_hit = true;
 	}
 }

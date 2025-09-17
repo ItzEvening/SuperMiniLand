@@ -30,4 +30,5 @@ if (forcefield != noone and !done_gimmick) {
 	instance_destroy(forcefield);
 	forcefield = noone;
 	ignore_drill_blocks = false;
+	perfect_hit = false;
 }
