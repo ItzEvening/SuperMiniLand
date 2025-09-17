@@ -85,7 +85,18 @@ var _coinr = instance_place(x, y, CoinR);
 if (_coinr != noone and !_coinr.collected)
 {
 	coins++;
+	boost++;
 	_coinr.collect();
+}
+
+var _coinL = instance_place(x, y, CoinL);
+if (_coinL != noone)
+{
+	instance_destroy(_coinL);
+	coins++;
+	boost++;
+	if (hp < hp_default) { change_life(1); }
+	audio_play_sound(Recovery, 10, 0);
 }
 
 var _coind = instance_place(x, y, CoinD);
