@@ -1,0 +1,1 @@
+target = SalmonPalace_Hard_1;

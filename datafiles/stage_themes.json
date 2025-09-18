@@ -223,7 +223,11 @@
   {
     "Stage": "SpringIsland_Hard_1",
     "Song": "song_SpringIslandHard"
-  }
+  },
+  {
+      "Stage": "Hard_Blank_Canvas",
+      "Song": "A_Land_Painted_In_Red"
+  },
 
 
 

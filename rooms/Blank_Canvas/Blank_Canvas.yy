@@ -42,6 +42,7 @@
     {"name":"inst_3EA9D00A","path":"rooms/Blank_Canvas/Blank_Canvas.yy",},
     {"name":"inst_49C6A06B","path":"rooms/Blank_Canvas/Blank_Canvas.yy",},
     {"name":"inst_1D80C7F6","path":"rooms/Blank_Canvas/Blank_Canvas.yy",},
+    {"name":"inst_3E2C9136","path":"rooms/Blank_Canvas/Blank_Canvas.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -85,6 +86,7 @@
         {"$GMRInstance":"","%Name":"inst_63114AEA","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_63114AEA","objectId":{"name":"Door_1","path":"objects/Door_1/Door_1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4320.0,"y":544.0,},
         {"$GMRInstance":"","%Name":"inst_7EA262C7","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7EA262C7","objectId":{"name":"Door_2","path":"objects/Door_2/Door_2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4352.0,"y":192.0,},
         {"$GMRInstance":"","%Name":"inst_49C6A06B","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_49C6A06B","objectId":{"name":"Door_1","path":"objects/Door_1/Door_1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3008.0,"y":544.0,},
+        {"$GMRInstance":"","%Name":"inst_3E2C9136","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3E2C9136","objectId":{"name":"Hard_Warper","path":"objects/Hard_Warper/Hard_Warper.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":448.0,},
       ],"layers":[],"name":"Checkpoints","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Hazards","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_6C02E7D2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6C02E7D2","objectId":{"name":"Hazard_Spikes_Tutorial","path":"objects/Hazard_Spikes_Tutorial/Hazard_Spikes_Tutorial.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":800.0,"y":160.0,},
