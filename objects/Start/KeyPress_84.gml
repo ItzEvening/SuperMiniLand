@@ -1,6 +1,6 @@
 /// @description Quick Trigger for Blank Canvas
 
-audio_stop_sound(MainMusic2);
+audio_stop_all();
 
 SlideTransition(TRANS_MODE.LEVEL, Level_Card_Hard);
 //global.level = Blank_Canvas;
