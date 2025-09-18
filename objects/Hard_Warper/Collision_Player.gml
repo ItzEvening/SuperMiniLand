@@ -1,2 +1,1 @@
-audio_stop_all();
-room_goto(Hard_Blank_Canvas);
+SlideTransition(TRANS_MODE.GOTO, Hard_Blank_Canvas);

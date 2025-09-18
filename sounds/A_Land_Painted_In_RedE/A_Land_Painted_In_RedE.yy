@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":189.5295,
+  "duration":175.44385,
   "name":"A_Land_Painted_In_RedE",
   "parent":{
     "name":"Sounds",
