@@ -332,6 +332,7 @@
     {"name":"Sequence6","order":7,"path":"sequences/Sequence6/Sequence6.yy",},
     {"name":"Westopolis","order":8,"path":"sequences/Westopolis/Westopolis.yy",},
     {"name":"A_Land_Painted_In_Red","order":51,"path":"sounds/A_Land_Painted_In_Red/A_Land_Painted_In_Red.yy",},
+    {"name":"A_Land_Painted_In_RedE","order":52,"path":"sounds/A_Land_Painted_In_RedE/A_Land_Painted_In_RedE.yy",},
     {"name":"AirBase","order":13,"path":"sounds/AirBase/AirBase.yy",},
     {"name":"BalloonPark","order":1,"path":"sounds/BalloonPark/BalloonPark.yy",},
     {"name":"BalloonPark2","order":14,"path":"sounds/BalloonPark2/BalloonPark2.yy",},

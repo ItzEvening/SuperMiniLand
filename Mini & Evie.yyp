@@ -385,6 +385,7 @@
     {"id":{"name":"Sequence6","path":"sequences/Sequence6/Sequence6.yy",},},
     {"id":{"name":"Westopolis","path":"sequences/Westopolis/Westopolis.yy",},},
     {"id":{"name":"A_Land_Painted_In_Red","path":"sounds/A_Land_Painted_In_Red/A_Land_Painted_In_Red.yy",},},
+    {"id":{"name":"A_Land_Painted_In_RedE","path":"sounds/A_Land_Painted_In_RedE/A_Land_Painted_In_RedE.yy",},},
     {"id":{"name":"AirBase","path":"sounds/AirBase/AirBase.yy",},},
     {"id":{"name":"AirBase2","path":"sounds/AirBase2/AirBase2.yy",},},
     {"id":{"name":"BalloonPark","path":"sounds/BalloonPark/BalloonPark.yy",},},
