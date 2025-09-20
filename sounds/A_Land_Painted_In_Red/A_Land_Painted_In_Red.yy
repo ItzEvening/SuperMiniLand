@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":53.76,
+  "duration":83.2,
   "name":"A_Land_Painted_In_Red",
   "parent":{
     "name":"Sounds",
