@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sfx_SparkleJump",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.685714,
+  "name":"sfx_SparkleJump",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_SparkleJump.ogg",
+  "type":0,
+  "volume":1.0,
+}

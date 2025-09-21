@@ -32,6 +32,11 @@ function init(_type) {
 			max_hp = 7;
 		break;
 		
+		case P_Minomay:
+			sprite = HP_Player_Mo;
+			max_hp = 7;
+		break;
+		
 		case A_Allie:
 			sprite = HP_Player_Aa;
 			max_hp = 2;
