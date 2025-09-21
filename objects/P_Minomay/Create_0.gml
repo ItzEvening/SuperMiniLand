@@ -6,6 +6,7 @@ walksp = 6.5;
 walkstr = 0.01
 air_resistance = 0.1;
 frict = 0.3;
+floating_grv = 0.1;
 
 // sprites
 idle = Mino_Idle
@@ -30,6 +31,11 @@ manage_animations = function(_midair)
 	if (_midair and done_gimmick and boosted) {
 		image_speed = 1;
 		sprite_index = Mino_Spin_Power;
+		
+		if (sign(vsp) == sign(grv)) {
+			grv = floating_grv * sign(grv);
+		}
+		
 	}
 	else if (_midair and done_gimmick) {
 		image_speed = 1;
@@ -48,6 +54,7 @@ manage_animations = function(_midair)
 	// If on ground
 	else
 	{
+		grv = abs(original_g) * sign(grv);
 		image_speed = 1;
 		if (hsp == 0)
 		{

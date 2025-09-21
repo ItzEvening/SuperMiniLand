@@ -11,7 +11,7 @@ if (!_midair and boosted) {
 if (can_gimmick and _gimmick and boost > 0) {
 	// hsp = 17.5 * image_xscale;
 	audio_play_sound(sfx_SparkleJump,10,0);
-	vsp = -8;
+	vsp = -8 * sign(grv);
 	boost--;
 	coins--;
 	
@@ -26,7 +26,7 @@ if (can_gimmick and _gimmick and boost > 0) {
 if (can_gimmick and _gimmick and boost == 0) {
 	// hsp = 17.5 * image_xscale;
 	audio_play_sound(sfx_Jump2,10,0);
-	vsp = -5;
+	vsp = -5 * sign(grv);
 	
 	
 	done_gimmick = true;
