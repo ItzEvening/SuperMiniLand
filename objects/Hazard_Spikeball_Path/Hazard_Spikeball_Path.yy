@@ -12,8 +12,8 @@
     "path":"folders/Objects/Level Hazards.yy",
   },
   "parentObjectId":{
-    "name":"PathSlave",
-    "path":"objects/PathSlave/PathSlave.yy",
+    "name":"PathWarrior",
+    "path":"objects/PathWarrior/PathWarrior.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

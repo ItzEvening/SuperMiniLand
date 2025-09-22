@@ -228,7 +228,10 @@
       "Stage": "Hard_Blank_Canvas",
       "Song": "A_Land_Painted_In_Red"
   },
-
+  {
+    "Stage": "CanvasChallenge_2",
+    "Song": "song_CanvasChallenge2"
+  },
 
 
   ]
