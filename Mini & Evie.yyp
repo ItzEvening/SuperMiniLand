@@ -516,6 +516,7 @@
     {"id":{"name":"Air_Base","path":"sprites/Air_Base/Air_Base.yy",},},
     {"id":{"name":"Allie_Adventure_Logo","path":"sprites/Allie_Adventure_Logo/Allie_Adventure_Logo.yy",},},
     {"id":{"name":"Allie_Drill","path":"sprites/Allie_Drill/Allie_Drill.yy",},},
+    {"id":{"name":"Allie_Idle_Full","path":"sprites/Allie_Idle_Full/Allie_Idle_Full.yy",},},
     {"id":{"name":"Allie_Idle","path":"sprites/Allie_Idle/Allie_Idle.yy",},},
     {"id":{"name":"Allie_Jump_Fall","path":"sprites/Allie_Jump_Fall/Allie_Jump_Fall.yy",},},
     {"id":{"name":"Allie_Raging_Idle","path":"sprites/Allie_Raging_Idle/Allie_Raging_Idle.yy",},},

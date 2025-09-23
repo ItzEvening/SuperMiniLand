@@ -8,7 +8,7 @@ air_resistance = 0.1;
 frict = 0.3;
 
 // sprites
-idle = Allie_Idle
+idle = Allie_Idle_Full
 fall = Allie_Jump_Fall
 run = Allie_Run
 

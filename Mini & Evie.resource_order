@@ -455,6 +455,7 @@
     {"name":"Air_Base","order":1,"path":"sprites/Air_Base/Air_Base.yy",},
     {"name":"Allie_Adventure_Logo","order":62,"path":"sprites/Allie_Adventure_Logo/Allie_Adventure_Logo.yy",},
     {"name":"Allie_Drill","order":19,"path":"sprites/Allie_Drill/Allie_Drill.yy",},
+    {"name":"Allie_Idle_Full","order":40,"path":"sprites/Allie_Idle_Full/Allie_Idle_Full.yy",},
     {"name":"Allie_Idle","order":10,"path":"sprites/Allie_Idle/Allie_Idle.yy",},
     {"name":"Allie_Jump_Fall","order":11,"path":"sprites/Allie_Jump_Fall/Allie_Jump_Fall.yy",},
     {"name":"Allie_Raging_Idle","order":32,"path":"sprites/Allie_Raging_Idle/Allie_Raging_Idle.yy",},
