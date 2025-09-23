@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":117.333336,
+  "duration":113.45454,
   "name":"song_MidnightRush",
   "parent":{
     "name":"Stage Themes",

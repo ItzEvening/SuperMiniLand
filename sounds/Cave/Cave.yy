@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":48.0,
+  "duration":51.42857,
   "name":"Cave",
   "parent":{
     "name":"Stage Themes",
