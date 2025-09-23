@@ -404,6 +404,7 @@
     {"name":"song_Airborne_Informant","order":45,"path":"sounds/song_Airborne_Informant/song_Airborne_Informant.yy",},
     {"name":"song_Airborne_InformantE","order":46,"path":"sounds/song_Airborne_InformantE/song_Airborne_InformantE.yy",},
     {"name":"song_CanvasChallenge2","order":56,"path":"sounds/song_CanvasChallenge2/song_CanvasChallenge2.yy",},
+    {"name":"song_CanvasChallenge2E","order":57,"path":"sounds/song_CanvasChallenge2E/song_CanvasChallenge2E.yy",},
     {"name":"song_CanvasChallenge3","order":48,"path":"sounds/song_CanvasChallenge3/song_CanvasChallenge3.yy",},
     {"name":"song_CanvasChallenge5","order":47,"path":"sounds/song_CanvasChallenge5/song_CanvasChallenge5.yy",},
     {"name":"song_CanvasChallenge5E","order":53,"path":"sounds/song_CanvasChallenge5E/song_CanvasChallenge5E.yy",},
