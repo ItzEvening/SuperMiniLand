@@ -142,7 +142,7 @@ alive = true;
 show_chances = true;
 
 // sprites
-idle = Mini_Idle
+idle = Mini_Idle_Full
 fall = Mini_Jump_Fall
 run = Mini_Run2
 

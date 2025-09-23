@@ -829,6 +829,7 @@
     {"name":"MF_Window","order":73,"path":"sprites/MF_Window/MF_Window.yy",},
     {"name":"Midnight_Rush","order":18,"path":"sprites/Midnight_Rush/Midnight_Rush.yy",},
     {"name":"Mini_Dash","order":16,"path":"sprites/Mini_Dash/Mini_Dash.yy",},
+    {"name":"Mini_Idle_Full","order":37,"path":"sprites/Mini_Idle_Full/Mini_Idle_Full.yy",},
     {"name":"Mini_Idle","order":3,"path":"sprites/Mini_Idle/Mini_Idle.yy",},
     {"name":"Mini_Jump_Fall","order":4,"path":"sprites/Mini_Jump_Fall/Mini_Jump_Fall.yy",},
     {"name":"Mini_Music","order":64,"path":"sprites/Mini_Music/Mini_Music.yy",},

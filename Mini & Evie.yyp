@@ -904,6 +904,7 @@
     {"id":{"name":"MF_Window","path":"sprites/MF_Window/MF_Window.yy",},},
     {"id":{"name":"Midnight_Rush","path":"sprites/Midnight_Rush/Midnight_Rush.yy",},},
     {"id":{"name":"Mini_Dash","path":"sprites/Mini_Dash/Mini_Dash.yy",},},
+    {"id":{"name":"Mini_Idle_Full","path":"sprites/Mini_Idle_Full/Mini_Idle_Full.yy",},},
     {"id":{"name":"Mini_Idle","path":"sprites/Mini_Idle/Mini_Idle.yy",},},
     {"id":{"name":"Mini_Jump_Fall","path":"sprites/Mini_Jump_Fall/Mini_Jump_Fall.yy",},},
     {"id":{"name":"Mini_Music","path":"sprites/Mini_Music/Mini_Music.yy",},},
