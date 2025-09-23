@@ -846,6 +846,7 @@
     {"id":{"name":"M_Mini_Boost","path":"sprites/M_Mini_Boost/M_Mini_Boost.yy",},},
     {"id":{"name":"M_Mini_Dash_Empty","path":"sprites/M_Mini_Dash_Empty/M_Mini_Dash_Empty.yy",},},
     {"id":{"name":"M_Mini_Dash","path":"sprites/M_Mini_Dash/M_Mini_Dash.yy",},},
+    {"id":{"name":"M_Mini_Idle_Full","path":"sprites/M_Mini_Idle_Full/M_Mini_Idle_Full.yy",},},
     {"id":{"name":"M_Mini_Idle","path":"sprites/M_Mini_Idle/M_Mini_Idle.yy",},},
     {"id":{"name":"M_Mini_Jump_Fall","path":"sprites/M_Mini_Jump_Fall/M_Mini_Jump_Fall.yy",},},
     {"id":{"name":"M_Mini_Run","path":"sprites/M_Mini_Run/M_Mini_Run.yy",},},

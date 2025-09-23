@@ -773,6 +773,7 @@
     {"name":"M_Mini_Boost","order":30,"path":"sprites/M_Mini_Boost/M_Mini_Boost.yy",},
     {"name":"M_Mini_Dash_Empty","order":28,"path":"sprites/M_Mini_Dash_Empty/M_Mini_Dash_Empty.yy",},
     {"name":"M_Mini_Dash","order":24,"path":"sprites/M_Mini_Dash/M_Mini_Dash.yy",},
+    {"name":"M_Mini_Idle_Full","order":41,"path":"sprites/M_Mini_Idle_Full/M_Mini_Idle_Full.yy",},
     {"name":"M_Mini_Idle","order":23,"path":"sprites/M_Mini_Idle/M_Mini_Idle.yy",},
     {"name":"M_Mini_Jump_Fall","order":25,"path":"sprites/M_Mini_Jump_Fall/M_Mini_Jump_Fall.yy",},
     {"name":"M_Mini_Run","order":26,"path":"sprites/M_Mini_Run/M_Mini_Run.yy",},

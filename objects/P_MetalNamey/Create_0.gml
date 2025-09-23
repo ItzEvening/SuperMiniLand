@@ -8,7 +8,7 @@ air_resistance = 0.1;
 frict = 0.3;
 
 // sprites
-idle = M_Mini_Idle
+idle = M_Mini_Idle_Full
 fall = M_Mini_Jump_Fall
 run = M_Mini_Run
 
