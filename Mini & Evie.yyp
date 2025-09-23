@@ -682,6 +682,7 @@
     {"id":{"name":"EmptySet","path":"sprites/EmptySet/EmptySet.yy",},},
     {"id":{"name":"EndBeta","path":"sprites/EndBeta/EndBeta.yy",},},
     {"id":{"name":"EndSign","path":"sprites/EndSign/EndSign.yy",},},
+    {"id":{"name":"Eve_Idle_Full","path":"sprites/Eve_Idle_Full/Eve_Idle_Full.yy",},},
     {"id":{"name":"Eve_Idle","path":"sprites/Eve_Idle/Eve_Idle.yy",},},
     {"id":{"name":"Eve_Jump_Fall","path":"sprites/Eve_Jump_Fall/Eve_Jump_Fall.yy",},},
     {"id":{"name":"Eve_Run","path":"sprites/Eve_Run/Eve_Run.yy",},},

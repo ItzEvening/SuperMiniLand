@@ -613,6 +613,7 @@
     {"name":"EmptySet","order":68,"path":"sprites/EmptySet/EmptySet.yy",},
     {"name":"EndBeta","order":18,"path":"sprites/EndBeta/EndBeta.yy",},
     {"name":"EndSign","order":19,"path":"sprites/EndSign/EndSign.yy",},
+    {"name":"Eve_Idle_Full","order":38,"path":"sprites/Eve_Idle_Full/Eve_Idle_Full.yy",},
     {"name":"Eve_Jump_Fall","order":1,"path":"sprites/Eve_Jump_Fall/Eve_Jump_Fall.yy",},
     {"name":"Eve_Run","order":2,"path":"sprites/Eve_Run/Eve_Run.yy",},
     {"name":"Evie_Music","order":65,"path":"sprites/Evie_Music/Evie_Music.yy",},
