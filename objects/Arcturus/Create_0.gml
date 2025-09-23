@@ -10,7 +10,7 @@ sustain_length = 0.4;
 jump_resist = 0.44;
 
 // sprites
-idle = Arcturus_Idle;
+idle = Arcturus_Idle_Full;
 fall = Arcturus_Jump_Fall;
 run = Arcturus_Run;
 floating = Arcturus_Float;

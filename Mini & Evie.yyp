@@ -530,6 +530,7 @@
     {"id":{"name":"Arcturus_Float_Help","path":"sprites/Arcturus_Float_Help/Arcturus_Float_Help.yy",},},
     {"id":{"name":"Arcturus_Float","path":"sprites/Arcturus_Float/Arcturus_Float.yy",},},
     {"id":{"name":"Arcturus_Hang","path":"sprites/Arcturus_Hang/Arcturus_Hang.yy",},},
+    {"id":{"name":"Arcturus_Idle_Full","path":"sprites/Arcturus_Idle_Full/Arcturus_Idle_Full.yy",},},
     {"id":{"name":"Arcturus_Idle","path":"sprites/Arcturus_Idle/Arcturus_Idle.yy",},},
     {"id":{"name":"Arcturus_Jump_Fall","path":"sprites/Arcturus_Jump_Fall/Arcturus_Jump_Fall.yy",},},
     {"id":{"name":"Arcturus_Run","path":"sprites/Arcturus_Run/Arcturus_Run.yy",},},

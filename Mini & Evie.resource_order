@@ -468,6 +468,7 @@
     {"name":"Arcturus_Float_Help","order":31,"path":"sprites/Arcturus_Float_Help/Arcturus_Float_Help.yy",},
     {"name":"Arcturus_Float","order":18,"path":"sprites/Arcturus_Float/Arcturus_Float.yy",},
     {"name":"Arcturus_Hang","order":40,"path":"sprites/Arcturus_Hang/Arcturus_Hang.yy",},
+    {"name":"Arcturus_Idle_Full","order":39,"path":"sprites/Arcturus_Idle_Full/Arcturus_Idle_Full.yy",},
     {"name":"Arcturus_Idle","order":7,"path":"sprites/Arcturus_Idle/Arcturus_Idle.yy",},
     {"name":"Arcturus_Jump_Fall","order":8,"path":"sprites/Arcturus_Jump_Fall/Arcturus_Jump_Fall.yy",},
     {"name":"Arcturus_Run","order":9,"path":"sprites/Arcturus_Run/Arcturus_Run.yy",},
