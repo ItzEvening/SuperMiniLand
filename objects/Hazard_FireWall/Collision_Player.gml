@@ -4,7 +4,8 @@ if (_player != noone) {
 	
 	 if (!_player.invincible and !consumed) {
 		audio_play_sound(Damage, 10, 0);
-		_player.game_over();
+		audio_stop_all();
+		room_goto(ChallengeFailed_Room);
 	}
 	
 	consumed = true;

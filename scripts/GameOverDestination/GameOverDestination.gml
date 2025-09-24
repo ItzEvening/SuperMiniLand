@@ -3,7 +3,7 @@
 /// @return {Asset.GMRoom} Room destination
 function GameOverDestination(){
 	if (IsCanvasChallenge()) {
-		return Blank_Canvas;
+		return ChallengeFailed_Room;
 	}
 	
 	return Game_Over;
