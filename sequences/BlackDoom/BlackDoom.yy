@@ -24,7 +24,7 @@
     "5":"",
     "6":"",
   },
-  "length":180.0,
+  "length":200.0,
   "lockOrigin":false,
   "moments":{
     "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -43,7 +43,7 @@
     "name":"Sequences",
     "path":"folders/Sequences.yy",
   },
-  "playback":1,
+  "playback":0,
   "playbackSpeed":60.0,
   "playbackSpeedType":0,
   "resourceType":"GMSequence",
@@ -56,7 +56,7 @@
     {"$GMInstanceTrack":"","%Name":"Intro_Text","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<AssetInstanceKeyframe>":"","Keyframes":[
           {"$Keyframe<AssetInstanceKeyframe>":"","Channels":{
               "0":{"$AssetInstanceKeyframe":"","Id":{"name":"Intro_Text","path":"objects/Intro_Text/Intro_Text.yy",},"resourceType":"AssetInstanceKeyframe","resourceVersion":"2.0",},
-            },"Disabled":false,"id":"e196f3d7-5155-4ef9-8f36-f9e6dcc1deeb","IsCreationKey":false,"Key":0.0,"Length":180.0,"resourceType":"Keyframe<AssetInstanceKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            },"Disabled":false,"id":"e196f3d7-5155-4ef9-8f36-f9e6dcc1deeb","IsCreationKey":false,"Key":0.0,"Length":200.0,"resourceType":"Keyframe<AssetInstanceKeyframe>","resourceVersion":"2.0","Stretch":false,},
         ],"resourceType":"KeyframeStore<AssetInstanceKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"Intro_Text","resourceType":"GMInstanceTrack","resourceVersion":"2.0","trackColour":4282970819,"tracks":[
         {"$GMRealTrack":"","%Name":"origin","builtinName":16,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":true,"keyframes":{"$KeyframeStore<RealKeyframe>":"","Keyframes":[
               {"$Keyframe<RealKeyframe>":"","Channels":{
@@ -117,7 +117,7 @@
     {"$GMInstanceTrack":"","%Name":"MusicFlower","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<AssetInstanceKeyframe>":"","Keyframes":[
           {"$Keyframe<AssetInstanceKeyframe>":"","Channels":{
               "0":{"$AssetInstanceKeyframe":"","Id":{"name":"MusicFlower","path":"objects/MusicFlower/MusicFlower.yy",},"resourceType":"AssetInstanceKeyframe","resourceVersion":"2.0",},
-            },"Disabled":false,"id":"c8c9cdc0-df3a-46a8-9950-a711363c1bb6","IsCreationKey":false,"Key":0.0,"Length":180.0,"resourceType":"Keyframe<AssetInstanceKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            },"Disabled":false,"id":"c8c9cdc0-df3a-46a8-9950-a711363c1bb6","IsCreationKey":false,"Key":0.0,"Length":200.0,"resourceType":"Keyframe<AssetInstanceKeyframe>","resourceVersion":"2.0","Stretch":false,},
         ],"resourceType":"KeyframeStore<AssetInstanceKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"MusicFlower","resourceType":"GMInstanceTrack","resourceVersion":"2.0","trackColour":4282970819,"tracks":[
         {"$GMRealTrack":"","%Name":"origin","builtinName":16,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":true,"keyframes":{"$KeyframeStore<RealKeyframe>":"","Keyframes":[
               {"$Keyframe<RealKeyframe>":"","Channels":{
@@ -178,7 +178,7 @@
     {"$GMGraphicTrack":"","%Name":"BlueBar_1","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<AssetSpriteKeyframe>":"","Keyframes":[
           {"$Keyframe<AssetSpriteKeyframe>":"","Channels":{
               "0":{"$AssetSpriteKeyframe":"","Id":{"name":"BlueBar_1","path":"sprites/BlueBar_1/BlueBar_1.yy",},"resourceType":"AssetSpriteKeyframe","resourceVersion":"2.0",},
-            },"Disabled":false,"id":"97ccedcb-b466-4fdc-9b10-9cb5d4c104ac","IsCreationKey":false,"Key":0.0,"Length":180.0,"resourceType":"Keyframe<AssetSpriteKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            },"Disabled":false,"id":"97ccedcb-b466-4fdc-9b10-9cb5d4c104ac","IsCreationKey":false,"Key":0.0,"Length":200.0,"resourceType":"Keyframe<AssetSpriteKeyframe>","resourceVersion":"2.0","Stretch":false,},
         ],"resourceType":"KeyframeStore<AssetSpriteKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"BlueBar_1","resourceType":"GMGraphicTrack","resourceVersion":"2.0","trackColour":4282931954,"tracks":[
         {"$GMRealTrack":"","%Name":"origin","builtinName":16,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":true,"keyframes":{"$KeyframeStore<RealKeyframe>":"","Keyframes":[
               {"$Keyframe<RealKeyframe>":"","Channels":{
@@ -237,7 +237,7 @@
     {"$GMGraphicTrack":"","%Name":"BlueBar","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<AssetSpriteKeyframe>":"","Keyframes":[
           {"$Keyframe<AssetSpriteKeyframe>":"","Channels":{
               "0":{"$AssetSpriteKeyframe":"","Id":{"name":"BlueBar","path":"sprites/BlueBar/BlueBar.yy",},"resourceType":"AssetSpriteKeyframe","resourceVersion":"2.0",},
-            },"Disabled":false,"id":"4994d75f-2c6b-4a00-b980-90cf5c624dce","IsCreationKey":false,"Key":0.0,"Length":180.0,"resourceType":"Keyframe<AssetSpriteKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            },"Disabled":false,"id":"4994d75f-2c6b-4a00-b980-90cf5c624dce","IsCreationKey":false,"Key":0.0,"Length":200.0,"resourceType":"Keyframe<AssetSpriteKeyframe>","resourceVersion":"2.0","Stretch":false,},
         ],"resourceType":"KeyframeStore<AssetSpriteKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"BlueBar","resourceType":"GMGraphicTrack","resourceVersion":"2.0","trackColour":4287361608,"tracks":[
         {"$GMRealTrack":"","%Name":"origin","builtinName":16,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":true,"keyframes":{"$KeyframeStore<RealKeyframe>":"","Keyframes":[
               {"$Keyframe<RealKeyframe>":"","Channels":{
@@ -296,7 +296,7 @@
     {"$GMGraphicTrack":"","%Name":"LevelCardBG","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<AssetSpriteKeyframe>":"","Keyframes":[
           {"$Keyframe<AssetSpriteKeyframe>":"","Channels":{
               "0":{"$AssetSpriteKeyframe":"","Id":{"name":"LevelCardBG","path":"sprites/LevelCardBG/LevelCardBG.yy",},"resourceType":"AssetSpriteKeyframe","resourceVersion":"2.0",},
-            },"Disabled":false,"id":"256db2da-6f7c-4db0-a583-ec5c57655c27","IsCreationKey":false,"Key":0.0,"Length":180.0,"resourceType":"Keyframe<AssetSpriteKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            },"Disabled":false,"id":"256db2da-6f7c-4db0-a583-ec5c57655c27","IsCreationKey":false,"Key":0.0,"Length":200.0,"resourceType":"Keyframe<AssetSpriteKeyframe>","resourceVersion":"2.0","Stretch":false,},
         ],"resourceType":"KeyframeStore<AssetSpriteKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"LevelCardBG","resourceType":"GMGraphicTrack","resourceVersion":"2.0","trackColour":4294068413,"tracks":[
         {"$GMColourTrack":"","%Name":"blend_multiply","builtinName":10,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<ColourKeyframe>":"","Keyframes":[
               {"$Keyframe<ColourKeyframe>":"","Channels":{
@@ -333,7 +333,7 @@
   ],
   "visibleRange":{
     "x":0.0,
-    "y":179.9999,
+    "y":199.9999,
   },
   "volume":1.0,
   "xorigin":0,

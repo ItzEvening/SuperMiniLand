@@ -1,2 +1,2 @@
-//audio_stop_all();
-//room_goto(Level_Card);
+audio_stop_all();
+SlideTransition(TRANS_MODE.LEVEL, Level_Card);
