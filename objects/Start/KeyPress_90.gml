@@ -1,4 +1,4 @@
 audio_stop_all();
-global.level = CanvasChallenge_5;
-global.character = P_MetalNamey;
+global.level = MysteryHouse;
+global.character = Evie;
 SlideTransition(TRANS_MODE.LEVEL, Level_Card);

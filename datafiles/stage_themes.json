@@ -232,7 +232,10 @@
     "Stage": "CanvasChallenge_2",
     "Song": "song_CanvasChallenge2"
   },
-
+  {
+    "Stage": "MysteryHouse",
+    "Song": "song_MysteryHouse"
+  },
 
   ]
 }
