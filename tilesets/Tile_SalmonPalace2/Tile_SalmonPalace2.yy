@@ -3,9 +3,10 @@
   "%Name":"Tile_SalmonPalace2",
   "autoTileSets":[],
   "macroPageTiles":{
-    "SerialiseHeight":0,
-    "SerialiseWidth":0,
-    "TileSerialiseData":[],
+    "SerialiseHeight":8,
+    "SerialiseWidth":5,
+    "TileCompressedData":[-12,0,1,29,-4,0,1,31,-14,0,8,33,0,34,0,0,35,0,35,],
+    "TileDataFormat":1,
   },
   "name":"Tile_SalmonPalace2",
   "out_columns":6,
