@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"MysteryHouse_BG",
   "bboxMode":0,
-  "bbox_bottom":570,
+  "bbox_bottom":4799,
   "bbox_left":0,
-  "bbox_right":999,
+  "bbox_right":6399,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"42d9329b-9ebb-425a-8622-edc166bd65d0","name":"42d9329b-9ebb-425a-8622-edc166bd65d0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"afe1c534-9d1f-4538-8174-1da42073b969","name":"afe1c534-9d1f-4538-8174-1da42073b969","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":571,
+  "height":4800,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"7181b744-ab37-42ca-b572-1486aeeefbee","blendMode":0,"displayName":"default","isLocked":false,"name":"7181b744-ab37-42ca-b572-1486aeeefbee","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"73881e30-9bfa-40d6-920e-a99ad9990828","blendMode":0,"displayName":"default","isLocked":false,"name":"73881e30-9bfa-40d6-920e-a99ad9990828","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"MysteryHouse_BG",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"42d9329b-9ebb-425a-8622-edc166bd65d0","path":"sprites/MysteryHouse_BG/MysteryHouse_BG.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5c186cb5-5417-4dba-9674-1de7dbf19849","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"afe1c534-9d1f-4538-8174-1da42073b969","path":"sprites/MysteryHouse_BG/MysteryHouse_BG.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"bb1b6cde-4b32-49c7-8b72-e260ef4a4ce0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":1000,
+  "width":6400,
 }
