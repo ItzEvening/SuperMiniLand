@@ -4,14 +4,22 @@ with (Player)
 	{
 		hascontrol = false;
 		
-		// manage tutorial save
-		if (room == Tutorial_E and !GetSave("secret accessed")) {
-			SetSave(SV_TUTORIAL, true);
-			WriteSaveFile();
-		}
-		else if (room == Tutorial_AR) {
-			SetSave(SV_TUTORIAL, true);
-			WriteSaveFile();
+		// manage save for levels without gems
+		switch (room) {
+			case Tutorial_E:
+				SetSave(SV_TUTORIAL, true);
+				WriteSaveFile();
+			break;
+			
+			case Tutorial_AR:
+				SetSave(SV_TUTORIAL_2, true);
+				WriteSaveFile();
+			break;
+			
+			case StarlightStation:
+				SetSave(SV_STARLIGHT_BEAT, true);
+				WriteSaveFile();
+			break;
 		}
 		
 		// Manage targets and characters

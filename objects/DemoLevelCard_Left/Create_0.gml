@@ -4,8 +4,28 @@ trigger_key = ord("Q");
 character = Evie;
 bear = Arcturus;
 
-bool_callback_boss_unlocked = function() {
+check_boss_unlocked = function() {
 	return GetSave(SV_BOSS_UNLOCKED);
+}
+
+check_tut_cmplt = function() {
+	return GetSave(SV_TUTORIAL);
+}
+
+check_si_cmplt = function() {
+	return check_all_gems_lvl(SV_GEM_SPRING);
+}
+
+check_mf_cmplt = function() {
+	return check_all_gems_lvl(SV_GEM_MARBLE);
+}
+
+check_boss_cmplt = function() {
+	return GetSave(SV_BOSS_BEATEN);
+}
+
+check_ss_cmplt = function() {
+	return GetSave(SV_STARLIGHT_BEAT);
 }
 
 // overwriting parent function
@@ -16,11 +36,11 @@ generate_metadatas = function() {
 		_tut_spr = card_tutorialE;
 	}
 	
-	tutM = new LevelCardData(Tutorial_M, bool_callback, _tut_spr, false);
-	si = new LevelCardData(SpringIsland_1, bool_callback, card_spring, true);
-	mf = new LevelCardData(MarbleFortress_1, bool_callback_marble_midnight, card_marble, true);
-	ba = new LevelCardData(BossAttack, bool_callback_boss_unlocked, card_boss, false);
-	strsta = new LevelCardData(StarlightStation, bool_callback_all_gems, card_starlight, false);
+	tutM = new LevelCardData(Tutorial_M, check, check_tut_cmplt, _tut_spr, false);
+	si = new LevelCardData(SpringIsland_1, check, check_si_cmplt, card_spring, true);
+	mf = new LevelCardData(MarbleFortress_1, check_marble_midnight, check_mf_cmplt, card_marble, true);
+	ba = new LevelCardData(BossAttack, check_boss_unlocked, check_boss_cmplt, card_boss, false);
+	strsta = new LevelCardData(StarlightStation, check_all_gems, check_ss_cmplt, card_starlight, false);
 
 	metas = [tutM, si, mf, ba, strsta]
 }

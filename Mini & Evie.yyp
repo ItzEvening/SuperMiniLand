@@ -842,6 +842,7 @@
     {"id":{"name":"Level_Name_Placeholder","path":"sprites/Level_Name_Placeholder/Level_Name_Placeholder.yy",},},
     {"id":{"name":"LevelCard_Hard_Text","path":"sprites/LevelCard_Hard_Text/LevelCard_Hard_Text.yy",},},
     {"id":{"name":"LevelCardBG","path":"sprites/LevelCardBG/LevelCardBG.yy",},},
+    {"id":{"name":"LevelCardCheck","path":"sprites/LevelCardCheck/LevelCardCheck.yy",},},
     {"id":{"name":"Levels","path":"sprites/Levels/Levels.yy",},},
     {"id":{"name":"LightTiles","path":"sprites/LightTiles/LightTiles.yy",},},
     {"id":{"name":"Lilac_City","path":"sprites/Lilac_City/Lilac_City.yy",},},

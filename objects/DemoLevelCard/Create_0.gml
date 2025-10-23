@@ -5,24 +5,42 @@ trigger_key = vk_enter;
 character = Mini;
 bear = Allie;
 lock_sprite = card_lockedQ;
+completed = false;
 
-LevelCardData = function(_level, _requirement, _sprite, _chr_bound) constructor {
+LevelCardData = function(_level, _requirement, _complete_requirement, _sprite, _chr_bound) constructor {
 	lvl = _level;
 	requirement = _requirement;
+	complete_requirement = _complete_requirement
 	sprite = _sprite;
 	chr_bound = _chr_bound;
 }
 
-bool_callback = function() {
+check = function() {
 	return true;
 }
 
-bool_callback_marble_midnight = function() {
+creepy = function() {
+	return false;
+}
+
+check_marble_midnight = function() {
 	return GetSave(SV_MAR_MID_UNLOCKED);
 }
 
-bool_callback_all_gems = function() {
+check_all_gems = function() {
 	return CountGems(true) == 30;
+}
+
+check_all_gems_lvl = function(_lvl_macro) {
+	var _gems = GetSave(_lvl_macro);
+	
+	for (var i = 0; i < ds_list_size(_gems); i++) {
+		if (!_gems[| i]) {
+			return false;
+		}
+	}
+	
+	return true;
 }
 
 // to be overwritten by child objects
@@ -47,6 +65,8 @@ update = function() {
 	else {
 		Challenge.visible = true;
 	}
+	
+	completed = script_execute(_card_data.complete_requirement);
 }
 
 increment = function(_i) {

@@ -770,6 +770,7 @@
     {"name":"Level_Name_Placeholder","order":63,"path":"sprites/Level_Name_Placeholder/Level_Name_Placeholder.yy",},
     {"name":"LevelCard_Hard_Text","order":84,"path":"sprites/LevelCard_Hard_Text/LevelCard_Hard_Text.yy",},
     {"name":"LevelCardBG","order":27,"path":"sprites/LevelCardBG/LevelCardBG.yy",},
+    {"name":"LevelCardCheck","order":75,"path":"sprites/LevelCardCheck/LevelCardCheck.yy",},
     {"name":"Levels","order":2,"path":"sprites/Levels/Levels.yy",},
     {"name":"LightTiles","order":31,"path":"sprites/LightTiles/LightTiles.yy",},
     {"name":"Lilac_City","order":3,"path":"sprites/Lilac_City/Lilac_City.yy",},

@@ -1,6 +1,7 @@
 function SaveMacros(){
 	#macro SV_VERSION "version"
 	#macro SV_TUTORIAL "tutorial"
+	#macro SV_TUTORIAL_2 "tutorial2"
 	
 	// level gems
 	#macro SV_GEM_SPRING "spring"
@@ -17,6 +18,12 @@ function SaveMacros(){
 	// bear saves
 	#macro SV_SANCT_FOUND "sanctuary accessed"
 	#macro SV_BEARS_UNLOCKED "bears unlocked"
+	
+	// level complete saves
+	#macro SV_STARLIGHT_BEAT "starlight beat"
+	#macro SV_CANVAS_CHALLENGE "meaamm"
+	#macro SV_SPRING_HARD_BEAT "spring hard"
+	#macro SV_SALMON_HARD_BEAT "salmon hard"
 	
 	#macro SV_ALL_GEMS "all gems"
 }
