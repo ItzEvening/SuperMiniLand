@@ -6,5 +6,6 @@ function SignalMacros(){
 	#macro BOSS_STARTED "boss started"
 	#macro TOGGLE_SHAKE "shake shake shake"
 	#macro ARTY_OHNO "arty die"
+	#macro ARTY_CHANGE "no more mr nice guy"
 	#macro SWITCH_SIGNS "mini"
 }

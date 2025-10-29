@@ -26,5 +26,6 @@ function CheckSave(){
 	CheckSaveBinding(SV_SALMON_HARD_BEAT, false);
 	CheckSaveBinding(SV_CANVAS_CHALLENGE, [false, false, false, false, false, false]);
 	
+	CheckSaveBinding(SV_EDGE_ARC, false);
 	CheckSaveBinding(SV_ALL_GEMS, false);
 }

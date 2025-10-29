@@ -8,7 +8,7 @@
     "TileSerialiseData":[],
   },
   "name":"Tile_MarbleFortress",
-  "out_columns":4,
+  "out_columns":5,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -27,16 +27,23 @@
     "path":"texturegroups/Default",
   },
   "tileAnimation":{
-    "FrameData":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,],
-    "SerialiseFrameCount":1,
+    "FrameData":[
+      0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,
+      11,12,12,12,12,13,14,15,16,14,15,16,13,15,16,13,14,16,13,14,15,17,18,19,20,18,19,20,17,19,20,17,18,20,
+      17,18,19,
+    ],
+    "SerialiseFrameCount":4,
   },
-  "tileAnimationFrames":[],
-  "tileAnimationSpeed":15.0,
+  "tileAnimationFrames":[
+    {"$GMTileAnimation":"","%Name":"animation_1","frames":[13,14,15,16,],"name":"animation_1","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
+    {"$GMTileAnimation":"","%Name":"animation_2","frames":[17,18,19,20,],"name":"animation_2","resourceType":"GMTileAnimation","resourceVersion":"2.0",},
+  ],
+  "tileAnimationSpeed":5.0,
   "tileHeight":32,
   "tilehsep":0,
   "tilevsep":0,
   "tileWidth":32,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":15,
+  "tile_count":21,
 }

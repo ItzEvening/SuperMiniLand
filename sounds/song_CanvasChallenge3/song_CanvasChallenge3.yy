@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":127.03315,
+  "duration":64.8,
   "name":"song_CanvasChallenge3",
   "parent":{
     "name":"Sounds",

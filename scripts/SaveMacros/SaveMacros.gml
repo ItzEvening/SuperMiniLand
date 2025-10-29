@@ -25,5 +25,8 @@ function SaveMacros(){
 	#macro SV_SPRING_HARD_BEAT "spring hard"
 	#macro SV_SALMON_HARD_BEAT "salmon hard"
 	
+	// edgeturus
+	#macro SV_EDGE_ARC "arcarc"
+	
 	#macro SV_ALL_GEMS "all gems"
 }

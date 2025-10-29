@@ -7,6 +7,12 @@ walkstr = 0.01
 air_resistance = 0.1;
 frict = 0.3;
 
+grv *= 4;
+original_g = grv;
+jump_strength *= 3.5;
+jump_strength_water *= 3.5;
+
+
 // sprites
 idle = M_Mini_Idle_Full
 fall = M_Mini_Jump_Fall

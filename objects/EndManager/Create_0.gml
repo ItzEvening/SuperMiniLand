@@ -1,9 +1,16 @@
 var _layer = layer_get_id("Assets_1");
 
 if (GetSave(SV_BEARS_UNLOCKED)) {
-	var arty = layer_sprite_create(_layer, 423, 748, Arcturus_Hang);
-	layer_sprite_xscale(arty, 6);
-	layer_sprite_yscale(arty, 6);
+	
+	if (GetSave(SV_EDGE_ARC)) {
+		var arty = layer_sprite_create(_layer, 423, 748, Ercturus_Hang);
+		layer_sprite_xscale(arty, 6);
+		layer_sprite_yscale(arty, 6);
+	} else {
+		var arty = layer_sprite_create(_layer, 423, 748, Arcturus_Hang);
+		layer_sprite_xscale(arty, 6);
+		layer_sprite_yscale(arty, 6);
+	}
 	
 	var allie = layer_sprite_create(_layer, 219, 899.3, Allie_Sit);
 	layer_sprite_xscale(allie, 6.1562);

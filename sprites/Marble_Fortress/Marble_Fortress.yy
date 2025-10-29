@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"Marble_Fortress",
   "bboxMode":0,
-  "bbox_bottom":159,
+  "bbox_bottom":223,
   "bbox_left":0,
   "bbox_right":95,
   "bbox_top":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a350cb21-79ad-4e90-b674-82e7d5294ab3","name":"a350cb21-79ad-4e90-b674-82e7d5294ab3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"da5fa118-4b76-4738-84bc-3fcf31868d10","name":"da5fa118-4b76-4738-84bc-3fcf31868d10","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":160,
+  "height":224,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f2b1dfbf-8776-4e32-9cae-8fcc190f704e","blendMode":0,"displayName":"default","isLocked":false,"name":"f2b1dfbf-8776-4e32-9cae-8fcc190f704e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"2725a57d-d494-4b98-bb85-54eab640109f","blendMode":0,"displayName":"default","isLocked":false,"name":"2725a57d-d494-4b98-bb85-54eab640109f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Marble_Fortress",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a350cb21-79ad-4e90-b674-82e7d5294ab3","path":"sprites/Marble_Fortress/Marble_Fortress.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d3b219d1-f585-4a06-8f16-aa8911b32477","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"da5fa118-4b76-4738-84bc-3fcf31868d10","path":"sprites/Marble_Fortress/Marble_Fortress.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6e2258c8-026b-452e-8ef6-73f7b1ed9325","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
