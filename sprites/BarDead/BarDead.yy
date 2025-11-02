@@ -1,11 +1,11 @@
 {
   "$GMSprite":"",
   "%Name":"BarDead",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":31,
   "bbox_left":2,
   "bbox_right":27,
-  "bbox_top":22,
+  "bbox_top":27,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,

@@ -35,6 +35,13 @@ ignore_drill_blocks = false;
 left_barrier = instance_create_layer(0, y, layer, o_barrier_left);
 right_barrier = instance_create_layer(room_width, y, layer, o_barrier_right);
 
+
+// solids lol
+solids = [ground_tiles, SolidObject];
+if (layer_exists("Rails")) {
+	array_push(solids, rail_tiles);
+}
+
 calculate_speeds = function(_move, _underwater) 
 {
 	// Initializes collision variables
@@ -138,15 +145,9 @@ calculate_speeds = function(_move, _underwater)
 meeting_solid = function(_x, _y) {
 	
 	// assumption: solid objects should not overlap
-	var _solids = [ground_tiles, SolidObject];
-	
-	if (layer_exists("Rails")) {
-		array_push(_solids, rail_tiles);
-	}
-
-	for (var i = 0; i < array_length(_solids); i++) {
+	for (var i = 0; i < array_length(solids); i++) {
 		
-		if (place_meeting(_x, _y, _solids[i])) {
+		if (place_meeting(_x, _y, solids[i])) {
 			return true;
 		}
 	}

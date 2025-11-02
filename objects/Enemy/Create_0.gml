@@ -5,9 +5,12 @@ sfx_dead = EnemyDefeat;
 killable = true;
 collide_on_death = true;
 score_giver = false;
+rot = true;
 
 die = function() {
-	instance_destroy();
+	if (rot) {
+		instance_destroy();
+	}
 }
 
 dead = false;
