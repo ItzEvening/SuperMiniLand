@@ -236,6 +236,9 @@
     "Stage": "MysteryHouse",
     "Song": "song_MysteryHouse"
   },
-
+  {
+    "Stage": "CanvasChallenge_1",
+    "Song": "song_CanvasChallenge1"
+  },
   ]
 }

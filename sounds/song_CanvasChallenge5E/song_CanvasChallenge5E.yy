@@ -12,8 +12,8 @@
   "duration":100.15313,
   "name":"song_CanvasChallenge5E",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Stage Themes E",
+    "path":"folders/Sounds/Stage Themes E.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

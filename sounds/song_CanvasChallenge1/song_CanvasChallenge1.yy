@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"song_CanvasChallenge5",
+  "%Name":"song_CanvasChallenge1",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":79.2,
-  "name":"song_CanvasChallenge5",
+  "duration":96.0,
+  "name":"song_CanvasChallenge1",
   "parent":{
     "name":"Stage Themes",
     "path":"folders/Sounds/Stage Themes.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"song_CanvasChallenge5.ogg",
+  "soundFile":"song_CanvasChallenge1.ogg",
   "type":0,
   "volume":1.0,
 }
