@@ -1,18 +1,18 @@
 {
   "$GMPath":"",
-  "%Name":"path_CC1",
+  "%Name":"path_CC1_medium",
   "closed":false,
   "kind":1,
-  "name":"path_CC1",
+  "name":"path_CC1_medium",
   "parent":{
     "name":"CanvasChallenge1",
     "path":"folders/Paths/CanvasChallenge1.yy",
   },
   "points":[
     {"speed":100.0,"x":704.0,"y":416.0,},
-    {"speed":100.0,"x":768.0,"y":400.0,},
+    {"speed":100.0,"x":768.0,"y":384.0,},
     {"speed":100.0,"x":832.0,"y":416.0,},
-    {"speed":100.0,"x":896.0,"y":432.0,},
+    {"speed":100.0,"x":896.0,"y":448.0,},
     {"speed":100.0,"x":960.0,"y":416.0,},
   ],
   "precision":4,

@@ -248,6 +248,8 @@
     {"id":{"name":"TutorialPromp","path":"objects/TutorialPromp/TutorialPromp.yy",},},
     {"id":{"name":"WaterBarrel","path":"objects/WaterBarrel/WaterBarrel.yy",},},
     {"id":{"name":"WaterDrops","path":"objects/WaterDrops/WaterDrops.yy",},},
+    {"id":{"name":"path_CC1_deep","path":"paths/path_CC1_deep/path_CC1_deep.yy",},},
+    {"id":{"name":"path_CC1_medium","path":"paths/path_CC1_medium/path_CC1_medium.yy",},},
     {"id":{"name":"path_CC1","path":"paths/path_CC1/path_CC1.yy",},},
     {"id":{"name":"path_CC3_0","path":"paths/path_CC3_0/path_CC3_0.yy",},},
     {"id":{"name":"path_CC3_1L","path":"paths/path_CC3_1L/path_CC3_1L.yy",},},

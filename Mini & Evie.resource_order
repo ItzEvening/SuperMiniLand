@@ -212,6 +212,8 @@
     {"name":"TutorialPromp","order":1,"path":"objects/TutorialPromp/TutorialPromp.yy",},
     {"name":"WaterBarrel","order":22,"path":"objects/WaterBarrel/WaterBarrel.yy",},
     {"name":"WaterDrops","order":23,"path":"objects/WaterDrops/WaterDrops.yy",},
+    {"name":"path_CC1_deep","order":1,"path":"paths/path_CC1_deep/path_CC1_deep.yy",},
+    {"name":"path_CC1_medium","order":2,"path":"paths/path_CC1_medium/path_CC1_medium.yy",},
     {"name":"path_CC3_1L","order":1,"path":"paths/path_CC3_1L/path_CC3_1L.yy",},
     {"name":"path_CC3_1R","order":2,"path":"paths/path_CC3_1R/path_CC3_1R.yy",},
     {"name":"path_CC3_2L","order":3,"path":"paths/path_CC3_2L/path_CC3_2L.yy",},

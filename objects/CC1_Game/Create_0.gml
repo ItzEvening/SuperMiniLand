@@ -10,6 +10,14 @@ spawn = function() {
 	var _y = irandom_range(417, 576);
 	var _sp = random_range(0.5, 1.5);
 	
+	var _path_var = random(1);
+	if (_path_var < 0.05) {
+		_path = path_CC1_deep;
+	}
+	else if (_path_var < 0.3) {
+		_path = path_CC1_medium;
+	}
+	
 	var _x = 0;
 	if (_dir == -1) {
 		_x = 1376 + 512;
