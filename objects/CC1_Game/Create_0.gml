@@ -8,7 +8,7 @@ spawn = function() {
 	var _dir = 2 * irandom(1) - 1;
 	var _path = path_CC1;
 	var _y = irandom_range(417, 576);
-	var _sp = random_range(0.5, 1.25);
+	var _sp = random_range(0.5, 1.5);
 	
 	var _x = 0;
 	if (_dir == -1) {
@@ -21,5 +21,5 @@ spawn = function() {
 	});
 }
 
-spawn_timer = time_source_create(time_source_global, 5, time_source_units_seconds, spawn, [], -1);
+spawn_timer = time_source_create(time_source_global, 4, time_source_units_seconds, spawn, [], -1);
 time_source_start(spawn_timer);
