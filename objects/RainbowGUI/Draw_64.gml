@@ -1,11 +1,12 @@
 
-for (var i = 0; i < array_length(gem_list); i++) {
+for (var i = 0; i < array_length(global.rainbow_progress); i++) {
 	
 	var spr = rgem_0;
+	var _collected = (i < array_length(gem_list)) && (gem_list[i].collected);
 	
-	if (gem_list[i].collected || global.rainbow_progress[i]) {
+	if (global.rainbow_progress[i] || _collected) {
 		var num = i + 1;
-		spr = asset_get_index("rgem_" + string(num));
+		spr = asset_get_index(prefix + string(num));
 		
 		
 		// save collected

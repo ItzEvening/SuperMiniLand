@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"song_SpringIslandHardE",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":73.6,
+  "name":"song_SpringIslandHardE",
+  "parent":{
+    "name":"Stage Themes E",
+    "path":"folders/Sounds/Stage Themes E.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"song_SpringIslandHardE.ogg",
+  "type":1,
+  "volume":1.0,
+}
