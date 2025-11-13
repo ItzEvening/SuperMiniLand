@@ -821,6 +821,8 @@
     {"name":"LightTiles","order":31,"path":"sprites/LightTiles/LightTiles.yy",},
     {"name":"Lilac_City","order":3,"path":"sprites/Lilac_City/Lilac_City.yy",},
     {"name":"Lilac_City2","order":11,"path":"sprites/Lilac_City2/Lilac_City2.yy",},
+    {"name":"Lilac_Express_Rail","order":96,"path":"sprites/Lilac_Express_Rail/Lilac_Express_Rail.yy",},
+    {"name":"Lilac_Express","order":95,"path":"sprites/Lilac_Express/Lilac_Express.yy",},
     {"name":"Lives","order":11,"path":"sprites/Lives/Lives.yy",},
     {"name":"LockBox","order":67,"path":"sprites/LockBox/LockBox.yy",},
     {"name":"LockKey","order":68,"path":"sprites/LockKey/LockKey.yy",},

@@ -5,21 +5,21 @@
   "bbox_bottom":511,
   "bbox_left":0,
   "bbox_right":1023,
-  "bbox_top":48,
+  "bbox_top":58,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"039a0082-6181-4100-a759-7afdbcbdabc9","name":"039a0082-6181-4100-a759-7afdbcbdabc9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f1f9230a-5897-4028-bfe1-fb403a27be1a","name":"f1f9230a-5897-4028-bfe1-fb403a27be1a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":512,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"862fb9be-1d1c-4585-b3f2-14e89680763b","blendMode":0,"displayName":"default","isLocked":false,"name":"862fb9be-1d1c-4585-b3f2-14e89680763b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"376ce52e-5ba0-4c72-a0d2-0e899ec3e786","blendMode":0,"displayName":"default","isLocked":false,"name":"376ce52e-5ba0-4c72-a0d2-0e899ec3e786","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"LCMountain",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"039a0082-6181-4100-a759-7afdbcbdabc9","path":"sprites/LCMountain/LCMountain.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2784c7ca-eb87-426a-8883-163e6801cafd","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f1f9230a-5897-4028-bfe1-fb403a27be1a","path":"sprites/LCMountain/LCMountain.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6876c22d-5f43-457a-9ccd-a491e591984d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

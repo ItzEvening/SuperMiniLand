@@ -895,6 +895,8 @@
     {"id":{"name":"LightTiles","path":"sprites/LightTiles/LightTiles.yy",},},
     {"id":{"name":"Lilac_City","path":"sprites/Lilac_City/Lilac_City.yy",},},
     {"id":{"name":"Lilac_City2","path":"sprites/Lilac_City2/Lilac_City2.yy",},},
+    {"id":{"name":"Lilac_Express_Rail","path":"sprites/Lilac_Express_Rail/Lilac_Express_Rail.yy",},},
+    {"id":{"name":"Lilac_Express","path":"sprites/Lilac_Express/Lilac_Express.yy",},},
     {"id":{"name":"Lives","path":"sprites/Lives/Lives.yy",},},
     {"id":{"name":"LockBox","path":"sprites/LockBox/LockBox.yy",},},
     {"id":{"name":"LockKey","path":"sprites/LockKey/LockKey.yy",},},
