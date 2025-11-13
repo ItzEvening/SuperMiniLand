@@ -1,0 +1,1 @@
+audio_play_sound(song_AdventureTitle,10,0);
