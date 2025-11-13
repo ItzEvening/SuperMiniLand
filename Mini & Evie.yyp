@@ -970,6 +970,7 @@
     {"id":{"name":"Menu_Tiles","path":"sprites/Menu_Tiles/Menu_Tiles.yy",},},
     {"id":{"name":"MenuDots","path":"sprites/MenuDots/MenuDots.yy",},},
     {"id":{"name":"MetalLivesIcon","path":"sprites/MetalLivesIcon/MetalLivesIcon.yy",},},
+    {"id":{"name":"MF_Fog","path":"sprites/MF_Fog/MF_Fog.yy",},},
     {"id":{"name":"MF_Wall","path":"sprites/MF_Wall/MF_Wall.yy",},},
     {"id":{"name":"MF_Window_Magma","path":"sprites/MF_Window_Magma/MF_Window_Magma.yy",},},
     {"id":{"name":"MF_Window","path":"sprites/MF_Window/MF_Window.yy",},},

@@ -894,6 +894,7 @@
     {"name":"Menu_Tiles","order":7,"path":"sprites/Menu_Tiles/Menu_Tiles.yy",},
     {"name":"MenuDots","order":53,"path":"sprites/MenuDots/MenuDots.yy",},
     {"name":"MetalLivesIcon","order":5,"path":"sprites/MetalLivesIcon/MetalLivesIcon.yy",},
+    {"name":"MF_Fog","order":99,"path":"sprites/MF_Fog/MF_Fog.yy",},
     {"name":"MF_Wall","order":72,"path":"sprites/MF_Wall/MF_Wall.yy",},
     {"name":"MF_Window_Magma","order":98,"path":"sprites/MF_Window_Magma/MF_Window_Magma.yy",},
     {"name":"MF_Window","order":73,"path":"sprites/MF_Window/MF_Window.yy",},
