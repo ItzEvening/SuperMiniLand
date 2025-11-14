@@ -30,10 +30,9 @@ else {
 }
 	
 WriteSaveFile();
-ds_map_destroy(global.savedata);
-	
-global.savedata = ds_map_secure_load(save_file);
 
+ds_map_destroy(global.savedata);
+global.savedata = ds_map_secure_load(save_file);
 
 
 JamSam = function(){

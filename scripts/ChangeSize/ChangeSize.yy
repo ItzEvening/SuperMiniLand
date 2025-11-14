@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"ChangeSize",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ChangeSize",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

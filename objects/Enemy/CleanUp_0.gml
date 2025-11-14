@@ -1,1 +1,2 @@
 time_source_destroy(death_timer);
+time_source_destroy(invincibility_timer);

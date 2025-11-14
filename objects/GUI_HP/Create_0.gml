@@ -2,7 +2,8 @@ frame = 0;
 sprite = HP_Player_M;
 max_hp = 3
 
-render_x = 1200;
+render_x = view_wport[0] + 1;
+show_debug_message(render_x);
 render_y = 0;
 render_scale = 1.5;
 

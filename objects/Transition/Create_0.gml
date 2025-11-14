@@ -15,7 +15,6 @@ enum TRANS_MODE
 mode = TRANS_MODE.OFF;
 percent = 0;
 target = room;
-show_debug_message(w);
 //Paste this in transition's create event
 
 function stop_music() {

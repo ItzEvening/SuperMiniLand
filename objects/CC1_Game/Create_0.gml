@@ -9,6 +9,13 @@ spawn = function() {
 	var _path = path_CC1;
 	var _y = irandom_range(417, 576);
 	var _sp = random_range(0.5, 1.5);
+	var _type_var = random(1);
+	var _type = CC1_Barry;
+	
+	if (_type_var < 0.1) {
+		_type = CC1_Brisket
+		_sp *= 0.6;
+	}
 	
 	var _path_var = random(1);
 	if (_path_var < 0.05) {
@@ -23,11 +30,11 @@ spawn = function() {
 		_x = 1376 + 512;
 	}
 	
-	var _enemy = instance_create_layer(_x, _y, "Enemies", CC1_Barry, {
+	var _enemy = instance_create_layer(_x, _y, "Enemies", _type, {
 		path_sp : _sp * _dir,
 		chosen_path : _path
 	});
 }
 
-spawn_timer = time_source_create(time_source_global, 4, time_source_units_seconds, spawn, [], -1);
+spawn_timer = time_source_create(time_source_global, 3.5, time_source_units_seconds, spawn, [], -1);
 time_source_start(spawn_timer);

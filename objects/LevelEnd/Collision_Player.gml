@@ -45,7 +45,7 @@ with (Player)
 			
 			case CanvasChallenge_5:
 				var _cc = GetSave(SV_CANVAS_CHALLENGE);
-				_cc[| 5] = true;
+				_cc[| 4] = true;
 				WriteSaveFile();
 			break;
 		}

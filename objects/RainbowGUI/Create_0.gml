@@ -3,7 +3,7 @@ prefix = "rgem_";
 
 // create the rainbow progress
 global.rainbow_progress = [];
-if (room == Blank_Canvas || room == Hard_Blank_Canvas) {
+if (room == Hard_Blank_Canvas) {
 	var _cc = GetSave(SV_CANVAS_CHALLENGE);
 	
 	for (var i = 0; i < ds_list_size(_cc); i++) {

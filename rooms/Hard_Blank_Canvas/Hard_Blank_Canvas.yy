@@ -88,6 +88,7 @@
     {"name":"inst_5AB1C836","path":"rooms/Hard_Blank_Canvas/Hard_Blank_Canvas.yy",},
     {"name":"inst_211396D5","path":"rooms/Hard_Blank_Canvas/Hard_Blank_Canvas.yy",},
     {"name":"inst_3779C72E","path":"rooms/Hard_Blank_Canvas/Hard_Blank_Canvas.yy",},
+    {"name":"inst_77F63982","path":"rooms/Hard_Blank_Canvas/Hard_Blank_Canvas.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -113,6 +114,7 @@
         {"$GMRInstance":"","%Name":"inst_5AB1C836","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5AB1C836","objectId":{"name":"Door_3","path":"objects/Door_3/Door_3.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3680.0,"y":192.0,},
         {"$GMRInstance":"","%Name":"inst_211396D5","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_211396D5","objectId":{"name":"Door_3","path":"objects/Door_3/Door_3.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3808.0,"y":192.0,},
         {"$GMRInstance":"","%Name":"inst_3779C72E","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3779C72E","objectId":{"name":"Door_3","path":"objects/Door_3/Door_3.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4064.0,"y":192.0,},
+        {"$GMRInstance":"","%Name":"inst_77F63982","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_77F63982","objectId":{"name":"BlankCanvasHardGUI","path":"objects/BlankCanvasHardGUI/BlankCanvasHardGUI.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-160.0,"y":96.0,},
       ],"layers":[],"name":"Checkpoints","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Hazards","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_ED08926","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_ED08926","objectId":{"name":"Hazard_Spikes_Tutorial","path":"objects/Hazard_Spikes_Tutorial/Hazard_Spikes_Tutorial.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":704.0,"y":352.0,},
@@ -213,8 +215,8 @@
   ],
   "name":"Hard_Blank_Canvas",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Blank Canvas",
+    "path":"folders/Rooms/Blank Canvas.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
@@ -234,7 +236,7 @@
   },
   "sequenceId":null,
   "views":[
-    {"hborder":32,"hport":1280,"hspeed":-1,"hview":440,"inherit":false,"objectId":null,"vborder":32,"visible":true,"vspeed":-1,"wport":1600,"wview":600,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":880,"hspeed":-1,"hview":440,"inherit":false,"objectId":null,"vborder":32,"visible":true,"vspeed":-1,"wport":1200,"wview":600,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},

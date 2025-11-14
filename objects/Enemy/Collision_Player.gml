@@ -4,29 +4,12 @@ if (_player != noone) {
 	
 	// kill 
 	if (good_to_kill(_player)) {
-		
-		sprite_index = spr_dead;
-		audio_play_sound(sfx_dead, 10, 0);
-		dead = true;
-		time_source_start(death_timer);
+		hurt();
+
 		_player.vsp = -5;
-		
-		obey_gravity = true;
-		
-		if (collide_on_death) {
-			obey_collisions = true;
-		}
-		
-		if (path_index != -1) {
-			path_end();
-		}
-		
-		if (score_giver) {
-			global.score += 100;
-		}
 	}
 	
-	else if (!dead and !_player.invincible and !place_meeting(x, y, o_Forcefield)) {
+	else if (!dead and hostile and !_player.invincible and !place_meeting(x, y, o_Forcefield)) {
 		audio_play_sound(Damage, 10, 0);
 		_player.change_life(-1);
 	}
