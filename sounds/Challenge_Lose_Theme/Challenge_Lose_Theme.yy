@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":64.65973,
+  "duration":7.384626,
   "name":"Challenge_Lose_Theme",
   "parent":{
     "name":"Sounds",

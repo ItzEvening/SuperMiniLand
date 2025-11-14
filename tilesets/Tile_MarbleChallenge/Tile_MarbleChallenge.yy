@@ -1,14 +1,14 @@
 {
   "$GMTileSet":"",
-  "%Name":"Tile_MarbleFortress",
+  "%Name":"Tile_MarbleChallenge",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"Tile_MarbleFortress",
-  "out_columns":3,
+  "name":"Tile_MarbleChallenge",
+  "out_columns":5,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Marble_Fortress",
-    "path":"sprites/Marble_Fortress/Marble_Fortress.yy",
+    "name":"Marble_Challenge",
+    "path":"sprites/Marble_Challenge/Marble_Challenge.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -29,7 +29,8 @@
   "tileAnimation":{
     "FrameData":[
       0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,
-      11,
+      11,12,12,12,12,13,14,15,16,14,15,16,13,15,16,13,14,16,13,14,15,17,18,19,20,18,19,20,17,19,20,17,18,20,
+      17,18,19,
     ],
     "SerialiseFrameCount":4,
   },
@@ -44,5 +45,5 @@
   "tileWidth":32,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":12,
+  "tile_count":21,
 }

@@ -1,1 +1,1 @@
-audio_play_sound(Challenge_Lose_Theme,10,1);
+audio_play_sound(Challenge_Lose_Theme,10,0);

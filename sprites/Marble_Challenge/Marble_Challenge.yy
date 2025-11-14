@@ -1,8 +1,8 @@
 {
   "$GMSprite":"",
-  "%Name":"Marble_Fortress",
+  "%Name":"Marble_Challenge",
   "bboxMode":0,
-  "bbox_bottom":127,
+  "bbox_bottom":223,
   "bbox_left":0,
   "bbox_right":95,
   "bbox_top":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"51040b4c-e799-4773-9d8b-0d26d2436a92","name":"51040b4c-e799-4773-9d8b-0d26d2436a92","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"da5fa118-4b76-4738-84bc-3fcf31868d10","name":"da5fa118-4b76-4738-84bc-3fcf31868d10","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":128,
+  "height":224,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"14cb5381-a5b1-4210-b952-c59f272039e2","blendMode":0,"displayName":"default","isLocked":false,"name":"14cb5381-a5b1-4210-b952-c59f272039e2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"2725a57d-d494-4b98-bb85-54eab640109f","blendMode":0,"displayName":"default","isLocked":false,"name":"2725a57d-d494-4b98-bb85-54eab640109f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Marble_Fortress",
+  "name":"Marble_Challenge",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"Marble_Fortress",
+    "%Name":"Marble_Challenge",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Marble_Fortress",
+    "name":"Marble_Challenge",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"51040b4c-e799-4773-9d8b-0d26d2436a92","path":"sprites/Marble_Fortress/Marble_Fortress.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fcff4070-4d57-4484-98c8-9dcaa7c01264","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"da5fa118-4b76-4738-84bc-3fcf31868d10","path":"sprites/Marble_Challenge/Marble_Challenge.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6e2258c8-026b-452e-8ef6-73f7b1ed9325","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
