@@ -4,5 +4,5 @@ pauseSurfBuffer = -1;
 
 //Game Reso
 
-resW = 1600;
-resH = 1280;
+resW = view_wport[0];
+resH = view_hport[0];
