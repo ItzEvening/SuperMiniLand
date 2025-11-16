@@ -240,5 +240,9 @@
     "Stage": "CanvasChallenge_1",
     "Song": "song_CanvasChallenge1"
   },
+  {
+	"Stage": "SalmonPalace_Hard_1",
+    "Song": "song_SalmonPalaceHard"
+  },
   ]
 }
