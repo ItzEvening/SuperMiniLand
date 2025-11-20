@@ -517,6 +517,7 @@
     {"id":{"name":"song_Player_Select","path":"sounds/song_Player_Select/song_Player_Select.yy",},},
     {"id":{"name":"song_Player_SelectE","path":"sounds/song_Player_SelectE/song_Player_SelectE.yy",},},
     {"id":{"name":"song_SalmonPalaceHard","path":"sounds/song_SalmonPalaceHard/song_SalmonPalaceHard.yy",},},
+    {"id":{"name":"song_SalmonPalaceHardE","path":"sounds/song_SalmonPalaceHardE/song_SalmonPalaceHardE.yy",},},
     {"id":{"name":"song_SkyCloud","path":"sounds/song_SkyCloud/song_SkyCloud.yy",},},
     {"id":{"name":"song_SparklingHill","path":"sounds/song_SparklingHill/song_SparklingHill.yy",},},
     {"id":{"name":"song_SparklingHill2","path":"sounds/song_SparklingHill2/song_SparklingHill2.yy",},},

@@ -457,6 +457,7 @@
     {"name":"song_Player_Select","order":9,"path":"sounds/song_Player_Select/song_Player_Select.yy",},
     {"name":"song_Player_SelectE","order":13,"path":"sounds/song_Player_SelectE/song_Player_SelectE.yy",},
     {"name":"song_SalmonPalaceHard","order":29,"path":"sounds/song_SalmonPalaceHard/song_SalmonPalaceHard.yy",},
+    {"name":"song_SalmonPalaceHardE","order":15,"path":"sounds/song_SalmonPalaceHardE/song_SalmonPalaceHardE.yy",},
     {"name":"song_SkyCloud","order":4,"path":"sounds/song_SkyCloud/song_SkyCloud.yy",},
     {"name":"song_SparklingHill","order":22,"path":"sounds/song_SparklingHill/song_SparklingHill.yy",},
     {"name":"song_SparklingHill2","order":23,"path":"sounds/song_SparklingHill2/song_SparklingHill2.yy",},

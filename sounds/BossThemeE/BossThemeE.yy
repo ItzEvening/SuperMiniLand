@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":38.4,
+  "duration":24.0,
   "name":"BossThemeE",
   "parent":{
     "name":"Stage Themes E",
