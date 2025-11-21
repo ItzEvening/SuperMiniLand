@@ -9,12 +9,12 @@
   "name":"CrystalFishSpeaker",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Objects/Enemies.yy",
+    "name":"Walkers",
+    "path":"folders/Objects/Enemies/Walkers.yy",
   },
   "parentObjectId":{
-    "name":"Enemy",
-    "path":"objects/Enemy/Enemy.yy",
+    "name":"EnemyWalker",
+    "path":"objects/EnemyWalker/EnemyWalker.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

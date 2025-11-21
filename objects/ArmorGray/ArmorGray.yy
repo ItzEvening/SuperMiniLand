@@ -11,8 +11,8 @@
   "name":"ArmorGray",
   "overriddenProperties":[],
   "parent":{
-    "name":"Armors",
-    "path":"folders/Objects/Enemies/Armors.yy",
+    "name":"Enemies",
+    "path":"folders/Objects/Enemies.yy",
   },
   "parentObjectId":{
     "name":"Enemy",

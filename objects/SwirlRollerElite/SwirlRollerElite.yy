@@ -8,8 +8,8 @@
   "name":"SwirlRollerElite",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Objects/Enemies.yy",
+    "name":"Walkers",
+    "path":"folders/Objects/Enemies/Walkers.yy",
   },
   "parentObjectId":{
     "name":"SwirlRoller",

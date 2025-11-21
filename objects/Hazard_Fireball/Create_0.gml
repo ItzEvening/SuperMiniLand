@@ -2,6 +2,9 @@ event_inherited();
 
 killable = false;
 
+spr_ascending = spr_FireballUp;
+spr_descending = spr_FireballDown;
+
 spawn_x = x;
 spawn_y = y;
 

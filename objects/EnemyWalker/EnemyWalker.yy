@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"FishSpeaker",
+  "%Name":"EnemyWalker",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"FishSpeaker",
+  "name":"EnemyWalker",
   "overriddenProperties":[],
   "parent":{
     "name":"Walkers",
     "path":"folders/Objects/Enemies/Walkers.yy",
   },
   "parentObjectId":{
-    "name":"EnemyWalker",
-    "path":"objects/EnemyWalker/EnemyWalker.yy",
+    "name":"Enemy",
+    "path":"objects/Enemy/Enemy.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -32,10 +33,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"FiwIdle",
-    "path":"sprites/FiwIdle/FiwIdle.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Barry",
+  "%Name":"EnemyShooter",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Barry",
+  "name":"EnemyShooter",
   "overriddenProperties":[],
   "parent":{
-    "name":"Barry",
-    "path":"folders/Objects/Enemies/Barry.yy",
+    "name":"Shooters",
+    "path":"folders/Objects/Enemies/Shooters.yy",
   },
   "parentObjectId":{
     "name":"Enemy",
@@ -30,13 +31,15 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"arrow_speed","filters":[],"listItems":[],"multiselect":false,"name":"arrow_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"4","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"BarIdle",
-    "path":"sprites/BarIdle/BarIdle.yy",
+    "name":"sEnemyShooter",
+    "path":"sprites/sEnemyShooter/sEnemyShooter.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -28,3 +28,7 @@ if (place_meeting(x, y, CC1_Barry) or place_meeting(x, y, CC1_Brisket)) {
 	
 	ds_list_destroy(_list);
 }
+
+if (y > room_height + 100) {
+	instance_destroy();
+}

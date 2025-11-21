@@ -1,6 +1,5 @@
 event_inherited();
 
 spr_dead = Swirl_Dead;
-walk_direction = -1;
-
 killable = false;
+walk_sp = 3;

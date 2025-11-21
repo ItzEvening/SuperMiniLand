@@ -1,4 +1,4 @@
 event_inherited();
 
 spr_dead = FiwDead;
-walk_direction = -1;
+walk_sp = 3;
