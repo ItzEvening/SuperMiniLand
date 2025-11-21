@@ -33,7 +33,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sEnemyWalker",
+    "path":"sprites/sEnemyWalker/sEnemyWalker.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
