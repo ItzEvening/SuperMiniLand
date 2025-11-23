@@ -8,6 +8,11 @@ if (!_midair and boosted) {
 	boosted = false;
 }
 
+// red gem gui
+if (_gimmick and can_gimmick) {
+	coinsFont.red_alpha = 1;
+}
+
 if (can_gimmick and _gimmick and boost > 0) {
 	// hsp = 17.5 * image_xscale;
 	audio_play_sound(sfx_SparkleJump,10,0);

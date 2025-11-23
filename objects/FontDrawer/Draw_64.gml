@@ -27,6 +27,14 @@ for (var i = 1; i <= string_length(text); i++) {
 			
 	// get sprite information
 	var _font_sprite = asset_get_index("font_" + _char);
+	
+	// check if sprite exists
+	if (_font_sprite == -1) {
+		show_debug_message("Cannot find font for " + _char);
+		_font_sprite = asset_get_index("font_");
+	}
+	
+	
 	var _sprite_width = sprite_get_bbox_right(_font_sprite) - sprite_get_bbox_left(_font_sprite);
 	var offset = 10;
 	_sprite_width += offset;
@@ -58,8 +66,11 @@ else if (align_right) {
 	_cursor_x -= _total_width;
 }
 
+// calculate color
+var _color = merge_color(c_white, c_red, red_alpha);
+
 for (var i = 0; i < string_length(text); i++) {
 	if (_character_sprites[i] != font_) {
-		draw_sprite_ext(_character_sprites[i], 0, _cursor_x + _character_positions[i], _cursor_y, scale, scale, 0, c_white, 1);
+		draw_sprite_ext(_character_sprites[i], 0, _cursor_x + _character_positions[i], _cursor_y, scale, scale, 0, _color, 1);
 	}
 }

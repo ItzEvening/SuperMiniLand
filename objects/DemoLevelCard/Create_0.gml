@@ -19,10 +19,6 @@ check = function() {
 	return true;
 }
 
-creepy = function() {
-	return false;
-}
-
 check_marble_midnight = function() {
 	return GetSave(SV_MAR_MID_UNLOCKED);
 }
