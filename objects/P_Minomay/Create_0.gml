@@ -10,6 +10,7 @@ floating_grv = 0.1;
 
 // sprites
 idle = Mino_Idle
+idle_impatient = Mino_Idle_Full
 fall = Mino_Jump
 run = Mino_Run
 
@@ -56,15 +57,11 @@ manage_animations = function(_midair)
 	{
 		grv = abs(original_g) * sign(grv);
 		image_speed = 1;
-		if (hsp == 0)
+		if (hsp == 0 and !(sprite_index == idle or sprite_index == idle_impatient))
 		{
 			sprite_index = idle;
 		}
-		else if (hsp > 10 or hsp == -15)
-		{
-			sprite_index = booster;
-		}
-		else
+		else if (hsp != 0)
 		{
 			sprite_index = run;
 		}

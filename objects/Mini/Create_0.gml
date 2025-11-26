@@ -22,11 +22,11 @@ manage_animations = function(_midair)
 	else
 	{
 		image_speed = 1;
-		if (hsp == 0)
+		if (hsp == 0 and !(sprite_index == idle or sprite_index == idle_impatient))
 		{
 			sprite_index = idle;
 		}
-		else
+		else if (hsp != 0)
 		{
 			sprite_index = run;
 		}

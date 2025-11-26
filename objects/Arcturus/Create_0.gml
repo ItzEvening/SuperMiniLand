@@ -10,7 +10,8 @@ sustain_length = 0.4;
 jump_resist = 0.44;
 
 // sprites
-idle = Arcturus_Idle_Full;
+idle = Arcturus_Idle;
+idle_impatient = Arcturus_Idle_Full;
 fall = Arcturus_Jump_Fall;
 run = Arcturus_Run;
 floating = Arcturus_Float;
@@ -28,12 +29,14 @@ screwed = function() {
 reset_animations = function() {
 	
 	if (GetSave(SV_EDGE_ARC)) {
-		idle = Ercturus_Idle_Full;
+		idle = Ercturus_Idle;
+		idle_impatient = Ercturus_Idle_Full;
 		fall = Ercturus_Jump_Fall;
 		run = Ercturus_Run;
 		floating = Ercturus_Float;
 	} else {
-		idle = Arcturus_Idle_Full;
+		idle = Arcturus_Idle;
+		idle_impatient = Arcturus_Idle_Full;
 		fall = Arcturus_Jump_Fall;
 		run = Arcturus_Run;
 		floating = Arcturus_Float;

@@ -8,9 +8,13 @@ air_resistance = 0.1;
 frict = 0.3;
 
 // sprites
-idle = M_Mini_Idle_Full
+idle = M_Mini_Idle
+idle_impatient = M_Mini_Idle_Full
 fall = M_Mini_Jump_Fall
 run = M_Mini_Run
+
+time_source_reconfigure(idle_timer, 15, time_source_units_seconds, idle_trigger);
+time_source_start(idle_timer);
 
 booster = M_Mini_Boost
 
@@ -48,16 +52,17 @@ manage_animations = function(_midair)
 	// If on ground
 	else
 	{
+		
 		image_speed = 1;
-		if (hsp == 0)
+		if (hsp == 0 and !(sprite_index == idle or sprite_index == idle_impatient))
 		{
 			sprite_index = idle;
-		}
+		}	
 		else if (hsp > 10 or hsp == -15)
 		{
 			sprite_index = booster;
 		}
-		else
+		else if (hsp != 0)
 		{
 			sprite_index = run;
 		}

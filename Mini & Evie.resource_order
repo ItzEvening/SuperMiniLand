@@ -926,6 +926,7 @@
     {"name":"Mini_Run2","order":6,"path":"sprites/Mini_Run2/Mini_Run2.yy",},
     {"name":"Mini_Wave","order":36,"path":"sprites/Mini_Wave/Mini_Wave.yy",},
     {"name":"MiniLivesIcon","order":4,"path":"sprites/MiniLivesIcon/MiniLivesIcon.yy",},
+    {"name":"Mino_Idle_Full","order":48,"path":"sprites/Mino_Idle_Full/Mino_Idle_Full.yy",},
     {"name":"Mino_Idle","order":32,"path":"sprites/Mino_Idle/Mino_Idle.yy",},
     {"name":"Mino_Jump","order":34,"path":"sprites/Mino_Jump/Mino_Jump.yy",},
     {"name":"Mino_Run","order":33,"path":"sprites/Mino_Run/Mino_Run.yy",},

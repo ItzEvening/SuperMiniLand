@@ -3,6 +3,8 @@ var _hit_left = 0;
 var _hit_right = 0;
 var _hit_jump_release = 0;
 var _hit_jump = 0;
+var _any_released = 0;
+var _any_pressed = 0;
 
 if (hascontrol)
 {
@@ -10,6 +12,12 @@ if (hascontrol)
    _hit_right = keyboard_check(vk_right) or keyboard_check(ord("D")); 
    _hit_jump_release = keyboard_check_released(vk_space) or keyboard_check_released(ord("W")); 
    _hit_jump = keyboard_check_pressed(vk_space) or keyboard_check_pressed(ord("W")); 
+   
+   for (var i = 0; i < array_length(keys); i++) {
+	   _any_released = _any_released or keyboard_check_released(keys[i]);
+	   _any_pressed = _any_pressed or keyboard_check(keys[i]);
+   }
+
    
    //Do you want me to do Gamepad stuffs?
 }
@@ -124,7 +132,16 @@ if (_valid_coin)
 	}
 }
 
-if (y > room_height + 50)
+// idle timer stuff
+if (_any_pressed and time_source_get_state(idle_timer) == time_source_state_active) { 
+	time_source_stop(idle_timer);
+}
+else if (_any_released and time_source_get_state(idle_timer) != time_source_state_active) {
+	time_source_start(idle_timer);
+}
+
+// out of bounds 
+if (y > room_height + 50 or y < - 200)
 {
 	handle_death();
 }

@@ -9,6 +9,7 @@ frict = 0.3;
 
 // sprites
 idle = A_Allie_Idle
+idle_impatient = A_Allie_Idle
 fall = A_Allie_Jump_Fall
 run = A_Allie_Run
 

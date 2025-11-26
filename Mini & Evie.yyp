@@ -1004,6 +1004,7 @@
     {"id":{"name":"Mini_Run2","path":"sprites/Mini_Run2/Mini_Run2.yy",},},
     {"id":{"name":"Mini_Wave","path":"sprites/Mini_Wave/Mini_Wave.yy",},},
     {"id":{"name":"MiniLivesIcon","path":"sprites/MiniLivesIcon/MiniLivesIcon.yy",},},
+    {"id":{"name":"Mino_Idle_Full","path":"sprites/Mino_Idle_Full/Mino_Idle_Full.yy",},},
     {"id":{"name":"Mino_Idle","path":"sprites/Mino_Idle/Mino_Idle.yy",},},
     {"id":{"name":"Mino_Jump","path":"sprites/Mino_Jump/Mino_Jump.yy",},},
     {"id":{"name":"Mino_Run","path":"sprites/Mino_Run/Mino_Run.yy",},},

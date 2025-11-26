@@ -54,11 +54,11 @@ manage_animations = function(_midair) {
 	else
 	{
 		image_speed = 1;
-		if (hsp == 0)
+		if (hsp == 0 and !(sprite_index == idle or sprite_index == idle_impatient))
 		{
 			sprite_index = idle;
 		}
-		else
+		else if (hsp != 0)
 		{
 			sprite_index = run;
 		}
@@ -125,6 +125,11 @@ enable_gimmick = function() {
 finish_jump = function() {
 	released_jump = true;
 }
+
+// to activate impatient idle animation
+idle_trigger = function() {
+	sprite_index = idle_impatient;
+}
 #endregion
 
 #region variables
@@ -142,7 +147,7 @@ alive = true;
 show_chances = true;
 
 // sprites
-idle = Mini_Idle_Full
+idle = Mini_Idle
 fall = Mini_Jump_Fall
 run = Mini_Run2
 
@@ -188,4 +193,13 @@ sustain_length = 0.25;
 jump_resist = 0.3;
 released_jump = true;
 jump_timer = time_source_create(time_source_global, sustain_length, time_source_units_seconds, finish_jump);
+
+// for idle animation
+idle_impatient = Mini_Idle_Full;
+idle_timer = time_source_create(time_source_global, 10, time_source_units_seconds, idle_trigger);
+
+// any keys read by player
+keys = [vk_space, vk_left, vk_right, ord("W"), ord("A"), ord("S"), ord("D")];
 #endregion
+
+time_source_start(idle_timer);

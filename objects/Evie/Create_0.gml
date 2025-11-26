@@ -9,6 +9,7 @@ frict = 0.07;
 sustain_length = 0.3;
 
 // sprites
-idle = Eve_Idle_Full
+idle = Eve_Idle
+idle_impatient = Eve_Idle_Full
 fall = Eve_Jump_Fall
 run = Eve_Run

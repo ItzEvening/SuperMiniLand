@@ -8,9 +8,13 @@ air_resistance = 0.1;
 frict = 0.3;
 
 // sprites
-idle = Allie_Idle_Full
+idle = Allie_Idle
+idle_impatient = Allie_Idle_Full
 fall = Allie_Jump_Fall
 run = Allie_Run
+
+time_source_reconfigure(idle_timer, 7, time_source_units_seconds, idle_trigger);
+time_source_start(idle_timer);
 
 // small
 hp_default = 2;
@@ -52,11 +56,11 @@ manage_animations = function(_midair)
 	else
 	{
 		image_speed = 1;
-		if (hsp == 0)
+		if (hsp == 0 and !(sprite_index == idle or sprite_index == idle_impatient))
 		{
 			sprite_index = idle;
 		}
-		else
+		else if (hsp != 0)
 		{
 			sprite_index = run;
 		}
