@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"MainMusic2M",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.0,
+  "name":"MainMusic2M",
+  "parent":{
+    "name":"16Bit Themes",
+    "path":"folders/Sounds/16Bit Themes.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"MainMusic2M",
+  "type":0,
+  "volume":1.0,
+}

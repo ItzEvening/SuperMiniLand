@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"The_Land_With_No_ColorM",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":30.967731,
+  "name":"The_Land_With_No_ColorM",
+  "parent":{
+    "name":"Stage Themes M",
+    "path":"folders/Sounds/Stage Themes M.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"The_Land_With_No_ColorM.ogg",
+  "type":0,
+  "volume":1.0,
+}

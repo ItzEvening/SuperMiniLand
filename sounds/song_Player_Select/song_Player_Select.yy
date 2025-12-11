@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":36.164375,
+  "duration":28.8,
   "name":"song_Player_Select",
   "parent":{
     "name":"Menu Themes",
