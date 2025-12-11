@@ -477,6 +477,7 @@
     {"name":"song_CircleCastle","order":5,"path":"sounds/song_CircleCastle/song_CircleCastle.yy",},
     {"name":"song_CircleKing","order":6,"path":"sounds/song_CircleKing/song_CircleKing.yy",},
     {"name":"song_Credits","order":41,"path":"sounds/song_Credits/song_Credits.yy",},
+    {"name":"song_CreditsM","order":10,"path":"sounds/song_CreditsM/song_CreditsM.yy",},
     {"name":"song_CrimsonDesert","order":2,"path":"sounds/song_CrimsonDesert/song_CrimsonDesert.yy",},
     {"name":"song_DarkForest","order":1,"path":"sounds/song_DarkForest/song_DarkForest.yy",},
     {"name":"song_FestivalNight","order":3,"path":"sounds/song_FestivalNight/song_FestivalNight.yy",},
