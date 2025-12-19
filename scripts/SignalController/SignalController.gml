@@ -56,7 +56,12 @@ function SignalController() constructor {
 			var _callback = _binding.callback;
 			
 			with (_listener) {
-				_callback(_signal_data);
+				if (_signal_data == undefined) {
+					_callback();
+					
+				} else {
+					_callback(_signal_data);
+				}
 			}
 		}
 		

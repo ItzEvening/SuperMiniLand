@@ -8,4 +8,5 @@ function SignalMacros(){
 	#macro ARTY_OHNO "arty die"
 	#macro ARTY_CHANGE "no more mr nice guy"
 	#macro SWITCH_SIGNS "mini"
+	#macro BIG_THUD "fat"
 }
