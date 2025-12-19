@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"LilacCity2M",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":104.4,
+  "name":"LilacCity2M",
+  "parent":{
+    "name":"Stage Themes M",
+    "path":"folders/Sounds/Stage Themes M.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"LilacCity2M.ogg",
+  "type":0,
+  "volume":1.0,
+}

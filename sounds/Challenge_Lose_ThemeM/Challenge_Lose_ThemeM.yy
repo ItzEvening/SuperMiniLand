@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Challenge_Lose_ThemeM",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":7.384626,
+  "name":"Challenge_Lose_ThemeM",
+  "parent":{
+    "name":"16Bit Themes",
+    "path":"folders/Sounds/16Bit Themes.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Challenge_Lose_ThemeM.ogg",
+  "type":0,
+  "volume":1.0,
+}
