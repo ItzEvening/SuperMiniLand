@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":15.52941,
   "name":"MainMusic2M",
   "parent":{
     "name":"16Bit Themes",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"MainMusic2M",
+  "soundFile":"MainMusic2M.ogg",
   "type":0,
   "volume":1.0,
 }

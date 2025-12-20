@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":113.45454,
   "name":"song_MidnightRushM",
   "parent":{
     "name":"Stage Themes M",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"song_MidnightRushM",
+  "soundFile":"song_MidnightRushM.ogg",
   "type":0,
   "volume":1.0,
 }

@@ -244,5 +244,9 @@
 	"Stage": "SalmonPalace_Hard_1",
     "Song": "song_SalmonPalaceHard"
   },
+  {
+	"Stage": "Test_Surprise",
+    "Song": "song_TestRoom"
+  },
   ]
 }

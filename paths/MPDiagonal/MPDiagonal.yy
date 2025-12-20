@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"MPDiagonal",
+  "closed":true,
+  "kind":0,
+  "name":"MPDiagonal",
+  "parent":{
+    "name":"Test",
+    "path":"folders/Paths/Test.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":768.0,"y":224.0,},
+    {"speed":100.0,"x":896.0,"y":128.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

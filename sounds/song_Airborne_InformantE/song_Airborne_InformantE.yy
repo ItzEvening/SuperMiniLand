@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":119.1724,
+  "duration":133.296,
   "name":"song_Airborne_InformantE",
   "parent":{
     "name":"Sounds",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"song_Airborne_InformantE.ogg",
+  "soundFile":"song_Airborne_InformantE.wav",
   "type":1,
   "volume":1.0,
 }

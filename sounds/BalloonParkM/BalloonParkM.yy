@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":15.52941,
   "name":"BalloonParkM",
   "parent":{
     "name":"Stage Themes M",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"BalloonParkM",
+  "soundFile":"BalloonParkM.ogg",
   "type":0,
   "volume":1.0,
 }

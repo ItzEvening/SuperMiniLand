@@ -42,6 +42,11 @@ if (layer_exists("Rails")) {
 	array_push(solids, rail_tiles);
 }
 
+// moving platforms
+grounded_solid = noone;
+gs_dx = 0;
+gs_dy = 0;
+
 calculate_speeds = function(_move, _underwater) 
 {
 	// Initializes collision variables

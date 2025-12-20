@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"MPVibrate",
+  "closed":true,
+  "kind":0,
+  "name":"MPVibrate",
+  "parent":{
+    "name":"Test",
+    "path":"folders/Paths/Test.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":1088.0,"y":160.0,},
+    {"speed":100.0,"x":1088.0,"y":96.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":42.857143,
+  "duration":41.142857,
   "name":"BalloonPark2",
   "parent":{
     "name":"Stage Themes",
