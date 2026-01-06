@@ -7,7 +7,7 @@
   },
   "bitDepth":1,
   "bitRate":128,
-  "compression":2,
+  "compression":3,
   "conversionMode":0,
   "duration":85.49587,
   "name":"SalmonPalaceE",
