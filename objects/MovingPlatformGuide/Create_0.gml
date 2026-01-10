@@ -1,0 +1,1 @@
+path_start(path_to_follow, path_sp, path_action_continue, false);

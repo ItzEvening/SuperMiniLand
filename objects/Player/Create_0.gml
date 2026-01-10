@@ -28,6 +28,7 @@ change_visibility = function() {
 
 // life functions
 change_life = function(_delta) {
+	
 	if (hp == 0 and _delta < 0) {
 		handle_death();
 	}
@@ -71,6 +72,7 @@ manage_animations = function(_midair) {
 
 // death function
 handle_death = function() {
+	
 	if (chances == 0)
 	{
 		game_over();

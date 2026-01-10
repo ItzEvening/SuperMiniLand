@@ -35,7 +35,6 @@ ignore_drill_blocks = false;
 left_barrier = instance_create_layer(0, y, layer, o_barrier_left);
 right_barrier = instance_create_layer(room_width, y, layer, o_barrier_right);
 
-
 // solids lol
 solids = [ground_tiles, SolidObject];
 if (layer_exists("Rails")) {
@@ -233,4 +232,78 @@ function colliding_now(_axis)
 
 water_stream_callback = function() {
 	vsp = 7 * sign(grv);
+}
+
+recheck_grounded_solid = function() {
+	if (place_meeting(x, y + sign(grv), SolidObject)) {
+		
+		if (grounded_solid == noone) {
+			show_debug_message("Found gso. " + string(dbg));
+			dbg++;
+		}
+		
+		grounded_solid = instance_place(x, y + sign(grv), SolidObject);
+		gs_dx = grounded_solid.x;
+		gs_dy = grounded_solid.y;
+		
+	} else {
+		
+		if (grounded_solid != noone) {
+			show_debug_message("No more gso. Disengaging "  + string(dbg));
+			dbg++;
+		}
+		
+		grounded_solid = noone;
+		gs_dx = 0;
+		gs_dy = 0;
+	}
+}
+
+move_with_grounded_solid  = function() {
+	if (grounded_solid != noone) {
+		gs_dx = grounded_solid.x - gs_dx;
+		gs_dy = grounded_solid.y - gs_dy;
+		
+		x += gs_dx;
+		y += gs_dy;
+	}
+	
+	// grounded_solid = noone;
+	gs_dx = 0;
+	gs_dy = 0;
+}
+
+unsquish = function() {
+	
+	for (var i = 1; i <= 16; i++) {
+		
+		// up
+		if (!meeting_solid(x, y - i)) {
+			y -= i;
+			show_debug_message("Moving up by " + string(i));
+			return;
+		}
+		
+		// right
+		if (!meeting_solid(x + i, y)) {
+			// show_debug_message("Moving right by " + string(i));
+			x += i;
+			return;
+		}
+		
+		// down
+		if (!meeting_solid(x, y + i)) {
+			// show_debug_message("Moving down by " + string(i));
+			y += i;
+			return;
+		}
+		
+		// left
+		if (!meeting_solid(x - i, y)) {
+			// show_debug_message("Moving left by " + string(i));
+			x -= i;
+			return;
+		}
+		
+	}
 }

@@ -17,3 +17,5 @@ if (can_gimmick and _gimmick) {
 if (done_gimmick) {
 	sprite_index = Mini_Dash;
 }
+
+recheck_grounded_solid();

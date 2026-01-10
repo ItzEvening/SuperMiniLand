@@ -1,5 +1,7 @@
 event_inherited();
 
+dbg = 0;
+
 manage_animations = function(_midair)
 {
 	// If dashing

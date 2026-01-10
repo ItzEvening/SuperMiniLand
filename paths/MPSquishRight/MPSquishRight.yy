@@ -1,16 +1,16 @@
 {
   "$GMPath":"",
-  "%Name":"MPDiagonal",
+  "%Name":"MPSquishRight",
   "closed":true,
   "kind":0,
-  "name":"MPDiagonal",
+  "name":"MPSquishRight",
   "parent":{
     "name":"Test",
     "path":"folders/Paths/Test.yy",
   },
   "points":[
-    {"speed":100.0,"x":768.0,"y":224.0,},
-    {"speed":100.0,"x":832.0,"y":128.0,},
+    {"speed":100.0,"x":1888.0,"y":160.0,},
+    {"speed":100.0,"x":1856.0,"y":160.0,},
   ],
   "precision":4,
   "resourceType":"GMPath",
