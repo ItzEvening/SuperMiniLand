@@ -237,21 +237,11 @@ water_stream_callback = function() {
 recheck_grounded_solid = function() {
 	if (place_meeting(x, y + sign(grv), SolidObject)) {
 		
-		if (grounded_solid == noone) {
-			show_debug_message("Found gso. " + string(dbg));
-			dbg++;
-		}
-		
 		grounded_solid = instance_place(x, y + sign(grv), SolidObject);
 		gs_dx = grounded_solid.x;
 		gs_dy = grounded_solid.y;
 		
 	} else {
-		
-		if (grounded_solid != noone) {
-			show_debug_message("No more gso. Disengaging "  + string(dbg));
-			dbg++;
-		}
 		
 		grounded_solid = noone;
 		gs_dx = 0;
