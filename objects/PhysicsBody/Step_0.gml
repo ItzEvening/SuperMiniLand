@@ -10,4 +10,4 @@ manage_collisions();
 left_barrier.y = y;
 right_barrier.y = y;
 
-recheck_grounded_solid();
+// recheck_grounded_solid();

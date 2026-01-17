@@ -128,6 +128,7 @@
     {"id":{"name":"BossStarter","path":"objects/BossStarter/BossStarter.yy",},},
     {"id":{"name":"BouncyObject","path":"objects/BouncyObject/BouncyObject.yy",},},
     {"id":{"name":"Camera","path":"objects/Camera/Camera.yy",},},
+    {"id":{"name":"CC1_Barry_Servant","path":"objects/CC1_Barry_Servant/CC1_Barry_Servant.yy",},},
     {"id":{"name":"CC1_Barry","path":"objects/CC1_Barry/CC1_Barry.yy",},},
     {"id":{"name":"CC1_Brisket","path":"objects/CC1_Brisket/CC1_Brisket.yy",},},
     {"id":{"name":"CC1_Game","path":"objects/CC1_Game/CC1_Game.yy",},},

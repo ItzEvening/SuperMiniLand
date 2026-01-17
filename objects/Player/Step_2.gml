@@ -1,1 +1,1 @@
-moving_respond();
+crush();

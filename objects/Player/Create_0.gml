@@ -133,10 +133,8 @@ idle_trigger = function() {
 	sprite_index = idle_impatient;
 }
 
-// to move with platforms and crushing hazard
-moving_respond = function() {
-	move_with_grounded_solid();
-
+// crushing hazard
+crush = function() {
 	if (meeting_solid(x, y)) {
 		unsquish();
 	

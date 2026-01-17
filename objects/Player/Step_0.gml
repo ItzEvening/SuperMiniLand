@@ -146,4 +146,4 @@ if (y > room_height + 50 or y < - 200)
 	handle_death();
 }
 
-recheck_grounded_solid();
+// recheck_grounded_solid();

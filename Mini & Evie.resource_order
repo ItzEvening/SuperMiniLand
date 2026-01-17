@@ -101,6 +101,7 @@
     {"name":"BossStarter","order":9,"path":"objects/BossStarter/BossStarter.yy",},
     {"name":"BouncyObject","order":18,"path":"objects/BouncyObject/BouncyObject.yy",},
     {"name":"Camera","order":5,"path":"objects/Camera/Camera.yy",},
+    {"name":"CC1_Barry_Servant","order":8,"path":"objects/CC1_Barry_Servant/CC1_Barry_Servant.yy",},
     {"name":"CC1_Barry","order":5,"path":"objects/CC1_Barry/CC1_Barry.yy",},
     {"name":"CC1_Brisket","order":6,"path":"objects/CC1_Brisket/CC1_Brisket.yy",},
     {"name":"CC1_Game","order":24,"path":"objects/CC1_Game/CC1_Game.yy",},

@@ -41,11 +41,6 @@ if (layer_exists("Rails")) {
 	array_push(solids, rail_tiles);
 }
 
-// moving platforms
-grounded_solid = noone;
-gs_dx = 0;
-gs_dy = 0;
-
 calculate_speeds = function(_move, _underwater) 
 {
 	// Initializes collision variables
@@ -234,33 +229,9 @@ water_stream_callback = function() {
 	vsp = 7 * sign(grv);
 }
 
-recheck_grounded_solid = function() {
-	if (place_meeting(x, y + sign(grv), SolidObject)) {
-		
-		grounded_solid = instance_place(x, y + sign(grv), SolidObject);
-		gs_dx = grounded_solid.x;
-		gs_dy = grounded_solid.y;
-		
-	} else {
-		
-		grounded_solid = noone;
-		gs_dx = 0;
-		gs_dy = 0;
-	}
-}
-
-move_with_grounded_solid  = function() {
-	if (grounded_solid != noone) {
-		gs_dx = grounded_solid.x - gs_dx;
-		gs_dy = grounded_solid.y - gs_dy;
-		
-		x += gs_dx;
-		y += gs_dy;
-	}
-	
-	// grounded_solid = noone;
-	gs_dx = 0;
-	gs_dy = 0;
+nudge = function(_dx, _dy) {
+	x += _dx;
+	y += _dy;
 }
 
 unsquish = function() {
@@ -270,7 +241,7 @@ unsquish = function() {
 		// up
 		if (!meeting_solid(x, y - i)) {
 			y -= i;
-			show_debug_message("Moving up by " + string(i));
+			// show_debug_message("Moving up by " + string(i));
 			return;
 		}
 		
