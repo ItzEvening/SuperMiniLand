@@ -28,49 +28,21 @@ boosted = false;
 // forcefield
 forcefield = noone;
 
-manage_animations = function(_midair)
+character_specific_animations = function(_midair)
 {
-	// If drilling
 	if (_midair and done_gimmick and boosted) {
-		image_speed = 1;
-		sprite_index = M_Mini_Dash;
+		anim_speed = 1;
+		anim = M_Mini_Dash;
+		anim_frame = -1;
 	}
 	else if (_midair and done_gimmick) {
-		image_speed = 1;
-		sprite_index = M_Mini_Dash_Empty;
+		anim_speed = 1;
+		anim = M_Mini_Dash_Empty;
+		anim_frame = -1;
 	}
-	//If midair but not dashing
-	else if (_midair)
-	{
-	    sprite_index = fall;
-	    image_speed = 0;
-	if (sign(vsp) == sign(grv)) image_index = 1; else image_index = 0;
-	
-	
-	}
-	
-	// If on ground
-	else
-	{
-		
-		image_speed = 1;
-		if (hsp == 0 and !(sprite_index == idle or sprite_index == idle_impatient))
-		{
-			sprite_index = idle;
-		}	
-		else if (hsp > 10 or hsp == -15)
-		{
-			sprite_index = booster;
-		}
-		else if (hsp != 0)
-		{
-			sprite_index = run;
-		}
-	}
-	
-	// Make Mini face the correct direction
-	if (hsp != 0)
-	{
-		image_xscale = sign(hsp);
+	else if (!_midair and abs(hsp) > 10) {
+		anim_speed = 1;
+		anim = M_Mini_Boost;
+		anim_frame = -1;
 	}
 }

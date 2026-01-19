@@ -20,6 +20,19 @@ floating = Arcturus_Float;
 hp_default = 2;
 hp = hp_default;
 
+character_specific_animations = function(_midair) {
+	var _gimmick = keyboard_check(vk_space) or keyboard_check(ord("W"));
+	var _norm_g = vsp > 2 and sign(grv) == 1;
+	var _rev_g = vsp < -2 and sign(grv) == -1;
+	
+	if (_gimmick and (_norm_g or _rev_g)) {
+		
+		anim = floating;
+		anim_speed = 1;
+		anim_frame = -1;
+	}
+}
+
 screwed = function() {
 	floating = Arcturus_Float_Help;
 	if (GetSave(SV_EDGE_ARC)) {

@@ -48,26 +48,44 @@ manage_animations = function(_midair) {
 	//Animation Stuffs
 	if (_midair)
 	{
-	    sprite_index = fall;
-	    image_speed = 0;
-	if (sign(vsp) == sign(grv)) image_index = 1; else image_index = 0;
+	    anim = fall;
+	    anim_speed = 0;
+	if (sign(vsp) == sign(grv)) anim_frame = 1; else anim_frame = 0;
 	}
 	else
 	{
-		image_speed = 1;
+		anim_speed = 1;
 		if (hsp == 0 and !(sprite_index == idle or sprite_index == idle_impatient))
 		{
-			sprite_index = idle;
+			anim = idle;
 		}
 		else if (hsp != 0)
 		{
-			sprite_index = run;
+			anim = run;
 		}
 	}
 	if (hsp != 0)
 	{
 		image_xscale = sign(hsp);
 	}
+	
+	character_specific_animations(_midair);
+	
+	if (anim != noone) {
+		sprite_index = anim;
+		image_speed = anim_speed;
+		
+		if (anim_frame != -1) {
+			image_index = anim_frame;
+		}
+	}
+	
+	anim = noone;
+	anim_frame = -1;
+}
+
+character_specific_animations = function(_midair) {
+	// to be overwritten
 }
 
 // death function
@@ -214,6 +232,10 @@ idle_timer = time_source_create(time_source_global, 10, time_source_units_second
 
 // any keys read by player
 keys = [vk_space, vk_left, vk_right, ord("W"), ord("A"), ord("S"), ord("D")];
+
+anim = noone;
+anim_speed = 1;
+anim_frame = -1;
 #endregion
 
 time_source_start(idle_timer);

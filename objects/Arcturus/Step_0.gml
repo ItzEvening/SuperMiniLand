@@ -7,5 +7,4 @@ var _rev_g = vsp < -2 and sign(grv) == -1;
 
 if (_gimmick and (_norm_g or _rev_g)) {
 	vsp = 2 * sign(grv);
-	sprite_index = floating;
 }

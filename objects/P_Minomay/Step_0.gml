@@ -8,6 +8,14 @@ if (!_midair and boosted) {
 	boosted = false;
 }
 
+// change gravity
+if (_midair && done_gimmick && boosted && sign(grv) == sign(vsp)) {
+	grv = floating_grv * sign(grv);
+}
+else if (!_midair) {
+	grv = abs(original_g) * sign(grv);
+}
+
 // red gem gui
 if (_gimmick and can_gimmick) {
 	coinsFont.red_alpha = 1;
