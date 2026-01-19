@@ -45,9 +45,12 @@ character_specific_animations = function(_midair) {
 }
 
 bounce = function(_enemy) {
-	var _dist = abs(_enemy.x - x);
+	var _center = (bbox_right + bbox_left) / 2;
+	var _center_enemy = (_enemy.bbox_left + _enemy.bbox_right) / 2;
 	
-	var _dist_good = _dist <= 32;
+	var _dist = abs(_center - _center_enemy);
+	
+	var _dist_good = _dist <= 20;
 	var _speed_good = vsp <= 20.6 * sign(grv);
 	
 	if (!_dist_good and !_speed_good) {

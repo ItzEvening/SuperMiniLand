@@ -11,7 +11,7 @@ if (_player != noone) {
 	
 	else if (!dead and hostile and !_player.invincible and !place_meeting(x, y, o_Forcefield)) {
 		audio_play_sound(Damage, 10, 0);
-		_player.change_life(-1);
+		_player.change_life(-1 * offense);
 	}
 	
 }

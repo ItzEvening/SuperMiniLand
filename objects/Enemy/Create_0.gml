@@ -9,6 +9,7 @@ collide_on_death = true;
 score_giver = false;
 rot = true;
 hp = 1;
+offense = 1;
 
 expire_invinsibility = function() {
 	killable = true;

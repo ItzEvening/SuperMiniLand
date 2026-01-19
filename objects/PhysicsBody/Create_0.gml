@@ -26,7 +26,12 @@ must_grounded = false;
 // tileset
 ground_tiles = layer_tilemap_get_id("Foreground_Tiles");
 water_tiles = layer_tilemap_get_id("Water");
-rail_tiles = layer_tilemap_get_id("Rails");
+rail_tiles = undefined;
+
+if (layer_exists("Rails")) {
+	rail_tiles = layer_tilemap_get_id("Rails");
+}
+
 
 // collisions
 ignore_drill_blocks = false;

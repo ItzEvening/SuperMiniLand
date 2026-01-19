@@ -248,5 +248,9 @@
 	"Stage": "Test_Surprise",
     "Song": "song_TestRoom"
   },
+  {
+	"Stage": "CanvasChallenge_4",
+    "Song": "song_CanvasChallenge4"
+  },
   ]
 }
