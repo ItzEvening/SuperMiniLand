@@ -44,19 +44,21 @@ character_specific_animations = function(_midair) {
 	}
 }
 
-bounce = function(_enemy) {
-	var _center = (bbox_right + bbox_left) / 2;
-	var _center_enemy = (_enemy.bbox_left + _enemy.bbox_right) / 2;
+bounce = function(_enemy, _strength = 6.5) {
+	var _center_x = (bbox_right + bbox_left) / 2;
+	var _center_x_enemy = (_enemy.bbox_left + _enemy.bbox_right) / 2;
+	var _dist_x = abs(_center_x - _center_x_enemy);
 	
-	var _dist = abs(_center - _center_enemy);
+	var _enemy_height = _enemy.bbox_bottom - _enemy.bbox_top;
 	
-	var _dist_good = _dist <= 20;
+	var _dist_good = _dist_x <= 20;
 	var _speed_good = vsp <= 20.6 * sign(grv);
+	var _y_good = bbox_bottom < (_enemy.bbox_bottom - 0.4 * _enemy_height);
 	
-	if (!_dist_good and !_speed_good) {
+	if (!_dist_good and !_speed_good and !_y_good) {
 		global.lo.send(ALLIE_KILL, ALLIE_BAD);
 	}
-	else if (!_dist_good) {
+	else if (!_dist_good or !_y_good) {
 		global.lo.send(ALLIE_KILL, ALLIE_OFF_BALANCE);
 	}
 	else if (!_speed_good) {
@@ -64,7 +66,17 @@ bounce = function(_enemy) {
 	}
 	
 	else {
-		vsp = -6.5;
+		vsp = -1 * _strength * sign(grv);
+		
+		// set y position
+		var _allie_bottom = bbox_bottom;
+		var _enemy_top = _enemy.bbox_top;
+		
+		if (_allie_bottom > _enemy_top) {
+			var _delta = _enemy_top - _allie_bottom;
+			y += _delta;
+		}
+		
 		global.lo.send(ALLIE_KILL, ALLIE_GOOD);
 		audio_play_sound(HeadStomped, 10, false);
 		perfect_hit = true;
