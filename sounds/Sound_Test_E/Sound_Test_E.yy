@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":24.774195,
+  "duration":0.0,
   "name":"Sound_Test_E",
   "parent":{
     "name":"Sounds",

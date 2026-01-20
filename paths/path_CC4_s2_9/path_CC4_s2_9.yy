@@ -1,0 +1,20 @@
+{
+  "$GMPath":"",
+  "%Name":"path_CC4_s2_9",
+  "closed":false,
+  "kind":1,
+  "name":"path_CC4_s2_9",
+  "parent":{
+    "name":"CanvasChallenge4",
+    "path":"folders/Paths/CanvasChallenge4.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":7808.0,"y":2080.0,},
+    {"speed":100.0,"x":7936.0,"y":2016.0,},
+    {"speed":100.0,"x":8096.0,"y":2144.0,},
+    {"speed":100.0,"x":8224.0,"y":2048.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

@@ -19,11 +19,19 @@ for (var i = 0; i < array_length(_music_list); i++)
 
 var _song = asset_get_index(_track_name);
 
-// E-sides
+// M-mix
+var _track_name_m = _track_name + "M";
+var _song_m = asset_get_index(_track_name_m);
+
+if (_song_m != -1 and variable_global_exists("music") and global.music == 0) {
+	_song = _song_m;
+}
+
+// V-mix
 var _track_name_e = _track_name + "E";
 var _song_e = asset_get_index(_track_name_e);
 
-if (_song_e != -1 and variable_global_exists("music") and global.music == 1) {
+if (_song_e != -1 and variable_global_exists("music") and global.music == 2) {
 	_song = _song_e;
 }
 

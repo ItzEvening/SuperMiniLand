@@ -1,11 +1,25 @@
-if (global.music == 0) {
-	audio_stop_all()
-	sprite_index = Mini_Music;
-    //audio_play_sound(Sound_Test_M, 10, 0);
+sprite_m = MusicSelect_Mini;
+sprite_8 = MusicSelect_8bit;
+sprite_e = MusicSelect_Evie;
+
+if (room == Sound_Select) {
+	audio_stop_all();
 }
 
-else {
-	audio_stop_all()
-	sprite_index = Evie_Music;
-   // audio_play_sound(Sound_Test_E, 10, 0);
+initialize = function() {
+	if (global.music == 0) {
+		sprite_index = sprite_m;
+	    //audio_play_sound(Sound_Test_M, 10, 0);
+	}
+
+	else if (global.music == 1) {
+		sprite_index = sprite_8;
+	   // audio_play_sound(Sound_Test_E, 10, 0);
+	}
+	else {
+		sprite_index = sprite_e;
+	}
 }
+
+asc = true;
+initialize();

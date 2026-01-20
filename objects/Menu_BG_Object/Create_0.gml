@@ -1,9 +1,9 @@
 update_sprite = function() {
-	if (global.music == 0) {
-		sprite_index = Menu_BG;
+	if (global.music == 2) {
+		sprite_index = Menu_BG_E;
 	}
 	else {
-		sprite_index = Menu_BG_E;
+		sprite_index = Menu_BG;
 	}
 }
 
