@@ -1008,6 +1008,7 @@
     {"id":{"name":"map_SalmonPalaceAct1","path":"sprites/map_SalmonPalaceAct1/map_SalmonPalaceAct1.yy",},},
     {"id":{"name":"map_SalmonPalaceAct2","path":"sprites/map_SalmonPalaceAct2/map_SalmonPalaceAct2.yy",},},
     {"id":{"name":"map_SalmonPalaceHard","path":"sprites/map_SalmonPalaceHard/map_SalmonPalaceHard.yy",},},
+    {"id":{"name":"map_SalmonPalaceHard2","path":"sprites/map_SalmonPalaceHard2/map_SalmonPalaceHard2.yy",},},
     {"id":{"name":"map_SecretSanctuaryAct1","path":"sprites/map_SecretSanctuaryAct1/map_SecretSanctuaryAct1.yy",},},
     {"id":{"name":"map_SparklingHillAct1","path":"sprites/map_SparklingHillAct1/map_SparklingHillAct1.yy",},},
     {"id":{"name":"map_SparklingHillAct2","path":"sprites/map_SparklingHillAct2/map_SparklingHillAct2.yy",},},
