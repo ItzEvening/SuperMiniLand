@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Evie_Music",
-    "path":"sprites/Evie_Music/Evie_Music.yy",
+    "name":"MusicSelect_Mini",
+    "path":"sprites/MusicSelect_Mini/MusicSelect_Mini.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,3 +1,3 @@
-if (variable_global_exists("music") and global.music = 1) {
+if (variable_global_exists("music") and global.music = 2) {
 	sprite_index = FlowerBlue;
 }

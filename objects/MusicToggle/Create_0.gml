@@ -1,6 +1,7 @@
-if (global.music == 0) {
-	sprite_index = MusicM;
-}
-else {
-	sprite_index = MusicV;
-}
+event_inherited();
+
+sprite_m = MusicM;
+sprite_8 = Music8;
+sprite_e = MusicV;
+
+initialize();

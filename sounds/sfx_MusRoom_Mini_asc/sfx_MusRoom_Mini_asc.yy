@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"Sound_Test_E",
+  "%Name":"sfx_MusRoom_Mini_asc",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,17 +9,17 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
-  "name":"Sound_Test_E",
+  "duration":3.124989,
+  "name":"sfx_MusRoom_Mini_asc",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"MusicRoom",
+    "path":"folders/Sounds/Sound Effects/MusicRoom.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Sound_Test_E.ogg",
+  "soundFile":"sfx_MusRoom_Mini_asc.ogg",
   "type":0,
   "volume":1.0,
 }
