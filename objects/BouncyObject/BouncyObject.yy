@@ -30,6 +30,9 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"chosen_path","filters":[],"listItems":[],"multiselect":false,"name":"chosen_path","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"undefined","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"path_sp","filters":[],"listItems":[],"multiselect":false,"name":"path_sp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"sync","filters":[],"listItems":[],"multiselect":false,"name":"sync","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"sync_time","filters":[],"listItems":[],"multiselect":false,"name":"sync_time","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1.5","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"sync_len","filters":[],"listItems":[],"multiselect":false,"name":"sync_len","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"256","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
