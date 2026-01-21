@@ -26,7 +26,7 @@ with (Player)
 				WriteSaveFile();
 			break;
 			
-			case SalmonPalace_Hard_1:
+			case SalmonPalace_Hard_Old:
 				SetSave(SV_SALMON_HARD_BEAT, true);
 				WriteSaveFile();
 			break;
