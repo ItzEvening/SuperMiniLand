@@ -32,3 +32,5 @@ if (forcefield != noone and !done_gimmick) {
 	ignore_drill_blocks = false;
 	perfect_hit = false;
 }
+
+bouncy_cooldown = max(0, bouncy_cooldown - 1);
