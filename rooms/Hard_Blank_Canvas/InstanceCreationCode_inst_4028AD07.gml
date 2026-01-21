@@ -1,1 +1,1 @@
-target = SalmonPalace_Hard_1;
+target = SalmonPalace_Hard_Old;
