@@ -5,6 +5,8 @@ function DecideLifeCount(){
 	
 	if (room == CanvasChallenge_5) {
 		return 0;
+	} else if (room == CanvasChallenge_4) {
+		return 10;
 	}
 
 	// return default

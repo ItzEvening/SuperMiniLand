@@ -9,7 +9,7 @@
     "path":"folders/Paths/CanvasChallenge4.yy",
   },
   "points":[
-    {"speed":100.0,"x":5984.0,"y":1216.0,},
+    {"speed":100.0,"x":5920.0,"y":1088.0,},
     {"speed":100.0,"x":6080.0,"y":1376.0,},
   ],
   "precision":4,

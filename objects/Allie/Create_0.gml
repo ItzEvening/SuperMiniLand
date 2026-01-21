@@ -27,6 +27,9 @@ perfect_hit = false;
 // her special indicator
 indicator = instance_create_depth(0, 0, 99, AllieIndicator);
 
+// bouncy cooldown
+bouncy_cooldown = 0;
+
 character_specific_animations = function(_midair) {
 	// If drilling
 	if (_midair and done_gimmick) {
@@ -44,14 +47,15 @@ character_specific_animations = function(_midair) {
 	}
 }
 
-bounce = function(_enemy) {
-	var _center = (bbox_right + bbox_left) / 2;
-	var _center_enemy = (_enemy.bbox_left + _enemy.bbox_right) / 2;
+bounce = function(_enemy, _strength = 6.5) {
+	var _center_x = (bbox_right + bbox_left) / 2;
+	var _center_x_enemy = (_enemy.bbox_left + _enemy.bbox_right) / 2;
+	var _dist_x = abs(_center_x - _center_x_enemy);
 	
-	var _dist = abs(_center - _center_enemy);
+	var _is_bouncy = object_is_ancestor(_enemy.object_index, BouncyObject) or _enemy.object_index == BouncyObject;
 	
-	var _dist_good = _dist <= 20;
-	var _speed_good = vsp <= 20.6 * sign(grv);
+	var _dist_good = _dist_x <= 20;
+	var _speed_good = vsp <= 20.6 * sign(grv) or _is_bouncy;
 	
 	if (!_dist_good and !_speed_good) {
 		global.lo.send(ALLIE_KILL, ALLIE_BAD);
@@ -63,10 +67,14 @@ bounce = function(_enemy) {
 		global.lo.send(ALLIE_KILL, ALLIE_TOO_ROUGH);
 	}
 	
-	else {
-		vsp = -6.5;
+	else if (!_is_bouncy or bouncy_cooldown == 0) {
+		vsp = -1 * _strength * sign(grv);	
 		global.lo.send(ALLIE_KILL, ALLIE_GOOD);
 		audio_play_sound(HeadStomped, 10, false);
 		perfect_hit = true;
+		
+		if (_is_bouncy) {
+			bouncy_cooldown = 10;
+		}
 	}
 }
