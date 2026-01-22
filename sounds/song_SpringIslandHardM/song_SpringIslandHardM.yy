@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"song_CanvasChallenge5M",
+  "%Name":"song_SpringIslandHardM",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":106.666664,
-  "name":"song_CanvasChallenge5M",
+  "duration":73.6,
+  "name":"song_SpringIslandHardM",
   "parent":{
     "name":"Stage Themes M",
     "path":"folders/Sounds/Stage Themes M.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"song_CanvasChallenge5M.ogg",
+  "soundFile":"song_SpringIslandHardM.ogg",
   "type":0,
   "volume":1.0,
 }
