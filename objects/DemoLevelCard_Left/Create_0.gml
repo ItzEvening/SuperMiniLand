@@ -32,7 +32,7 @@ check_ss_cmplt = function() {
 generate_metadatas = function() {
 	
 	var _tut_spr = card_tutorial;
-	if (global.music == 1) {
+	if (global.music == 2) {
 		_tut_spr = card_tutorialE;
 	}
 	
