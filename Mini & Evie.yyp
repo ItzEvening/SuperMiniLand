@@ -587,6 +587,7 @@
     {"id":{"name":"song_CircleCastle","path":"sounds/song_CircleCastle/song_CircleCastle.yy",},},
     {"id":{"name":"song_CircleKing","path":"sounds/song_CircleKing/song_CircleKing.yy",},},
     {"id":{"name":"song_Credits","path":"sounds/song_Credits/song_Credits.yy",},},
+    {"id":{"name":"song_CreditsE","path":"sounds/song_CreditsE/song_CreditsE.yy",},},
     {"id":{"name":"song_CreditsM","path":"sounds/song_CreditsM/song_CreditsM.yy",},},
     {"id":{"name":"song_CrimsonDesert","path":"sounds/song_CrimsonDesert/song_CrimsonDesert.yy",},},
     {"id":{"name":"song_DarkForest","path":"sounds/song_DarkForest/song_DarkForest.yy",},},
