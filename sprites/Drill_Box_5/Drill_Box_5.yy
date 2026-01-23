@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Level Assets",
-    "path":"folders/Sprites/Level Assets.yy",
+    "name":"Drill_Box",
+    "path":"folders/Sprites/Level Assets/Drill_Box.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
