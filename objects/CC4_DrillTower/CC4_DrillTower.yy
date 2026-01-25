@@ -3,6 +3,7 @@
   "%Name":"CC4_DrillTower",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"CC4_DrillTower",
@@ -28,11 +29,15 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"level","filters":[],"listItems":[],"multiselect":false,"name":"level","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"label","filters":[],"listItems":[],"multiselect":false,"name":"label","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"sound","filters":[],"listItems":[],"multiselect":false,"name":"sound","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sfx_CC4_BlockDrill_00","path":"sounds/sfx_CC4_BlockDrill_00/sfx_CC4_BlockDrill_00.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sfx_CC4_BlockDrill_00","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_invisiblecarbridge",
+    "path":"sprites/spr_invisiblecarbridge/spr_invisiblecarbridge.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

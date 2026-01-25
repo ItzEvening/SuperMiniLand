@@ -14,11 +14,13 @@ for (var i = 0; i < height; i++) {
 	var _y = y + 32 * i;
 	
 	instance_create_layer(x, _y, drill_layer, CC4_DrillOnlyBox, {
-		color: color
+		color: color,
+		sound: sound
 	});
 	
 	instance_create_layer(x + 32, _y, drill_layer, CC4_DrillOnlyBox, {
-		color: color
+		color: color,
+		sound: sound
 	});
 	
 }

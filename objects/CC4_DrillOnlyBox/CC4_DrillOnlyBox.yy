@@ -30,7 +30,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"color","filters":[],"listItems":[],"multiselect":false,"name":"color","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"R\"","varType":2,},
-    {"$GMObjectProperty":"v1","%Name":"sound","filters":[],"listItems":[],"multiselect":false,"name":"sound","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sfx_BlockDrill","path":"sounds/sfx_BlockDrill/sfx_BlockDrill.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sfx_BlockDrill","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sound","filters":[],"listItems":[],"multiselect":false,"name":"sound","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sfx_CC4_BlockDrill_00","path":"sounds/sfx_CC4_BlockDrill_00/sfx_CC4_BlockDrill_00.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sfx_CC4_BlockDrill_00","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

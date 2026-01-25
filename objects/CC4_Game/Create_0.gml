@@ -1,7 +1,7 @@
 colors = ["R", "G", "B", "T", "P", "W", "K"];
-options = [2, 2, 3, 3, 3];
+options = [2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5];
 config = [];
-levels = 5;
+levels = 11;
 answers = [];
 answers_c = [];
 

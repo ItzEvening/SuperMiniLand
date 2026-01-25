@@ -121,6 +121,8 @@ handle_death = function() {
 	
 	reset_iframe();
 	reset_animations();
+	
+	global.lo.send(PLAYER_DEATH,);
 }
 
 // reset animations

@@ -30,4 +30,8 @@ switch (color) {
 	case "K":
 		sprite_index = Drill_Box_Black;
 	break;
+	
+	default:
+		sprite_index = Drill_Box_Rainbow;
+	break;
 }

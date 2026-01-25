@@ -10,4 +10,6 @@ function SignalMacros(){
 	#macro SWITCH_SIGNS "mini"
 	#macro BIG_THUD "fat"
 	#macro SEND_BOUNCER "fly away"
+	#macro PLAYER_DEATH "die"
+	#macro TRIGGER_CAR_TIMER "beep"
 }
