@@ -28,10 +28,10 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"boss_object","filters":[],"listItems":[],"multiselect":false,"name":"boss_object","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"SpringIslandBoss","path":"objects/SpringIslandBoss/SpringIslandBoss.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"SpringIslandBoss","varType":5,},
-    {"$GMObjectProperty":"v1","%Name":"theme_m","filters":[],"listItems":[],"multiselect":false,"name":"theme_m","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"BossTheme","path":"sounds/BossTheme/BossTheme.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"BossTheme","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"theme_m","filters":[],"listItems":[],"multiselect":false,"name":"theme_m","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"BossThemeM","path":"sounds/BossThemeM/BossThemeM.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"BossThemeM","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"theme_e","filters":[],"listItems":[],"multiselect":false,"name":"theme_e","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"BossThemeE","path":"sounds/BossThemeE/BossThemeE.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"BossThemeE","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"tiles_back","filters":[],"listItems":[],"multiselect":false,"name":"tiles_back","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"theme_8","filters":[],"listItems":[],"multiselect":false,"name":"theme_8","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"BossThemeM","path":"sounds/BossThemeM/BossThemeM.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"BossThemeM","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"theme_8","filters":[],"listItems":[],"multiselect":false,"name":"theme_8","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"BossTheme","path":"sounds/BossTheme/BossTheme.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"BossTheme","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

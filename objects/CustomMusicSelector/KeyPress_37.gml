@@ -1,13 +1,16 @@
 if (index == 0) {
 	new_music.weightM = max(new_music.weightM - 1, 0);
+	SetSave(SV_MUS_MINI, new_music.weightM);
 }
 
 else if (index == 1) {
 	new_music.weight8 = max(new_music.weight8 - 1, 0);
+	SetSave(SV_MUS_8BIT, new_music.weight8);
 }
 
 else {
 	new_music.weightE = max(new_music.weightE - 1, 0);
+	SetSave(SV_MUS_EVIE, new_music.weightE);
 }
 
 WriteSaveFile();

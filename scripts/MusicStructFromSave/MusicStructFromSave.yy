@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"MusicStructFromSave",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"MusicStructFromSave",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

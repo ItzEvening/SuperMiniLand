@@ -27,3 +27,6 @@ update_position = function() {
 }
 
 update_position();
+
+SetSave(SV_MUS_CONFIG, 3);
+WriteSaveFile();

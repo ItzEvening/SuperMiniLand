@@ -3,6 +3,12 @@ function SaveMacros(){
 	#macro SV_TUTORIAL "tutorial"
 	#macro SV_TUTORIAL_2 "tutorial2"
 	
+	// music 
+	#macro SV_MUS_CONFIG "musconf"
+	#macro SV_MUS_MINI "musmini"
+	#macro SV_MUS_8BIT "muschip"
+	#macro SV_MUS_EVIE "musevie"
+	
 	// level gems
 	#macro SV_GEM_SPRING "spring"
 	#macro SV_GEM_SALMON "salmon"

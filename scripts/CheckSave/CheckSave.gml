@@ -5,6 +5,11 @@ function CheckSave(){
 	
 	CheckSaveBinding(SV_VERSION, "0.4");
 	
+	CheckSaveBinding(SV_MUS_CONFIG, 0);
+	CheckSaveBinding(SV_MUS_MINI, 0);
+	CheckSaveBinding(SV_MUS_8BIT, 0);
+	CheckSaveBinding(SV_MUS_EVIE, 0);
+	
 	CheckSaveBinding(SV_TUTORIAL, false);
 	CheckSaveBinding(SV_TUTORIAL_2, false);
 	

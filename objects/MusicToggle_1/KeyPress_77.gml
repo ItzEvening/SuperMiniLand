@@ -25,7 +25,7 @@ if (global.menu_control) {
 		}
 	}
 	
-	else if (global.music.current == 2) {
+	else {
 		global.music.current = 0;
 	    sprite_index = sprite_m;
 		
@@ -36,9 +36,10 @@ if (global.menu_control) {
 		}
 	}
 	
+	SetSave(SV_MUS_CONFIG, global.music.current);
+	WriteSaveFile();
+	
 }
 
 global.lo.send(MUSIC_CHANGE, global.music.current);
 asc = !asc;
-
-WriteSaveFile();
