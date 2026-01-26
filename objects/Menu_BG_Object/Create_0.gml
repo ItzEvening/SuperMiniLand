@@ -1,5 +1,5 @@
 update_sprite = function() {
-	if (global.music == 2) {
+	if (global.music.current == 2) {
 		sprite_index = Menu_BG_E;
 	}
 	else {

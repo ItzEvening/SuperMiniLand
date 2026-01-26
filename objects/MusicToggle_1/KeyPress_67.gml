@@ -1,0 +1,1 @@
+SlideTransition(TRANS_MODE.GOTO, Sound_Select_Custom);

@@ -1,5 +1,5 @@
 // initialize global variables
-global.music = 0;
+global.music = new MusicStruct();
 global.level = OldSpringIsland_1;
 global.character = Mini;
 global.bear = false;
@@ -33,7 +33,6 @@ WriteSaveFile();
 
 ds_map_destroy(global.savedata);
 global.savedata = ds_map_secure_load(save_file);
-
 
 JamSam = function(){
 	SlideTransition(TRANS_MODE.GOTO, landing_point);

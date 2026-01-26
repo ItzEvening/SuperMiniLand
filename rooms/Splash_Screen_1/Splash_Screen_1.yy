@@ -6,8 +6,8 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_6E286263","path":"rooms/Splash_Screen_1/Splash_Screen_1.yy",},
     {"name":"inst_6FA2CCB8","path":"rooms/Splash_Screen_1/Splash_Screen_1.yy",},
+    {"name":"inst_6E286263","path":"rooms/Splash_Screen_1/Splash_Screen_1.yy",},
     {"name":"inst_7FA33B08","path":"rooms/Splash_Screen_1/Splash_Screen_1.yy",},
   ],
   "isDnd":false,

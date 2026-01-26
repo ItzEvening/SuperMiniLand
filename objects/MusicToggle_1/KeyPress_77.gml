@@ -1,8 +1,10 @@
 /// @description Music toggle
 if (global.menu_control) {
 	
-	if (global.music == 0) {
-		global.music = 1;
+	global.music.custom = false;
+	
+	if (global.music.current == 0) {
+		global.music.current = 1;
 	    sprite_index = sprite_8;
 		
 		if (asc) {
@@ -12,8 +14,8 @@ if (global.menu_control) {
 		}
 	}
 
-	else if (global.music == 1) {
-		global.music = 2;
+	else if (global.music.current == 1) {
+		global.music.current = 2;
 	    sprite_index = sprite_e;
 		
 		if (asc) {
@@ -23,8 +25,8 @@ if (global.menu_control) {
 		}
 	}
 	
-	else if (global.music == 2) {
-		global.music = 0;
+	else if (global.music.current == 2) {
+		global.music.current = 0;
 	    sprite_index = sprite_m;
 		
 		if (asc) {
@@ -36,5 +38,7 @@ if (global.menu_control) {
 	
 }
 
-global.lo.send(MUSIC_CHANGE, global.music);
+global.lo.send(MUSIC_CHANGE, global.music.current);
 asc = !asc;
+
+WriteSaveFile();

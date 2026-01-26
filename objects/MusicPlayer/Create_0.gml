@@ -1,5 +1,36 @@
 music = undefined;
 
+decide_music = function() {
+	
+	var _sum = global.music.weight8 + global.music.weightM + global.music.weightE;
+
+	if (_sum == 0) {
+		global.music.current = -1;
+		return;
+	}
+
+	var _r = 1 + irandom(_sum - 1);
+	
+	_r -= global.music.weightM;
+	if (_r <= 0) {
+		global.music.current = 0;
+		return;
+	}
+	
+	_r -= global.music.weight8;
+	if (_r <= 0) {
+		global.music.current = 1;
+		return;
+	}
+	
+	global.music.current = 2;
+	return;
+}
+
+if (global.music.custom) {
+	decide_music();
+}
+
 #region Get Stage Music
 var _music_json = JSONHelper("stage_themes.json");
 var _music_list = _music_json.Stage_themes;
@@ -23,7 +54,7 @@ var _song = asset_get_index(_track_name);
 var _track_name_m = _track_name + "M";
 var _song_m = asset_get_index(_track_name_m);
 
-if (_song_m != -1 and variable_global_exists("music") and global.music == 0) {
+if (_song_m != -1 and variable_global_exists("music") and global.music.current == 0) {
 	_song = _song_m;
 }
 
@@ -31,11 +62,11 @@ if (_song_m != -1 and variable_global_exists("music") and global.music == 0) {
 var _track_name_e = _track_name + "E";
 var _song_e = asset_get_index(_track_name_e);
 
-if (_song_e != -1 and variable_global_exists("music") and global.music == 2) {
+if (_song_e != -1 and variable_global_exists("music") and global.music.current == 2) {
 	_song = _song_e;
 }
 
-if (_song != -1)
+if (_song != -1 and global.music.current >= 0)
 {
 	music = audio_play_sound(_song, 10, true);
 }
@@ -69,5 +100,7 @@ function stop_music()
 
 function play_music(_sound)
 {
-	music = audio_play_sound(_sound, 10, true);
+	if (global.music.current >= 0) {
+		music = audio_play_sound(_sound, 10, true);
+	}
 }

@@ -2,10 +2,13 @@ if (!activated and Player.x > x) {
 	
 	audio_stop_all();
 	
-	if (global.music == 0) {
+	if (global.music.current == 0) {
 		MusicPlayer.play_music(theme_m);
 	}
-	else {
+	else if (global.music.current == 1) {
+		MusicPlayer.play_music(theme_8);
+	}
+	else if (global.music.current == 2) {
 		MusicPlayer.play_music(theme_e);
 	}
 	
