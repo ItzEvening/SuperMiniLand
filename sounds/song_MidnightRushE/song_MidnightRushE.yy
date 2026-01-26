@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":90.32433,
+  "duration":89.52027,
   "name":"song_MidnightRushE",
   "parent":{
     "name":"Stage Themes E",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"song_MidnightRushE.wav",
-  "type":0,
+  "soundFile":"song_MidnightRushE.ogg",
+  "type":1,
   "volume":1.0,
 }
