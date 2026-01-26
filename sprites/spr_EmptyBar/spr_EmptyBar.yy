@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
-  "%Name":"MusicM",
+  "%Name":"spr_EmptyBar",
   "bboxMode":0,
-  "bbox_bottom":1023,
+  "bbox_bottom":127,
   "bbox_left":0,
-  "bbox_right":1023,
+  "bbox_right":639,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8848284c-5438-4213-aba6-001b6e66234f","name":"8848284c-5438-4213-aba6-001b6e66234f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"76dcc92b-bd41-429d-8585-f0292712fd5a","name":"76dcc92b-bd41-429d-8585-f0292712fd5a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":1024,
+  "height":128,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"025cbec8-aa0d-4f5b-8c16-de27c7ceec3b","blendMode":0,"displayName":"default","isLocked":false,"name":"025cbec8-aa0d-4f5b-8c16-de27c7ceec3b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"08cec7ee-3183-4d08-b0ff-633cdc85d7af","blendMode":0,"displayName":"default","isLocked":false,"name":"08cec7ee-3183-4d08-b0ff-633cdc85d7af","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"MusicM",
+  "name":"spr_EmptyBar",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"MusicM",
+    "%Name":"spr_EmptyBar",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"MusicM",
+    "name":"spr_EmptyBar",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8848284c-5438-4213-aba6-001b6e66234f","path":"sprites/MusicM/MusicM.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6be08b61-b55b-4b98-b1de-5573b532ac19","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"76dcc92b-bd41-429d-8585-f0292712fd5a","path":"sprites/spr_EmptyBar/spr_EmptyBar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"39322982-4e80-45ac-9d0b-5446b86577ff","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":1024,
+  "width":640,
 }

@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_invisiblecarbridge",
-    "path":"sprites/spr_invisiblecarbridge/spr_invisiblecarbridge.yy",
+    "name":"spr_MusicSelector",
+    "path":"sprites/spr_MusicSelector/spr_MusicSelector.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"menu",
-    "path":"folders/Sprites/menu.yy",
+    "name":"music",
+    "path":"folders/Sprites/menu/music.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

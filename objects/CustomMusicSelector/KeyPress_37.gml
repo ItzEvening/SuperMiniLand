@@ -13,4 +13,7 @@ else {
 	SetSave(SV_MUS_EVIE, new_music.weightE);
 }
 
+update_numbers();
+update_arrows();
+
 WriteSaveFile();
