@@ -5,3 +5,4 @@ if (index == 3) {
 }
 
 update_position();
+update_music();

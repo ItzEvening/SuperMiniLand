@@ -88,9 +88,25 @@ update_arrows = function() {
 	layer_sprite_change(arr_r_e, _spr_e_r);
 }
 
+update_music = function() {
+	var _offset = MusicPlayer.get_track_position();
+	var _song = SoundSelectM;
+	
+	if (index == 1) {
+		_song = SoundSelect;
+	}
+	else if (index ==  2) {
+		_song = SoundSelectE;
+	}
+	
+	MusicPlayer.stop_music();
+	MusicPlayer.play_music(_song, _offset);
+}
+
 update_position();
 update_numbers();
 update_arrows();
+update_music();
 
 SetSave(SV_MUS_CONFIG, 3);
 WriteSaveFile();

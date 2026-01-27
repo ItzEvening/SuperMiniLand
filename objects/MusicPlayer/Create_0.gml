@@ -98,9 +98,17 @@ function stop_music()
 	}
 }
 
-function play_music(_sound)
+function play_music(_sound, _offset = 0)
 {
 	if (global.music.current >= 0) {
-		music = audio_play_sound(_sound, 10, true);
+		music = audio_play_sound(_sound, 10, true, 1, _offset);
 	}
+}
+
+function get_track_position() {
+	if (music != undefined) {
+		return audio_sound_get_track_position(music);
+	}
+	
+	return 0;
 }

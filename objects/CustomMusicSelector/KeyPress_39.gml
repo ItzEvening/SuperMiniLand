@@ -15,5 +15,6 @@ else {
 
 update_numbers();
 update_arrows();
+audio_play_sound(sfx_MenuBlip, 10, false);
 
 WriteSaveFile();

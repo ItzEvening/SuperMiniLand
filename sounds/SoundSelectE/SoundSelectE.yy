@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"SoundSelectE",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":61.44,
+  "name":"SoundSelectE",
+  "parent":{
+    "name":"Menu Themes",
+    "path":"folders/Sounds/Menu Themes.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"SoundSelectE.ogg",
+  "type":1,
+  "volume":1.0,
+}
