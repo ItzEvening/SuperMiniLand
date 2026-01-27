@@ -1,2 +1,2 @@
 global.character = P_MetalNamey;
-SlideTransition(TRANS_MODE.LEVEL, Blank_Canvas);
+SlideTransition(TRANS_MODE.GOTO, Blank_Canvas);
