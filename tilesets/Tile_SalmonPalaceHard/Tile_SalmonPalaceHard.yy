@@ -5,7 +5,7 @@
   "macroPageTiles":{
     "SerialiseHeight":8,
     "SerialiseWidth":5,
-    "TileCompressedData":[-12,0,1,29,-4,0,1,31,-14,0,8,33,0,34,0,0,35,0,35,],
+    "TileCompressedData":[-12,0,1,24,-4,0,1,25,-14,0,8,26,0,27,0,0,28,0,29,],
     "TileDataFormat":1,
   },
   "name":"Tile_SalmonPalaceHard",

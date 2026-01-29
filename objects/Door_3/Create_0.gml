@@ -1,6 +1,6 @@
 teleport = function() {
 	if(place_meeting(x, y, Player)) {
-	SlideTransition(TRANS_MODE.LEVEL, Level_Card);
+	SlideTransition(TRANS_MODE.LEVEL, Level_Card_Hard);
     global.level = target;	
 	}
 }

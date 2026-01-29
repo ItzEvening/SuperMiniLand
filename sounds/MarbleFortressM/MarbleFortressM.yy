@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":61.714287,
+  "duration":169.71428,
   "name":"MarbleFortressM",
   "parent":{
     "name":"Stage Themes M",
