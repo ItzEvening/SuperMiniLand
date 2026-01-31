@@ -1,0 +1,123 @@
+{
+  "dialogue": [
+    {
+      "sprite": "Phone",
+      "sound": "Default",
+      "delay": 3,
+      "text": "Calling...",
+      "shake": false
+    },
+    {
+      "sprite": "ArtyDefault",
+      "sound": "Arty",
+      "delay": 0,
+      "text": "Allie! How have you been?",
+      "shake": false
+    },
+    {
+      "sprite": "AllieSide",
+      "sound": "Allie",
+      "delay": 0,
+      "text": "Uhhhhhhhh, well I've been slipping \nthrough running traffic and \ncommitting property damage.",
+      "shake": false
+    },
+    {
+      "sprite": "ArtyShock",
+      "sound": "Arty",
+      "delay": 0,
+      "text": "Wow!...",
+      "shake": false
+    },
+    {
+      "sprite": "ArtyDefault",
+      "sound": "Arty",
+      "delay": 0,
+      "text": "Um...",
+      "shake": false
+    },
+    {
+      "sprite": "AllieDefault",
+      "sound": "Allie",
+      "delay": 0,
+      "text": "How's your field trip?",
+      "shake": false
+    },
+    {
+      "sprite": "ArtyHappy",
+      "sound": "Arty",
+      "delay": 0,
+      "text": "Going well! I'm not really a geology \nexpert, but it's been fascinating \nlearning about the formation \nand properties of these \nexotic crystals.",
+      "shake": false
+    },
+    {
+      "sprite": "AllieDefault",
+      "sound": "Allie",
+      "delay": 0,
+      "text": "Yeah. You're in the Graveyard, \nright?",
+      "shake": false
+    },
+    {
+      "sprite": "ArtyDefault",
+      "sound": "Arty",
+      "delay": 0,
+      "text": "Yes, also known as the \nWadegobi Desert.",
+      "shake": false
+    },
+    {
+      "sprite": "AllieCautious",
+      "sound": "Allie",
+      "delay": 0,
+      "text": "Sounds creepy. Be careful...",
+      "shake": false
+    },
+    {
+      "sprite": "ArtyHappy",
+      "sound": "Arty",
+      "delay": 0,
+      "text": "Don't worry. That name came \nfrom an old legend from \nthe Wadegu tribe.",
+      "shake": false
+    },
+    {
+      "sprite": "ArtySide",
+      "sound": "Arty",
+      "delay": 0,
+      "text": "According to them, these giant \ncrystals were infused by the \nspirits of their ancestors.",
+      "shake": false
+    },
+    {
+      "sprite": "ArtyClosed",
+      "sound": "Arty",
+      "delay": 0,
+      "text": "It's kind of comforting. To them, \ndeath isn't quite the end. You \nlive on, albeit as a mineral.",
+      "shake": false
+    },
+    {
+      "sprite": "ArtyDefault",
+      "sound": "Arty",
+      "delay": 0,
+      "text": "If you live on longer than \nI do, then maybe in one of \nyour adventures, you'll find a \nsparkling, cool blue crystal \nin the sands of the Wadegobi \nDesert.",
+      "shake": false
+    },
+    {
+      "sprite": "ArtySparkle",
+      "sound": "Arty",
+      "delay": 0,
+      "text": "If you do, do me a favor and \ntake it. I want to be alongside you, \neven as a crystal.",
+      "shake": false
+    },
+    {
+      "sprite": "AllieSparkle",
+      "sound": "Allie",
+      "delay": 0,
+      "text": "...",
+      "shake": false
+    },
+    {
+      "sprite": "AllieTouched",
+      "sound": "Allie",
+      "delay": 0,
+      "text": "dork",
+      "shake": false
+    }
+  ]
+}

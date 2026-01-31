@@ -1,0 +1,1 @@
+global.lo.remove(self, TOGGLE_GUI);

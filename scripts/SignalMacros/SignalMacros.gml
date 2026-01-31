@@ -12,4 +12,5 @@ function SignalMacros(){
 	#macro SEND_BOUNCER "fly away"
 	#macro PLAYER_DEATH "die"
 	#macro TRIGGER_CAR_TIMER "beep"
+	#macro TOGGLE_GUI "gui"
 }

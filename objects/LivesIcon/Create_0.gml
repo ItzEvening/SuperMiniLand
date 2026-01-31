@@ -1,6 +1,10 @@
 show_chances = true;
 sprite = MiniLivesIcon;
+display = true;
 
+toggle_draw = function(_d) {
+	display = _d;
+}
 
 init = function(_player) {
 	player = _player;
@@ -31,3 +35,5 @@ init = function(_player) {
 set_show_chances = function(_show) {
 	show_chances = _show;
 }
+
+global.lo.add(self, TOGGLE_GUI, toggle_draw);

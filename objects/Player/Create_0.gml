@@ -150,7 +150,10 @@ finish_jump = function() {
 
 // to activate impatient idle animation
 idle_trigger = function() {
-	sprite_index = idle_impatient;
+	if (!patient) {
+		sprite_index = idle_impatient;
+	}
+	
 }
 
 // crushing hazard
@@ -167,6 +170,8 @@ crush = function() {
 #endregion
 
 #region variables
+
+patient = false;
 
 hascontrol = true; 
 

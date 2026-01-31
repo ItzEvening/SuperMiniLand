@@ -1,11 +1,16 @@
 frame = 0;
 sprite = HP_Player_M;
 max_hp = 3
+display = true;
 
 render_x = view_wport[0] + 1;
 show_debug_message(render_x);
 render_y = 0;
 render_scale = 1.5;
+
+toggle_draw = function(_d) {
+	display = _d;
+}
 
 function init(_type) {
 	switch (_type) {
@@ -50,3 +55,5 @@ function init(_type) {
 function lifetoframe (_life){
 	frame = max_hp - _life;
 }
+
+global.lo.add(self, TOGGLE_GUI, toggle_draw);
