@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Drill_Box",
-    "path":"folders/Sprites/Level Assets/Drill_Box.yy",
+    "name":"Drill_Box_Signs",
+    "path":"folders/Sprites/Level Assets/Drill_Box_Signs.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
