@@ -1,0 +1,60 @@
+{
+  "dialogue": [
+    {
+      "sprite": "Phone",
+      "sound": "Default",
+      "delay": 3,
+      "text": "Calling...",
+      "shake": false
+    },
+    {
+      "sprite": "Pizza",
+      "sound": "Pizza",
+      "delay": 0,
+      "text": "Welcome to Perpendicular Pizza! \nWhat would you like to order?",
+      "shake": false
+    },
+    {
+      "sprite": "AllieSide",
+      "sound": "Allie",
+      "delay": 0,
+      "text": "Just the usual: a medium \nbarbecue chicken pizza. With \nextra bacon bits.",
+      "shake": false
+    },
+    {
+      "sprite": "Pizza",
+      "sound": "Pizza",
+      "delay": 0,
+      "text": "Okie dokie! Just to make sure, \nis the delivery address the \nsame too?",
+      "shake": false
+    },
+    {
+      "sprite": "AllieDefault",
+      "sound": "Allie",
+      "delay": 0,
+      "text": "Yup.",
+      "shake": false
+    },
+    {
+      "sprite": "Pizza",
+      "sound": "Pizza",
+      "delay": 0,
+      "text": "Awesome! The pizza will be \nready in a jiffy.",
+      "shake": false
+    },
+    {
+      "sprite": "Pizza",
+      "sound": "Pizza",
+      "delay": 0,
+      "text": "And since you're our favorite \ncustomer, the pizza is on \nthe house!",
+      "shake": false
+    },
+    {
+      "sprite": "AllieHappy",
+      "sound": "Allie",
+      "delay": 0,
+      "text": "Yay! Thank you SO much!!",
+      "shake": false
+    }
+  ]
+}

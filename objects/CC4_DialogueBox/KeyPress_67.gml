@@ -1,3 +1,3 @@
-if (progressable) {
+if (progressable and display) {
 	next();
 }

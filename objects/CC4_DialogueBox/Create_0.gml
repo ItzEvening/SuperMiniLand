@@ -7,13 +7,41 @@ target_progress = 0;
 json = undefined;
 color = make_color_rgb(203, 88, 255);
 
+spawn_pizza = false;
+pizzas_ordered = 0;
 
 progressable = false;
 sound = sfx_CC4_d_Default;
 spr = spr_CC4_d_Phone;
 
+order_pizza = function() {
+	if (pizzas_ordered == 5) {
+		load(11);
+	} else {
+		spawn_pizza = true;
+		pizzas_ordered++;
+		load(1);
+	}
+}
+
 current_dialogue = function() {
 	return json.dialogue[index];
+}
+
+end_dialogue = function() {
+	display = false;
+	json = undefined;
+	index = 0;
+	Allie.hascontrol = true;
+	Allie.patient = false;
+	global.lo.send(TOGGLE_GUI, true);
+	audio_play_sound(sfx_CC4_hangup, 10, false);
+	CC4_CallConsole.sprite_index = spr_CC4_console;
+	
+	if (spawn_pizza) {
+		instance_create_layer(17984, 17440, layer, Pizza);
+	}
+	spawn_pizza = false;
 }
 
 load = function(_num) {
@@ -47,14 +75,7 @@ next = function() {
 	text_progress = 0;
 	
 	if (index + 1 == array_length(json.dialogue)) {
-		display = false;
-		json = undefined;
-		index = 0;
-		Allie.hascontrol = true;
-		Allie.patient = false;
-		global.lo.send(TOGGLE_GUI, true);
-		audio_play_sound(sfx_CC4_hangup, 10, false);
-		CC4_CallConsole.sprite_index = spr_CC4_console;
+		end_dialogue();
 	}
 	
 	else {
