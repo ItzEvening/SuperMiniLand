@@ -1,0 +1,1 @@
+Player.hsp = 5;

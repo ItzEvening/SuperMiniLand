@@ -252,5 +252,9 @@
 	"Stage": "CanvasChallenge_4",
     "Song": "song_CanvasChallenge4"
   },
+  {
+	"Stage": "Clockwork",
+    "Song": "song_Clock_Tower_Melody"
+  },
   ]
 }
