@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":19.2,
+  "duration":38.0,
   "name":"BossThemeM",
   "parent":{
     "name":"16Bit Themes",
