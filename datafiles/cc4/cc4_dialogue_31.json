@@ -1,0 +1,32 @@
+{
+  "dialogue": [
+    {
+      "sprite": "Phone",
+      "sound": "Default",
+      "delay": 3,
+      "text": "Calling...",
+      "shake": false
+    },
+    {
+      "sprite": "Pizza",
+      "sound": "Pizza",
+      "delay": 0,
+      "text": "Allie! Girlie!",
+      "shake": false
+    },
+    {
+      "sprite": "Pizza",
+      "sound": "Pizza",
+      "delay": 0,
+      "text": "You love our pizza so much \nthat we ran out of dough! \nWe have to close early \ntonight. I'm very sorry!",
+      "shake": false
+    },
+    {
+      "sprite": "AllieAngry",
+      "sound": "Allie",
+      "delay": 0,
+      "text": "NNNOOOOOOOOOOOOOOOOOOO!",
+      "shake": true
+    }
+  ]
+}

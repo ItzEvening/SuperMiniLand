@@ -1,0 +1,18 @@
+{
+  "dialogue": [
+    {
+      "sprite": "Phone",
+      "sound": "Default",
+      "delay": 5,
+      "text": "Calling...",
+      "shake": false
+    },
+    {
+      "sprite": "Unknown",
+      "sound": "Unknown",
+      "delay": 3.09,
+      "text": "\n",
+      "shake": false
+    }
+  ]
+}

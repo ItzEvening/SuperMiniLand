@@ -1,0 +1,88 @@
+{
+  "dialogue": [
+    {
+      "sprite": "Phone",
+      "sound": "Default",
+      "delay": 3,
+      "text": "Calling...",
+      "shake": false
+    },
+    {
+      "sprite": "Support",
+      "sound": "Support",
+      "delay": 0,
+      "text": "This is Alice from PolyMotors \nCustomer Service. How may I help \nyou?",
+      "shake": false
+    },
+    {
+      "sprite": "AllieCautious",
+      "sound": "Allie",
+      "delay": 0,
+      "text": "I want to talk to the CEO!",
+      "shake": false
+    },
+    {
+      "sprite": "Support",
+      "sound": "Support",
+      "delay": 0,
+      "text": "...",
+      "shake": false
+    },
+    {
+      "sprite": "Support",
+      "sound": "Support",
+      "delay": 0,
+      "text": "what?",
+      "shake": false
+    },
+    {
+      "sprite": "AllieAngry",
+      "sound": "Allie",
+      "delay": 0,
+      "text": "You heard me! Put him on. \nI've got something to say to him.",
+      "shake": false
+    },
+    {
+      "sprite": "Support",
+      "sound": "Support",
+      "delay": 0.4,
+      "text": "Well, um",
+      "shake": false
+    },
+    {
+      "sprite": "Support",
+      "sound": "Support",
+      "delay": 0.05,
+      "text": "Ma'am, we cannot redirect you \nto the CEO. The customer support \nline is for customers who \nare experiencing issues with our \nproducts. If you'd like to \ntalk to the CEO, ple",
+      "shake": false
+    },
+    {
+      "sprite": "Poly",
+      "sound": "Poly",
+      "delay": 0.05,
+      "text": "WHAT DO YOU WA",
+      "shake": true
+    },
+    {
+      "sprite": "AllieDangerous",
+      "sound": "Poly",
+      "delay": 0,
+      "text": "I WANT YOU DEAD!!!!!!!",
+      "shake": true
+    },
+    {
+      "sprite": "AllieDefault",
+      "sound": "Allie",
+      "delay": 0.3,
+      "text": "Wait, that was a bit too far.",
+      "shake": false
+    },
+    {
+      "sprite": "AllieDefault",
+      "sound": "Allie",
+      "delay": 0.6,
+      "text": "I'm sorry.",
+      "shake": false
+    }
+  ]
+}

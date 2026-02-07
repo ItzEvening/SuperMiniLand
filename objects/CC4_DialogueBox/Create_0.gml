@@ -7,20 +7,37 @@ target_progress = 0;
 json = undefined;
 color = make_color_rgb(203, 88, 255);
 
-spawn_pizza = false;
+pizzas_requested = 0;
 pizzas_ordered = 0;
 
 progressable = false;
 sound = sfx_CC4_d_Default;
 spr = spr_CC4_d_Phone;
 
-order_pizza = function() {
-	if (pizzas_ordered == 5) {
-		load(11);
-	} else {
-		spawn_pizza = true;
-		pizzas_ordered++;
-		load(1);
+prank = false;
+emergency = false;
+
+order_pizza = function(_amt) {
+	
+	// ran out
+	if (pizzas_ordered > 4) {
+		if (Allie.raging) {
+			load(31);
+		} else {
+			load(21);
+		}
+	} 
+	
+	// has supply
+	else {
+		pizzas_requested = _amt;
+		pizzas_ordered += _amt;
+		
+		if (Allie.raging) {
+			load(11);
+		} else {
+			load(1);
+		}
 	}
 }
 
@@ -32,16 +49,27 @@ end_dialogue = function() {
 	display = false;
 	json = undefined;
 	index = 0;
-	Allie.hascontrol = true;
 	Allie.patient = false;
 	global.lo.send(TOGGLE_GUI, true);
 	audio_play_sound(sfx_CC4_hangup, 10, false);
 	CC4_CallConsole.sprite_index = spr_CC4_console;
+	show_debug_message("Ending dialogue");
 	
-	if (spawn_pizza) {
-		instance_create_layer(17984, 17440, layer, Pizza);
+	PerpendicularPizza.queue = pizzas_requested;
+	pizzas_requested = 0;
+	
+	if (prank) {
+		MusicPlayer.play_music();
+		Allie.angry();
 	}
-	spawn_pizza = false;
+	prank = false;
+	
+	if (emergency) {
+		instance_create_layer(17760, 17696, layer, PolyCop_CC4);
+	} else {
+		Allie.hascontrol = true;
+	}
+	emergency = false;
 }
 
 load = function(_num) {
@@ -54,7 +82,7 @@ load = function(_num) {
 }
 
 update = function() {
-	target_progress = string_length(current_dialogue().text) - 1;	
+	target_progress = string_length(current_dialogue().text);	
 	
 	// define progressable
 	if (current_dialogue().delay > 0) {
@@ -71,6 +99,7 @@ update = function() {
 }
 
 next = function() {
+	show_debug_message("Next dialogue");
 	text = "";
 	text_progress = 0;
 	
@@ -81,6 +110,11 @@ next = function() {
 	else {
 		index++;
 		update();
+		
+		if (current_dialogue().shake) {
+			global.lo.send(TOGGLE_SHAKE, true);
+			time_source_start(shake_timer);
+		}
 	}
 }
 
@@ -96,3 +130,9 @@ update_text = function() {
 		time_source_start(timer);
 	}
 }
+
+expire_shake = function() {
+	global.lo.send(TOGGLE_SHAKE, false);
+}
+
+shake_timer = time_source_create(time_source_global, 1, time_source_units_seconds, expire_shake);

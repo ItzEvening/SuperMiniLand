@@ -1,0 +1,67 @@
+{
+  "dialogue": [
+    {
+      "sprite": "Phone",
+      "sound": "Default",
+      "delay": 3,
+      "text": "Calling...",
+      "shake": false
+    },
+    {
+      "sprite": "ArtyDefault",
+      "sound": "Arty",
+      "delay": 0,
+      "text": "Hey! What's up?",
+      "shake": false
+    },
+    {
+      "sprite": "AllieAngry",
+      "sound": "Allie",
+      "delay": 0,
+      "text": "Arc! You don't go around \ncalling random strangers, \ndo you??",
+      "shake": false
+    },
+    {
+      "sprite": "ArtyShock",
+      "sound": "Arty",
+      "delay": 0.6,
+      "text": "Um",
+      "shake": false
+    },
+    {
+      "sprite": "ArtyDefault",
+      "sound": "Arty",
+      "delay": 0,
+      "text": "No.",
+      "shake": false
+    },
+    {
+      "sprite": "ArtyWorried",
+      "sound": "Arty",
+      "delay": 0,
+      "text": "Are you ok? You sound... upset.",
+      "shake": false
+    },
+    {
+      "sprite": "AllieCautious",
+      "sound": "Allie",
+      "delay": 0,
+      "text": "Don't worry about me! I'm fine.",
+      "shake": false
+    },
+    {
+      "sprite": "ArtyWorried",
+      "sound": "Arty",
+      "delay": 1,
+      "text": "\n",
+      "shake": false
+    },
+    {
+      "sprite": "ArtyClosed",
+      "sound": "Arty",
+      "delay": 0,
+      "text": "Okay, Allie...",
+      "shake": false
+    }
+  ]
+}

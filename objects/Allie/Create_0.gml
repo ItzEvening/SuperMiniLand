@@ -12,6 +12,10 @@ idle = Allie_Idle
 idle_impatient = Allie_Idle_Full
 fall = Allie_Jump_Fall
 run = Allie_Run
+drill = Allie_Drill;
+stomp = Allie_Stomp;
+
+raging = false;
 
 time_source_reconfigure(idle_timer, 7, time_source_units_seconds, idle_trigger);
 time_source_start(idle_timer);
@@ -35,16 +39,24 @@ character_specific_animations = function(_midair) {
 	if (_midair and done_gimmick) {
 		if (perfect_hit) {
 			anim_speed = 1;
-			anim = Allie_Drill;
+			anim = drill;
 			anim_frame = -1;
 			
 		}
 		else {
 			anim_speed = 1;
-			anim = Allie_Stomp;
+			anim = stomp;
 			anim_frame = -1;
 		}
 	}
+}
+
+angry = function() {
+	idle = Allie_Raging_Idle;
+	fall = Allie_Raging_Jump_Fall;
+	run = Allie_Raging_Run;
+	stomp = Allie_Raging_Stomp;
+	raging = true;
 }
 
 bounce = function(_enemy, _strength = 6.5) {

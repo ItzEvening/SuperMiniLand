@@ -10,22 +10,22 @@
     {
       "sprite": "Pizza",
       "sound": "Pizza",
+      "delay": 0.05,
+      "text": "Welcome to Perpendicular Pizza! \nWhat would you lik",
+      "shake": false
+    },
+    {
+      "sprite": "AllieAngry",
+      "sound": "Allie",
       "delay": 0,
-      "text": "Allie! Girlie!",
+      "text": "TEN BARBECUE CHICKEN PIZZAS!!!",
       "shake": false
     },
     {
       "sprite": "Pizza",
       "sound": "Pizza",
       "delay": 0,
-      "text": "You love our pizza so much \nthat we ran out of dough! \nWe have to close early \ntonight. I'm very sorry!",
-      "shake": false
-    },
-    {
-      "sprite": "AllieDefault",
-      "sound": "Allie",
-      "delay": 0,
-      "text": "Aw",
+      "text": "Yes ma'am!!!!",
       "shake": false
     }
   ]

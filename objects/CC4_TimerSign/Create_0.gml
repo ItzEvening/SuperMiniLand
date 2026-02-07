@@ -7,8 +7,6 @@ enemy_spawner = instance_create_layer(x - 4 * 32, y + 3 * 32, enemy_layer, PolyC
 	die_x: 18688
 });
 
-show_debug_message(enemy_spawner);
-
 reset = function() {
 	time = duration;
 	update_sprite();
@@ -18,7 +16,6 @@ reset = function() {
 
 update_sprite = function() {
 	var _sprite_name = "Number_Sign_" + string(time);
-	show_debug_message(_sprite_name);
 	var _spr = asset_get_index(_sprite_name);
 	sprite_index = _spr;
 }

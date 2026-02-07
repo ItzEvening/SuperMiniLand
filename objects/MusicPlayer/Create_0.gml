@@ -1,4 +1,5 @@
 music = undefined;
+song = undefined;
 
 decide_music = function() {
 	
@@ -48,14 +49,14 @@ for (var i = 0; i < array_length(_music_list); i++)
 	}
 }
 
-var _song = asset_get_index(_track_name);
+song = asset_get_index(_track_name);
 
 // M-mix
 var _track_name_m = _track_name + "M";
 var _song_m = asset_get_index(_track_name_m);
 
 if (_song_m != -1 and variable_global_exists("music") and global.music.current == 0) {
-	_song = _song_m;
+	song = _song_m;
 }
 
 // V-mix
@@ -63,12 +64,12 @@ var _track_name_e = _track_name + "E";
 var _song_e = asset_get_index(_track_name_e);
 
 if (_song_e != -1 and variable_global_exists("music") and global.music.current == 2) {
-	_song = _song_e;
+	song = _song_e;
 }
 
-if (_song != -1 and global.music.current >= 0)
+if (song != -1 and global.music.current >= 0)
 {
-	music = audio_play_sound(_song, 10, true);
+	music = audio_play_sound(song, 10, true);
 }
 #endregion
 
@@ -91,15 +92,18 @@ function underwater_effect(_was_underwater)
 
 function stop_music()
 {
-	// show_debug_message("bad girl");
 	if (!is_undefined(music))
 	{
 		audio_stop_sound(music);
 	}
 }
 
-function play_music(_sound, _offset = 0)
+function play_music(_sound = -1, _offset = 0)
 {
+	if (_sound == -1) {
+		_sound = song;
+	}
+	
 	if (global.music.current >= 0) {
 		music = audio_play_sound(_sound, 10, true, 1, _offset);
 	}
