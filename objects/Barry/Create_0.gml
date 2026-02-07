@@ -1,11 +1,12 @@
 event_inherited();
 
 jump = function() {
+	_ygood = abs(Player.y - y) < 32 * 6;
 	_inrange = distance_to_object(Player) < detect_distance;
 	
 	//The Supernatual ...for Final Chase
 	
-	if (place_meeting(x,y+1,ground_tiles) and !dead and _inrange) {
+	if (place_meeting(x,y+1,ground_tiles) and !dead and _inrange and _ygood) {
 		vsp = jump_height;
 		sprite_index = spr_fly;
 		jumped = true;

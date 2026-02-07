@@ -599,6 +599,7 @@
     {"id":{"name":"sfx_CC4_BlockDrill_11","path":"sounds/sfx_CC4_BlockDrill_11/sfx_CC4_BlockDrill_11.yy",},},
     {"id":{"name":"sfx_CC4_BlockDrill_12","path":"sounds/sfx_CC4_BlockDrill_12/sfx_CC4_BlockDrill_12.yy",},},
     {"id":{"name":"sfx_CC4_d_Allie","path":"sounds/sfx_CC4_d_Allie/sfx_CC4_d_Allie.yy",},},
+    {"id":{"name":"sfx_CC4_d_AllieYell","path":"sounds/sfx_CC4_d_AllieYell/sfx_CC4_d_AllieYell.yy",},},
     {"id":{"name":"sfx_CC4_d_Arty","path":"sounds/sfx_CC4_d_Arty/sfx_CC4_d_Arty.yy",},},
     {"id":{"name":"sfx_CC4_d_Default","path":"sounds/sfx_CC4_d_Default/sfx_CC4_d_Default.yy",},},
     {"id":{"name":"sfx_CC4_d_Pizza","path":"sounds/sfx_CC4_d_Pizza/sfx_CC4_d_Pizza.yy",},},

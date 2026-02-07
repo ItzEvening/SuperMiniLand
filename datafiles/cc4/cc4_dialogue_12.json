@@ -65,7 +65,7 @@
     },
     {
       "sprite": "AllieDangerous",
-      "sound": "Poly",
+      "sound": "AllieYell",
       "delay": 0,
       "text": "I WANT YOU DEAD!!!!!!!",
       "shake": true

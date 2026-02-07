@@ -523,6 +523,7 @@
     {"name":"sfx_CC4_BlockDrill_11","order":11,"path":"sounds/sfx_CC4_BlockDrill_11/sfx_CC4_BlockDrill_11.yy",},
     {"name":"sfx_CC4_BlockDrill_12","order":12,"path":"sounds/sfx_CC4_BlockDrill_12/sfx_CC4_BlockDrill_12.yy",},
     {"name":"sfx_CC4_d_Allie","order":1,"path":"sounds/sfx_CC4_d_Allie/sfx_CC4_d_Allie.yy",},
+    {"name":"sfx_CC4_d_AllieYell","order":8,"path":"sounds/sfx_CC4_d_AllieYell/sfx_CC4_d_AllieYell.yy",},
     {"name":"sfx_CC4_d_Arty","order":2,"path":"sounds/sfx_CC4_d_Arty/sfx_CC4_d_Arty.yy",},
     {"name":"sfx_CC4_d_Pizza","order":4,"path":"sounds/sfx_CC4_d_Pizza/sfx_CC4_d_Pizza.yy",},
     {"name":"sfx_CC4_d_Poly","order":6,"path":"sounds/sfx_CC4_d_Poly/sfx_CC4_d_Poly.yy",},

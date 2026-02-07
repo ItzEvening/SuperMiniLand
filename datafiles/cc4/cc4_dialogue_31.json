@@ -23,7 +23,7 @@
     },
     {
       "sprite": "AllieAngry",
-      "sound": "Allie",
+      "sound": "AllieYell",
       "delay": 0,
       "text": "NNNOOOOOOOOOOOOOOOOOOO!",
       "shake": true
