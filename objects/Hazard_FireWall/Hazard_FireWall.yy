@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Fire_Wall",
-    "path":"sprites/Fire_Wall/Fire_Wall.yy",
+    "name":"Fire_Wall_2",
+    "path":"sprites/Fire_Wall_2/Fire_Wall_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
