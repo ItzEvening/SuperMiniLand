@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sfx_Piano_08_Gs4",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.718753,
+  "name":"sfx_Piano_08_Gs4",
+  "parent":{
+    "name":"Piano",
+    "path":"folders/Sounds/Sound Effects/Piano.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_Piano_08_Gs4.ogg",
+  "type":1,
+  "volume":1.0,
+}

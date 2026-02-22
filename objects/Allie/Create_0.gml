@@ -82,7 +82,9 @@ bounce = function(_enemy, _strength = 6.5) {
 	else if (!_is_bouncy or bouncy_cooldown == 0) {
 		vsp = -1 * _strength * sign(grv);	
 		global.lo.send(ALLIE_KILL, ALLIE_GOOD);
+		
 		audio_play_sound(HeadStomped, 10, false);
+		
 		perfect_hit = true;
 		
 		if (_is_bouncy) {

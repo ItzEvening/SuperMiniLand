@@ -40,7 +40,7 @@ if (_underwater and !was_underwater) or (!_underwater and was_underwater)
 // Jump Stuffs
 if (!_midair) and (_hit_jump)
 {
-	if (BeNoisy()) {
+	if (BeNoisy() and !silent) {
 		audio_play_sound(sfx_Jump,10,0);
 	}
 	

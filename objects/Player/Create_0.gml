@@ -243,6 +243,8 @@ keys = [vk_space, vk_left, vk_right, ord("W"), ord("A"), ord("S"), ord("D")];
 anim = noone;
 anim_speed = 1;
 anim_frame = -1;
+
+silent = false;
 #endregion
 
 time_source_start(idle_timer);

@@ -1,4 +1,6 @@
 pressable = true;
+idle_sprite = spr_BouncerButton_Idle;
+press_sprite = spr_BouncerButton_Press;
 
 reset = function() {
 	pressable = true;
