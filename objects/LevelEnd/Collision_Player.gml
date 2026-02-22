@@ -26,7 +26,7 @@ with (Player)
 				WriteSaveFile();
 			break;
 			
-			case SalmonPalace_Hard_Old:
+			case SalmonPalace_Hard_1:
 				SetSave(SV_SALMON_HARD_BEAT, true);
 				WriteSaveFile();
 			break;
@@ -43,7 +43,13 @@ with (Player)
 				WriteSaveFile();
 			break;
 			
-			case Old_CanvasChallenge_5_2:
+			case CanvasChallenge_4:
+				var _cc = GetSave(SV_CANVAS_CHALLENGE);
+				_cc[| 3] = true;
+				WriteSaveFile();
+			break;
+			
+			case CanvasChallenge_5:
 				var _cc = GetSave(SV_CANVAS_CHALLENGE);
 				_cc[| 4] = true;
 				WriteSaveFile();
