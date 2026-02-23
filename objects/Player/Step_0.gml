@@ -47,8 +47,7 @@ if (!_midair) and (_hit_jump)
 	released_jump = false;
 	jump_time++;
 	
-	if (!_underwater) vsp = jump_init;
-	else vsp = jump_strength_water;
+	vsp = jump_init;
 	
 	vsp *= sign(grv)
 }
