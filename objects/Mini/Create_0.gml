@@ -1,5 +1,9 @@
 event_inherited();
 
+jump_acceleration = -0.26;
+jump_init = -1.4;
+jump_time_max = 15;
+
 character_specific_animations = function(_midair)
 {
 	// If dashing

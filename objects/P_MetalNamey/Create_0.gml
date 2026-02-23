@@ -7,6 +7,10 @@ walkstr = 0.01
 air_resistance = 0.1;
 frict = 0.3;
 
+jump_acceleration = -0.26;
+jump_init = -1.4;
+jump_time_max = 15;
+
 // sprites
 idle = M_Mini_Idle
 idle_impatient = M_Mini_Idle_Full

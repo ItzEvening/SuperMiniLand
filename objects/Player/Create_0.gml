@@ -228,10 +228,10 @@ gimmick_timer = time_source_create(time_source_global, 0.1, time_source_units_se
 
 // jumping variables
 released_jump = true;
-jump_acceleration = -0.26;
-jump_init = -1.4;
+jump_acceleration = -0.34;
+jump_init = -2;
 jump_time = 0;
-jump_time_max = 15;
+jump_time_max = 11;
 
 // for idle animation
 idle_impatient = Mini_Idle_Full;
