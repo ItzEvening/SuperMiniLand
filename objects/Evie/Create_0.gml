@@ -6,7 +6,6 @@ walksp = 3.5;
 walkstr = 0.07;
 air_resistance = 0.3;
 frict = 0.07;
-sustain_length = 0.3;
 
 // sprites
 idle = Eve_Idle

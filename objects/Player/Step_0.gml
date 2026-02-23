@@ -45,21 +45,32 @@ if (!_midair) and (_hit_jump)
 	}
 	
 	released_jump = false;
-	time_source_start(jump_timer);
+	jump_time++;
 	
-	if (!_underwater) vsp = jump_strength;
+	if (!_underwater) vsp = jump_init;
 	else vsp = jump_strength_water;
 	
 	vsp *= sign(grv)
 }
 else if (!released_jump) {
-	vsp -= jump_resist * sign(grv);
+	
+	// change vsp
+	vsp = calc_jump_velocity();
+	vsp *= sign(grv)
+	
+	// increase jump time
+	jump_time++;
+	
+	if (jump_time == jump_time_max) {
+		released_jump = true;
+		jump_time = 0;
+	}
 }
 
 // Release the jump
 if (_hit_jump_release and !released_jump) {
-	time_source_stop(jump_timer);
 	released_jump = true;
+	jump_time = 0;
 }
 
 

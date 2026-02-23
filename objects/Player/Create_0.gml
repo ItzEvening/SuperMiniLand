@@ -143,11 +143,6 @@ enable_gimmick = function() {
 	can_gimmick = true;
 }
 
-// jump function
-finish_jump = function() {
-	released_jump = true;
-}
-
 // to activate impatient idle animation
 idle_trigger = function() {
 	if (!patient) {
@@ -166,6 +161,10 @@ crush = function() {
 			handle_death();
 		}
 	}
+}
+
+calc_jump_velocity = function() {
+	return jump_init + jump_acceleration * jump_time;
 }
 #endregion
 
@@ -228,10 +227,11 @@ can_gimmick = false;
 gimmick_timer = time_source_create(time_source_global, 0.1, time_source_units_seconds, enable_gimmick);
 
 // jumping variables
-sustain_length = 0.25;
-jump_resist = 0.3;
 released_jump = true;
-jump_timer = time_source_create(time_source_global, sustain_length, time_source_units_seconds, finish_jump);
+jump_acceleration = -0.26;
+jump_init = -1.4;
+jump_time = 0;
+jump_time_max = 15;
 
 // for idle animation
 idle_impatient = Mini_Idle_Full;
