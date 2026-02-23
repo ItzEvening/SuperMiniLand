@@ -620,7 +620,7 @@
     {"name":"song_MysteryHouse","order":30,"path":"sounds/song_MysteryHouse/song_MysteryHouse.yy",},
     {"name":"song_Player_Select","order":7,"path":"sounds/song_Player_Select/song_Player_Select.yy",},
     {"name":"song_Player_SelectE","order":11,"path":"sounds/song_Player_SelectE/song_Player_SelectE.yy",},
-    {"name":"song_PlayerSelectM","order":4,"path":"sounds/song_PlayerSelectM/song_PlayerSelectM.yy",},
+    {"name":"song_Player_SelectM","order":4,"path":"sounds/song_Player_SelectM/song_Player_SelectM.yy",},
     {"name":"song_SalmonPalaceHard","order":29,"path":"sounds/song_SalmonPalaceHard/song_SalmonPalaceHard.yy",},
     {"name":"song_SalmonPalaceHardE","order":15,"path":"sounds/song_SalmonPalaceHardE/song_SalmonPalaceHardE.yy",},
     {"name":"song_SalmonPalaceHardM","order":28,"path":"sounds/song_SalmonPalaceHardM/song_SalmonPalaceHardM.yy",},

@@ -700,7 +700,7 @@
     {"id":{"name":"song_MysteryHouse","path":"sounds/song_MysteryHouse/song_MysteryHouse.yy",},},
     {"id":{"name":"song_Player_Select","path":"sounds/song_Player_Select/song_Player_Select.yy",},},
     {"id":{"name":"song_Player_SelectE","path":"sounds/song_Player_SelectE/song_Player_SelectE.yy",},},
-    {"id":{"name":"song_PlayerSelectM","path":"sounds/song_PlayerSelectM/song_PlayerSelectM.yy",},},
+    {"id":{"name":"song_Player_SelectM","path":"sounds/song_Player_SelectM/song_Player_SelectM.yy",},},
     {"id":{"name":"song_SalmonPalaceHard","path":"sounds/song_SalmonPalaceHard/song_SalmonPalaceHard.yy",},},
     {"id":{"name":"song_SalmonPalaceHardE","path":"sounds/song_SalmonPalaceHardE/song_SalmonPalaceHardE.yy",},},
     {"id":{"name":"song_SalmonPalaceHardM","path":"sounds/song_SalmonPalaceHardM/song_SalmonPalaceHardM.yy",},},
