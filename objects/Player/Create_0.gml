@@ -163,8 +163,13 @@ crush = function() {
 	}
 }
 
-calc_jump_velocity = function() {
-	return jump_init + jump_acceleration * jump_time;
+calc_jump_velocity = function(_underwater) {
+	var _a = jump_acceleration;
+	if (_underwater) {
+		_a = jump_acceleration_water;
+	}
+	
+	return jump_init + _a * jump_time;
 }
 #endregion
 
@@ -229,6 +234,7 @@ gimmick_timer = time_source_create(time_source_global, 0.1, time_source_units_se
 // jumping variables
 released_jump = true;
 jump_acceleration = -0.34;
+jump_acceleration_water = -0.54;
 jump_init = -2;
 jump_time = 0;
 jump_time_max = 11;

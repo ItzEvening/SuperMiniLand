@@ -54,7 +54,7 @@ if (!_midair) and (_hit_jump)
 else if (!released_jump) {
 	
 	// change vsp
-	vsp = calc_jump_velocity();
+	vsp = calc_jump_velocity(_underwater);
 	vsp *= sign(grv)
 	
 	// increase jump time

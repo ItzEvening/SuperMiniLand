@@ -9,13 +9,13 @@ hsp = 0;
 
 grv = 0.2;
 vsp = 0;
-
 jump_strength = -3;
-jump_strength_water = -13;
+jump_strength_water = -6;
 
 frict = 0.3;
 air_resistance = 0.05;
-water_damp_constant = 0.12;
+water_damp_constant = 0.07;
+water_high_damp_threshold = 10;
 
 // for underwater audio effect
 was_underwater = false;
@@ -63,7 +63,12 @@ calculate_speeds = function(_move, _underwater)
 	}
 	if (_underwater)
 	{
-		vsp = vsp - water_damp_constant * vsp;
+		var _d = 1 - water_damp_constant;
+		if (abs(vsp) >= water_high_damp_threshold) {
+			_d *= _d;
+		}
+		
+		vsp *= _d;
 	}
 	
 	
