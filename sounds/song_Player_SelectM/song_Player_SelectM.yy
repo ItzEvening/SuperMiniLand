@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"song_PlayerSelectM",
+  "%Name":"song_Player_SelectM",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,7 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":28.8,
-  "name":"song_PlayerSelectM",
+  "name":"song_Player_SelectM",
   "parent":{
     "name":"16Bit Themes",
     "path":"folders/Sounds/16Bit Themes.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"song_PlayerSelectM.ogg",
+  "soundFile":"song_Player_SelectM.ogg",
   "type":0,
   "volume":1.0,
 }

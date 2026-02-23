@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":49.23077,
+  "duration":122.666664,
   "name":"song_StarlightStationM",
   "parent":{
     "name":"Stage Themes M",
