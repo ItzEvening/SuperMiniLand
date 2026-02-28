@@ -1341,6 +1341,7 @@
     {"name":"Sprite36_1","order":46,"path":"sprites/Sprite36_1/Sprite36_1.yy",},
     {"name":"Sprite36_2","order":57,"path":"sprites/Sprite36_2/Sprite36_2.yy",},
     {"name":"Sprite36","order":9,"path":"sprites/Sprite36/Sprite36.yy",},
+    {"name":"Sprite764","order":101,"path":"sprites/Sprite764/Sprite764.yy",},
     {"name":"Sprite9","order":1,"path":"sprites/Sprite9/Sprite9.yy",},
     {"name":"SPTree","order":17,"path":"sprites/SPTree/SPTree.yy",},
     {"name":"SPWaterfall","order":8,"path":"sprites/SPWaterfall/SPWaterfall.yy",},
