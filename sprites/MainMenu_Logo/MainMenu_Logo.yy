@@ -84,8 +84,8 @@
     "menu",
   ],
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"unused",
+    "path":"texturegroups/unused",
   },
   "type":0,
   "VTile":false,

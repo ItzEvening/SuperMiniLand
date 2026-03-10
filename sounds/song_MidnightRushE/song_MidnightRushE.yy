@@ -7,7 +7,7 @@
   },
   "bitDepth":1,
   "bitRate":128,
-  "compression":3,
+  "compression":1,
   "conversionMode":0,
   "duration":89.52027,
   "name":"song_MidnightRushE",

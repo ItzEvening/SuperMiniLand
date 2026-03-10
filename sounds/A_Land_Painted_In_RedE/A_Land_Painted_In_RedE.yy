@@ -7,7 +7,7 @@
   },
   "bitDepth":1,
   "bitRate":128,
-  "compression":3,
+  "compression":1,
   "conversionMode":0,
   "duration":175.44385,
   "name":"A_Land_Painted_In_RedE",

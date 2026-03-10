@@ -11,6 +11,8 @@ global.lo = new SignalController();
 global.dev_mode = false;
 landing_point = Main_Menu;
 
+texturegroup_unload("unused");
+
 // handle save data
 save_file = "save";
 if (!file_exists("save") or global.dev_mode) {

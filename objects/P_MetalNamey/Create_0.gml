@@ -20,6 +20,8 @@ run = M_Mini_Run
 time_source_reconfigure(idle_timer, 15, time_source_units_seconds, idle_trigger);
 time_source_start(idle_timer);
 
+texturegroup_unload("unused");
+
 booster = M_Mini_Boost
 
 // small
