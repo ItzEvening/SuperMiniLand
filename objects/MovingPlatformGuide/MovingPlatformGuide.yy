@@ -8,8 +8,8 @@
   "name":"MovingPlatformGuide",
   "overriddenProperties":[],
   "parent":{
-    "name":"Level Objects",
-    "path":"folders/Objects/Level Objects.yy",
+    "name":"Moving Platforms",
+    "path":"folders/Objects/Level Objects/Moving Platforms.yy",
   },
   "parentObjectId":null,
   "persistent":false,

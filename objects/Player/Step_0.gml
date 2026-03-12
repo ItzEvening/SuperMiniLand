@@ -28,7 +28,7 @@ var _midair = !meeting_solid(x, y + sign(grv));
 var _move = _hit_right - _hit_left;
 var _underwater = place_meeting(x,y,water_tiles);
 
-calculate_speeds(_move, _underwater);
+calculate_speeds(_move, _underwater); 
 
 // Underwater effect
 if (_underwater and !was_underwater) or (!_underwater and was_underwater)
@@ -47,8 +47,15 @@ if (!_midair) and (_hit_jump)
 	released_jump = false;
 	jump_time++;
 	
-	vsp = jump_init;
+	// calculate jump velocity AS PER REFERENCE FRAME
+	jump_init = jump_init_default;
+	jump_init += calc_ref_frame_velocity("y");
+	jump_init = min(0, jump_init);
 	
+	show_debug_message(jump_init);
+	
+	// set vertical speed
+	vsp = jump_init;
 	vsp *= sign(grv)
 }
 else if (!released_jump) {

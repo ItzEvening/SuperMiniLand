@@ -7,7 +7,7 @@ walkstr = 0.01
 air_resistance = 0.1;
 frict = 0.3;
 
-jump_acceleration = -0.26;
+jump_acceleration = -0.21;
 jump_init = -1.4;
 jump_time_max = 15;
 

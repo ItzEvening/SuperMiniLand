@@ -1,0 +1,20 @@
+{
+  "$GMPath":"",
+  "%Name":"path_SPH_1b",
+  "closed":true,
+  "kind":0,
+  "name":"path_SPH_1b",
+  "parent":{
+    "name":"SalmonPalaceHard",
+    "path":"folders/Paths/SalmonPalaceHard.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":3264.0,"y":6400.0,},
+    {"speed":100.0,"x":3264.0,"y":6720.0,},
+    {"speed":100.0,"x":3552.0,"y":6720.0,},
+    {"speed":100.0,"x":3552.0,"y":6400.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

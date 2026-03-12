@@ -1,3 +1,3 @@
 /// @description Challenge 1
 audio_stop_all();
-SlideTransition(TRANS_MODE.GOTO, CanvasChallenge_4);
+SlideTransition(TRANS_MODE.GOTO, SalmonPalace_Hard_1);
