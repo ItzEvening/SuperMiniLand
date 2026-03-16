@@ -244,7 +244,7 @@ gimmick_timer = time_source_create(time_source_global, 0.1, time_source_units_se
 // jumping variables
 released_jump = true;
 jump_acceleration = -0.34;
-jump_acceleration_water = -0.54;
+jump_acceleration_water = -0.06;
 jump_init_default = -2;
 jump_init = jump_init_default;
 jump_time = 0;

@@ -500,6 +500,7 @@
     {"id":{"name":"Water_Test","path":"rooms/Water_Test/Water_Test.yy",},},
     {"id":{"name":"Water_Test2","path":"rooms/Water_Test2/Water_Test2.yy",},},
     {"id":{"name":"Water_Test3","path":"rooms/Water_Test3/Water_Test3.yy",},},
+    {"id":{"name":"Water_Test4","path":"rooms/Water_Test4/Water_Test4.yy",},},
     {"id":{"name":"WaterDesert__1","path":"rooms/WaterDesert__1/WaterDesert__1.yy",},},
     {"id":{"name":"WaterDesert_1","path":"rooms/WaterDesert_1/WaterDesert_1.yy",},},
     {"id":{"name":"WaterDesert_2","path":"rooms/WaterDesert_2/WaterDesert_2.yy",},},
@@ -1666,6 +1667,7 @@
     {"roomId":{"name":"Sound_Select_Custom","path":"rooms/Sound_Select_Custom/Sound_Select_Custom.yy",},},
     {"roomId":{"name":"Clockwork","path":"rooms/Clockwork/Clockwork.yy",},},
     {"roomId":{"name":"CanvasChallenge_5","path":"rooms/CanvasChallenge_5/CanvasChallenge_5.yy",},},
+    {"roomId":{"name":"Water_Test4","path":"rooms/Water_Test4/Water_Test4.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

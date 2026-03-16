@@ -1,7 +1,7 @@
 event_inherited();
 
 jump_acceleration = -0.21;
-jump_acceleration_water = -0.42;
+jump_acceleration_water = -0.04;
 jump_init = -1.4;
 jump_time_max = 15;
 
