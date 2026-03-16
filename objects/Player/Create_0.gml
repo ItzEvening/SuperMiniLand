@@ -176,11 +176,9 @@ calc_ref_frame_velocity = function(_axis) {
 	var _platform = instance_place(x, y + sign(grv), MovingTile);
 	
 	if (_platform == noone) {
-		show_debug_message("Couldn't find");
 		return 0;
 	}
 	
-	show_debug_message(_platform.find_speed(_axis))
 	return _platform.find_speed(_axis);
 }
 #endregion

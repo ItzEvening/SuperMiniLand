@@ -32,6 +32,7 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"path_to_follow","filters":[],"listItems":[],"multiselect":false,"name":"path_to_follow","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"MPGeneric","path":"paths/MPGeneric/MPGeneric.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"MPGeneric","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"path_sp","filters":[],"listItems":[],"multiselect":false,"name":"path_sp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"p_index","filters":[],"listItems":[],"multiselect":false,"name":"p_index","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

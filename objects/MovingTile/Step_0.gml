@@ -1,6 +1,5 @@
 var _thing = instance_place(x, y - 1, PhysicsBody);
 
-
 xprevious = x;
 yprevious = y;
 
@@ -10,8 +9,9 @@ y = round(guide.y);
 dx = x - xprevious;
 dy = y - yprevious;
 
-if (_thing != noone) {
+if (_thing != noone && !_thing.nudged) {
 	_thing.nudge(dx, dy);
+	_thing.nudged = true;
 }
 
 

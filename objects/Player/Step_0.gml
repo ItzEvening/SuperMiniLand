@@ -52,8 +52,6 @@ if (!_midair) and (_hit_jump)
 	jump_init += calc_ref_frame_velocity("y");
 	jump_init = min(0, jump_init);
 	
-	show_debug_message(jump_init);
-	
 	// set vertical speed
 	vsp = jump_init;
 	vsp *= sign(grv)
