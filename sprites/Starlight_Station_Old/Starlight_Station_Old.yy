@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"Starlight_Station",
+  "%Name":"Starlight_Station_Old",
   "bboxMode":0,
   "bbox_bottom":287,
   "bbox_left":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8d07a273-3df1-4cd3-9548-a65f7cdb8ef1","name":"8d07a273-3df1-4cd3-9548-a65f7cdb8ef1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"5db6cab6-4a4d-4fde-8217-1de77baaf2cc","name":"5db6cab6-4a4d-4fde-8217-1de77baaf2cc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":288,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"56c9eac9-b90f-4e1d-a34e-991c11206cbd","blendMode":0,"displayName":"default","isLocked":false,"name":"56c9eac9-b90f-4e1d-a34e-991c11206cbd","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"241cb711-9466-499a-97db-dedde556166e","blendMode":0,"displayName":"default","isLocked":false,"name":"241cb711-9466-499a-97db-dedde556166e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Starlight_Station",
+  "name":"Starlight_Station_Old",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"Starlight_Station",
+    "%Name":"Starlight_Station_Old",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Starlight_Station",
+    "name":"Starlight_Station_Old",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8d07a273-3df1-4cd3-9548-a65f7cdb8ef1","path":"sprites/Starlight_Station/Starlight_Station.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"05cc1ad5-be4f-46f9-bf16-421d58f25ce9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5db6cab6-4a4d-4fde-8217-1de77baaf2cc","path":"sprites/Starlight_Station_Old/Starlight_Station_Old.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b43ad621-a8f2-49b4-88fe-90c645ada1ec","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -140,7 +140,7 @@
           -281,-2147483648,1,58,-140,-2147483648,1,58,-140,-2147483648,1,58,-131,-2147483648,1,58,-8,-2147483648,
           1,58,-131,-2147483648,3,58,-2147483648,58,-6,-2147483648,1,58,-129,-2147483648,5,58,-2147483648,58,-2147483648,
           58,-6,-2147483648,1,58,-2538,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"Tile_StarlightStation","path":"tilesets/Tile_StarlightStation/Tile_StarlightStation.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"Tile_StarlightStation_Old","path":"tilesets/Tile_StarlightStation_Old/Tile_StarlightStation_Old.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_17CABE18","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_17CABE18","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.7,"scaleY":0.6666667,"spriteId":{"name":"Hub_SpringIsland","path":"sprites/Hub_SpringIsland/Hub_SpringIsland.yy",},"x":640.0,"y":416.0,},
         {"$GMRSpriteGraphic":"","%Name":"graphic_5EF302CE","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_5EF302CE","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.7,"scaleY":0.5555556,"spriteId":{"name":"Hub_SalmonPalace","path":"sprites/Hub_SalmonPalace/Hub_SalmonPalace.yy",},"x":1376.0,"y":352.0,},

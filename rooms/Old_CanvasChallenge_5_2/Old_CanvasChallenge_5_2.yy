@@ -92,7 +92,7 @@
           -468,0,-12,13,-20,0,1,-2147483648,-468,0,-12,13,-20,0,1,-2147483648,-468,0,-12,13,-20,0,1,-2147483648,
           -468,0,-12,13,-20,0,1,-2147483648,-468,0,-12,13,-20,0,1,-2147483648,-468,0,-12,13,-20,0,1,-2147483648,
           -468,0,-12,13,-20,0,1,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"Tile_StarlightStation","path":"tilesets/Tile_StarlightStation/Tile_StarlightStation.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"Tile_StarlightStation_Old","path":"tilesets/Tile_StarlightStation_Old/Tile_StarlightStation_Old.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Color_Tiles_2","depth":700,"effectEnabled":true,"effectType":"_filter_tintfilter","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Color_Tiles_2","properties":[
         {"name":"g_TintCol","type":1,"value":"#FF598AB2",},
       ],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":501,"TileCompressedData":[
@@ -105,7 +105,7 @@
           -455,0,-25,13,-20,0,1,-2147483648,-455,0,-25,13,-20,0,1,-2147483648,-455,0,-25,13,-20,0,1,-2147483648,
           -455,0,-25,13,-20,0,1,-2147483648,-455,0,-25,13,-20,0,1,-2147483648,-455,0,-25,13,-20,0,1,-2147483648,
           -455,0,-25,13,-20,0,1,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"Tile_StarlightStation","path":"tilesets/Tile_StarlightStation/Tile_StarlightStation.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"Tile_StarlightStation_Old","path":"tilesets/Tile_StarlightStation_Old/Tile_StarlightStation_Old.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Color_Tiles_1","depth":800,"effectEnabled":true,"effectType":"_filter_tintfilter","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Color_Tiles_1","properties":[
         {"name":"g_TintCol","type":1,"value":"#FF0065B2",},
       ],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":501,"TileCompressedData":[
@@ -140,7 +140,7 @@
           -100,13,-20,0,1,-2147483648,-40,13,-20,-2147483648,-130,13,-46,-2147483648,-64,13,-10,-2147483648,-40,
           13,-30,-2147483648,-100,13,-20,0,1,-2147483648,-40,13,-20,-2147483648,-130,13,-46,-2147483648,-64,13,
           -10,-2147483648,-40,13,-30,-2147483648,-100,13,-20,0,1,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"Tile_StarlightStation","path":"tilesets/Tile_StarlightStation/Tile_StarlightStation.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"Tile_StarlightStation_Old","path":"tilesets/Tile_StarlightStation_Old/Tile_StarlightStation_Old.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Foreground_Tiles","depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Foreground_Tiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":501,"TileCompressedData":[
           -43,0,-140,-2147483648,-77,13,-241,-2147483648,-43,0,-140,-2147483648,-77,13,-241,-2147483648,-43,0,
           -140,-2147483648,-77,13,-241,-2147483648,-43,0,-140,-2147483648,-77,13,-241,-2147483648,-43,0,-140,-2147483648,
@@ -172,7 +172,7 @@
           -40,13,-30,-2147483648,-120,13,1,-2147483648,-40,13,-20,-2147483648,-130,13,-46,-2147483648,-64,13,-10,
           -2147483648,-40,13,-30,-2147483648,-120,13,1,-2147483648,-40,13,-20,-2147483648,-130,13,-46,-2147483648,
           -64,13,-10,-2147483648,-40,13,-30,-2147483648,-120,13,1,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"Tile_StarlightStation","path":"tilesets/Tile_StarlightStation/Tile_StarlightStation.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"Tile_StarlightStation_Old","path":"tilesets/Tile_StarlightStation_Old/Tile_StarlightStation_Old.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"BG_Color_Tiles_1_1_1","depth":1000,"effectEnabled":true,"effectType":"_filter_tintfilter","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"BG_Color_Tiles_1_1_1","properties":[
         {"name":"g_TintCol","type":1,"value":"#FF7F92FF",},
       ],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":501,"TileCompressedData":[

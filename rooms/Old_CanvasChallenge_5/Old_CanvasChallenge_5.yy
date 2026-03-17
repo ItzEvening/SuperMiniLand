@@ -83,7 +83,7 @@
           -2147483648,-186,13,-20,-2147483648,-90,13,-4,-2147483648,-186,13,-20,-2147483648,-90,13,-4,-2147483648,
           -186,13,-20,-2147483648,-90,13,-4,-2147483648,-186,13,-20,-2147483648,-90,13,-4,-2147483648,-186,13,
           -20,-2147483648,-90,13,-4,-2147483648,-186,13,-20,-2147483648,-90,13,-4,-2147483648,-146,13,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"Tile_StarlightStation","path":"tilesets/Tile_StarlightStation/Tile_StarlightStation.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"Tile_StarlightStation_Old","path":"tilesets/Tile_StarlightStation_Old/Tile_StarlightStation_Old.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Background_Tiles","depth":700,"effectEnabled":true,"effectType":"_filter_tintfilter","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background_Tiles","properties":[
         {"name":"g_TintCol","type":1,"value":"#FF1E1E99",},
       ],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":300,"TileCompressedData":[
@@ -106,7 +106,7 @@
           1,58,-8,-2147483648,1,58,-4,-2147483648,1,58,-5,-2147483648,1,58,-11,-2147483648,1,58,-5,-2147483648,
           1,58,-189,-2147483648,-43,0,-257,-2147483648,-43,0,-257,-2147483648,-43,0,-257,-2147483648,-43,0,-257,
           -2147483648,-43,0,-3257,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"Tile_StarlightStation","path":"tilesets/Tile_StarlightStation/Tile_StarlightStation.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"Tile_StarlightStation_Old","path":"tilesets/Tile_StarlightStation_Old/Tile_StarlightStation_Old.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Backgrounds_1","animationFPS":30.0,"animationSpeedType":0,"colour":4279828751,"depth":2000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Backgrounds_1","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":true,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"Old_CanvasChallenge_5",
