@@ -2,4 +2,6 @@
 // You can write your code in this editor
 event_inherited()
 
-hsp = 15;
+if (x - 600 < Player.x) {
+	hsp = 15;
+}

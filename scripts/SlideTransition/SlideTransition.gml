@@ -1,9 +1,10 @@
 /// @desc SlideTransition(mode, targetroom)
-/// @arg mode sets transition mode between next, restart, and goto
-/// @arg target sets target room for goto mode
-
-with (Transition)
-{
-	mode = argument[0];
-	if (argument_count > 1) target = argument[1];
+/// @arg _mode sets transition mode between next, restart, and goto
+/// @arg _target sets target room for goto mode
+function SlideTransition(_mode, _targetroom) {
+	with (Transition)
+	{
+		mode = _mode;
+		if (argument_count > 1) target = _targetroom;
+	}	
 }

@@ -91,6 +91,11 @@ character_specific_animations = function(_midair) {
 // death function
 handle_death = function() {
 	
+	// player won't die if level is completed
+	if (level_completed) {
+		return;
+	}
+	
 	if (chances == 0)
 	{
 		game_over();
@@ -188,6 +193,7 @@ calc_ref_frame_velocity = function(_axis) {
 patient = false;
 
 hascontrol = true; 
+level_completed = false;
 
 // original position for respawn
 original_x = x;

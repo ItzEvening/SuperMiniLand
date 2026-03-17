@@ -1,1 +1,1 @@
-target = Old_CanvasChallenge_5_2;
+target = CanvasChallenge_5;

@@ -101,7 +101,7 @@
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Hazards","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"","%Name":"inst_2672852D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2672852D","objectId":{"name":"Hazard_FireWall","path":"objects/Hazard_FireWall/Hazard_FireWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-499.0,"y":400.0,},
+        {"$GMRInstance":"","%Name":"inst_2672852D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2672852D","objectId":{"name":"Hazard_FireWall","path":"objects/Hazard_FireWall/Hazard_FireWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-699.0,"y":400.0,},
       ],"layers":[],"name":"Hazards","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Water","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Water","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":25,"SerialiseWidth":1063,"TileCompressedData":[
           -43,0,-1020,-2147483648,-43,0,-1020,-2147483648,-43,0,-1020,-2147483648,-43,0,-1020,-2147483648,-43,
@@ -113,8 +113,8 @@
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_9EF91BC_2_1_25","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_9EF91BC_2_1_25","objectId":{"name":"MusicPlayer","path":"objects/MusicPlayer/MusicPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":32.0,},
         {"$GMRInstance":"","%Name":"inst_244CB213_22","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_244CB213_22","objectId":{"name":"Camera","path":"objects/Camera/Camera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":32.0,},
-        {"$GMRInstance":"","%Name":"inst_69A7771C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_69A7771C","objectId":{"name":"P_MetalNamey","path":"objects/P_MetalNamey/P_MetalNamey.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":448.0,"y":416.0,},
-        {"$GMRInstance":"","%Name":"inst_1C400D38","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1C400D38","objectId":{"name":"LevelEnd","path":"objects/LevelEnd/LevelEnd.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":63.0,"scaleY":1.0,"x":32032.0,"y":784.0,},
+        {"$GMRInstance":"","%Name":"inst_69A7771C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_69A7771C","objectId":{"name":"P_MetalNamey","path":"objects/P_MetalNamey/P_MetalNamey.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":416.0,},
+        {"$GMRInstance":"","%Name":"inst_1C400D38","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1C400D38","objectId":{"name":"LevelEnd","path":"objects/LevelEnd/LevelEnd.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":63.0,"scaleY":1.0,"x":32000.0,"y":800.0,},
         {"$GMRInstance":"","%Name":"inst_2AB3E769","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2AB3E769","objectId":{"name":"Fire_Stopper","path":"objects/Fire_Stopper/Fire_Stopper.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":30976.0,"y":0.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Gems","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
@@ -291,15 +291,16 @@
           -360,-2147483648,-23,0,-53,13,-19,0,-74,-2147483648,-99,13,-3,-2147483648,-76,13,-209,-2147483648,1,
           36,-40,-2147483648,1,36,-27,13,-42,36,-36,13,-148,-2147483648,-97,36,-115,-2147483648,-23,0,-53,13,-19,
           0,-74,-2147483648,-99,13,-3,-2147483648,-76,13,-163,-2147483648,-87,36,-106,13,-147,-2147483648,1,36,
-          -97,13,-115,-2147483648,-23,0,-53,13,-19,0,-74,-2147483648,-99,13,-3,-2147483648,-76,13,-163,-2147483648,
-          -193,13,-84,-2147483648,1,36,-33,-2147483648,1,36,-27,-2147483648,1,36,-98,13,-197,-2147483648,-13,0,
-          -74,-2147483648,-99,13,-3,-2147483648,-76,13,-163,-2147483648,-193,13,-30,-2147483648,-27,0,-89,36,-99,
-          13,-197,-2147483648,-13,0,-74,-2147483648,-99,13,-3,-2147483648,-76,13,-163,-2147483648,-193,13,-30,
-          -2147483648,-27,0,-188,13,-284,-2147483648,-99,13,-3,-2147483648,-76,13,-163,-2147483648,-193,13,-30,
-          -2147483648,-27,0,-188,13,-284,-2147483648,-99,13,-3,-2147483648,-76,13,-163,-2147483648,-193,13,-30,
-          -2147483648,-27,0,-188,13,-104,-2147483648,-125,36,-24,0,-31,-2147483648,-99,13,-3,-2147483648,-76,13,
-          -163,-2147483648,-193,13,-30,-2147483648,-27,0,-188,13,-104,-2147483648,-125,13,-3,0,-10,60,-11,0,-31,
-          -2147483648,
+          -97,13,-115,-2147483648,-23,0,-53,13,-19,0,-23,-2147483648,1,0,-50,-2147483648,-99,13,-3,-2147483648,
+          -76,13,-163,-2147483648,-193,13,-84,-2147483648,1,36,-33,-2147483648,1,36,-27,-2147483648,1,36,-98,13,
+          -197,-2147483648,-13,0,-24,-2147483648,1,0,-49,-2147483648,-99,13,-3,-2147483648,-76,13,-163,-2147483648,
+          -193,13,-30,-2147483648,-27,0,-89,36,-99,13,-197,-2147483648,-13,0,-25,-2147483648,1,0,-48,-2147483648,
+          -99,13,-3,-2147483648,-76,13,-163,-2147483648,-193,13,-30,-2147483648,-27,0,-188,13,-236,-2147483648,
+          1,0,-47,-2147483648,-99,13,-3,-2147483648,-76,13,-163,-2147483648,-193,13,-30,-2147483648,-27,0,-188,
+          13,-229,-2147483648,1,0,-8,-2147483648,3,0,-2147483648,0,-43,-2147483648,-99,13,-3,-2147483648,-76,13,
+          -163,-2147483648,-193,13,-30,-2147483648,-27,0,-188,13,-104,-2147483648,-125,36,-24,0,-31,-2147483648,
+          -99,13,-3,-2147483648,-76,13,-163,-2147483648,-193,13,-30,-2147483648,-27,0,-188,13,-104,-2147483648,
+          -125,13,-24,0,-31,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"Tile_StarlightStation_Old","path":"tilesets/Tile_StarlightStation_Old/Tile_StarlightStation_Old.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tiles_3","depth":1100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_3","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":25,"SerialiseWidth":1063,"TileCompressedData":[
           -5522,-2147483648,-6,43,-589,-2147483648,-5,43,-21,-2147483648,-4,43,-462,-2147483648,-3,43,-22,-2147483648,

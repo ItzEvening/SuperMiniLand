@@ -3,6 +3,7 @@ with (Player)
 	if (hascontrol)
 	{
 		hascontrol = false;
+		level_completed = true;
 		
 		// manage save for levels without gems
 		switch (room) {
