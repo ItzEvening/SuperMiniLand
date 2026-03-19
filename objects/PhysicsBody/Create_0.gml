@@ -11,12 +11,13 @@ grv = 0.2;
 vsp = 0;
 jump_strength = -3;
 jump_strength_water = -6;
-buoyancy = 5;
+buoyancy = 4;
 
 frict = 0.3;
 air_resistance = 0.05;
+water_damp_constant_weak = 0.95;
 water_damp_constant = 0.8;
-water_damp_threshold = 4;
+water_damp_threshold = 8;
 
 // for underwater audio effect
 was_underwater = false;
@@ -68,17 +69,22 @@ calculate_speeds = function(_move, _underwater)
 		}
 		vsp = vsp + _grv;
 	}
-	if (_underwater && abs(vsp) >= water_damp_threshold)
+	if (_underwater)
 	{
-		vsp *= water_damp_constant;
+		var _d = water_damp_constant;
+		
+		if (abs(vsp) < water_damp_threshold) {
+			_d = water_damp_constant_weak;
+		}
+		vsp *= _d;
 	}
 	
 	
-	// prevents player from being launched upwards when emerging from water
-	else if (was_underwater and vsp < jump_strength) 
-	{
-		vsp = jump_strength;
-	}
+	//// prevents player from being launched upwards when emerging from water
+	//else if (was_underwater and vsp < jump_strength) 
+	//{
+	//	vsp = jump_strength;
+	//}
 	
 
 	// Sets damp constant for horizontal velocity

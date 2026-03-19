@@ -168,13 +168,8 @@ crush = function() {
 	}
 }
 
-calc_jump_velocity = function(_underwater) {
-	var _a = jump_acceleration;
-	if (_underwater) {
-		_a = jump_acceleration_water;
-	}
-	
-	return jump_init + _a * jump_time;
+calc_jump_velocity = function(_underwater) {	
+	return jump_init + jump_acceleration * jump_time;
 }
 
 calc_ref_frame_velocity = function(_axis) {
@@ -250,7 +245,6 @@ gimmick_timer = time_source_create(time_source_global, 0.1, time_source_units_se
 // jumping variables
 released_jump = true;
 jump_acceleration = -0.34;
-jump_acceleration_water = -0.06;
 jump_init_default = -2;
 jump_init = jump_init_default;
 jump_time = 0;

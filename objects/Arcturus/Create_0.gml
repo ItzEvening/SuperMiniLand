@@ -8,7 +8,7 @@ air_resistance = 0.3;
 frict = 0.07;
 jump_init = -0.3;
 jump_acceleration = -0.8;
-jump_acceleration_water = -0.8;
+water_damp_constant_weak = 0.965;
 jump_time_max = 8;
 
 // sprites
