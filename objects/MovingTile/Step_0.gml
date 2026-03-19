@@ -9,7 +9,7 @@ y = round(guide.y);
 dx = x - xprevious;
 dy = y - yprevious;
 
-if (_thing != noone && !_thing.nudged) {
+if (_thing != noone && !_thing.nudged  && _thing.obey_collisions) {
 	_thing.nudge(dx, dy);
 	_thing.nudged = true;
 }
@@ -19,7 +19,7 @@ if (_thing != noone && !_thing.nudged) {
 
 var _thing2 = instance_place(x, y, PhysicsBody);
 
-if (_thing2 != noone) {
+if (_thing2 != noone && _thing2.obey_collisions) {
 	
 	var _nudge_dx = 0;
 	var _nudge_dy = 0;
