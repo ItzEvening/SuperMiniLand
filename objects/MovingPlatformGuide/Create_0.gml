@@ -6,4 +6,13 @@ if (p_index != 0) {
 	custom_path = true;
 }
 
-path_start(path_to_follow, path_sp, path_action_continue, false);
+
+function _PressurePlate() {
+	
+	path_start(path_to_follow, path_sp, path_action_continue, false);
+}
+
+if (start_on_spawn_or_something) {
+	
+	_PressurePlate()
+}

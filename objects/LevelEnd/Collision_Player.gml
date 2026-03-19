@@ -32,7 +32,7 @@ with (Player)
 				WriteSaveFile();
 			break;
 			
-			case CanvasChallenge_2:
+			case Old_CanvasChallenge_2:
 				var _cc = GetSave(SV_CANVAS_CHALLENGE);
 				_cc[| 1] = true;
 				WriteSaveFile();
