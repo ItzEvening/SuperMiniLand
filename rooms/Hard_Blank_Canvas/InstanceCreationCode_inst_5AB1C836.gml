@@ -1,1 +1,2 @@
-target = Old_CanvasChallenge_2;
+global.character = Mini;
+target = CanvasChallenge_2;

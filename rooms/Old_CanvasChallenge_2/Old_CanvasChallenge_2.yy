@@ -915,8 +915,8 @@
   ],
   "name":"Old_CanvasChallenge_2",
   "parent":{
-    "name":"Blank Canvas",
-    "path":"folders/Rooms/Blank Canvas.yy",
+    "name":"Rooms",
+    "path":"folders/Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

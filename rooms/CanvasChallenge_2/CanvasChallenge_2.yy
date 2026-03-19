@@ -948,8 +948,8 @@
   ],
   "name":"CanvasChallenge_2",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Blank Canvas",
+    "path":"folders/Rooms/Blank Canvas.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

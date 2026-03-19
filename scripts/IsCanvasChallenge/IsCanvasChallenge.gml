@@ -4,7 +4,7 @@
 function IsCanvasChallenge(){
 	
 	return room == CanvasChallenge_1 
-	or room == Old_CanvasChallenge_2
+	or room == CanvasChallenge_2
 	or room == CanvasChallenge_3
 	or room == CanvasChallenge_5;
 
