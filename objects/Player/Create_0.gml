@@ -1,5 +1,65 @@
 event_inherited();
 
+#region controlfunctions
+
+hit_left = function() {
+	return keyboard_check(vk_left) or 
+	keyboard_check(ord("A")) or 
+	Gamepad.get_joystick_horizontal() < 0;
+}
+
+hit_right = function() {
+	return keyboard_check(vk_right) or 
+	keyboard_check(ord("D")) or 
+	Gamepad.get_joystick_horizontal() > 0;
+}
+
+hit_jump_release = function() {
+	return keyboard_check_released(vk_space) or 
+	keyboard_check_released(ord("W")) or 
+	Gamepad.get_jump_released();
+}
+
+hit_jump = function() {
+	return keyboard_check_pressed(vk_space) or 
+	keyboard_check_pressed(ord("W")) or 
+	Gamepad.get_jump();
+}
+
+hit_jump_hold = function() {
+	return keyboard_check(vk_space) or 
+	keyboard_check(ord("W")) or 
+	Gamepad.get_jump_hold();
+}
+
+any_released = function() {
+	var _any_released = false;
+	
+	for (var i = 0; i < array_length(keys); i++) {
+		_any_released = _any_released or keyboard_check_released(keys[i]);
+	}
+	
+	_any_released = _any_released or Gamepad.get_joystick_release();
+	_any_released = _any_released or Gamepad.get_jump_released();
+   
+	return _any_released;
+}
+
+any_pressed = function() {
+	var _any_pressed = false;
+	
+	for (var i = 0; i < array_length(keys); i++) {
+		_any_pressed = _any_pressed or keyboard_check(keys[i]);
+	}	
+	
+	_any_pressed = _any_pressed or Gamepad.get_jump();
+	_any_pressed = _any_pressed or Gamepad.get_joystick_horizontal() != 0;
+	
+	return _any_pressed;
+}
+
+#endregion
+
 #region functions
 
 // iframe functions

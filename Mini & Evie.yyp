@@ -212,6 +212,7 @@
     {"id":{"name":"FishKnower","path":"objects/FishKnower/FishKnower.yy",},},
     {"id":{"name":"FishSpeaker","path":"objects/FishSpeaker/FishSpeaker.yy",},},
     {"id":{"name":"FontDrawer","path":"objects/FontDrawer/FontDrawer.yy",},},
+    {"id":{"name":"Gamepad","path":"objects/Gamepad/Gamepad.yy",},},
     {"id":{"name":"Garry","path":"objects/Garry/Garry.yy",},},
     {"id":{"name":"Glide_No","path":"objects/Glide_No/Glide_No.yy",},},
     {"id":{"name":"Glide_Yes","path":"objects/Glide_Yes/Glide_Yes.yy",},},

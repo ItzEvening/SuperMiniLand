@@ -1,6 +1,6 @@
 event_inherited();
 
-var _gimmick = keyboard_check_pressed(vk_space) or keyboard_check_pressed(ord("W"));
+var _gimmick = hit_jump();
 var _underwater = place_meeting(x,y,water_tiles);
 
 if (can_gimmick and _gimmick){

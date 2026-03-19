@@ -171,6 +171,7 @@
     {"name":"Fire_Stopper","order":18,"path":"objects/Fire_Stopper/Fire_Stopper.yy",},
     {"name":"FishKnower","order":1,"path":"objects/FishKnower/FishKnower.yy",},
     {"name":"FishSpeaker","order":2,"path":"objects/FishSpeaker/FishSpeaker.yy",},
+    {"name":"Gamepad","order":29,"path":"objects/Gamepad/Gamepad.yy",},
     {"name":"Garry","order":3,"path":"objects/Garry/Garry.yy",},
     {"name":"Glide_No","order":20,"path":"objects/Glide_No/Glide_No.yy",},
     {"name":"Glide_Yes","order":19,"path":"objects/Glide_Yes/Glide_Yes.yy",},

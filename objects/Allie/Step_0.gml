@@ -5,7 +5,7 @@ if (forcefield != noone) {
 	forcefield.y = y;
 }
 
-var _gimmick = keyboard_check_pressed(vk_space) or keyboard_check_pressed(ord("W"));
+var _gimmick = hit_jump();
 
 
 if (can_gimmick and _gimmick) {

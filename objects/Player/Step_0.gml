@@ -8,18 +8,15 @@ var _any_pressed = 0;
 
 if (hascontrol)
 {
-   _hit_left = keyboard_check(vk_left) or keyboard_check(ord("A"));
-   _hit_right = keyboard_check(vk_right) or keyboard_check(ord("D")); 
-   _hit_jump_release = keyboard_check_released(vk_space) or keyboard_check_released(ord("W")); 
-   _hit_jump = keyboard_check_pressed(vk_space) or keyboard_check_pressed(ord("W")); 
-   
-   for (var i = 0; i < array_length(keys); i++) {
-	   _any_released = _any_released or keyboard_check_released(keys[i]);
-	   _any_pressed = _any_pressed or keyboard_check(keys[i]);
-   }
-
-   
+   _hit_left = hit_left();
+   _hit_right = hit_right(); 
+   _hit_jump_release = hit_jump_release(); 
+   _hit_jump = hit_jump(); 
+   _any_pressed = any_pressed();
+   _any_released = any_released();
    //Do you want me to do Gamepad stuffs?
+   
+   //Now it's done!
 }
 
 
