@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":90.666664,
+  "duration":96.0,
   "name":"song_SalmonPalaceHard",
   "parent":{
     "name":"Stage Themes",
