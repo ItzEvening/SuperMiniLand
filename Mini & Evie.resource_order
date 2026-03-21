@@ -1124,6 +1124,7 @@
     {"name":"M_Mini_Dash","order":24,"path":"sprites/M_Mini_Dash/M_Mini_Dash.yy",},
     {"name":"M_Mini_Idle_Full","order":41,"path":"sprites/M_Mini_Idle_Full/M_Mini_Idle_Full.yy",},
     {"name":"M_Mini_Idle","order":23,"path":"sprites/M_Mini_Idle/M_Mini_Idle.yy",},
+    {"name":"M_Mini_Jump_Fall_Slow","order":53,"path":"sprites/M_Mini_Jump_Fall_Slow/M_Mini_Jump_Fall_Slow.yy",},
     {"name":"M_Mini_Jump_Fall","order":25,"path":"sprites/M_Mini_Jump_Fall/M_Mini_Jump_Fall.yy",},
     {"name":"M_Mini_Run","order":26,"path":"sprites/M_Mini_Run/M_Mini_Run.yy",},
     {"name":"M_Press","order":20,"path":"sprites/M_Press/M_Press.yy",},

@@ -1224,6 +1224,7 @@
     {"id":{"name":"M_Mini_Dash","path":"sprites/M_Mini_Dash/M_Mini_Dash.yy",},},
     {"id":{"name":"M_Mini_Idle_Full","path":"sprites/M_Mini_Idle_Full/M_Mini_Idle_Full.yy",},},
     {"id":{"name":"M_Mini_Idle","path":"sprites/M_Mini_Idle/M_Mini_Idle.yy",},},
+    {"id":{"name":"M_Mini_Jump_Fall_Slow","path":"sprites/M_Mini_Jump_Fall_Slow/M_Mini_Jump_Fall_Slow.yy",},},
     {"id":{"name":"M_Mini_Jump_Fall","path":"sprites/M_Mini_Jump_Fall/M_Mini_Jump_Fall.yy",},},
     {"id":{"name":"M_Mini_Run","path":"sprites/M_Mini_Run/M_Mini_Run.yy",},},
     {"id":{"name":"M_Press","path":"sprites/M_Press/M_Press.yy",},},

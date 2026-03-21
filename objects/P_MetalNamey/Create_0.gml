@@ -4,7 +4,7 @@ event_inherited();
 //// physics properties
 walksp = 9.5;
 walkstr = 0.01
-air_resistance = 0.1;
+air_resistance = 0.05;
 frict = 0.3;
 
 jump_acceleration = -0.21;
@@ -50,5 +50,8 @@ character_specific_animations = function(_midair)
 		anim_speed = 1;
 		anim = M_Mini_Boost;
 		anim_frame = -1;
+	}
+	else if (_midair and abs(hsp) < 7) {
+		anim = M_Mini_Jump_Fall_Slow;
 	}
 }

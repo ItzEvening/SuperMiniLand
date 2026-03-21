@@ -4,6 +4,7 @@ obey_collisions = true;
 
 // physics properties
 walksp = 5;
+flysp = 5;
 walkstr = 0.05;
 hsp = 0;
 
@@ -50,6 +51,14 @@ if (layer_exists("Rails")) {
 
 nudged = false;
 
+max_out_speed = function(_touching_ground) {
+	if (!_touching_ground) {
+		return hsp;
+	}
+	
+	return sign(hsp) * (abs(hsp) - walksp * frict);
+}
+
 calculate_speeds = function(_move, _underwater) 
 {
 	// Initializes collision variables
@@ -79,14 +88,6 @@ calculate_speeds = function(_move, _underwater)
 		vsp *= _d;
 	}
 	
-	
-	//// prevents player from being launched upwards when emerging from water
-	//else if (was_underwater and vsp < jump_strength) 
-	//{
-	//	vsp = jump_strength;
-	//}
-	
-
 	// Sets damp constant for horizontal velocity
 	var damp = frict;
 	if (!_touching_ground and !_touching_rail) 
@@ -103,14 +104,15 @@ calculate_speeds = function(_move, _underwater)
 
 
 		// prevents exceeding max or min speeds
-		if (hsp > walksp) {
-		    hsp -= walksp * frict;
+		var _maxsp = walksp;
+		if (!_touching_ground) {
+			_maxsp = flysp;
 		}
-		else if (hsp < walksp * -1) {
-		    hsp += walksp * frict;
+		if (abs(hsp) > _maxsp) {
+		    hsp = max_out_speed(_touching_ground);
 		}
 		
-		
+		// accelerate to maximum speed allowed
 		else {
 			var new_hsp = hsp;
 			var delta_hsp = walksp * damp * _move;
