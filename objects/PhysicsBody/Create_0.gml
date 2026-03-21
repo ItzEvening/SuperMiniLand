@@ -51,12 +51,39 @@ if (layer_exists("Rails")) {
 
 nudged = false;
 
-max_out_speed = function(_touching_ground) {
-	if (!_touching_ground) {
-		return hsp;
+max_out_speed = function(_move, _damp) {	
+	var _input_speed = hsp + _move * _damp;
+	var _friction_speed = sign(hsp) * (abs(hsp) - walksp * frict);
+	
+	
+	// If player's input slows down speed faster
+	if (abs(_input_speed) < abs(_friction_speed)) {
+		return _input_speed;
 	}
 	
-	return sign(hsp) * (abs(hsp) - walksp * frict);
+	// Friction wins
+	return _friction_speed;
+}
+
+player_move = function(_move, damp, _touching_ground) {
+	var new_hsp = hsp;
+	var delta_hsp = walksp * damp * _move;
+			
+	new_hsp += delta_hsp;
+			
+	// If horizontal speed exceeds absolute maximum
+	if (abs(new_hsp) >= walksp) {
+		hsp = walksp * _move;
+	}
+	// If player input attempts to accelerate to
+	// maximum fly speed
+	else if (abs(hsp) <= flysp and abs(new_hsp) >= flysp and !_touching_ground) {
+		hsp = flysp * _move;
+	}
+	// Player input does not exceed maximum speed
+	else {
+		hsp = new_hsp
+	}
 }
 
 calculate_speeds = function(_move, _underwater) 
@@ -101,30 +128,14 @@ calculate_speeds = function(_move, _underwater)
 	
 	// If player input not on rail
 	if (_move != 0 and !_touching_rail) {
-
-
 		// prevents exceeding max or min speeds
-		var _maxsp = walksp;
-		if (!_touching_ground) {
-			_maxsp = flysp;
-		}
-		if (abs(hsp) > _maxsp) {
-		    hsp = max_out_speed(_touching_ground);
+		if (abs(hsp) > walksp) {
+		    hsp = max_out_speed(_move, damp);
 		}
 		
 		// accelerate to maximum speed allowed
 		else {
-			var new_hsp = hsp;
-			var delta_hsp = walksp * damp * _move;
-			
-			new_hsp += delta_hsp;
-			
-			if (abs(new_hsp) <= walksp) {
-				hsp = new_hsp
-			}
-			else {
-				hsp = walksp * _move;
-			}
+			player_move(_move, damp, _touching_ground);
 		}
 	}
 
