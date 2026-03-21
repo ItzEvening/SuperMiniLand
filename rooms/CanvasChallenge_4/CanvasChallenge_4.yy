@@ -1,8 +1,8 @@
 {
   "$GMRoom":"",
   "%Name":"CanvasChallenge_4",
-  "creationCodeFile":"rooms/Level/RoomCreationCode.gml",
-  "inheritCode":true,
+  "creationCodeFile":"rooms/CanvasChallenge_4/RoomCreationCode.gml",
+  "inheritCode":false,
   "inheritCreationOrder":true,
   "inheritLayers":false,
   "instanceCreationOrder":[

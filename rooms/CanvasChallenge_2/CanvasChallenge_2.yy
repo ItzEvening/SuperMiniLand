@@ -8,7 +8,6 @@
   "instanceCreationOrder":[
     {"name":"inst_9EF91BC_2_1_26","path":"rooms/CanvasChallenge_2/CanvasChallenge_2.yy",},
     {"name":"inst_244CB213_23","path":"rooms/CanvasChallenge_2/CanvasChallenge_2.yy",},
-    {"name":"inst_76F251A4","path":"rooms/CanvasChallenge_2/CanvasChallenge_2.yy",},
     {"name":"inst_1FC2C833","path":"rooms/CanvasChallenge_2/CanvasChallenge_2.yy",},
     {"name":"inst_4B181AD7","path":"rooms/CanvasChallenge_2/CanvasChallenge_2.yy",},
     {"name":"inst_54671AB4","path":"rooms/CanvasChallenge_2/CanvasChallenge_2.yy",},
@@ -385,6 +384,7 @@
     {"name":"inst_67924A00","path":"rooms/CanvasChallenge_2/CanvasChallenge_2.yy",},
     {"name":"inst_4F9A2C0","path":"rooms/CanvasChallenge_2/CanvasChallenge_2.yy",},
     {"name":"inst_329295E2","path":"rooms/CanvasChallenge_2/CanvasChallenge_2.yy",},
+    {"name":"inst_13B47A76","path":"rooms/CanvasChallenge_2/CanvasChallenge_2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -410,9 +410,9 @@
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_9EF91BC_2_1_26","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_9EF91BC_2_1_26","objectId":{"name":"MusicPlayer","path":"objects/MusicPlayer/MusicPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":32.0,},
         {"$GMRInstance":"","%Name":"inst_244CB213_23","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_244CB213_23","objectId":{"name":"Camera","path":"objects/Camera/Camera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":32.0,},
-        {"$GMRInstance":"","%Name":"inst_76F251A4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_76F251A4","objectId":{"name":"PlayerSpawner","path":"objects/PlayerSpawner/PlayerSpawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":544.0,},
         {"$GMRInstance":"","%Name":"inst_569867B1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_569867B1","objectId":{"name":"LevelEnd","path":"objects/LevelEnd/LevelEnd.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":26944.0,"y":416.0,},
         {"$GMRInstance":"","%Name":"inst_67924A00","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_67924A00","objectId":{"name":"EndPlaceholder","path":"objects/EndPlaceholder/EndPlaceholder.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":26944.0,"y":384.0,},
+        {"$GMRInstance":"","%Name":"inst_13B47A76","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_13B47A76","objectId":{"name":"Mini","path":"objects/Mini/Mini.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":544.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Gems","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_4682E82A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4682E82A","objectId":{"name":"CoinD","path":"objects/CoinD/CoinD.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2560.0,"y":480.0,},
