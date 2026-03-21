@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":15.52941,
+  "duration":33.88236,
   "name":"BalloonParkM",
   "parent":{
     "name":"Stage Themes M",
