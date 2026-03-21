@@ -59,7 +59,7 @@ angry = function() {
 	raging = true;
 }
 
-bounce = function(_enemy, _strength = 6.5) {
+bounce = function(_enemy, _test_speed = true, _strength = 6.5) {
 	var _center_x = (bbox_right + bbox_left) / 2;
 	var _center_x_enemy = (_enemy.bbox_left + _enemy.bbox_right) / 2;
 	var _dist_x = abs(_center_x - _center_x_enemy);
@@ -69,13 +69,13 @@ bounce = function(_enemy, _strength = 6.5) {
 	var _dist_good = _dist_x <= 20;
 	var _speed_good = vsp <= 20.6 * sign(grv) or _is_bouncy;
 	
-	if (!_dist_good and !_speed_good) {
+	if (!_dist_good and !_speed_good and _test_speed) {
 		global.lo.send(ALLIE_KILL, ALLIE_BAD);
 	}
 	else if (!_dist_good) {
 		global.lo.send(ALLIE_KILL, ALLIE_OFF_BALANCE);
 	}
-	else if (!_speed_good) {
+	else if (!_speed_good and _test_speed) {
 		global.lo.send(ALLIE_KILL, ALLIE_TOO_ROUGH);
 	}
 	
