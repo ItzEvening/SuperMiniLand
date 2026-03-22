@@ -1,5 +1,8 @@
 all_collected = false;
 arrow_spr = spr_gsign_right;
+r_spr_index = 0;
+r_spr_time = 0;
+r_spr_max_time = 41667;
 
 if (global.difficulty != 0) {
 	instance_destroy();
