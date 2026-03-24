@@ -4,7 +4,6 @@ max_hp = 3
 display = true;
 
 render_x = view_wport[0] + 1;
-show_debug_message(render_x);
 render_y = 0;
 render_scale = 1.5;
 
