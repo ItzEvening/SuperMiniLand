@@ -1400,6 +1400,8 @@
     {"id":{"name":"spr_Barrel_Pour","path":"sprites/spr_Barrel_Pour/spr_Barrel_Pour.yy",},},
     {"id":{"name":"spr_Barrel","path":"sprites/spr_Barrel/spr_Barrel.yy",},},
     {"id":{"name":"spr_BarrelWater_1","path":"sprites/spr_BarrelWater_1/spr_BarrelWater_1.yy",},},
+    {"id":{"name":"spr_BarrelWater_Die","path":"sprites/spr_BarrelWater_Die/spr_BarrelWater_Die.yy",},},
+    {"id":{"name":"spr_BarrelWater_Spawn","path":"sprites/spr_BarrelWater_Spawn/spr_BarrelWater_Spawn.yy",},},
     {"id":{"name":"spr_BarrelWater","path":"sprites/spr_BarrelWater/spr_BarrelWater.yy",},},
     {"id":{"name":"spr_bear_toggle","path":"sprites/spr_bear_toggle/spr_bear_toggle.yy",},},
     {"id":{"name":"spr_BouncerButton_Idle","path":"sprites/spr_BouncerButton_Idle/spr_BouncerButton_Idle.yy",},},

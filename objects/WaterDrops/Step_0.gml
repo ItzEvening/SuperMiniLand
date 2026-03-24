@@ -1,8 +1,8 @@
 event_inherited();
 
 if (y > room_height + 32 || abs(original_y - y) > max_height) {
-	instance_destroy();
+	sprite_index = spr_BarrelWater_Die;
 }
-else {
+else if (sprite_index == spr_BarrelWater) {
 	vsp = 9 * sign(grv);
 }

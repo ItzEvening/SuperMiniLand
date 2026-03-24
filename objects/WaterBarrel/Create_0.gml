@@ -1,4 +1,5 @@
 image_speed = 0;
+poured = false;
 
 begin_cycle = function() {
 	time_source_start(pour_timer);
