@@ -156,7 +156,7 @@ handle_death = function() {
 		return;
 	}
 	
-	if (chances == 0)
+	if (chances == 0 and global.difficulty != 0)
 	{
 		game_over();
 	}
@@ -165,7 +165,7 @@ handle_death = function() {
 		time_source_start(icon_blink_timer);
 	}
 	
-	if (chances > 0) {
+	if (chances > 0 and global.difficulty != 0) {
 		chances--;
 		
 	}

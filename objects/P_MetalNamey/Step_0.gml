@@ -10,18 +10,22 @@ if (!_midair and boosted) {
 }
 
 // red gem gui
-if (_gimmick and can_gimmick) {
+if (_gimmick and can_gimmick and global.difficulty != 0) {
 	coinsFont.red_alpha = 1;
 }
 
-if (can_gimmick and _gimmick and boost > 0) {
+if (can_gimmick and _gimmick and (boost > 0 or global.difficulty == 0)) {
 	// hsp = 17.5 * image_xscale;
 	audio_play_sound(sfx_Dash,10,0);
 	hsp = 15 * image_xscale;
 	vsp = -3.5;
 	walksp = 15;
-	boost--;
-	coins--;
+	
+	if (global.difficulty != 0) {
+		boost--;
+		coins--;
+	}
+
 	
 	
 	done_gimmick = true;

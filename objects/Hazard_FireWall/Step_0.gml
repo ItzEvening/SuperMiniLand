@@ -3,5 +3,5 @@
 event_inherited()
 
 if (x - 600 < Player.x) {
-	hsp = 15;
+	hsp = firespeed;
 }

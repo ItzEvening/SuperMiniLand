@@ -4,10 +4,15 @@ if (_player != noone) {
 	
 	 if (!_player.invincible and !consumed) {
 		audio_play_sound(Damage, 10, 0);
-		audio_stop_all();
-		_player.game_over();
+		
+		if (global.difficulty == 0) {
+			_player.handle_death();
+		}
+		else {
+			_player.game_over();
+			consumed = true;
+			MusicPlayer.stop_music();
+		}
 	}
-	
-	consumed = true;
 }
 

@@ -3,7 +3,7 @@ if (instance_exists(coinsFont)) {
 }
 
 
-if (livesText == "") {
+if (livesText == "" and global.difficulty != 0) {
 	livesFont.text = NumberFormatter(chances);
 }
 else {

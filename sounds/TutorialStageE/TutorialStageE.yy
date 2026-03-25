@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":101.76,
+  "duration":0.0,
   "name":"TutorialStageE",
   "parent":{
     "name":"Stage Themes E",
