@@ -81,8 +81,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"SecretSanctuaryGroup",
+    "path":"texturegroups/SecretSanctuaryGroup",
   },
   "type":0,
   "VTile":false,
