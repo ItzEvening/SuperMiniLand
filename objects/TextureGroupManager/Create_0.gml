@@ -2,12 +2,20 @@ room_dependencies = ds_map_create();
 room_dependencies[? Main_Menu] = ["ResetGroup"];
 room_dependencies[? Main_Menu_2] = ["ResetGroup"];
 room_dependencies[? Main_Menu_3] = ["ResetGroup"];
-room_dependencies[? Demo_Menu] = ["LvlSelect"];
+room_dependencies[? Demo_Menu] = ["LvlSelect", "MusicGroup"];
+room_dependencies[? Sound_Select] = ["MusicGroup"];
+room_dependencies[? Sound_Select_Custom] = ["MusicGroup"];
 
 room_dependencies[? SpringIsland_1] = ["SpringIslandGroup"];
-room_dependencies[? CanvasChallenge_1] = ["SpringIslandGroup"];
+room_dependencies[? MarbleFortress_1] = ["MarbleFortressGroup"];
 room_dependencies[? SecretSanctuary] = ["SecretSanctuaryGroup"];
 room_dependencies[? StarlightStation] = ["StarlightStationGroup"];
+
+room_dependencies[? Blank_Canvas] = ["BlankCanvasGroup"];
+room_dependencies[? Hard_Blank_Canvas] = ["BlankCanvasGroup"];
+room_dependencies[? CanvasChallenge_1] = ["SpringIslandGroup"];
+room_dependencies[? CanvasChallenge_3] = ["MarbleFortressGroup"];
+room_dependencies[? CanvasChallenge_5] = ["CC5Group"];
 
 textures = [];
 
@@ -23,6 +31,7 @@ discard_unneeded_textures = function(new_textures) {
 		
 		else {
 			show_debug_message($"Unloading texture group {texture}");
+			texture_flush(texture);
 			texturegroup_unload(texture);
 			array_delete(textures, i, 1);
 		}
@@ -36,6 +45,7 @@ discard_all_textures = function() {
 		var texture = textures[i];
 		
 		show_debug_message($"Unloading texture group {texture}");
+		texture_flush(texture);
 		texturegroup_unload(texture);
 		array_delete(textures, i, 1);
 	}	
