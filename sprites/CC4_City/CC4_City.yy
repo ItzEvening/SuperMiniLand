@@ -81,8 +81,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"CC4Group",
+    "path":"texturegroups/CC4Group",
   },
   "type":0,
   "VTile":false,

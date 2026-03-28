@@ -97,8 +97,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"unused",
+    "path":"texturegroups/unused",
   },
   "type":0,
   "VTile":false,

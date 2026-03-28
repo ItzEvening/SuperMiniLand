@@ -81,8 +81,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"Splash2Group",
+    "path":"texturegroups/Splash2Group",
   },
   "type":0,
   "VTile":false,

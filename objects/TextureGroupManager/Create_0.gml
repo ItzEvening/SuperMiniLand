@@ -1,4 +1,8 @@
 room_dependencies = ds_map_create();
+
+#region Init dependencies
+room_dependencies[? Splash_Screen_2] = ["Splash2Group"];
+
 room_dependencies[? Main_Menu] = ["ResetGroup"];
 room_dependencies[? Main_Menu_2] = ["ResetGroup"];
 room_dependencies[? Main_Menu_3] = ["ResetGroup"];
@@ -6,16 +10,30 @@ room_dependencies[? Demo_Menu] = ["LvlSelect", "MusicGroup"];
 room_dependencies[? Sound_Select] = ["MusicGroup"];
 room_dependencies[? Sound_Select_Custom] = ["MusicGroup"];
 
+room_dependencies[? Tutorial_M] = ["TutorialGroup"];
+room_dependencies[? Tutorial_E] = ["TutorialGroup"];
+room_dependencies[? Tutorial_AR] = ["TutorialGroup"];
+room_dependencies[? Tutorial_AL] = ["TutorialGroup"];
+
 room_dependencies[? SpringIsland_1] = ["SpringIslandGroup"];
+room_dependencies[? MidnightRush_1] = ["MidnightRushGroup"];
 room_dependencies[? MarbleFortress_1] = ["MarbleFortressGroup"];
 room_dependencies[? SecretSanctuary] = ["SecretSanctuaryGroup"];
 room_dependencies[? StarlightStation] = ["StarlightStationGroup"];
+room_dependencies[? SparklingHill_A] = ["SparklingHillGroup"];
+room_dependencies[? SparklingHill_B] = ["SparklingHillGroup"];
+
+room_dependencies[? Airborne_Informant] = ["CutsceneGroup"];
 
 room_dependencies[? Blank_Canvas] = ["BlankCanvasGroup"];
 room_dependencies[? Hard_Blank_Canvas] = ["BlankCanvasGroup"];
 room_dependencies[? CanvasChallenge_1] = ["SpringIslandGroup"];
 room_dependencies[? CanvasChallenge_3] = ["MarbleFortressGroup"];
+room_dependencies[? CanvasChallenge_4] = ["CC4Group"];
 room_dependencies[? CanvasChallenge_5] = ["CC5Group"];
+room_dependencies[? ChallengeFailed_Room] = ["BlankCanvasGroup", "ChallengeResults"];
+room_dependencies[? ChallengeSuccess_Room] = ["BlankCanvasGroup", "ChallengeResults"];
+#endregion
 
 textures = [];
 
