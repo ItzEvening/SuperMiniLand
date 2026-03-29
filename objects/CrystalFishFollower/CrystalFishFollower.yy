@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"Hazard_Spikes_Death",
+  "%Name":"CrystalFishFollower",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Hazard_Spikes_Death",
+  "name":"CrystalFishFollower",
   "overriddenProperties":[],
   "parent":{
-    "name":"Level Hazards",
-    "path":"folders/Objects/Level Hazards.yy",
+    "name":"Walkers",
+    "path":"folders/Objects/Enemies/Walkers.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"FishFollower",
+    "path":"objects/FishFollower/FishFollower.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spikes_Death",
-    "path":"sprites/Spikes_Death/Spikes_Death.yy",
+    "name":"CFifIdle",
+    "path":"sprites/CFifIdle/CFifIdle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
