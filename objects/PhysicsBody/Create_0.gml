@@ -86,7 +86,7 @@ player_move = function(_move, damp, _touching_ground) {
 	}
 }
 
-calculate_speeds = function(_move, _underwater) 
+calculate_speeds = function(_move, _v_move, _underwater) 
 {
 	// Initializes collision variables
 	var _g = sign(grv)
@@ -113,6 +113,10 @@ calculate_speeds = function(_move, _underwater)
 			_d = water_damp_constant_weak;
 		}
 		vsp *= _d;
+		
+		if (_v_move < 0) {
+			vsp += 0.5;
+		}
 	}
 	
 	// Sets damp constant for horizontal velocity

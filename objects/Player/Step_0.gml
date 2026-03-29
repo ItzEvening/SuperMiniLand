@@ -1,6 +1,7 @@
 // Key Stuffs
 var _hit_left = 0;
 var _hit_right = 0;
+var _hit_down = 0;
 var _hit_jump_release = 0;
 var _hit_jump = 0;
 var _any_released = 0;
@@ -10,6 +11,7 @@ if (hascontrol)
 {
    _hit_left = hit_left();
    _hit_right = hit_right(); 
+   _hit_down = hit_down();
    _hit_jump_release = hit_jump_release(); 
    _hit_jump = hit_jump(); 
    _any_pressed = any_pressed();
@@ -23,9 +25,10 @@ if (hascontrol)
 // Physics Stuffs
 var _midair = !meeting_solid(x, y + sign(grv));
 var _move = _hit_right - _hit_left;
+var _v_move = 0 - _hit_down;
 var _underwater = place_meeting(x,y,water_tiles);
 
-calculate_speeds(_move, _underwater); 
+calculate_speeds(_move, _v_move, _underwater); 
 
 // Underwater effect
 if (_underwater and !was_underwater) or (!_underwater and was_underwater)

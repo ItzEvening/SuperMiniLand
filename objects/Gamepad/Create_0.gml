@@ -1,5 +1,6 @@
 gamepads = [];
 horizontal_prev = 0;
+vertical_prev = 0;
 
 active_gamepad = function() {
 	return array_length(gamepads) > 0;
@@ -13,6 +14,16 @@ get_joystick_horizontal = function() {
 	
 	horizontal_prev = gamepad_axis_value(gamepads[0], gp_axislh);
 	return horizontal_prev;
+}
+
+get_joystick_vertical = function() {
+	if (!active_gamepad()) {
+		vertical_prev = 0;
+		return 0;
+	}
+	
+	vertical_prev = gamepad_axis_value(gamepads[0], gp_axislv);
+	return vertical_prev;
 }
 
 get_jump = function() {
@@ -44,6 +55,8 @@ get_joystick_release = function() {
 		return false;
 	}		
 	
-	var _prev = horizontal_prev;
-	return get_joystick_horizontal() == 0 && _prev != 0;
+	var _h_prev = horizontal_prev;
+	var _v_prev = vertical_prev;
+	return get_joystick_horizontal() == 0 && _h_prev != 0 &&
+		   get_joystick_vertical() == 0 && _v_prev != 0;
 }

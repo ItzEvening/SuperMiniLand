@@ -14,6 +14,12 @@ hit_right = function() {
 	Gamepad.get_joystick_horizontal() > 0;
 }
 
+hit_down = function() {
+	return keyboard_check(vk_down) or 
+	keyboard_check(ord("S")) or 
+	Gamepad.get_joystick_vertical() < 0;	
+}
+
 hit_jump_release = function() {
 	return keyboard_check_released(vk_space) or 
 	keyboard_check_released(ord("W")) or 
