@@ -1,9 +1,9 @@
 event_inherited();
 
 var _left_collide = place_meeting(x - 4.5, y, ground_tiles);
-var _left_on_ground = place_meeting(x - 4.5, y + 1, ground_tiles);
+var _left_on_ground = place_meeting(x - 4.5, y + 1, ground_tiles) or !dont_fall;
 var _right_collide = place_meeting(x + 4.5, y, ground_tiles);
-var _right_on_ground = place_meeting(x + 4.5, y + 1, ground_tiles);
+var _right_on_ground = place_meeting(x + 4.5, y + 1, ground_tiles) or !dont_fall;
 
 if (!dead) {
 	
@@ -13,7 +13,7 @@ if (!dead) {
 	else if (walk_direction == 1 and !_right_collide and _right_on_ground) {
 		hsp = walk_sp;
 	}
-	else {
+	else if (dont_fall) {
 		walk_direction *= -1;
 		image_xscale *= -1;
 	}

@@ -89,7 +89,7 @@ change_visibility = function() {
 // life functions
 change_life = function(_delta) {
 	
-	if (hp + _delta < 0) {
+	if (hp + _delta < 0 or (global.difficulty == 2 and _delta < 0)) {
 		handle_death();
 	}
 	

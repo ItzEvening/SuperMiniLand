@@ -678,6 +678,7 @@
     {"name":"inst_4F239F7A","path":"rooms/MarbleFortress_1/MarbleFortress_1.yy",},
     {"name":"inst_3A2DEE2F","path":"rooms/MarbleFortress_1/MarbleFortress_1.yy",},
     {"name":"inst_57D9F595","path":"rooms/MarbleFortress_1/MarbleFortress_1.yy",},
+    {"name":"inst_74184D94","path":"rooms/MarbleFortress_1/MarbleFortress_1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -1047,6 +1048,7 @@
         {"$GMRInstance":"","%Name":"inst_7BF5B5C1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7BF5B5C1","objectId":{"name":"Bat","path":"objects/Bat/Bat.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":5856.0,},
         {"$GMRInstance":"","%Name":"inst_9D8B1AB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_9D8B1AB","objectId":{"name":"Bat","path":"objects/Bat/Bat.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1408.0,"y":4832.0,},
         {"$GMRInstance":"","%Name":"inst_75B39B09","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_75B39B09","objectId":{"name":"Bat","path":"objects/Bat/Bat.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":2656.0,},
+        {"$GMRInstance":"","%Name":"inst_74184D94","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_74184D94","objectId":{"name":"BlueBatSpawner","path":"objects/BlueBatSpawner/BlueBatSpawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-64.0,"y":7904.0,},
       ],"layers":[],"name":"Enemies","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Checkpoints","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_39CA76C7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_39CA76C7","objectId":{"name":"o_Checkpoint","path":"objects/o_Checkpoint/o_Checkpoint.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":5280.0,"y":5968.0,},

@@ -1,3 +1,3 @@
-if (display) {
+if (display and global.difficulty != 2) {
 	draw_sprite_ext(sprite, frame, render_x, render_y, render_scale, render_scale, 0, c_white, 1);
 }

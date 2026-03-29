@@ -62,6 +62,12 @@ decompose = function() {
 	}
 }
 
+hard_exclusive = function() {
+	if (global.difficulty != 2) {
+		instance_destroy();
+	}
+}
+
 dead = false;
 death_timer = time_source_create(time_source_game, 1, time_source_units_seconds, decompose);
 invincibility_timer = time_source_create(time_source_game, 1.5, time_source_units_seconds, expire_invinsibility);

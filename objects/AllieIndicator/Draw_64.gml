@@ -1,1 +1,3 @@
-draw_sprite_ext(spr, -1, 1201, 0, 1.5, 1.5, 0, c_white, 1);
+if (global.difficulty != 2) {
+	draw_sprite_ext(spr, -1, 1201, 0, 1.5, 1.5, 0, c_white, 1);
+}
