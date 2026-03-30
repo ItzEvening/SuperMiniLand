@@ -5,7 +5,7 @@ room_dependencies[? Splash_Screen_2] = ["Splash2Group"];
 
 room_dependencies[? Main_Menu] = ["ResetGroup"];
 room_dependencies[? Main_Menu_2] = ["ResetGroup"];
-room_dependencies[? Main_Menu_3] = ["ResetGroup"];
+room_dependencies[? Main_Menu_3] = ["ResetGroup", "CanvasMainMenuGroup"];
 room_dependencies[? Demo_Menu] = ["LvlSelect", "MusicGroup"];
 room_dependencies[? Sound_Select] = ["MusicGroup"];
 room_dependencies[? Sound_Select_Custom] = ["MusicGroup"];
