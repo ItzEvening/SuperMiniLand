@@ -81,8 +81,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"unused",
-    "path":"texturegroups/unused",
+    "name":"BossGroup",
+    "path":"texturegroups/BossGroup",
   },
   "type":0,
   "VTile":false,

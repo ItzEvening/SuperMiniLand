@@ -7,6 +7,7 @@ walksp = 5;
 flysp = 5;
 walkstr = 0.05;
 hsp = 0;
+move = 0;
 
 grv = 0.2;
 vsp = 0;
@@ -160,7 +161,7 @@ calculate_speeds = function(_move, _v_move, _underwater)
 	// If stationary but not on rail
 	else
 	{
-		var delta_hsp = walksp * frict;
+		var delta_hsp = walksp * damp;
 		var sign_hsp = sign(hsp);
 		hsp = abs(hsp);
 

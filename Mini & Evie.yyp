@@ -1772,5 +1772,6 @@
     {"$GMTextureGroup":"","%Name":"MidnightRushGroup","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"dynamicpages","mipsToGenerate":0,"name":"MidnightRushGroup","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
     {"$GMTextureGroup":"","%Name":"CC4Group","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"dynamicpages","mipsToGenerate":0,"name":"CC4Group","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
     {"$GMTextureGroup":"","%Name":"CutsceneGroup","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"dynamicpages","mipsToGenerate":0,"name":"CutsceneGroup","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMTextureGroup":"","%Name":"BossGroup","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"BossGroup","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
   ],
 }

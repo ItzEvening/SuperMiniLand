@@ -2,6 +2,7 @@ event_inherited();
 
 dead = false;
 hp = 6;
+hp_original = hp;
 invincible = false;
 phase = 0;
 frame = BOSS_IDLE;
