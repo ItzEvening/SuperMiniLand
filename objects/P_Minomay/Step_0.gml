@@ -63,5 +63,5 @@ else if (forcefield != noone) {
 
 if (can_gimmick) {
 	walksp = 6.5;
-	air_resistance = 0.3
+	air_control = 0.3
 }

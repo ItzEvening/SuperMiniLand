@@ -4,7 +4,7 @@ event_inherited();
 //// physics properties
 walksp = 3.5;
 walkstr = 0.03
-air_resistance = 0.1;
+air_control = 0.1;
 frict = 0.3;
 
 // sprites

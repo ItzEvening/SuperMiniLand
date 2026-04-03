@@ -20,3 +20,9 @@ if (can_gimmick and _gimmick){
 	done_gimmick = true;
 	can_gimmick = false;
 }
+
+// swimming
+if (_underwater and !can_gimmick) {
+	done_gimmick = false;
+	can_gimmick = true;
+}

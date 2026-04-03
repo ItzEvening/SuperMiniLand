@@ -24,11 +24,11 @@ if (hascontrol)
 
 // Physics Stuffs
 var _midair = !meeting_solid(x, y + sign(grv));
-var _move = _hit_right - _hit_left;
-var _v_move = 0 - _hit_down;
+move = _hit_right - _hit_left;
+v_move = 0 - _hit_down;
 var _underwater = place_meeting(x,y,water_tiles);
 
-calculate_speeds(_move, _v_move, _underwater); 
+calculate_speeds(_underwater); 
 
 // Underwater effect
 if (_underwater and !was_underwater) or (!_underwater and was_underwater)

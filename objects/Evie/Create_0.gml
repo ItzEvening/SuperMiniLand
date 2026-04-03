@@ -4,7 +4,7 @@ event_inherited();
 //// physics properties
 walksp = 3.5;
 walkstr = 0.07;
-air_resistance = 0.3;
+air_control = 0.3;
 frict = 0.07;
 
 // sprites
@@ -12,3 +12,5 @@ idle = Eve_Idle
 idle_impatient = Eve_Idle_Full
 fall = Eve_Jump_Fall
 run = Eve_Run
+
+jump_strength_water = -3;

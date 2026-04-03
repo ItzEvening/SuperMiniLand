@@ -14,6 +14,8 @@ right_bound = 1600;
 
 // drive variables
 frict = 0.05;
+air_resistance = 0.05;
+
 
 // jump variables
 dir = -1;

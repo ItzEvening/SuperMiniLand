@@ -7,7 +7,10 @@ walksp = 5;
 flysp = 5;
 walkstr = 0.05;
 hsp = 0;
+
+// stuff
 move = 0;
+v_move = 0;
 
 grv = 0.2;
 vsp = 0;
@@ -16,7 +19,8 @@ jump_strength_water = -6;
 buoyancy = 4;
 
 frict = 0.3;
-air_resistance = 0.05;
+air_resistance = 0.3
+air_control = 0.05;
 water_damp_constant_weak = 0.95;
 water_damp_constant = 0.8;
 water_damp_threshold = 8;
@@ -52,8 +56,8 @@ if (layer_exists("Rails")) {
 
 nudged = false;
 
-max_out_speed = function(_move, _damp) {	
-	var _input_speed = hsp + _move * _damp;
+max_out_speed = function(_damp) {	
+	var _input_speed = hsp + move * _damp;
 	var _friction_speed = sign(hsp) * (abs(hsp) - walksp * frict);
 	
 	
@@ -66,20 +70,20 @@ max_out_speed = function(_move, _damp) {
 	return _friction_speed;
 }
 
-player_move = function(_move, damp, _touching_ground) {
+player_move = function(damp, _touching_ground) {
 	var new_hsp = hsp;
-	var delta_hsp = walksp * damp * _move;
+	var delta_hsp = walksp * damp * move;
 			
 	new_hsp += delta_hsp;
 			
 	// If horizontal speed exceeds absolute maximum
 	if (abs(new_hsp) >= walksp) {
-		hsp = walksp * _move;
+		hsp = walksp * move;
 	}
 	// If player input attempts to accelerate to
 	// maximum fly speed
 	else if (abs(hsp) <= flysp and abs(new_hsp) >= flysp and !_touching_ground) {
-		hsp = flysp * _move;
+		hsp = flysp * move;
 	}
 	// Player input does not exceed maximum speed
 	else {
@@ -87,7 +91,29 @@ player_move = function(_move, damp, _touching_ground) {
 	}
 }
 
-calculate_speeds = function(_move, _v_move, _underwater) 
+horizontal_acceleration = function(_touch_ground, _touch_rail) {
+	var damp = frict;
+	
+	if (!_touch_ground and !_touch_rail) 
+	{
+		if (move != 0) {
+			damp = air_control;
+		}
+		
+		else {
+			damp = air_resistance;
+		}
+		
+	}
+	
+	else if (_touch_ground and move != 0) {
+		damp = walkstr;
+	}
+	
+	return damp;
+}
+
+calculate_speeds = function(_underwater) 
 {
 	// Initializes collision variables
 	var _g = sign(grv)
@@ -115,39 +141,32 @@ calculate_speeds = function(_move, _v_move, _underwater)
 		}
 		vsp *= _d;
 		
-		if (_v_move < 0) {
+		if (v_move < 0) {
 			vsp += 0.5;
 		}
 	}
 	
 	// Sets damp constant for horizontal velocity
-	var damp = frict;
-	if (!_touching_ground and !_touching_rail) 
-	{
-	    damp = air_resistance;
-	}
-	else if (_touching_ground and _move != 0) {
-		damp = walkstr;
-	}
+	var damp = horizontal_acceleration(_touching_ground, _touching_rail);
 	
 	
 	// If player input not on rail
-	if (_move != 0 and !_touching_rail) {
+	if (move != 0 and !_touching_rail) {
 		// prevents exceeding max or min speeds
 		if (abs(hsp) > walksp) {
-		    hsp = max_out_speed(_move, damp);
+		    hsp = max_out_speed(damp);
 		}
 		
 		// accelerate to maximum speed allowed
 		else {
-			player_move(_move, damp, _touching_ground);
+			player_move(damp, _touching_ground);
 		}
 	}
 
 
 	// If touching rail...
 	else if (_touching_rail) {
-		var _direction = _move;
+		var _direction = move;
 		if (_direction == 0 and hsp != 0) {
 			_direction = sign(hsp);
 		}
