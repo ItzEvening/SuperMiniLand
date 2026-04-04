@@ -1,5 +1,7 @@
 event_inherited();
 
+hard_exclusive();
+
 obey_collisions = false;
 obey_gravity = false;
 killable = false;
