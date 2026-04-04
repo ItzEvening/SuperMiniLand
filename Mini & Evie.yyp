@@ -433,6 +433,7 @@
     {"id":{"name":"path_SPH_27b","path":"paths/path_SPH_27b/path_SPH_27b.yy",},},
     {"id":{"name":"path_SPH_28a","path":"paths/path_SPH_28a/path_SPH_28a.yy",},},
     {"id":{"name":"path_SPH_28b","path":"paths/path_SPH_28b/path_SPH_28b.yy",},},
+    {"id":{"name":"path_SPH_28c","path":"paths/path_SPH_28c/path_SPH_28c.yy",},},
     {"id":{"name":"path_SPH_29a","path":"paths/path_SPH_29a/path_SPH_29a.yy",},},
     {"id":{"name":"path_SPH_29b","path":"paths/path_SPH_29b/path_SPH_29b.yy",},},
     {"id":{"name":"path_SPH_30a","path":"paths/path_SPH_30a/path_SPH_30a.yy",},},
@@ -1393,6 +1394,7 @@
     {"id":{"name":"Sky_Morning","path":"sprites/Sky_Morning/Sky_Morning.yy",},},
     {"id":{"name":"Sky_Night","path":"sprites/Sky_Night/Sky_Night.yy",},},
     {"id":{"name":"Sky_Red","path":"sprites/Sky_Red/Sky_Red.yy",},},
+    {"id":{"name":"Sky_SPH","path":"sprites/Sky_SPH/Sky_SPH.yy",},},
     {"id":{"name":"Sky_Sunset_2","path":"sprites/Sky_Sunset_2/Sky_Sunset_2.yy",},},
     {"id":{"name":"Sky_Sunset","path":"sprites/Sky_Sunset/Sky_Sunset.yy",},},
     {"id":{"name":"SP_Large_Window","path":"sprites/SP_Large_Window/SP_Large_Window.yy",},},
@@ -1773,5 +1775,6 @@
     {"$GMTextureGroup":"","%Name":"CC4Group","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"dynamicpages","mipsToGenerate":0,"name":"CC4Group","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
     {"$GMTextureGroup":"","%Name":"CutsceneGroup","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"dynamicpages","mipsToGenerate":0,"name":"CutsceneGroup","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
     {"$GMTextureGroup":"","%Name":"BossGroup","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"BossGroup","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMTextureGroup":"","%Name":"SalmonPalaceGroup","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"SalmonPalaceGroup","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
   ],
 }
