@@ -4,7 +4,7 @@ room_dependencies = ds_map_create();
 room_dependencies[? Splash_Screen_2] = ["Splash2Group"];
 
 room_dependencies[? Main_Menu] = ["ResetGroup"];
-room_dependencies[? Main_Menu_2] = ["ResetGroup"];
+room_dependencies[? Main_Menu_2] = ["ResetGroup", "StarlightStationGroup"];
 room_dependencies[? Main_Menu_3] = ["ResetGroup", "CanvasMainMenuGroup"];
 room_dependencies[? Demo_Menu] = ["LvlSelect", "MusicGroup"];
 room_dependencies[? Sound_Select] = ["MusicGroup"];
@@ -16,6 +16,7 @@ room_dependencies[? Tutorial_AR] = ["TutorialGroup"];
 room_dependencies[? Tutorial_AL] = ["TutorialGroup"];
 
 room_dependencies[? SpringIsland_1] = ["SpringIslandGroup"];
+room_dependencies[? SalmonPalace_1] = ["SalmonPalaceGroup"];
 room_dependencies[? MidnightRush_1] = ["MidnightRushGroup"];
 room_dependencies[? MarbleFortress_1] = ["MarbleFortressGroup"];
 room_dependencies[? SecretSanctuary] = ["SecretSanctuaryGroup"];
@@ -27,6 +28,7 @@ room_dependencies[? Airborne_Informant] = ["CutsceneGroup"];
 
 room_dependencies[? Blank_Canvas] = ["BlankCanvasGroup"];
 room_dependencies[? Hard_Blank_Canvas] = ["BlankCanvasGroup"];
+room_dependencies[? SalmonPalace_Hard_1] = ["SalmonPalaceGroup"];
 room_dependencies[? CanvasChallenge_1] = ["SpringIslandGroup"];
 room_dependencies[? CanvasChallenge_3] = ["MarbleFortressGroup"];
 room_dependencies[? CanvasChallenge_4] = ["CC4Group"];
