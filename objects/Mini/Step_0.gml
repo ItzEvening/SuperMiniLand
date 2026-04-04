@@ -6,6 +6,7 @@ var _gimmick = hit_jump();
 if (meeting_solid(x, y + sign(grv))) {
 	walljump_hsp = walljump_hsp_og;
 	walljump_vsp = walljump_vsp_og;
+	dash_vsp = dash_vsp_og;
 }
 
 if (can_gimmick and _gimmick) {
@@ -15,7 +16,7 @@ if (can_gimmick and _gimmick) {
 	
 	hsp = 17.5 * dash_direction();
 
-	vsp = -3.5 * image_yscale;
+	vsp = dash_vsp * image_yscale;
 	done_gimmick = true;
 	can_gimmick = false;
 }
@@ -35,12 +36,16 @@ if (meeting_solid(x + input_sign, y) and done_gimmick and hit_jump()) {
 		walljump_vsp += walljump_vdecay;
 	}
 	
+	if (dash_vsp < dash_vsp_crit) {
+		dash_vsp += dash_vdecay;
+	}	
+	
 	if (walljump_hsp > walljump_hsp_crit) {
 		walljump_hsp += walljump_hdecay;
 	}
 	
 	audio_play_sound(sfx_SparkleJump,10,0);
 	
-	can_gimmick = true;
 	done_gimmick = false;
+	can_gimmick = false;
 }

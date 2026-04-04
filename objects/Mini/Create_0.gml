@@ -2,13 +2,18 @@ event_inherited();
 
 walljump_hsp = -12;
 walljump_hsp_og = walljump_hsp;
-walljump_hsp_crit = -20;
+walljump_hsp_crit = -22;
 walljump_hdecay = -0.5;
 
 walljump_vsp = -6;
 walljump_vsp_og = walljump_vsp;
-walljump_vsp_crit = -0.5;
-walljump_vdecay = 0.5;
+walljump_vsp_crit = 0;
+walljump_vdecay = 1;
+
+dash_vsp = -3.5;
+dash_vsp_og = dash_vsp;
+dash_vsp_crit = -1;
+dash_vdecay = 0.5;
 
 jump_acceleration = -0.21;
 jump_init = -1.4;
