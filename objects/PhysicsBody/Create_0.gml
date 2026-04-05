@@ -1,6 +1,7 @@
 // following the laws of physics
 obey_gravity = true;
 obey_collisions = true;
+inertial = true;
 
 // physics properties
 walksp = 5;
@@ -250,6 +251,13 @@ function manage_collisions()
 	    vsp = 0;
 	}
 	y = y + vsp;
+	
+	
+	// Inertial check
+	if (!inertial) {
+		hsp = 0;
+		vsp = 0;
+	}
 }
 
 function colliding_now(_axis) 
