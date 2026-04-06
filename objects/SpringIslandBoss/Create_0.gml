@@ -4,27 +4,47 @@ enum POLYSTATES {
 	IDLE,
 	WAITING,
 	JUMPING,
-	DRIVING
+	DRIVING,
+	FLYING
+}
+
+enum FLYSTATES {
+	NOT,
+	BASIC
 }
 
 scale = 1.5;
+spr_width = 64 * scale;
 
-left_bound = 800;
-right_bound = 1600;
+left_bound = 800 + spr_width / 2;
+right_bound = 2016 - spr_width / 2;
+
+fly_tick = -1;
+fly_tick_target = 5; 
+fly_x_target = 0;
+fly_y_target = 0;
+fly_xrange = 256;
+fly_y_target_max = 64;
+
+fly_hsp = 0;
+fly_sp = 1.5;
+fly_change_count = 0;
+dothud = false;
 
 // drive variables
 frict = 0.05;
-air_resistance = 0.05;
-
+og_frict = frict;
+air_resistance = 0;
 
 // jump variables
 dir = -1;
 current_state = POLYSTATES.IDLE;
+current_fly_state = FLYSTATES.NOT;
 
 // decide hp
 if (global.difficulty == 1) {
-	hp = 9;
-	hp_original = 9;
+	hp = 12;
+	hp_original = 12;
 }
 
 get_frame_index = function(_status) {
@@ -56,7 +76,13 @@ chose_attack = function() {
 		return;
 	}
 	
-	if ((x < left_bound + 96 or x > right_bound - 96) and global.difficulty > 0) {
+	var not_easy = global.difficulty > 0;
+	
+	if (phase > 0 and (fly_tick == -1 or fly_tick >= fly_tick_target) and not_easy) {
+		fly();
+	}	
+	
+	else if ((x < left_bound + 96 or x > right_bound - 96) and not_easy) {
 		drive(x - 1200);
 	}
 	
@@ -70,6 +96,10 @@ end_attack = function() {
 	current_state = POLYSTATES.WAITING;
 	time_source_start(attack_timer);
 	sprite_index = SICarIdle;
+	
+	if (phase > 0) {
+		fly_tick++;
+	}
 }
 
 jump = function() {
@@ -119,6 +149,21 @@ drive = function(dist_from_middle) {
 	dir = move;
 }
 
+fly = function() {
+	frict = 0;
+	
+	current_state = POLYSTATES.FLYING;
+	current_fly_state = FLYSTATES.BASIC;
+	obey_gravity = false;
+	sprite_index = SICarFly;
+	
+	fly_tick = 0;
+	fly_tick_target = irandom_range(2, 6);
+	fly_change_count = 0;
+	
+	fly_chose_new_target();
+}
+
 jump_step = function(_onGround) {
 	if (!_onGround) {	
 		switch (phase) {
@@ -144,8 +189,8 @@ jump_step = function(_onGround) {
 
 drive_step = function() {
 	
-	var right_end = dir == 1 and x > 1300;
-	var left_end = dir == -1 and x < 1100;		
+	var right_end = dir == 1 and x > 1160;
+	var left_end = dir == -1 and x < 1650;		
 	
 	if (left_end or right_end) {
 		move = 0;
@@ -153,4 +198,73 @@ drive_step = function() {
 	}
 }
 
+chose_fly_xrange = function() {
+	if (x > right_bound - fly_xrange) {
+		return [right_bound - fly_xrange, right_bound];
+	}
+	
+	else if (x < left_bound + fly_xrange) {
+		return [left_bound, left_bound + fly_xrange];
+	}
+	
+	var rad = fly_xrange / 2;
+	return [x - rad, x + rad];
+}
+
+fly_hit_target = function() {
+	return abs(x - fly_x_target) < 8 and abs(y - fly_y_target) < 8;
+}
+
+fly_chose_new_target = function() {
+	fly_change_count++;
+	fly_y_target = max(fly_y_target_max, y - 64);
+	
+	var xrange = chose_fly_xrange();
+	fly_x_target = random_range(xrange[0], xrange[1]);
+	
+	var dx = fly_x_target - x;
+	var dy = fly_y_target - y;
+	var hyp = sqrt(dx * dx + dy * dy);
+	
+	hsp = (dx / hyp) * fly_sp;
+	vsp = (dy / hyp) * fly_sp;
+	
+	dir = sign(hsp);
+	fly_hsp = hsp;
+}
+
+should_end_fly = function() {
+	
+	if (current_fly_state == FLYSTATES.BASIC and fly_change_count > 9) {
+		return true;
+	}
+	
+	return false;
+}
+
+fly_step = function() {
+	if (should_end_fly()) {
+		frict = og_frict;
+		obey_gravity = true;
+		dothud = true;
+		vsp = 9;
+		current_fly_state = FLYSTATES.NOT;
+		end_attack();
+		return;
+	}
+	
+	if (fly_hit_target()) {
+		fly_chose_new_target();
+	}
+	
+	if (y < fly_y_target_max and vsp != 0) {
+		vsp = 0;
+	}
+}
+
+stop_shake = function() {
+	global.lo.send(TOGGLE_SHAKE, false);
+}
+
 attack_timer = time_source_create(time_source_game, 1, time_source_units_seconds, chose_attack);
+shake_timer = time_source_create(time_source_game, 0.2, time_source_units_seconds, stop_shake);
