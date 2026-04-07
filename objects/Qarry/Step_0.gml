@@ -1,5 +1,11 @@
 event_inherited();
 
+// increment jump commit timer
+if (current_state == QARSTATE.JUMPING) {
+	jump_commit_t += delta_time / 1000000;
+}
+
+
 if (!dead and current_state == QARSTATE.STILL) {
 	x = x_center + random_range(-1 * x_rad, x_rad);
 	
@@ -28,6 +34,12 @@ if (!dead and current_state == QARSTATE.STILL) {
 
 if (meeting_solid(x, y + sign(grv)) and current_state == QARSTATE.JUMPING and !just_jumped) {
 	jump_finish();
+}
+
+// trigger jump commit
+if (jump_commit_t >= jump_commit_t_max) {
+	jump_commit_t = 0;
+	jump_commit();
 }
 
 if (dead) {

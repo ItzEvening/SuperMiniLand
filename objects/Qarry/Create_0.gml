@@ -17,7 +17,6 @@ jump = function() {
 	image_speed = 1;
 	image_xscale = -1 * jump_direction;
 	just_jumped = true;
-	time_source_start(jump_commit_timer);
 }
 
 jump_commit = function() {
@@ -38,15 +37,19 @@ jump_commit = function() {
 		jump_angle += jump_angle_decay;
 	}
 	
-	time_source_start(jump_commit_timer);
+	jump_commit_t = 0;
 }
 
 jump_finish = function() {
-	current_state = QARSTATE.STILL;
-	sprite_index = QarIdle;
+	current_state = QARSTATE.STILL;	
 	jump_angle = jump_angle_max;
 	x_center = x;
+	y_center = y;
 	x_rad = x_rad_min;
+	
+	if (!dead) {
+		sprite_index = QarIdle;
+	}	
 }
 
 current_state = QARSTATE.STILL;
@@ -65,14 +68,15 @@ x_rad = x_rad_min;
 x_rad_growth = 2;
 
 
-jump_angle_max = -2 * pi / 5;
+jump_angle_max = pi / -2;
 jump_angle_min = pi / 6;
 jump_angle = jump_angle_max;
 jump_angle_decay = pi / 12;
-jump_angle_sector = 7 * pi / 20;
+jump_angle_sector = pi / 2;
 jump_distance = 64;
 jump_direction = 1;
 
+idle_resolution = 20;
 jump_resolution = 10;
 
 detect_distance = 500;
@@ -82,4 +86,6 @@ just_jumped = false;
 anim_frame = 0;
 
 jump_timer = time_source_create(time_source_game, 2, time_source_units_seconds, jump);
-jump_commit_timer = time_source_create(time_source_game, 0.4, time_source_units_seconds, jump_commit);
+
+jump_commit_t = 0;
+jump_commit_t_max = 0.4;
