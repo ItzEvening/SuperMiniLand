@@ -36,10 +36,14 @@ hurt = function() {
 
 die = function() {
 	sprite_index = spr_dead;
-	audio_play_sound(sfx_dead, 10, 0);
 	dead = true;
 	
 	obey_gravity = true;
+	
+	// don't play death sound if player is too far
+	if (distance_to_object(Player) < 800) {
+		audio_play_sound(sfx_dead, 10, 0);
+	}
 	
 	if (collide_on_death) {
 		obey_collisions = true;
@@ -54,6 +58,16 @@ die = function() {
 	}
 	
 	time_source_start(death_timer);
+}
+
+crush = function() {
+	if (meeting_solid(x, y)) {
+		unsquish();
+	
+		if (meeting_solid(x, y) and killable and !dead) {
+			die();
+		}
+	}
 }
 
 decompose = function() {
