@@ -46,8 +46,8 @@ if (layer_exists("Rails")) {
 ignore_drill_blocks = false;
 
 // create the barriers
-left_barrier = instance_create_layer(0, y, layer, o_barrier_left);
-right_barrier = instance_create_layer(room_width, y, layer, o_barrier_right);
+left_barrier = 0;
+right_barrier = room_width;
 
 // solids lol
 solids = [ground_tiles, SolidObject];
@@ -224,7 +224,7 @@ function manage_collisions()
 	}
 	
 	// Horizontal collisions
-	var _barrier_collide = (x + hsp <= o_barrier_left.x) or (x + hsp >= o_barrier_right.x);
+	var _barrier_collide = (x + hsp <= left_barrier) or (x + hsp >= right_barrier);
 	var _grounded_check = !must_grounded or meeting_solid(x + hsp, y + 1);
 	
 	if (meeting_solid(x + hsp, y) or _barrier_collide or !_grounded_check) 
@@ -269,7 +269,7 @@ function colliding_now(_axis)
 		}
 		
 		// barriers
-		if ((x + sign(hsp) <= o_barrier_left.x) or (x + sign(hsp) >= o_barrier_right.x))
+		if ((x + sign(hsp) <= left_barrier) or (x + sign(hsp) >= right_barrier))
 		{
 			return true;
 		}

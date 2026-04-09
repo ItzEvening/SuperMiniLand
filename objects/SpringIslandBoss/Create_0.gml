@@ -10,7 +10,9 @@ enum POLYSTATES {
 
 enum FLYSTATES {
 	NOT,
-	BASIC
+	BASIC,
+	DRONE,
+	CAR
 }
 
 scale = 1.5;
@@ -18,18 +20,6 @@ spr_width = 64 * scale;
 
 left_bound = 800 + spr_width / 2;
 right_bound = 2016 - spr_width / 2;
-
-fly_tick = -1;
-fly_tick_target = 5; 
-fly_x_target = 0;
-fly_y_target = 0;
-fly_xrange = 256;
-fly_y_target_max = 64;
-
-fly_hsp = 0;
-fly_sp = 1.5;
-fly_change_count = 0;
-dothud = false;
 
 // drive variables
 frict = 0.05;
@@ -45,6 +35,10 @@ current_fly_state = FLYSTATES.NOT;
 if (global.difficulty == 1) {
 	hp = 12;
 	hp_original = 12;
+}
+else if (global.difficulty == 2) {
+	hp = 24;
+	hp_original = 24;	
 }
 
 get_frame_index = function(_status) {
@@ -102,6 +96,8 @@ end_attack = function() {
 	}
 }
 
+#region Jump
+
 jump = function() {
 	current_state = POLYSTATES.JUMPING;
 		
@@ -142,27 +138,6 @@ jump = function() {
 	}
 	
 }
-	
-drive = function(dist_from_middle) {
-	current_state = POLYSTATES.DRIVING;
-	move = -1 * sign(dist_from_middle);
-	dir = move;
-}
-
-fly = function() {
-	frict = 0;
-	
-	current_state = POLYSTATES.FLYING;
-	current_fly_state = FLYSTATES.BASIC;
-	obey_gravity = false;
-	sprite_index = SICarFly;
-	
-	fly_tick = 0;
-	fly_tick_target = irandom_range(2, 6);
-	fly_change_count = 0;
-	
-	fly_chose_new_target();
-}
 
 jump_step = function(_onGround) {
 	if (!_onGround) {	
@@ -187,6 +162,16 @@ jump_step = function(_onGround) {
 	}
 }
 
+#endregion
+
+#region Drive
+
+drive = function(dist_from_middle) {
+	current_state = POLYSTATES.DRIVING;
+	move = -1 * sign(dist_from_middle);
+	dir = move;
+}
+
 drive_step = function() {
 	
 	var right_end = dir == 1 and x > 1160;
@@ -196,6 +181,70 @@ drive_step = function() {
 		move = 0;
 		end_attack();
 	}
+}
+
+#endregion
+	
+#region Fly
+
+fly_tick = -1;
+fly_tick_target = 5; 
+fly_x_target = 0;
+fly_y_target = 0;
+fly_xrange = 256;
+fly_y_target_max = 64;
+
+fly_hsp = 0;
+fly_sp = 1.5;
+fly_change_count = 0;
+dothud = false;
+
+drone_death_count = 0;
+end_fly = false;
+
+end_fly_callback = function() {
+	end_fly = true;
+}
+
+end_fly_timer = time_source_create(time_source_global, 1, time_source_units_seconds, end_fly_callback);
+
+decide_fly_state = function() {
+	if (global.difficulty < 2) {
+		current_fly_state = FLYSTATES.BASIC;
+		return;
+	}
+	
+	var r = random(1);
+	if (r > 0.5) {
+		current_fly_state = FLYSTATES.CAR;
+	}
+	else {
+		current_fly_state = FLYSTATES.DRONE;
+	}
+}
+
+fly = function() {
+	frict = 0;
+	
+	current_state = POLYSTATES.FLYING;
+	decide_fly_state();
+	obey_gravity = false;
+	sprite_index = SICarFly;
+	
+	fly_tick = 0;
+	fly_tick_target = irandom_range(3, 6);
+	fly_change_count = 0;
+	drone_death_count = 0;
+	end_fly = false;
+	
+	if (current_fly_state == FLYSTATES.DRONE) {
+		PolyDrone_BASpawner.trigger(phase == 2);
+	}
+	else if (current_fly_state == FLYSTATES.CAR) {
+		PolyCar_BASpawner.trigger(phase == 2);
+	}
+	
+	fly_chose_new_target();
 }
 
 chose_fly_xrange = function() {
@@ -230,20 +279,31 @@ fly_chose_new_target = function() {
 	vsp = (dy / hyp) * fly_sp;
 	
 	dir = sign(hsp);
+	image_xscale = -1 * dir * scale;
 	fly_hsp = hsp;
 }
 
 should_end_fly = function() {
 	
-	if (current_fly_state == FLYSTATES.BASIC and fly_change_count > 9) {
-		return true;
+	var timer_running = time_source_get_state(end_fly_timer) == time_source_state_active;
+	
+	if (timer_running or end_fly) {
+		return;
 	}
 	
-	return false;
+	if (current_fly_state == FLYSTATES.BASIC and fly_change_count > 9) {
+		time_source_start(end_fly_timer);
+	}
+	
+	else if (current_fly_state == FLYSTATES.DRONE and drone_death_count == PolyDrone_BASpawner.num_drones) {
+		time_source_start(end_fly_timer);
+	}
 }
 
 fly_step = function() {
-	if (should_end_fly()) {
+	should_end_fly();
+	
+	if (end_fly) {
 		frict = og_frict;
 		obey_gravity = true;
 		dothud = true;
@@ -261,6 +321,8 @@ fly_step = function() {
 		vsp = 0;
 	}
 }
+
+#endregion
 
 stop_shake = function() {
 	global.lo.send(TOGGLE_SHAKE, false);

@@ -1,0 +1,2 @@
+time_source_destroy(spawn_timer);
+time_source_destroy(spawn_timer_overclock);

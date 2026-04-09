@@ -1,15 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"o_barrier_left",
-  "eventList":[],
+  "%Name":"BossStarter_SpringIsland",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"o_barrier_left",
+  "name":"BossStarter_SpringIsland",
   "overriddenProperties":[],
   "parent":{
-    "name":"Level Objects",
-    "path":"folders/Objects/Level Objects.yy",
+    "name":"Starters",
+    "path":"folders/Objects/Bosses/Starters.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"BossStarter",
+    "path":"objects/BossStarter/BossStarter.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"barrier_left",
-    "path":"sprites/barrier_left/barrier_left.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

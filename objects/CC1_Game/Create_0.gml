@@ -1,7 +1,7 @@
 evie = instance_find(Evie, 0);
 if (evie != noone) {
-	evie.left_barrier.x = 512 + 32;
-	evie.right_barrier.x = 1376 - 32;
+	evie.left_barrier = 512 + 32;
+	evie.right_barrier = 1376 - 32;
 }
 
 spawn = function() {

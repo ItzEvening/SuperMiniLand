@@ -26,7 +26,11 @@ if (!dead) {
 		player_detected = true;
 		timer_running = true;
 		time_source_start(siren_timer);
-		audio_play_sound(sfx_horn, 5, 0);
+		
+		if (honk) {
+			audio_play_sound(sfx_horn, 5, 0);
+		}
+		
 	}
 	else if (!timer_running and distance_to_object(Player) >= range) {
 		player_detected = false;

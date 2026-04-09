@@ -34,6 +34,10 @@ hurt = function() {
 	}
 }
 
+// to be overwritten
+custom_die = function() {
+}
+
 die = function() {
 	sprite_index = spr_dead;
 	dead = true;
@@ -56,6 +60,8 @@ die = function() {
 	if (score_giver) {
 		global.score += 100;
 	}
+	
+	custom_die();
 	
 	time_source_start(death_timer);
 }

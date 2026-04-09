@@ -89,9 +89,6 @@ else if (!done_gimmick and !can_gimmick) {
  
 manage_collisions();
 
-left_barrier.y = y;
-right_barrier.y = y;
-
 manage_animations(_midair);
 
 // Coin stuff

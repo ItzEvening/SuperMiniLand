@@ -10,7 +10,7 @@ x += (xTo - x) / 5;
 y += (yTo - y) / 5;
 
 // Clamp coordinates so it doesn't leave border
-x = clamp(x, left_border + view_w_half, room_width - view_w_half);
+x = clamp(x, left_border + view_w_half, right_border - view_w_half);
 y = clamp(y, view_h_half, room_height - view_h_half);
 
 // Shake 

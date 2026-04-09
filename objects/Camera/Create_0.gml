@@ -6,10 +6,15 @@ xTo = xstart;
 yTo = ystart;
 
 left_border = 0;
+right_border = room_width;
 shaking = false;
 
 function change_left_border(_x) {
 	left_border = _x;
+}
+
+function change_right_border(_x) {
+	right_border = _x;
 }
 
 toggle_shake = function(_val) {

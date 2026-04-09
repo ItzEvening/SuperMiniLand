@@ -33,7 +33,3 @@ switch current_state {
 		fly_step();
 		break;
 }
-
-if (current_state == POLYSTATES.FLYING) {
-	show_debug_message($"Hsp: {hsp}. Count: {fly_change_count}")
-}

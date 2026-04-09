@@ -1,13 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"o_barrier_right",
-  "eventList":[],
+  "%Name":"PolyDrone_BASpawner",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"o_barrier_right",
+  "name":"PolyDrone_BASpawner",
   "overriddenProperties":[],
   "parent":{
-    "name":"Level Objects",
-    "path":"folders/Objects/Level Objects.yy",
+    "name":"Drones",
+    "path":"folders/Objects/Enemies/Drones.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"barrier_right",
-    "path":"sprites/barrier_right/barrier_right.yy",
+    "name":"DroneIdle",
+    "path":"sprites/DroneIdle/DroneIdle.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

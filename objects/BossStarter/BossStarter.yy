@@ -9,8 +9,8 @@
   "name":"BossStarter",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Starters",
+    "path":"folders/Objects/Bosses/Starters.yy",
   },
   "parentObjectId":null,
   "persistent":false,
