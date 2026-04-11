@@ -6,10 +6,10 @@ global.rainbow_progress = [];
 global.menu_control = true;
 global.score = 0;
 global.lo = new SignalController();
-global.difficulty = 2;
+global.difficulty = 1;
 
 // TO BE CHANGED FOR RELEASE
-global.dev_mode = true;
+global.dev_mode = false;
 landing_point = Main_Menu;
 
 texturegroup_unload("unused");
