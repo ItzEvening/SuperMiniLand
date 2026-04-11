@@ -1489,6 +1489,7 @@
     {"name":"Water_Desert","order":10,"path":"sprites/Water_Desert/Water_Desert.yy",},
     {"name":"Water","order":2,"path":"sprites/Water/Water.yy",},
     {"name":"Water2","order":3,"path":"sprites/Water2/Water2.yy",},
+    {"name":"Water3","order":105,"path":"sprites/Water3/Water3.yy",},
     {"name":"WDBGHill","order":19,"path":"sprites/WDBGHill/WDBGHill.yy",},
     {"name":"WDBGPyramid","order":20,"path":"sprites/WDBGPyramid/WDBGPyramid.yy",},
     {"name":"WDBGRocks_1","order":66,"path":"sprites/WDBGRocks_1/WDBGRocks_1.yy",},

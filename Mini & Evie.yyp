@@ -1603,6 +1603,7 @@
     {"id":{"name":"Water_Desert","path":"sprites/Water_Desert/Water_Desert.yy",},},
     {"id":{"name":"Water","path":"sprites/Water/Water.yy",},},
     {"id":{"name":"Water2","path":"sprites/Water2/Water2.yy",},},
+    {"id":{"name":"Water3","path":"sprites/Water3/Water3.yy",},},
     {"id":{"name":"WDBGHill","path":"sprites/WDBGHill/WDBGHill.yy",},},
     {"id":{"name":"WDBGPyramid","path":"sprites/WDBGPyramid/WDBGPyramid.yy",},},
     {"id":{"name":"WDBGRocks_1","path":"sprites/WDBGRocks_1/WDBGRocks_1.yy",},},
