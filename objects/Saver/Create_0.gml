@@ -7,7 +7,7 @@ switch (global.level) {
 		key = SV_GEM_SPRING;
 	break;
 	
-	case SalmonPalace_1:
+	case SalmonPalace_1_Old:
 		key = SV_GEM_SALMON;
 	break;
 	

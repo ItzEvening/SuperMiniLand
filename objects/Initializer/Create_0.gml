@@ -9,7 +9,7 @@ global.lo = new SignalController();
 global.difficulty = 2;
 
 // TO BE CHANGED FOR RELEASE
-global.dev_mode = false;
+global.dev_mode = true;
 landing_point = Main_Menu;
 
 texturegroup_unload("unused");

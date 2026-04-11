@@ -6,5 +6,5 @@ if (global.bear) {
 	global.character = Allie;
 }
 
-global.level = SalmonPalace_1;
+global.level = SalmonPalace_1_Old;
 }

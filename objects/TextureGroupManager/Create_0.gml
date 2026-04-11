@@ -16,7 +16,7 @@ room_dependencies[? Tutorial_AR] = ["TutorialGroup"];
 room_dependencies[? Tutorial_AL] = ["TutorialGroup"];
 
 room_dependencies[? SpringIsland_1] = ["SpringIslandGroup"];
-room_dependencies[? SalmonPalace_1] = ["SalmonPalaceGroup"];
+room_dependencies[? SalmonPalace_1_Old] = ["SalmonPalaceGroup"];
 room_dependencies[? BossAttack] = ["BossGroup"];
 room_dependencies[? MidnightRush_1] = ["MidnightRushGroup"];
 room_dependencies[? MarbleFortress_1] = ["MarbleFortressGroup"];

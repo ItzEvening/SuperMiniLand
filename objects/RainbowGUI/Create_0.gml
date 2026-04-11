@@ -25,7 +25,7 @@ var _index = 0;
 lvl = SV_GEM_SPRING;
 
 switch (room) {
-	case SalmonPalace_1:
+	case SalmonPalace_1_Old:
 		lvl = SV_GEM_SALMON;
 		break;
 		

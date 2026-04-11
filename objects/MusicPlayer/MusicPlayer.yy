@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sMusic",
-    "path":"sprites/sMusic/sMusic.yy",
+    "name":"The_Moon",
+    "path":"sprites/The_Moon/The_Moon.yy",
   },
   "spriteMaskId":null,
   "visible":false,
