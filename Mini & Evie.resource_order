@@ -1189,6 +1189,7 @@
     {"name":"Mini_Rail","order":14,"path":"sprites/Mini_Rail/Mini_Rail.yy",},
     {"name":"Mini_Run","order":5,"path":"sprites/Mini_Run/Mini_Run.yy",},
     {"name":"Mini_Run2","order":6,"path":"sprites/Mini_Run2/Mini_Run2.yy",},
+    {"name":"Mini_Walljump","order":54,"path":"sprites/Mini_Walljump/Mini_Walljump.yy",},
     {"name":"Mini_Wave","order":36,"path":"sprites/Mini_Wave/Mini_Wave.yy",},
     {"name":"MiniLivesIcon","order":4,"path":"sprites/MiniLivesIcon/MiniLivesIcon.yy",},
     {"name":"Mino_Idle_Full","order":48,"path":"sprites/Mino_Idle_Full/Mino_Idle_Full.yy",},

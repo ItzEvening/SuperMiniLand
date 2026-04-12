@@ -4,6 +4,7 @@ var _gimmick = hit_jump();
 
 // reset walljump stats
 if (meeting_solid(x, y + sign(grv))) {
+	walljumping = false;
 	walljump_hsp = walljump_hsp_og;
 	walljump_vsp = walljump_vsp_og;
 	dash_vsp = dash_vsp_og;
@@ -19,6 +20,7 @@ if (can_gimmick and _gimmick) {
 	vsp = dash_vsp * image_yscale;
 	done_gimmick = true;
 	can_gimmick = false;
+	walljumping = false;
 }
 
 if (done_gimmick) {
@@ -28,6 +30,14 @@ if (done_gimmick) {
 var input_sign = hit_right() - hit_left();
 
 if (meeting_solid(x + input_sign, y) and done_gimmick and hit_jump()) {
+	
+	walljumping = true;
+	
+	// expire timer stuff
+	if (time_source_get_state(walljump_expire) == time_source_state_active) {
+		time_source_stop(walljump_expire);
+	}
+	time_source_start(walljump_expire);
 	
 	vsp = walljump_vsp * sign(grv);
 	hsp = walljump_hsp * input_sign;

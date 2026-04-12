@@ -1290,6 +1290,7 @@
     {"id":{"name":"Mini_Rail","path":"sprites/Mini_Rail/Mini_Rail.yy",},},
     {"id":{"name":"Mini_Run","path":"sprites/Mini_Run/Mini_Run.yy",},},
     {"id":{"name":"Mini_Run2","path":"sprites/Mini_Run2/Mini_Run2.yy",},},
+    {"id":{"name":"Mini_Walljump","path":"sprites/Mini_Walljump/Mini_Walljump.yy",},},
     {"id":{"name":"Mini_Wave","path":"sprites/Mini_Wave/Mini_Wave.yy",},},
     {"id":{"name":"MiniLivesIcon","path":"sprites/MiniLivesIcon/MiniLivesIcon.yy",},},
     {"id":{"name":"Mino_Idle_Full","path":"sprites/Mino_Idle_Full/Mino_Idle_Full.yy",},},
