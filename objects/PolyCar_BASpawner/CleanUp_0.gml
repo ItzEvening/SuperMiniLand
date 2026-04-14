@@ -1,2 +1,2 @@
 time_source_destroy(spawn_timer);
-time_source_start(spawn_timer_hard);
+time_source_destroy(spawn_timer_hard);
