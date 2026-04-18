@@ -1,20 +1,29 @@
 var _thing = instance_place(x, y - 1, PhysicsBody);
+dy = 0;
 
-if (_thing != noone) {
-	Boolean_Variable_That_Keeps_Track_Of_Whether_The_Platform_Is_Triggered_To_Fall_Or_Not = true;
-	Variable_That_Keeps_Track_Of_Time = 0;
+if (_thing != noone and !moving) {
+	moving = true;
+	ydir = 1;
 }
 
 xprevious = x;
 yprevious = y;
 
-if (Boolean_Variable_That_Keeps_Track_Of_Whether_The_Platform_Is_Triggered_To_Fall_Or_Not) {
+if (moving) {
 	
-	y += 0.4;
+	y += ydir;
+	dy = ydir;
+	
+	// tick timer
+	if (ydir == 1) {
+		Variable_That_Keeps_Track_Of_Time += delta_time / 1000000;
+	}
+			
+	if (y <= yoriginal) {
+		y = yoriginal;
+		moving = false;
+	}
 }
-
-dx = x - xprevious;
-dy = y - yprevious;
 
 if (_thing != noone && !_thing.nudged  && _thing.obey_collisions) {
 	_thing.nudge(dx, dy);
@@ -22,7 +31,13 @@ if (_thing != noone && !_thing.nudged  && _thing.obey_collisions) {
 }
 
 
-// 
+if (Variable_That_Keeps_Track_Of_Time >= 10 or (max_depth != -1 and y > yoriginal + 32 * max_depth)) {
+	ydir = -1;
+	Variable_That_Keeps_Track_Of_Time = 0;
+}
+
+
+// moving platform code
 
 var _thing2 = instance_place(x, y, PhysicsBody);
 
@@ -60,13 +75,4 @@ if (_thing2 != noone && _thing2.obey_collisions) {
 	
 	_thing2.x += _nudge_dx;
 	_thing2.y += _nudge_dy;
-}
-
-Variable_That_Keeps_Track_Of_Time += delta_time / 1000000;
-
-if (Variable_That_Keeps_Track_Of_Time >= 15) {
-	x = xoriginal;
-	y = yoriginal;
-	Variable_That_Keeps_Track_Of_Time = 0;
-	Boolean_Variable_That_Keeps_Track_Of_Whether_The_Platform_Is_Triggered_To_Fall_Or_Not = false;
 }
