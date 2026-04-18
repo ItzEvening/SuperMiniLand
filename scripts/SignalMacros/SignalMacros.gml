@@ -13,4 +13,5 @@ function SignalMacros(){
 	#macro PLAYER_DEATH "die"
 	#macro TRIGGER_CAR_TIMER "beep"
 	#macro TOGGLE_GUI "gui"
+	#macro LIFT_RETURN "lift"
 }

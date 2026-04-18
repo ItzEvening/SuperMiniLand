@@ -29,7 +29,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"signal","filters":[],"listItems":[],"multiselect":false,"name":"signal","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"TEST","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"signal","filters":[],"listItems":[],"multiselect":false,"name":"signal","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"LIFT_RETURN","varType":2,},
     {"$GMObjectProperty":"v1","%Name":"data","filters":[],"listItems":[],"multiselect":false,"name":"data","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":4,},
     {"$GMObjectProperty":"v1","%Name":"reset_time","filters":[],"listItems":[],"multiselect":false,"name":"reset_time","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
   ],

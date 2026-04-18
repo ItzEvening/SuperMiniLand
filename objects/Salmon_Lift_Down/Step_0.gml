@@ -3,6 +3,7 @@ var _thing = instance_place(x, y - 1, PhysicsBody);
 if (_thing != noone) {
 	Boolean_Variable_That_Keeps_Track_Of_Whether_The_Platform_Is_Triggered_To_Fall_Or_Not = true;
 	Variable_That_Keeps_Track_Of_Time = 0;
+	audio_play_sound(sfx_SalmonLift,10,1);
 }
 
 xprevious = x;

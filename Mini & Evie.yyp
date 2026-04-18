@@ -321,6 +321,7 @@
     {"id":{"name":"Sacred_Gem_Spawner","path":"objects/Sacred_Gem_Spawner/Sacred_Gem_Spawner.yy",},},
     {"id":{"name":"Salmon_Lift_Down","path":"objects/Salmon_Lift_Down/Salmon_Lift_Down.yy",},},
     {"id":{"name":"Salmon_Lift_Up","path":"objects/Salmon_Lift_Up/Salmon_Lift_Up.yy",},},
+    {"id":{"name":"Salmon_Lift","path":"objects/Salmon_Lift/Salmon_Lift.yy",},},
     {"id":{"name":"Sand_Worm","path":"objects/Sand_Worm/Sand_Worm.yy",},},
     {"id":{"name":"Saver","path":"objects/Saver/Saver.yy",},},
     {"id":{"name":"Scanlines","path":"objects/Scanlines/Scanlines.yy",},},

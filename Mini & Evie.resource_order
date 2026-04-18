@@ -272,6 +272,7 @@
     {"name":"Sacred_Gem_Spawner","order":15,"path":"objects/Sacred_Gem_Spawner/Sacred_Gem_Spawner.yy",},
     {"name":"Salmon_Lift_Down","order":8,"path":"objects/Salmon_Lift_Down/Salmon_Lift_Down.yy",},
     {"name":"Salmon_Lift_Up","order":7,"path":"objects/Salmon_Lift_Up/Salmon_Lift_Up.yy",},
+    {"name":"Salmon_Lift","order":9,"path":"objects/Salmon_Lift/Salmon_Lift.yy",},
     {"name":"Sand_Worm","order":6,"path":"objects/Sand_Worm/Sand_Worm.yy",},
     {"name":"Saver","order":6,"path":"objects/Saver/Saver.yy",},
     {"name":"Scanlines","order":27,"path":"objects/Scanlines/Scanlines.yy",},
