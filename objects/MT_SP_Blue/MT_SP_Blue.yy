@@ -4,7 +4,11 @@
   "eventList":[],
   "managed":true,
   "name":"MT_SP_Blue",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"MovingTile","path":"objects/MovingTile/MovingTile.yy",},"propertyId":{"name":"path_to_follow","path":"objects/MovingTile/MovingTile.yy",},"resource":{"name":"MPGeneric","path":"paths/MPGeneric/MPGeneric.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"MPGeneric",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"MovingTile","path":"objects/MovingTile/MovingTile.yy",},"propertyId":{"name":"path_sp","path":"objects/MovingTile/MovingTile.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"MovingTile","path":"objects/MovingTile/MovingTile.yy",},"propertyId":{"name":"p_index","path":"objects/MovingTile/MovingTile.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+  ],
   "parent":{
     "name":"Moving Platforms",
     "path":"folders/Objects/Level Objects/Moving Platforms.yy",

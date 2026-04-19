@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"path_SP_05a",
+  "closed":true,
+  "kind":0,
+  "name":"path_SP_05a",
+  "parent":{
+    "name":"SalmonPalace",
+    "path":"folders/Paths/SalmonPalace.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":5056.0,"y":1536.0,},
+    {"speed":100.0,"x":4960.0,"y":1536.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
