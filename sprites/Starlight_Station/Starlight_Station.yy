@@ -19,6 +19,7 @@
   "height":288,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"c169ac19-6575-4abd-bc9a-06b6050a8ef0","blendMode":3,"displayName":"default (2)","isLocked":false,"name":"c169ac19-6575-4abd-bc9a-06b6050a8ef0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"56c9eac9-b90f-4e1d-a34e-991c11206cbd","blendMode":0,"displayName":"default","isLocked":false,"name":"56c9eac9-b90f-4e1d-a34e-991c11206cbd","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Starlight_Station",
