@@ -10,7 +10,7 @@ range = 500;
 sfx_dead = sfx_Car_Horn;
 spr_dead = CarRedDead;
 sfx_horn = sfx_Car_Horn_2;
-honk = false;
+honk = true;
 
 must_grounded = true;
 

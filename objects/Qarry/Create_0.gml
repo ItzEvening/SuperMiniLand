@@ -1,4 +1,5 @@
 event_inherited();
+hard_exclusive();
 
 enum QARSTATE {
 	STILL,
