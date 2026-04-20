@@ -13,7 +13,6 @@ hsp = 0;
 move = 0;
 v_move = 0;
 
-grv = 0.2;
 vsp = 0;
 jump_strength = -3;
 jump_strength_water = -6;

@@ -7,7 +7,12 @@ if (current_state == QARSTATE.JUMPING) {
 
 
 if (!dead and current_state == QARSTATE.STILL) {
-	x = x_center + random_range(-1 * x_rad, x_rad);
+	var newx = x_center + random_range(-1 * x_rad, x_rad);
+	
+	// to make sure qarry doesn't crush herself
+	if (!meeting_solid(newx, y)) {
+		x = newx;
+	}
 	
 	if (x_rad < x_rad_max) {
 		x_rad += x_rad_growth;

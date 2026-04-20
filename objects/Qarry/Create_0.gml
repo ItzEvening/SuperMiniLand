@@ -89,3 +89,6 @@ jump_timer = time_source_create(time_source_game, 2, time_source_units_seconds, 
 
 jump_commit_t = 0;
 jump_commit_t_max = 0.4;
+
+// invert sprite in negative gravity
+image_yscale = sign(grv);

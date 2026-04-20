@@ -6,7 +6,7 @@ if (current_state == QARSTATE.STILL and !dead) {
 		var draw_x = x_min + x_dia * (i / idle_resolution);
 		var draw_y = y_center;
 	
-		draw_sprite_ext(QarIdle, anim_frame, draw_x, draw_y, -1 * jump_direction, 1, 0, c_white, 0.3);
+		draw_sprite_ext(QarIdle, anim_frame, draw_x, draw_y, -1 * jump_direction, sign(grv), 0, c_white, 0.3);
 	}		
 }
 
@@ -22,7 +22,7 @@ if (current_state == QARSTATE.JUMPING) {
 		var draw_x = x + jump_distance * progress * cos(theta) * jump_direction;
 		var draw_y = y + jump_distance * progress * sin(theta) * sign(grv);
 	
-		draw_sprite_ext(QarFly, anim_frame, draw_x, draw_y, -1 * jump_direction, 1, 0, c_white, 0.3);
+		draw_sprite_ext(QarFly, anim_frame, draw_x, draw_y, -1 * jump_direction, sign(grv), 0, c_white, 0.3);
 	}	
 }
 

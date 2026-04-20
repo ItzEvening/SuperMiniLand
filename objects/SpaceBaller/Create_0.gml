@@ -36,8 +36,8 @@ jump = function() {
 
 spr_dead = BarDead;
 sfx_dead = EnemyDefeat2;
-jump_height = -7;
-jump_length = 7;
+jump_height = -6;
+jump_length = 6;
 detect_distance = 500;
 
 spr_fly = SpaceBallJump;
