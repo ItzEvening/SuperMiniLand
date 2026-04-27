@@ -92,7 +92,6 @@ dead = false;
 death_timer = time_source_create(time_source_game, 1, time_source_units_seconds, decompose);
 invincibility_timer = time_source_create(time_source_game, 1.5, time_source_units_seconds, expire_invinsibility);
 
-
 good_to_kill = function(_player) {
 	return _player.y < bbox_top and 
 	!dead and 

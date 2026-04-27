@@ -6,4 +6,4 @@ spr_fly = LarFly;
 
 jump_height = -3;
 jump_length = 7;
-detect_distance = 250;
+detect_distance = 160;
