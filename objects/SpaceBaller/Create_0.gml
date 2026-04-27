@@ -38,7 +38,7 @@ spr_dead = BarDead;
 sfx_dead = EnemyDefeat2;
 jump_height = -6;
 jump_length = 6;
-detect_distance = 500;
+detect_distance = 280;
 
 spr_fly = SpaceBallJump;
 spr_idle = SpaceBallIdle;
