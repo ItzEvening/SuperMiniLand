@@ -1292,6 +1292,7 @@
     {"name":"rgem_6","order":6,"path":"sprites/rgem_6/rgem_6.yy",},
     {"name":"rgem_7","order":7,"path":"sprites/rgem_7/rgem_7.yy",},
     {"name":"rgem_8","order":8,"path":"sprites/rgem_8/rgem_8.yy",},
+    {"name":"RockAlert","order":86,"path":"sprites/RockAlert/RockAlert.yy",},
     {"name":"Sacred_Gem_3","order":67,"path":"sprites/Sacred_Gem_3/Sacred_Gem_3.yy",},
     {"name":"Salmon_Palace_2","order":4,"path":"sprites/Salmon_Palace_2/Salmon_Palace_2.yy",},
     {"name":"Salmon_Palace_3","order":5,"path":"sprites/Salmon_Palace_3/Salmon_Palace_3.yy",},

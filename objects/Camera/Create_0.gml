@@ -9,6 +9,14 @@ left_border = 0;
 right_border = room_width;
 shaking = false;
 
+guiX = function(_x) {
+	return (_x - x) * 2 + (view_wport[0] / 2);
+}
+
+guiY = function(_y) {
+	return (_y - y) * 2 + (view_hport[0] / 2);
+}
+
 function change_left_border(_x) {
 	left_border = _x;
 }
