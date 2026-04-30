@@ -11,15 +11,17 @@ idle_sprite = sEnemyShooter;
 attack_sprite = sEnemyShooter;
 projectile = Projectile_Arrow_Blue;
 
+proj_dy = 7;
+
 decide_attack = function() {
 	go_attack = true;
 }
 
-attack_timer = time_source_create(time_source_global, 3, time_source_units_seconds, decide_attack);
+attack_timer = time_source_create(time_source_global, attack_period, time_source_units_seconds, decide_attack);
 
 expire_attack = function() {
 	// go_attack = false;
-	var _arrow = instance_create_layer(x, y + 7, layer, projectile);
+	var _arrow = instance_create_layer(x, y + proj_dy, layer, projectile);
 	
 	if (Player.x > x) {
 		_arrow.trajectory_direction = 0;

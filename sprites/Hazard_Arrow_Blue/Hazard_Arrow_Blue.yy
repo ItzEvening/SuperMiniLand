@@ -25,7 +25,7 @@
   ],
   "name":"Hazard_Arrow_Blue",
   "nineSlice":null,
-  "origin":1,
+  "origin":4,
   "parent":{
     "name":"Sprites",
     "path":"folders/Sprites.yy",
@@ -84,7 +84,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":20,
-    "yorigin":0,
+    "yorigin":9,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
