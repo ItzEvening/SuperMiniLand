@@ -1,0 +1,2 @@
+time_source_destroy(detonate_timer);
+time_source_destroy(explode_timer);

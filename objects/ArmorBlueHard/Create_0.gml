@@ -5,7 +5,7 @@ attack_sprite = ArmorSalmonBlueAttack;
 projectile = Projectile_Arrow_Blue;
 proj_dy = 16;
 
-max_dx = 4;
+max_dx = 2;
 
 if (global.difficulty > 1) {
 	projectile = Projectile_Arrow_Blue_Hard;

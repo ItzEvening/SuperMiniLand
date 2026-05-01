@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sfx_ArmorDetonate",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":4.144535,
+  "name":"sfx_ArmorDetonate",
+  "parent":{
+    "name":"Sound Effects",
+    "path":"folders/Sounds/Sound Effects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_ArmorDetonate.ogg",
+  "type":1,
+  "volume":1.0,
+}
