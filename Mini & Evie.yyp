@@ -148,6 +148,7 @@
     {"id":{"name":"ArmorGray","path":"objects/ArmorGray/ArmorGray.yy",},},
     {"id":{"name":"ArmorGreen_Spawner","path":"objects/ArmorGreen_Spawner/ArmorGreen_Spawner.yy",},},
     {"id":{"name":"ArmorGreen","path":"objects/ArmorGreen/ArmorGreen.yy",},},
+    {"id":{"name":"ArmorGreenTracker","path":"objects/ArmorGreenTracker/ArmorGreenTracker.yy",},},
     {"id":{"name":"Arty_Cannon","path":"objects/Arty_Cannon/Arty_Cannon.yy",},},
     {"id":{"name":"Barry","path":"objects/Barry/Barry.yy",},},
     {"id":{"name":"BarryArtist","path":"objects/BarryArtist/BarryArtist.yy",},},

@@ -114,6 +114,7 @@
     {"name":"ArmorGray","order":20,"path":"objects/ArmorGray/ArmorGray.yy",},
     {"name":"ArmorGreen_Spawner","order":31,"path":"objects/ArmorGreen_Spawner/ArmorGreen_Spawner.yy",},
     {"name":"ArmorGreen","order":30,"path":"objects/ArmorGreen/ArmorGreen.yy",},
+    {"name":"ArmorGreenTracker","order":32,"path":"objects/ArmorGreenTracker/ArmorGreenTracker.yy",},
     {"name":"Arty_Cannon","order":1,"path":"objects/Arty_Cannon/Arty_Cannon.yy",},
     {"name":"BarryArtistR","order":1,"path":"objects/BarryArtistR/BarryArtistR.yy",},
     {"name":"BarryCop","order":1,"path":"objects/BarryCop/BarryCop.yy",},

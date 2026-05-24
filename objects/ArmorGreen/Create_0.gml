@@ -12,7 +12,6 @@ detonate = function() {
 	time_source_start(explode_timer);
 }
 
-detonate_timer = time_source_create(time_source_game, random_range(1, 4), time_source_units_seconds, detonate);
 explode_timer = time_source_create(time_source_game, 1.3, time_source_units_seconds, explode);
 detonating = false;
 spawner = noone;

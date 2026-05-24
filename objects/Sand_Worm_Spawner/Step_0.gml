@@ -7,6 +7,6 @@ if (t > t_max) {
 	ready = true;
 }
 
-if (ready and abs(Player.x - next_x) <= detect_distance) {
+if (ready and abs(Player.x - next_x) <= detect_distance and abs(Player.y - y) <= 32 * 5) {
 	spawn_worm();
 }
