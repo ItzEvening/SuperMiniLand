@@ -6,5 +6,5 @@ audio_stop_all();
 //global.character = Mini;
 //global.level = Clockwork;
 //global.level = CanvasChallenge_5;
-global.level = CanvasChallenge_2;
+global.level = CanvasChallenge_6;
 SlideTransition(TRANS_MODE.LEVEL, Level_Card);
