@@ -55,7 +55,7 @@ song = _song_8;
 var _track_name_m = _track_name + "M";
 var _song_m = asset_get_index(_track_name_m);
 
-if (_song_m != -1 and variable_global_exists("music") and _new_mix == 1) {
+if (_song_m != -1 and variable_global_exists("music") and _new_mix == 0) {
 	song = _song_m;
 }
 
