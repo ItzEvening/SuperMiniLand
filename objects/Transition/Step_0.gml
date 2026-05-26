@@ -53,10 +53,17 @@ if (mode != TRANS_MODE.OFF)
 			{
 				mode = TRANS_MODE.OFF;
 				
-				stop_music()
+				stop_music();
 				room_goto(target);
 			    break;
 			}
+			case TRANS_MODE.CHAR_SELECT:
+			{
+				mode = TRANS_MODE.INTRO;
+				
+				room_goto(target);
+			    break;
+			}			
 		}
 	}
 }

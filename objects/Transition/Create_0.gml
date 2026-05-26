@@ -11,6 +11,7 @@ enum TRANS_MODE
    RESTART,
    INTRO,
    LEVEL,
+   CHAR_SELECT,
    GOTO_LOADED
 }
 mode = TRANS_MODE.OFF;
@@ -21,6 +22,9 @@ target = room;
 function stop_music() {
 	if (instance_exists(MusicPlayer)) {
 		MusicPlayer.stop_music();
+	}
+	else {
+		audio_stop_all();
 	}
 }
 

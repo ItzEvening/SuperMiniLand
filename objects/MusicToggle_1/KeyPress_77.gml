@@ -1,5 +1,5 @@
 /// @description Music toggle
-if (global.menu_control) {
+if (controllable()) {
 	
 	global.music.custom = false;
 	

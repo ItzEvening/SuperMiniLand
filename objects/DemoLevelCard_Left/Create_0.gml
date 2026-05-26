@@ -36,11 +36,11 @@ generate_metadatas = function() {
 		_tut_spr = card_tutorialE;
 	}
 	
-	tutM = new LevelCardData(Tutorial_M, check, check_tut_cmplt, _tut_spr, false);
-	si = new LevelCardData(SpringIsland_1, check, check_si_cmplt, card_spring, true);
-	mf = new LevelCardData(MarbleFortress_1, check_marble_midnight, check_mf_cmplt, card_marble, true);
-	ba = new LevelCardData(BossAttack, check_boss_unlocked, check_boss_cmplt, card_boss, false);
-	strsta = new LevelCardData(StarlightStation, check_all_gems, check_ss_cmplt, card_starlight, false);
+	tutM = new LevelCardData(Tutorial_M, check, check_tut_cmplt, _tut_spr, []);
+	si = new LevelCardData(SpringIsland_1, check, check_si_cmplt, card_spring, [Mini, Evie]);
+	mf = new LevelCardData(MarbleFortress_1, check_marble_midnight, check_mf_cmplt, card_marble, [Evie, Arcturus]);
+	ba = new LevelCardData(BossAttack, check_boss_unlocked, check_boss_cmplt, card_boss, []);
+	strsta = new LevelCardData(StarlightStation, check_all_gems, check_ss_cmplt, card_starlight, [Mini, Evie, Arcturus, Allie]);
 
 	metas = [tutM, si, mf, ba, strsta]
 }

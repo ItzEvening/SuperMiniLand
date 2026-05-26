@@ -5,7 +5,7 @@ save = SV_BOSS_UNLOCKED
 kill_notif = function() {
 	draw_notification = false;
 	MusicPlayer.play_music(Demo_Menu_Test);
-	global.menu_control = true;
+	DemoMenuState.controllable = true;
 	
 	SetSave(save, true);
 	WriteSaveFile();
@@ -21,7 +21,7 @@ kill_notif = function() {
 
 notify = function(_sprite, _save) {
 	
-	global.menu_control = false;
+	DemoMenuState.controllable = false;
 	audio_stop_all();
 	PlayClear();
 	draw_notification = true;

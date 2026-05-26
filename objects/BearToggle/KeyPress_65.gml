@@ -1,4 +1,4 @@
-if (enable_toggle and global.menu_control) {
+if (enable_toggle and DemoMenuState.controllable) {
 	global.bear = !global.bear;
 	
 	if (!global.bear) {

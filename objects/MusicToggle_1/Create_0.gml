@@ -26,5 +26,10 @@ initialize = function() {
 	}
 }
 
+// to be overwritten
+controllable = function() {
+	return true;
+}
+
 asc = true;
 initialize();

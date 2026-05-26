@@ -3,7 +3,6 @@ global.level = OldSpringIsland_1;
 global.character = Mini;
 global.bear = false;
 global.rainbow_progress = [];
-global.menu_control = true;
 global.score = 0;
 global.lo = new SignalController();
 global.difficulty = 2;

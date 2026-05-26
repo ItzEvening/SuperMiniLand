@@ -1,1 +1,1 @@
-target = Character_Select;
+target = Character_Select_Canvas;

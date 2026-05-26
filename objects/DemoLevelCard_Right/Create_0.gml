@@ -33,11 +33,11 @@ check_cc_cmplt = function() {
 
 // overwriting parent function
 generate_metadatas = function() {
-	tutA = new LevelCardData(Tutorial_AL, check_bears, check_tut_cmplt, card_2torial, false);
-	sp = new LevelCardData(SalmonPalace_1, check, check_sp_cmplt, card_salmon, true);
-	mr = new LevelCardData(MidnightRush_1, check_marble_midnight, check_mr_cmplt, card_midnight, true);
-	secsan = new LevelCardData(SecretSanctuary, check_sanctuary, check_ss_cmplt, card_secret, false);
-	bc = new LevelCardData(Blank_Canvas, check_all_gems, check_cc_cmplt, card_blank, false);
+	tutA = new LevelCardData(Tutorial_AL, check_bears, check_tut_cmplt, card_2torial, []);
+	sp = new LevelCardData(SalmonPalace_1, check, check_sp_cmplt, card_salmon, [Mini, Evie]);
+	mr = new LevelCardData(MidnightRush_1, check_marble_midnight, check_mr_cmplt, card_midnight, [Mini, Allie]);
+	secsan = new LevelCardData(SecretSanctuary, check_sanctuary, check_ss_cmplt, card_secret, [Mini, Evie]);
+	bc = new LevelCardData(Blank_Canvas, check_all_gems, check_cc_cmplt, card_blank, []);
 
 	metas = [tutA, sp, mr, secsan, bc];
 }

@@ -3,4 +3,7 @@
 function DevSave(){
 	
 	CheckSave();
+	
+	SetSave(SV_BOSS_BEATEN, true);
+	SetSave(SV_BOSS_UNLOCKED, true);
 }
