@@ -1265,6 +1265,7 @@
     {"name":"Mino_Spin_Power","order":36,"path":"sprites/Mino_Spin_Power/Mino_Spin_Power.yy",},
     {"name":"Mino_Spin","order":35,"path":"sprites/Mino_Spin/Mino_Spin.yy",},
     {"name":"MoonFight_2","order":104,"path":"sprites/MoonFight_2/MoonFight_2.yy",},
+    {"name":"MoonFight_3","order":107,"path":"sprites/MoonFight_3/MoonFight_3.yy",},
     {"name":"MoonFight","order":101,"path":"sprites/MoonFight/MoonFight.yy",},
     {"name":"MR_Buildings","order":74,"path":"sprites/MR_Buildings/MR_Buildings.yy",},
     {"name":"MR_Light","order":60,"path":"sprites/MR_Light/MR_Light.yy",},

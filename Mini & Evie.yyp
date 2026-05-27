@@ -1368,6 +1368,7 @@
     {"id":{"name":"Mino_Spin_Power","path":"sprites/Mino_Spin_Power/Mino_Spin_Power.yy",},},
     {"id":{"name":"Mino_Spin","path":"sprites/Mino_Spin/Mino_Spin.yy",},},
     {"id":{"name":"MoonFight_2","path":"sprites/MoonFight_2/MoonFight_2.yy",},},
+    {"id":{"name":"MoonFight_3","path":"sprites/MoonFight_3/MoonFight_3.yy",},},
     {"id":{"name":"MoonFight","path":"sprites/MoonFight/MoonFight.yy",},},
     {"id":{"name":"MR_Buildings","path":"sprites/MR_Buildings/MR_Buildings.yy",},},
     {"id":{"name":"MR_Light","path":"sprites/MR_Light/MR_Light.yy",},},
