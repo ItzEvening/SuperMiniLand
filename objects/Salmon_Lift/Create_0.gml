@@ -9,6 +9,7 @@ current_state = LIFTSTATE.READY;
 come_back = false;
 
 tiktok = undefined;
+lift_speed = 2;
 
 // deciding next direction
 next_direction = LIFTSTATE.DESCENDING;

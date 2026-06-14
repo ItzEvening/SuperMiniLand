@@ -22,7 +22,7 @@ else if ((_thing != noone or come_back) and current_state == LIFTSTATE.READY) {
 
 // lift is ascending
 else if (current_state == LIFTSTATE.ASCENDING) {
-	var next_y = max(y - 2, y_min);
+	var next_y = max(y - lift_speed, y_min);
 	dy = next_y - y;
 	
 	if (next_y == y_min) {
@@ -32,7 +32,7 @@ else if (current_state == LIFTSTATE.ASCENDING) {
 
 // lift is descending
 else if (current_state == LIFTSTATE.DESCENDING) {
-	var next_y = min(y + 2, y_max);
+	var next_y = min(y + lift_speed, y_max);
 	dy = next_y - y;
 	
 	if (next_y == y_max) {
