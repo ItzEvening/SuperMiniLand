@@ -101,6 +101,14 @@ if (_coin != noone)
 	audio_play_sound(CoinGot, 10, 0);
 }
 
+var _coinI = instance_place(x, y, CoinInfinite);
+if (_coinI != noone and _coinI.enabled) {
+	coins++;
+	boost++;
+	audio_play_sound(CoinGot, 10, 0);
+	_coinI.disable();
+}
+
 var _coinr = instance_place(x, y, CoinR);
 if (_coinr != noone and !_coinr.collected)
 {

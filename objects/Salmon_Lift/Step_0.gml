@@ -2,7 +2,7 @@ var _thing = instance_place(x, y - 1, Player);
 dy = 0;
 
 // player left lift, make it triggerable
-if (_thing == noone and current_state == LIFTSTATE.IDLE) {
+if (_thing == noone and current_state == LIFTSTATE.IDLE and !one_use) {
 	current_state = LIFTSTATE.READY;
 }
 

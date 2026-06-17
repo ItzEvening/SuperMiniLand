@@ -118,7 +118,7 @@ calculate_speeds = function(_underwater)
 	// Initializes collision variables
 	var _g = sign(grv)
 	
-	var _touching_ground = place_meeting(x,y + _g,ground_tiles);
+	var _touching_ground = meeting_solid(x,y + _g,ground_tiles);
 	var _touching_rail = false
 	if (!is_undefined(rail_tiles)) {
 		_touching_rail = place_meeting(x,y + _g,rail_tiles);

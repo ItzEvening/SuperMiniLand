@@ -15,4 +15,5 @@ function SignalMacros(){
 	#macro TOGGLE_GUI "gui"
 	#macro LIFT_RETURN "lift"
 	#macro MENU_CHANGE "menu"
+	#macro RESPAWN_CC6_LIFT "respawnliftcc6"
 }

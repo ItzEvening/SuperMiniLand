@@ -34,12 +34,14 @@ function SignalController() constructor {
 		
 		// check if given signal is yet known
 		if (!struct_exists(__listeners, _signal)) {
-			
+	
 			show_debug_message("Signal " + _signal + " has not been added to controller yet.");
             return;
         }
 		
-		var _listeners = __listeners[$ _signal];
+		var _listeners_og = __listeners[$ _signal];
+		var _listeners = [];
+		array_copy(_listeners, 0, _listeners_og, 0, array_length(_listeners_og));
 		
 		// check if any listeners have been added for this signal
 		if (array_length(_listeners) <= 0) {
@@ -50,7 +52,6 @@ function SignalController() constructor {
 		
 		// send!!!!!!
 		for (var i = 0; i < array_length(_listeners); i++) {
-			
 			var _binding = _listeners[i];
 			var _listener = _binding.listener;
 			var _callback = _binding.callback;
@@ -62,9 +63,8 @@ function SignalController() constructor {
 				} else {
 					_callback(_signal_data);
 				}
-			}
+			}			
 		}
-		
 	}
 	
 	static remove = function(_id, _signal) {
@@ -86,7 +86,6 @@ function SignalController() constructor {
 		}
 		
 		// remove
-		// send!!!!!!
 		for (var i = 0; i < array_length(_listeners); i++) {
 			
 			var _binding = _listeners[i];

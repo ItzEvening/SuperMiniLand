@@ -32,7 +32,7 @@ with (Player)
 				WriteSaveFile();
 			break;
 			
-			case Old_CanvasChallenge_2:
+			case CanvasChallenge_2:
 				var _cc = GetSave(SV_CANVAS_CHALLENGE);
 				_cc[| 1] = true;
 				WriteSaveFile();
@@ -55,6 +55,12 @@ with (Player)
 				_cc[| 4] = true;
 				WriteSaveFile();
 			break;
+			
+			case CanvasChallenge_6:
+				var _cc = GetSave(SV_CANVAS_CHALLENGE);
+				_cc[| 5] = true;
+				WriteSaveFile();
+			break;			
 		}
 		
 		// Manage targets and characters

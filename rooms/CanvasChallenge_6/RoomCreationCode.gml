@@ -1,0 +1,1 @@
+global.character = P_Minomay;

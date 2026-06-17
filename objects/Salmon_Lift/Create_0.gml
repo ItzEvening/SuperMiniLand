@@ -7,6 +7,7 @@ enum LIFTSTATE {
 
 current_state = LIFTSTATE.READY;
 come_back = false;
+one_use = false;
 
 tiktok = undefined;
 lift_speed = 2;
