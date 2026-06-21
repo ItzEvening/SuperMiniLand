@@ -9,8 +9,8 @@
     "path":"folders/Paths/CanvasChallenge4.yy",
   },
   "points":[
-    {"speed":100.0,"x":3712.0,"y":1504.0,},
-    {"speed":100.0,"x":3504.0,"y":1504.0,},
+    {"speed":100.0,"x":3776.0,"y":1504.0,},
+    {"speed":100.0,"x":3552.0,"y":1504.0,},
   ],
   "precision":4,
   "resourceType":"GMPath",

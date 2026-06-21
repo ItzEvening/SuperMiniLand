@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"CanvasChallenge4",
-    "path":"folders/Sprites/Level Assets/Drill_Box/CanvasChallenge4.yy",
+    "name":"Drill_Box",
+    "path":"folders/Sprites/Level Assets/Drill_Box.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
